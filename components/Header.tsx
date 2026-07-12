@@ -43,11 +43,21 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-40 h-20 bg-white transition-shadow ${
+      className={`sticky top-0 z-40 bg-white transition-shadow ${
         scrolled ? "shadow-[0_4px_20px_rgba(0,0,0,0.06)]" : ""
       }`}
     >
-      <div className="container-xl flex h-full items-center justify-between">
+      <div className="bg-primary-green py-2 text-[13px] text-white">
+        <div className="container-xl flex flex-col  items-center justify-center gap-2 md:gap-6 text-center text-sm md:flex-row md:text-[14px] md:text-left">
+          <span className="   text-sm font-medium text-white ">
+            +91 8860611200
+          </span>
+          <span className="border-b border-white/40   text-sm font-medium text-white ">
+            connect@faarearth.com
+            </span>
+        </div>
+      </div>
+      <div className="container-xl flex h-20 items-center justify-between">
         <a href="#top" className="flex items-center gap-2">
          <Image src='/Images/faarEarthLogo.png' alt="Faar Earth Logo" width={180} height={40} />
         </a>
@@ -70,10 +80,10 @@ export default function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href="tel:+91 8860611200"
+            href="#enquiry"
             className="hidden md:inline-flex items-center gap-2 rounded-btn bg-primary-green px-7 py-3.5 text-[16px] font-medium capitalize text-white shadow-btn transition-colors hover:bg-hover-green"
           >
-            +91 8860611200 
+            Enquiry Now  
           </a>
 
           <button

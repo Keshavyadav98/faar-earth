@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const FEATURES = [
   {
     title: "Sustainability Sourcing",
@@ -39,12 +41,21 @@ export default function About() {
             <br />
             Committed to Quality
           </h2>
-          <div className="mt-3 h-[3px] w-16 bg-primary-green" />
+          <div className="flex w-full max-w-[280px]  items-center gap-3">
+                      <span className="block h-px w-full bg-primary-green" />
+                      <Image
+                        src="/Images/lineLeaf.png"
+                        alt="leaf"
+                        width={24}
+                        height={24}
+                        className="h-6 w-6"
+                      />
+                    </div>
 
-          <p className="mt-6 text-[16px] leading-relaxed text-text-gray">
+          <p className="mt-6 text-[16px] text-justify leading-relaxed text-text-gray">
             At Faar Earth, we strive to provide the best of ingredients to food processing industries globally. We are a premier, India-based export enterprise specialising in sourcing, processing and delivery of high-quality agricultural ingredients and plant-based solutions.
           </p>
-          <p className="mt-4 text-[16px] leading-relaxed text-text-gray">
+          <p className="mt-4 text-[16px] text-justify leading-relaxed text-text-gray">
             We bridge the gap between India&apos;s rich agricultural biodiversity and stringent global quality standards. Headed by two people combining very complimentary skillsets of a seasoned corporate veteran and someone who grew up in an Indian family business, we offer seamless, reliable and highly scalable supply chain solutions designed for modern food manufacturers.
           </p>
 

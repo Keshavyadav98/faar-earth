@@ -12,9 +12,9 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/35" />
 
       <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center px-6 text-center fade-up">
-        <span className="mb-5 rounded-pill border border-white/40 bg-white/10 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm">
+        {/* <span className="mb-5 rounded-pill border border-white/40 bg-white/10 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm">
           connect@faarearth.com
-        </span>
+        </span> */}
         <h1 className="font-heading text-[40px] leading-tight font-bold text-white sm:text-[52px] md:text-h1">
           Pure Ingredients
           <br />
@@ -34,15 +34,9 @@ export default function Hero() {
           </a>
           <a
             href="#enquiry"
-            className="hidden md:inline-flex items-center gap-2 rounded-pill border border-white bg-transparent px-7 py-3.5 text-[16px] font-medium text-white transition-colors hover:bg-white hover:text-primary-green"
+            className="inline-flex items-center gap-2 rounded-pill border border-white bg-transparent px-7 py-3.5 text-[16px] font-medium text-white transition-colors hover:bg-white hover:text-primary-green"
           >
             Contact us <span aria-hidden>→</span>
-          </a>
-          <a
-            href="tel:+91 8860611200"
-            className="inline-flex md:hidden items-center gap-2 rounded-pill border border-white bg-transparent px-7 py-3.5 text-[16px] font-medium text-white transition-colors hover:bg-white hover:text-primary-green"
-          >
-            +91 8860611200
           </a>
         </div>
       </div>

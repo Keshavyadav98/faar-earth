@@ -87,11 +87,11 @@ export default function MobileNav({
 
         <div className="px-5">
           <a
-           href="tel:+91 8860611200"
+           href="#enquiry"
             onClick={onClose}
-            className="inline-flex w-full items-center justify-center gap-2 rounded-btn bg-primary-green px-6 py-3.5 text-[15px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green"
+            className="inline-flex w-full items-center justify-center rounded-btn bg-primary-green px-6 py-3.5 text-[15px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green"
           >
-            +91 8860611200
+             Enquiry Now 
           </a>
         </div>
       </aside>

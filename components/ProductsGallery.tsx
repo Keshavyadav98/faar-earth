@@ -43,13 +43,13 @@ export default function ProductsGallery() {
 
           <div className="text-left">
             <div className="space-y-4 text-[16px] leading-relaxed text-text-gray">
-              <p>
+              <p className="text-justify">
                 We are sourcing the best of seeds, spices, nuts, oils, pulses, naturally derived food additives, plant-based protein powders, plant extracts, freeze dried fruits and vegetables, and pairing that with a decade of experience in the packaging industry to provide our clients with the product they want, the way they want it, including white-labelling solutions.
               </p>
-              <p>
+              <p className="text-justify">
                 As a business, we constantly strive to not only keep up with the latest developments in health and food industries, but also work with our partners to develop products that can create better end-products and make a meaningful impact.
               </p>
-              <p>
+              <p className="text-justify">
                 We do not just chase transactions; we build supply chains. We actively seek long-term, contractual partnerships with global food processors to ensure a consistent, predictable, and price-stable supply of raw materials, mitigating the risks of global market volatility.
               </p>
             </div>
