@@ -18,7 +18,7 @@ export default function ProductsGallery() {
           <h2 className="mt-2 font-heading text-h3 md:text-h2 text-[#404C3E]">
             A Glimpse of Our Range
           </h2>
-          <div className="mx-auto flex w-full max-w-[480px]  items-center gap-3">
+          <div className="mx-auto flex w-full max-w-[280px]  items-center gap-3">
             <span className="block h-px w-full bg-primary-green" />
             <Image
               src="/Images/lineLeaf.png"
