@@ -68,7 +68,7 @@ export default function ProductsModal({
           </button>
         </div>
 
-        <div className="flex gap-2 overflow-x-auto border-b border-border-gray px-6 py-4">
+        <div className="flex gap-2  border-b border-border-gray px-6 py-4">
           {FILTERS.map((f) => (
             <button
               key={f}
