@@ -91,7 +91,7 @@ export default function MobileNav({
             onClick={onClose}
             className="inline-flex w-full items-center justify-center gap-2 rounded-btn bg-primary-green px-6 py-3.5 text-[15px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green"
           >
-            Inquiry Now <span aria-hidden>→</span>
+            +91 8860611200
           </a>
         </div>
       </aside>
