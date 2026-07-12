@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #333333;
+  background: #fafafa;
+}
+
+@layer utilities {
+  .container-xl {
+    @apply mx-auto w-full max-w-container px-5 md:px-10 lg:px-20;
+  }
+  .section-pad {
+    @apply py-14 md:py-20 lg:py-[100px];
+  }
+  .eyebrow {
+    @apply text-sm font-medium tracking-wide text-primary-green uppercase;
+  }
+  .fade-up {
+    animation: fadeUp 0.7s ease both;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #4c5a44;
+  outline-offset: 2px;
+}
