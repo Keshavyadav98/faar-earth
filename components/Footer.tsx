@@ -12,7 +12,7 @@ const CATEGORY_LINKS = ["Edible Seeds", "Cold Pressed Oils", "Essential Oils"];
 export default function Footer() {
   return (
     <footer className="bg-beige">
-      <div className="container-xl grid grid-cols-1 gap-10 py-16 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="container-xl grid grid-cols-2 gap-10 py-16 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <a href="#top" className="flex items-center gap-2">
                    <Image src='/Images/faarEarthLogo.png' alt="Faar Earth Logo" width={280} height={140} />
