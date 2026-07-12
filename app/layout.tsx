@@ -34,7 +34,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${heading.variable} ${body.variable}`}>
-      <body className="font-body text-text-dark antialiased">
+      <body className="font-body text-[#404C3E] antialiased">
         <div className="relative min-h-screen">
           {children}
           <a

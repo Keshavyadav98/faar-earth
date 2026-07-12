@@ -34,7 +34,7 @@ export default function About() {
       <div className="container-xl grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
         <div>
           <span className="eyebrow">About Faar Earth</span>
-          <h2 className="mt-2 font-heading text-h3 md:text-h2 text-text-dark">
+          <h2 className="mt-2 font-heading text-h3 md:text-h2 text-[#404C3E]">
             Rooted In Nature
             <br />
             Committed to Quality
@@ -54,7 +54,7 @@ export default function About() {
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-secondary-green/15">
                   {f.icon}
                 </span>
-                <p className="text-[14px] font-medium leading-snug text-text-dark">
+                <p className="text-[14px] font-medium leading-snug text-[#404C3E]">
                   {f.title}
                 </p>
               </div>

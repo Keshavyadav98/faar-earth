@@ -77,7 +77,7 @@ export default function MobileNav({
               className={`rounded-btn px-3 py-3 text-[16px] font-medium transition-colors ${
                 activeHref === link.href
                   ? "bg-beige text-primary-green"
-                  : "text-text-dark hover:bg-beige"
+                  : "text-[#404C3E] hover:bg-beige"
               }`}
             >
               {link.label}

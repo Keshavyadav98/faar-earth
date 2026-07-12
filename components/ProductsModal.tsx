@@ -50,7 +50,7 @@ export default function ProductsModal({
       <div className="relative z-10 flex max-h-[88vh] w-full max-w-5xl flex-col overflow-hidden rounded-t-card bg-white shadow-card-hover sm:max-h-[85vh] sm:rounded-card">
         <div className="flex items-center justify-between border-b border-border-gray px-6 py-5">
           <div>
-            <h3 className="font-heading text-[22px] font-semibold text-text-dark">
+            <h3 className="font-heading text-[22px] font-semibold text-[#404C3E]">
               All Products
             </h3>
             <p className="text-[13px] text-text-gray">
@@ -76,7 +76,7 @@ export default function ProductsModal({
               className={`shrink-0 rounded-pill px-4 py-2 text-[14px] font-medium transition-colors ${
                 filter === f
                   ? "bg-primary-green text-white"
-                  : "bg-beige text-text-dark hover:bg-divider/60"
+                  : "bg-beige text-[#404C3E] hover:bg-divider/60"
               }`}
             >
               {f}
@@ -98,7 +98,7 @@ export default function ProductsModal({
                   <span className="text-[12px] font-medium uppercase tracking-wide text-primary-green">
                     {p.category}
                   </span>
-                  <h4 className="mt-1 font-heading text-[17px] font-semibold text-text-dark">
+                  <h4 className="mt-1 font-heading text-[17px] font-semibold text-[#404C3E]">
                     {p.name}
                   </h4>
                   <p className="mt-1 text-[14px] leading-relaxed text-text-gray">

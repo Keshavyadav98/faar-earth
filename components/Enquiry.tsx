@@ -48,7 +48,7 @@ export default function Enquiry() {
         >
           <div className="mb-6 text-center">
             <span className="eyebrow">Get In Touch</span>
-            <h2 className="mt-2 font-heading text-h4 md:text-h3 text-text-dark">
+            <h2 className="mt-2 font-heading text-h4 md:text-h3 text-[#404C3E]">
               Send Us an Enquiry
             </h2>
           </div>
@@ -58,37 +58,37 @@ export default function Enquiry() {
               required
               name="fullName"
               placeholder="Full Name"
-              className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-text-dark placeholder:text-text-gray focus:border-primary-green"
+              className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green"
             />
             <input
               name="companyName"
               placeholder="Company Name"
-              className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-text-dark placeholder:text-text-gray focus:border-primary-green"
+              className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green"
             />
             <input
               required
               type="email"
               name="email"
               placeholder="Email Address"
-              className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-text-dark placeholder:text-text-gray focus:border-primary-green"
+              className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green"
             />
             <input
               required
               type="tel"
               name="phone"
               placeholder="Phone Number"
-              className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-text-dark placeholder:text-text-gray focus:border-primary-green"
+              className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green"
             />
             <input
               name="productInterest"
               placeholder="Product Interests"
-              className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-text-dark placeholder:text-text-gray focus:border-primary-green sm:col-span-2"
+              className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green sm:col-span-2"
             />
             <textarea
               name="requirement"
               placeholder="Your Requirement"
               rows={3}
-              className="rounded-input border border-border-gray bg-white px-4 py-3 text-[15px] text-text-dark placeholder:text-text-gray focus:border-primary-green sm:col-span-2"
+              className="rounded-input border border-border-gray bg-white px-4 py-3 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green sm:col-span-2"
             />
           </div>
 

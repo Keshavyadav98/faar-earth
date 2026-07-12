@@ -57,7 +57,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className={`text-[16px] font-medium text-text-dark transition-colors hover:text-primary-green ${
+              className={`text-[16px] font-medium text-[#404C3E] transition-colors hover:text-primary-green ${
                 activeHref === link.href
                   ? "text-primary-green underline underline-offset-8"
                   : ""

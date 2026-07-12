@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="mb-4 text-[15px] font-semibold text-text-dark">Quick Links</h4>
+          <h4 className="mb-4 text-[15px] font-semibold text-[#404C3E]">Quick Links</h4>
           <ul className="space-y-2">
             {QUICK_LINKS.map((l) => (
               <li key={l.href}>
@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="mb-4 text-[15px] font-semibold text-text-dark">Our Categories</h4>
+          <h4 className="mb-4 text-[15px] font-semibold text-[#404C3E]">Our Categories</h4>
           <ul className="space-y-2">
             {CATEGORY_LINKS.map((c) => (
               <li key={c}>
@@ -46,10 +46,10 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="mb-4 text-[15px] font-semibold text-text-dark">Contact Us</h4>
+          <h4 className="mb-4 text-[15px] font-semibold text-[#404C3E]">Contact Us</h4>
           <ul className="space-y-2 text-[14px] text-text-gray">
             <li>+91 88606 11200</li>
-            <li>connect@faarearth.com</li>
+            <li className="break-words">connect@faarearth.com</li>
             <li>FaarEarth Collective Private Limited
 The Circle Work, A212, Unitech Busines Zone, Sector 50, Gurgaon, India.</li>
           </ul>

@@ -1,4 +1,5 @@
 import { categories } from "@/data/products";
+import Image from "next/image";
 
 export default function Categories() {
   return (
@@ -6,9 +7,19 @@ export default function Categories() {
       <div className="container-xl">
         <div className="mb-14 text-center">
           <span className="eyebrow">Categories</span>
-          <h2 className="mt-2 font-heading text-h3 md:text-h2 text-text-dark">
+          <h2 className="mt-2 font-heading text-h3 md:text-h2 text-[#404C3E]">
             What We Offer
           </h2>
+          <div className="mx-auto flex w-full max-w-[180px]  items-center gap-3">
+            <span className="block h-px w-full bg-primary-green" />
+            <Image
+              src="/Images/lineLeaf.png"
+              alt="leaf"
+              width={24}
+              height={24}
+              className="h-6 w-6"
+            />
+          </div>
         </div>
 
         <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
@@ -34,7 +45,7 @@ export default function Categories() {
                   </div>
                   <a
                     href="#products"
-                    className="inline-flex shrink-0 items-center gap-1.5 rounded-pill bg-white px-4 py-2 text-[13px] font-medium text-text-dark transition-colors hover:bg-primary-green hover:text-white"
+                    className="inline-flex shrink-0 items-center gap-1.5 rounded-pill bg-white px-4 py-2 text-[13px] font-medium text-[#404C3E] transition-colors hover:bg-primary-green hover:text-white"
                   >
                     View Now <span aria-hidden>→</span>
                   </a>

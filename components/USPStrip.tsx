@@ -20,7 +20,7 @@ const USPS = [
 
 export default function USPStrip() {
   return (
-    <section className="bg-primary-green py-6 md:h-[90px] md:py-0">
+    <section className="hidden md:block bg-primary-green py-6 md:h-[90px] md:py-0">
       <div className="container-xl flex h-full flex-col items-center gap-6 md:flex-row md:justify-between md:gap-4">
         {USPS.map((u) => (
           <div key={u.title} className="flex items-center gap-4">

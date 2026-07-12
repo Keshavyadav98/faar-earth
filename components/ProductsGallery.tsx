@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { products } from "@/data/products";
 import ProductsModal from "./ProductsModal";
+import Image from "next/image";
 
 export default function ProductsGallery() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -14,10 +15,19 @@ export default function ProductsGallery() {
       <div className="container-xl">
         <div className="mb-12 text-center">
           <span className="eyebrow">Our Products</span>
-          <h2 className="mt-2 font-heading text-h3 md:text-h2 text-text-dark">
+          <h2 className="mt-2 font-heading text-h3 md:text-h2 text-[#404C3E]">
             A Glimpse of Our Range
           </h2>
-          <div className="mx-auto mt-3 h-[3px] w-16 bg-primary-green" />
+          <div className="mx-auto flex w-full max-w-[480px]  items-center gap-3">
+            <span className="block h-px w-full bg-primary-green" />
+            <Image
+              src="/Images/lineLeaf.png"
+              alt="leaf"
+              width={24}
+              height={24}
+              className="h-6 w-6"
+            />
+          </div>
         </div>
 
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">

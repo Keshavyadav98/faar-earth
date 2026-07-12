@@ -34,9 +34,15 @@ export default function Hero() {
           </a>
           <a
             href="#enquiry"
-            className="inline-flex items-center gap-2 rounded-pill border border-white bg-transparent px-7 py-3.5 text-[16px] font-medium text-white transition-colors hover:bg-white hover:text-primary-green"
+            className="hidden md:inline-flex items-center gap-2 rounded-pill border border-white bg-transparent px-7 py-3.5 text-[16px] font-medium text-white transition-colors hover:bg-white hover:text-primary-green"
           >
             Contact us <span aria-hidden>→</span>
+          </a>
+          <a
+            href="tel:+91 8860611200"
+            className="inline-flex md:hidden items-center gap-2 rounded-pill border border-white bg-transparent px-7 py-3.5 text-[16px] font-medium text-white transition-colors hover:bg-white hover:text-primary-green"
+          >
+            +91 8860611200
           </a>
         </div>
       </div>
