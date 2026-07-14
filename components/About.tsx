@@ -52,10 +52,10 @@ export default function About() {
                       />
                     </div>
 
-          <p className="mt-6 text-[16px] text-justify leading-relaxed text-text-gray">
+          <p className="mt-6 text-[16px] text-center leading-relaxed text-text-gray">
             At Faar Earth, we strive to provide the best of ingredients to food processing industries globally. We are a premier, India-based export enterprise specialising in sourcing, processing and delivery of high-quality agricultural ingredients and plant-based solutions.
           </p>
-          <p className="mt-4 text-[16px] text-justify leading-relaxed text-text-gray">
+          <p className="mt-4 text-[16px] text-center leading-relaxed text-text-gray">
             We bridge the gap between India&apos;s rich agricultural biodiversity and stringent global quality standards. Headed by two people combining very complimentary skillsets of a seasoned corporate veteran and someone who grew up in an Indian family business, we offer seamless, reliable and highly scalable supply chain solutions designed for modern food manufacturers.
           </p>
 
@@ -75,7 +75,7 @@ export default function About() {
 
         <div className="overflow-hidden rounded-card">
           <img
-            src="/Images/high-key-product-photography-moringa-seed-essential-oil.jpg"
+            src="/Images/high-key-product-photography-moringa-seed-essential-oil.jpeg"
             alt="Faar Earth natural lifestyle setting with essential oil bottles and leaves"
             className="h-full w-full object-cover"
           />

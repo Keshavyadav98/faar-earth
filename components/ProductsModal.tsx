@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Product } from "@/data/products";
 
-const FILTERS = ["All", "Edible Seeds", "Cold Pressed Oils", "Essential Oils"] as const;
+const FILTERS = ["All", "Seeds", "Cold Pressed Oils", "Essential Oils"] as const;
 
 export default function ProductsModal({
   open,
