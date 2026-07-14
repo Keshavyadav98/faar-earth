@@ -22,7 +22,7 @@ export default function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
+   
   useEffect(() => {
     const sections = NAV_LINKS.map((l) => document.querySelector(l.href)).filter(
       (el): el is Element => !!el
