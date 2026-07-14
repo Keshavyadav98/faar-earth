@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Product } from "@/data/products";
 
-const FILTERS = ["All", "Seeds", "Cold Pressed Oils", "Essential Oils"] as const;
+const FILTERS = ["All", "Seeds", "Spices", "Nuts", "Oils", "Nature-derived Food Additives", "Plant-based Protein Powders", "Plant Extracts", "Dietary Fibre"] as const;
 
 export default function ProductsModal({
   open,
@@ -68,12 +68,12 @@ export default function ProductsModal({
           </button>
         </div>
 
-        <div className="flex gap-2  border-b border-border-gray px-6 py-4">
+        <div className="flex flex-wrap gap-2 overflow-x-auto sm:overflow-x-visible overflow-y-auto border-b border-border-gray px-6 py-4">
           {FILTERS.map((f) => (
             <button
               key={f}
               onClick={() => setFilter(f)}
-              className={`shrink-0 rounded-pill px-4 py-2 text-[14px] font-medium transition-colors ${
+              className={`rounded-pill px-4 pb-2 pt-2 text-center text-[14px] font-medium transition-colors ${
                 filter === f
                   ? "bg-primary-green text-white"
                   : "bg-beige text-[#404C3E] hover:bg-divider/60"

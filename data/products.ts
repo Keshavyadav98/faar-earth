@@ -13,13 +13,13 @@ export const products: Product[] = [
     id: "pumpkin-seeds",
     name: "Pumpkin Seeds",
     category: "Seeds",
-    image: "https://picsum.photos/seed/pumpkinseeds/600/450",
+    image: "/Images/macro-green-pumpkin-seeds-texture.jpeg",
     description: "Hulled, sun-dried pumpkin seeds packed with natural oils and minerals.",
   },
   {
     id: "sunflower-seeds",
     name: "Sunflower Seeds",
-    category: "Seeds",
+    category: "Spices",
     image: "https://picsum.photos/seed/sunflowerseeds/600/450",
     description: "Premium grade sunflower seeds, cleaned and graded for bulk supply.",
   },
@@ -41,7 +41,7 @@ export const products: Product[] = [
 
 export const categories = [
   {
-    name: "Seeds",
+    name: "Edible Seeds",
     tagline: "Discover More",
     image: "/Images/black-sesame-seeds-with-oil.jpeg",
   },
