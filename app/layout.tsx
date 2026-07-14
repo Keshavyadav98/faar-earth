@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
+import LanguageProvider from "@/components/LanguageProvider";
 
 const heading = Poppins({
   subsets: ["latin"],
@@ -35,8 +36,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${heading.variable} ${body.variable}`}>
       <body className="font-body text-[#404C3E] antialiased">
-        <div className="relative min-h-screen">
-          {children}
+        <LanguageProvider>
+          <div className="relative min-h-screen">
+            {children}
           <a
             href="https://wa.me/918860611200"
             target="_blank"
@@ -49,7 +51,8 @@ export default function RootLayout({
               <path d="M12.001 2C6.477 2 2 6.477 2 12c0 2.045.64 3.95 1.742 5.53L2 22l4.6-1.21A9.96 9.96 0 0 0 12.001 22c5.524 0 10-4.476 10-10S17.525 2 12.001 2zm0 18.2a8.18 8.18 0 0 1-4.16-1.14l-.298-.177-2.73.72.73-2.66-.194-.29A8.18 8.18 0 0 1 3.8 12c0-4.53 3.67-8.2 8.2-8.2 4.53 0 8.2 3.67 8.2 8.2 0 4.53-3.67 8.2-8.2 8.2z" />
             </svg>
           </a>
-        </div>
+          </div>
+        </LanguageProvider>
       </body>
     </html>
   );

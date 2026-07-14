@@ -1,0 +1,90 @@
+{
+  "header": {
+    "categories": "Categorías",
+    "products": "Productos",
+    "aboutUs": "Acerca de nosotros",
+    "contactUs": "Contáctenos"
+  },
+  "hero": {
+    "mainTitle": "Ingredientes puros",
+    "subTitle": "Confiables por la naturaleza",
+    "description": "Semillas comestibles de calidad premium, aceites prensados en frío y aceites esenciales para un mañana más saludable.",
+    "exploreButton": "Explorar productos",
+    "contactButton": "Contáctenos"
+  },
+  "usp": {
+    "sustainability": "Abastecimiento sostenible",
+    "premium": "Calidad premium",
+    "partnership": "Asociación a largo plazo"
+  },
+  "categories": {
+    "title": "Lo que ofrecemos",
+    "viewNow": "Ver ahora",
+    "editableSeeds": "Semillas comestibles",
+    "coldPressedOils": "Aceites prensados en frío",
+    "whiteLabelling": "Etiqueta privada"
+  },
+  "products": {
+    "allProducts": "Nuestros productos",
+    "viewAllProducts": "Ver todos los productos",
+    "closeModal": "Cerrar",
+    "pumpkinSeeds": "Semillas de calabaza",
+    "pumpkinSeedsDesc": "Semillas de calabaza descascaradas y secadas al sol, llenas de aceites y minerales naturales.",
+    "sunflowerSeeds": "Semillas de girasol",
+    "sunflowerSeedsDesc": "Semillas de girasol de grado premium, limpias y clasificadas para suministro a granel.",
+    "flaxSeeds": "Semillas de lino",
+    "flaxSeedsDesc": "Semillas de lino doradas y marrones ricas en omega-3 y fibra dietética.",
+    "chiaSeeds": "Semillas de chía",
+    "chiaSeedsDesc": "Semillas de chía frescas, obtenidas de forma responsable para la nutrición diaria.",
+    "blackSesame": "Semillas de sésamo negro",
+    "blackSesameDesc": "Sésamo negro limpiado tradicionalmente con un aroma profundo y a nuez.",
+    "oliveOil": "Aceite de oliva prensado en frío",
+    "oliveOilDesc": "Aceite de oliva prensado lentamente en frío que retiene el sabor natural y los nutrientes.",
+    "mustardOil": "Aceite de mostaza prensado en frío",
+    "mustardOilDesc": "Aceite de mostaza extraído tradicionalmente con un carácter audaz y pungente.",
+    "coconutOil": "Aceite de coco prensado en frío",
+    "coconutOilDesc": "Aceite de coco virgen extraído fresco, conservando la dulzura natural."
+  },
+  "about": {
+    "eyebrow": "Acerca de Faar Earth",
+    "title": "Enraizado en la naturaleza",
+    "subTitle": "Comprometido con la calidad",
+    "description1": "En Faar Earth, nos esforzamos por proporcionar los mejores ingredientes a las industrias de procesamiento de alimentos en todo el mundo. Somos una empresa de exportación de primera base en India, especializada en el abastecimiento, procesamiento y entrega de ingredientes agrícolas de alta calidad y soluciones a base de plantas.",
+    "description2": "Cerramos la brecha entre la rica biodiversidad agrícola de India y los rigurosos estándares de calidad global. Dirigida por dos personas que combinan habilidades muy complementarias de un veterano corporativo experimentado y alguien que creció en un negocio familiar indio, ofrecemos soluciones de cadena de suministro transparentes, confiables y altamente escalables diseñadas para fabricantes de alimentos modernos."
+  },
+  "enquiry": {
+    "eyebrow": "Ponerse en contacto",
+    "title": "Envíenos una consulta",
+    "fullName": "Nombre completo",
+    "companyName": "Nombre de la empresa",
+    "email": "Correo electrónico",
+    "phone": "Número de teléfono",
+    "productInterest": "Intereses de productos",
+    "requirement": "Su requisito",
+    "sendButton": "Enviar consulta",
+    "sending": "Enviando...",
+    "success": "¡Consulta enviada exitosamente!",
+    "error": "Falló al enviar la consulta. Por favor, inténtelo de nuevo."
+  },
+  "footer": {
+    "quickLinks": "Enlaces rápidos",
+    "ourCategories": "Nuestras categorías",
+    "contactUs": "Contáctenos",
+    "categories": "Categorías",
+    "products": "Productos",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "editableSeeds": "Semillas comestibles",
+    "coldPressedOils": "Aceites prensados en frío",
+    "essentialOils": "Aceites esenciales"
+  },
+  "language": {
+    "english": "English",
+    "german": "Deutsch",
+    "dutch": "Nederlands",
+    "french": "Français",
+    "spanish": "Español",
+    "italian": "Italiano",
+    "selectLanguage": "Seleccionar idioma"
+  }
+}

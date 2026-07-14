@@ -1,0 +1,90 @@
+{
+  "header": {
+    "categories": "Kategorien",
+    "products": "Produkte",
+    "aboutUs": "Über uns",
+    "contactUs": "Kontaktieren Sie uns"
+  },
+  "hero": {
+    "mainTitle": "Reine Inhaltsstoffe",
+    "subTitle": "Von der Natur vertraut",
+    "description": "Hochwertige Speisesamen, kalt gepresste Öle und ätherische Öle für ein gesünderes Morgen.",
+    "exploreButton": "Produkte erkunden",
+    "contactButton": "Kontaktieren Sie uns"
+  },
+  "usp": {
+    "sustainability": "Nachhaltige Beschaffung",
+    "premium": "Premium Qualität",
+    "partnership": "Langfristige Partnerschaft"
+  },
+  "categories": {
+    "title": "Was wir anbieten",
+    "viewNow": "Jetzt ansehen",
+    "editableSeeds": "Essbare Samen",
+    "coldPressedOils": "Kalt gepresste Öle",
+    "whiteLabelling": "Weiße Etikettierung"
+  },
+  "products": {
+    "allProducts": "Unsere Produkte",
+    "viewAllProducts": "Alle Produkte ansehen",
+    "closeModal": "Schließen",
+    "pumpkinSeeds": "Kürbiskerne",
+    "pumpkinSeedsDesc": "Geschälte, sonnengetrocknete Kürbiskerne voller natürlicher Öle und Mineralien.",
+    "sunflowerSeeds": "Sonnenblumenkerne",
+    "sunflowerSeedsDesc": "Premium-Sonnenblumenkerne, gereinigt und sortiert für Großmengen.",
+    "flaxSeeds": "Leinsamen",
+    "flaxSeedsDesc": "Goldene und braune Leinsamen reich an Omega-3 und Ballaststoffen.",
+    "chiaSeeds": "Chiasamen",
+    "chiaSeedsDesc": "Frische Chiasamen, verantwortungsvoll beschafft für tägliche Ernährung.",
+    "blackSesame": "Schwarze Sesamkörner",
+    "blackSesameDesc": "Traditionell gereinigte schwarze Sesamsamen mit tiefem, nussigem Aroma.",
+    "oliveOil": "Kalt gepresstes Olivenöl",
+    "oliveOilDesc": "Langsam kalt gepresstes Olivenöl, das natürliches Aroma und Nährstoffe bewahrt.",
+    "mustardOil": "Kalt gepresstes Senföl",
+    "mustardOilDesc": "Traditionell extrahiertes Senföl mit kühnem, scharfem Charakter.",
+    "coconutOil": "Kalt gepresstes Kokosöl",
+    "coconutOilDesc": "Reines Kokosöl frisch extrahiert, natürliche Süße bewahrt."
+  },
+  "about": {
+    "eyebrow": "Über Faar Earth",
+    "title": "In der Natur verwurzelt",
+    "subTitle": "Dem Qualität verpflichtet",
+    "description1": "Bei Faar Earth bemühen wir uns, die besten Inhaltsstoffe für Lebensmittelverarbeitungsindustrien weltweit bereitzustellen. Wir sind ein führendes, in Indien ansässiges Exportunternehmen, das sich auf die Beschaffung, Verarbeitung und Lieferung hochwertiger landwirtschaftlicher Zutaten und pflanzlicher Lösungen spezialisiert hat.",
+    "description2": "Wir überbrücken die Lücke zwischen Indiens reichhaltiger landwirtschaftlicher Biodiversität und strengen globalen Qualitätsstandards. Geleitet von zwei Personen mit sich ergänzenden Fähigkeiten eines erfahrenen Unternehmens und jemandem, der in einem indischen Familienunternehmen aufwuchs, bieten wir nahtlose, zuverlässige und hochgradig skalierbare Lieferkettenla lösungen für moderne Lebensmittelhersteller."
+  },
+  "enquiry": {
+    "eyebrow": "Kontakt aufnehmen",
+    "title": "Senden Sie uns eine Anfrage",
+    "fullName": "Vollständiger Name",
+    "companyName": "Firmenname",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "productInterest": "Produktinteressen",
+    "requirement": "Ihre Anforderung",
+    "sendButton": "Anfrage senden",
+    "sending": "Wird gesendet...",
+    "success": "Anfrage erfolgreich gesendet!",
+    "error": "Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es später."
+  },
+  "footer": {
+    "quickLinks": "Schnelllinks",
+    "ourCategories": "Unsere Kategorien",
+    "contactUs": "Kontaktieren Sie uns",
+    "categories": "Kategorien",
+    "products": "Produkte",
+    "about": "Über",
+    "contact": "Kontakt",
+    "editableSeeds": "Essbare Samen",
+    "coldPressedOils": "Kalt gepresste Öle",
+    "essentialOils": "Ätherische Öle"
+  },
+  "language": {
+    "english": "English",
+    "german": "Deutsch",
+    "dutch": "Nederlands",
+    "french": "Français",
+    "spanish": "Español",
+    "italian": "Italiano",
+    "selectLanguage": "Sprache auswählen"
+  }
+}

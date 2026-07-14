@@ -1,15 +1,24 @@
+"use client";
+
 import Image from "next/image";
-
-const QUICK_LINKS = [
-  { label: "Categories", href: "#categories" },
-  { label: "Products", href: "#products" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#enquiry" },
-];
-
-const CATEGORY_LINKS = ["Edible Seeds", "Cold Pressed Oils", "Essential Oils"];
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
+
+  const QUICK_LINKS = [
+    { label: t("footer.categories"), href: "#categories" },
+    { label: t("footer.products"), href: "#products" },
+    { label: t("footer.about"), href: "#about" },
+    { label: t("footer.contact"), href: "#enquiry" },
+  ];
+
+  const CATEGORY_LINKS = [
+    t("footer.editableSeeds"),
+    t("footer.coldPressedOils"),
+    t("footer.essentialOils"),
+  ];
+
   return (
     <footer className="bg-beige">
       <div className="container-xl grid grid-cols-1 gap-10 py-16 sm:grid-cols-2 lg:grid-cols-4">
@@ -20,7 +29,7 @@ export default function Footer() {
         </div>
 
         <div className="hidden lg:block text-center sm:text-left">
-          <h4 className="mb-4 text-[15px] font-semibold text-[#404C3E]">Quick Links</h4>
+          <h4 className="mb-4 text-[15px] font-semibold text-[#404C3E]">{t("footer.quickLinks")}</h4>
           <ul className="space-y-3">
             {QUICK_LINKS.map((l) => (
               <li key={l.href}>
@@ -33,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className="hidden lg:block text-center sm:text-left">
-          <h4 className="mb-4 text-[15px] font-semibold text-[#404C3E]">Our Categories</h4>
+          <h4 className="mb-4 text-[15px] font-semibold text-[#404C3E]">{t("footer.ourCategories")}</h4>
           <ul className="space-y-3">
             {CATEGORY_LINKS.map((c) => (
               <li key={c}>
@@ -46,7 +55,7 @@ export default function Footer() {
         </div>
 
         <div className="text-center sm:text-left">
-          <h4 className="mb-4 text-[15px] font-semibold text-[#404C3E] text-center">Contact Us</h4>
+          <h4 className="mb-4 text-[15px] font-semibold text-[#404C3E] text-center">{t("footer.contactUs")}</h4>
           <div className="space-y-2 text-[14px] text-text-gray text-center">
             <p>+91 88606 11200 <br />connect@faarearth.com</p>
             <p >

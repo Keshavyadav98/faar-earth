@@ -1,4 +1,10 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
+
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section
       id="top"
@@ -16,13 +22,12 @@ export default function Hero() {
           connect@faarearth.com
         </span> */}
         <h1 className="font-heading text-[40px] leading-tight font-bold text-white sm:text-[52px] md:text-h1">
-          Pure Ingredients
+          {t("hero.mainTitle")}
           <br />
-          Trusted by Nature
+          {t("hero.subTitle")}
         </h1>
         <p className="mt-5 max-w-xl text-[16px] leading-relaxed text-white/90">
-          Premium quality edible seeds, cold pressed oils and essential oils
-          for a healthier tomorrow.
+          {t("hero.description")}
         </p>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
@@ -30,13 +35,13 @@ export default function Hero() {
             href="#products"
             className="inline-flex items-center gap-2 rounded-pill bg-primary-green px-7 py-3.5 text-[16px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green"
           >
-            Explore Products <span aria-hidden>→</span>
+            {t("hero.exploreButton")} <span aria-hidden>→</span>
           </a>
           <a
             href="#enquiry"
             className="inline-flex items-center gap-2 rounded-pill border border-white bg-transparent px-7 py-3.5 text-[16px] font-medium text-white transition-colors hover:bg-white hover:text-primary-green"
           >
-            Contact us <span aria-hidden>→</span>
+            {t("hero.contactButton")} <span aria-hidden>→</span>
           </a>
         </div>
       </div>

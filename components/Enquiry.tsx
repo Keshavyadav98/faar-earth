@@ -1,10 +1,12 @@
 "use client";
 
 import { useState, FormEvent } from "react";
+import { useTranslation } from "react-i18next";
 
 type Status = "idle" | "sending" | "success" | "error";
 
 export default function Enquiry() {
+  const { t } = useTranslation();
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
@@ -47,9 +49,9 @@ export default function Enquiry() {
           className="w-full max-w-[700px] rounded-card bg-transparent p-6 shadow-none sm:p-10"
         >
           <div className="mb-6 text-center">
-            <span className="eyebrow">Get In Touch</span>
+            <span className="eyebrow">{t("enquiry.eyebrow")}</span>
             <h2 className="mt-2 font-heading text-h4 md:text-h3 text-[#404C3E]">
-              Send Us an Enquiry
+              {t("enquiry.title")}
             </h2>
           </div>
 
@@ -57,36 +59,36 @@ export default function Enquiry() {
             <input
               required
               name="fullName"
-              placeholder="Full Name"
+              placeholder={t("enquiry.fullName")}
               className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green"
             />
             <input
               name="companyName"
-              placeholder="Company Name"
+              placeholder={t("enquiry.companyName")}
               className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green"
             />
             <input
               required
               type="email"
               name="email"
-              placeholder="Email Address"
+              placeholder={t("enquiry.email")}
               className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green"
             />
             <input
               required
               type="tel"
               name="phone"
-              placeholder="Phone Number"
+              placeholder={t("enquiry.phone")}
               className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green"
             />
             <input
               name="productInterest"
-              placeholder="Product Interests"
+              placeholder={t("enquiry.productInterest")}
               className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green sm:col-span-2"
             />
             <textarea
               name="requirement"
-              placeholder="Your Requirement"
+              placeholder={t("enquiry.requirement")}
               rows={3}
               className="rounded-input border border-border-gray bg-white px-4 py-3 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green sm:col-span-2"
             />
@@ -97,12 +99,12 @@ export default function Enquiry() {
             disabled={status === "sending"}
             className="mt-6 flex w-full items-center justify-center gap-2 rounded-btn bg-primary-green px-6 py-3.5 text-[16px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green disabled:opacity-60"
           >
-            {status === "sending" ? "Sending..." : "Send Enquiry"} <span aria-hidden>→</span>
+            {status === "sending" ? t("enquiry.sending") : t("enquiry.sendButton")} <span aria-hidden>→</span>
           </button>
 
           {status === "success" && (
             <p className="mt-4 text-center text-[14px] font-medium text-primary-green">
-              Thanks — your enquiry has been sent. We&apos;ll be in touch soon.
+              {t("enquiry.success")}
             </p>
           )}
           {status === "error" && (

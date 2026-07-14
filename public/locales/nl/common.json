@@ -1,0 +1,90 @@
+{
+  "header": {
+    "categories": "Categorieën",
+    "products": "Producten",
+    "aboutUs": "Over ons",
+    "contactUs": "Neem contact met ons op"
+  },
+  "hero": {
+    "mainTitle": "Zuivere ingrediënten",
+    "subTitle": "Vertrouwd door de natuur",
+    "description": "Premium kwaliteit eetbare zaden, koudgeperste oliën en etherische oliën voor een gezondere morgen.",
+    "exploreButton": "Producten verkennen",
+    "contactButton": "Neem contact met ons op"
+  },
+  "usp": {
+    "sustainability": "Duurzame inzameling",
+    "premium": "Premium kwaliteit",
+    "partnership": "Langdurig partnerschap"
+  },
+  "categories": {
+    "title": "Wat wij aanbieden",
+    "viewNow": "Bekijk nu",
+    "editableSeeds": "Eetbare zaden",
+    "coldPressedOils": "Koudgeperste oliën",
+    "whiteLabelling": "Private label"
+  },
+  "products": {
+    "allProducts": "Onze producten",
+    "viewAllProducts": "Alle producten weergeven",
+    "closeModal": "Sluiten",
+    "pumpkinSeeds": "Pompoenpitten",
+    "pumpkinSeedsDesc": "Ontbolsterde, zongedroogde pompoenpitten vol natuurlijke oliën en mineralen.",
+    "sunflowerSeeds": "Zonnebloempitjes",
+    "sunflowerSeedsDesc": "Premium zonnebloempitjes, gereinigd en gesorteerd voor bulkaankopen.",
+    "flaxSeeds": "Lijnzaad",
+    "flaxSeedsDesc": "Gouden en bruine lijnzaadkorrels rijk aan omega-3 en voedingsvezel.",
+    "chiaSeeds": "Chiazaden",
+    "chiaSeedsDesc": "Vers chiazaad verantwoord ingekocht voor dagelijkse voeding.",
+    "blackSesame": "Zwarte sesamzaden",
+    "blackSesameDesc": "Traditioneel gereinigde zwarte sesam met diep, nootachtig aroma.",
+    "oliveOil": "Koudgeperste olijfolie",
+    "oliveOilDesc": "Langzaam koudgeperste olijfolie die natuurlijke smaak en voedingsstoffen behoudt.",
+    "mustardOil": "Koudgeperste mosterdolie",
+    "mustardOilDesc": "Traditioneel gewonnen mosterdolie met een volle, sterke karakter.",
+    "coconutOil": "Koudgeperste kokosolie",
+    "coconutOilDesc": "Zuivere kokosolie vers geperst, natuurlijke zoetheid behouden."
+  },
+  "about": {
+    "eyebrow": "Over Faar Earth",
+    "title": "Geworteld in de natuur",
+    "subTitle": "Toegewijd aan kwaliteit",
+    "description1": "Bij Faar Earth streven we ernaar de beste ingrediënten voor de voedingsverwerkingsindustrie wereldwijd te leveren. We zijn een premier Indiaas exportbedrijf dat zich specialiseert in het inzamelen, verwerken en leveren van hoogwaardige landbouwingrediënten en plantaardige oplossingen.",
+    "description2": "We overbruggen de kloof tussen Indië's rijke landbouwbiodiversiteit en strikte wereldwijd kwaliteitsnormen. Onder leiding van twee personen met aanvullende vaardigheden van een ervaren bedrijfsleider en iemand die in een Indisch familiebedrijf is opgegroeid, bieden we naadloze, betrouwbare en zeer schaalbare leveringskettingoplossingen voor moderne voedingsmiddellenfabrikanten."
+  },
+  "enquiry": {
+    "eyebrow": "Neem contact op",
+    "title": "Stuur ons een vraag",
+    "fullName": "Volledige naam",
+    "companyName": "Bedrijfsnaam",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "productInterest": "Productinteressen",
+    "requirement": "Uw vereiste",
+    "sendButton": "Vraag verzenden",
+    "sending": "Verzenden...",
+    "success": "Vraag succesvol verzonden!",
+    "error": "Kan vraag niet verzenden. Probeer het later opnieuw."
+  },
+  "footer": {
+    "quickLinks": "Snelle koppelingen",
+    "ourCategories": "Onze categorieën",
+    "contactUs": "Neem contact met ons op",
+    "categories": "Categorieën",
+    "products": "Producten",
+    "about": "Over",
+    "contact": "Contact",
+    "editableSeeds": "Eetbare zaden",
+    "coldPressedOils": "Koudgeperste oliën",
+    "essentialOils": "Etherische oliën"
+  },
+  "language": {
+    "english": "English",
+    "german": "Deutsch",
+    "dutch": "Nederlands",
+    "french": "Français",
+    "spanish": "Español",
+    "italian": "Italiano",
+    "selectLanguage": "Selecteer taal"
+  }
+}

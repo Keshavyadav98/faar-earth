@@ -1,0 +1,90 @@
+{
+  "header": {
+    "categories": "Categories",
+    "products": "Products",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us"
+  },
+  "hero": {
+    "mainTitle": "Pure Ingredients",
+    "subTitle": "Trusted by Nature",
+    "description": "Premium quality edible seeds, cold pressed oils and essential oils for a healthier tomorrow.",
+    "exploreButton": "Explore Products",
+    "contactButton": "Contact us"
+  },
+  "usp": {
+    "sustainability": "Sustainability Sourcing",
+    "premium": "Premium Quality",
+    "partnership": "Long Term Partnership"
+  },
+  "categories": {
+    "title": "What We Offer",
+    "viewNow": "View Now",
+    "editableSeeds": "Edible Seeds",
+    "coldPressedOils": "Cold Pressed Oils",
+    "whiteLabelling": "White Labelling"
+  },
+  "products": {
+    "allProducts": "Our Products",
+    "viewAllProducts": "View all Products",
+    "closeModal": "Close",
+    "pumpkinSeeds": "Pumpkin Seeds",
+    "pumpkinSeedsDesc": "Hulled, sun-dried pumpkin seeds packed with natural oils and minerals.",
+    "sunflowerSeeds": "Sunflower Seeds",
+    "sunflowerSeedsDesc": "Premium grade sunflower seeds, cleaned and graded for bulk supply.",
+    "flaxSeeds": "Flax Seeds",
+    "flaxSeedsDesc": "Golden and brown flax seeds rich in omega-3 and dietary fibre.",
+    "chiaSeeds": "Chia Seeds",
+    "chiaSeedsDesc": "Farm-fresh chia seeds sourced responsibly for everyday nutrition.",
+    "blackSesame": "Black Sesame Seeds",
+    "blackSesameDesc": "Traditionally cleaned black sesame with a deep, nutty aroma.",
+    "oliveOil": "Cold Pressed Olive Oil",
+    "oliveOilDesc": "Slow, cold-pressed olive oil that retains natural flavour and nutrients.",
+    "mustardOil": "Cold Pressed Mustard Oil",
+    "mustardOilDesc": "Traditionally extracted mustard oil with a bold, pungent character.",
+    "coconutOil": "Cold Pressed Coconut Oil",
+    "coconutOilDesc": "Virgin coconut oil extracted fresh, preserving natural sweetness."
+  },
+  "about": {
+    "eyebrow": "About Faar Earth",
+    "title": "Rooted In Nature",
+    "subTitle": "Committed to Quality",
+    "description1": "At Faar Earth, we strive to provide the best of ingredients to food processing industries globally. We are a premier, India-based export enterprise specialising in sourcing, processing and delivery of high-quality agricultural ingredients and plant-based solutions.",
+    "description2": "We bridge the gap between India's rich agricultural biodiversity and stringent global quality standards. Headed by two people combining very complimentary skillsets of a seasoned corporate veteran and someone who grew up in an Indian family business, we offer seamless, reliable and highly scalable supply chain solutions designed for modern food manufacturers."
+  },
+  "enquiry": {
+    "eyebrow": "Get In Touch",
+    "title": "Send Us an Enquiry",
+    "fullName": "Full Name",
+    "companyName": "Company Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "productInterest": "Product Interests",
+    "requirement": "Your Requirement",
+    "sendButton": "Send Enquiry",
+    "sending": "Sending...",
+    "success": "Enquiry sent successfully!",
+    "error": "Failed to send enquiry. Please try again."
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "ourCategories": "Our Categories",
+    "contactUs": "Contact Us",
+    "categories": "Categories",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "editableSeeds": "Edible Seeds",
+    "coldPressedOils": "Cold Pressed Oils",
+    "essentialOils": "Essential Oils"
+  },
+  "language": {
+    "english": "English",
+    "german": "Deutsch",
+    "dutch": "Nederlands",
+    "french": "Français",
+    "spanish": "Español",
+    "italian": "Italiano",
+    "selectLanguage": "Select Language"
+  }
+}

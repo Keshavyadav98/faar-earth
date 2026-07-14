@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useTranslation } from "react-i18next";
 import type { Product } from "@/data/products";
 
 const FILTERS = ["All"] as const; 
@@ -14,7 +15,18 @@ export default function ProductsModal({
   onClose: () => void;
   products: Product[];
 }) {
+  const { t } = useTranslation();
   const [filter, setFilter] = useState<(typeof FILTERS)[number]>("All");
+
+  // Map product IDs to translation keys (convert hyphenated IDs to camelCase)
+  const getProductTranslation = (productId: string, field: "name" | "desc") => {
+    const camelCaseId = productId
+      .split("-")
+      .map((word, index) => index === 0 ? word : word.charAt(0).toUpperCase() + word.slice(1))
+      .join("");
+    const key = field === "name" ? `products.${camelCaseId}` : `products.${camelCaseId}Desc`;
+    return t(key);
+  };
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
@@ -51,14 +63,14 @@ export default function ProductsModal({
         <div className="flex items-center justify-between border-b border-border-gray px-6 py-5">
           <div>
             <h3 className="font-heading text-[22px] font-semibold text-[#404C3E]">
-              All Products
+              {t("products.allProducts")}
             </h3>
             <p className="text-[13px] text-text-gray">
               {filtered.length} product{filtered.length !== 1 ? "s" : ""}
             </p>
           </div>
           <button
-            aria-label="Close"
+            aria-label={t("products.closeModal")}
             onClick={onClose}
             className="flex h-10 w-10 items-center justify-center rounded-btn border border-border-gray transition-colors hover:bg-beige"
           >
@@ -92,17 +104,17 @@ export default function ProductsModal({
                 className="overflow-hidden rounded-card border border-border-gray shadow-card transition-shadow hover:shadow-card-hover"
               >
                 <div className="aspect-[4/3] w-full overflow-hidden">
-                  <img src={p.image} alt={p.name} className="h-full w-full object-cover" />
+                  <img src={p.image} alt={getProductTranslation(p.id, "name")} className="h-full w-full object-cover" />
                 </div>
                 <div className="p-4">
                   <span className="text-[12px] font-medium uppercase tracking-wide text-primary-green">
                     {p.category}
                   </span>
                   <h4 className="mt-1 font-heading text-[17px] font-semibold text-[#404C3E]">
-                    {p.name}
+                    {getProductTranslation(p.id, "name")}
                   </h4>
                   <p className="mt-1 text-[14px] leading-relaxed text-text-gray">
-                    {p.description}
+                    {getProductTranslation(p.id, "desc")}
                   </p>
                 </div>
               </div>

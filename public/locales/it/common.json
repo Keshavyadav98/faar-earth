@@ -1,0 +1,90 @@
+{
+  "header": {
+    "categories": "Categorie",
+    "products": "Prodotti",
+    "aboutUs": "Chi siamo",
+    "contactUs": "Contattaci"
+  },
+  "hero": {
+    "mainTitle": "Ingredienti puri",
+    "subTitle": "Affidabili dalla natura",
+    "description": "Semi commestibili di qualità premium, oli spremuti a freddo e oli essenziali per un domani più sano.",
+    "exploreButton": "Esplora prodotti",
+    "contactButton": "Contattaci"
+  },
+  "usp": {
+    "sustainability": "Approvvigionamento sostenibile",
+    "premium": "Qualità premium",
+    "partnership": "Partnership a lungo termine"
+  },
+  "categories": {
+    "title": "Cosa offriamo",
+    "viewNow": "Visualizza ora",
+    "editableSeeds": "Semi commestibili",
+    "coldPressedOils": "Oli spremuti a freddo",
+    "whiteLabelling": "Etichettatura privata"
+  },
+  "products": {
+    "allProducts": "I nostri prodotti",
+    "viewAllProducts": "Visualizza tutti i prodotti",
+    "closeModal": "Chiudi",
+    "pumpkinSeeds": "Semi di zucca",
+    "pumpkinSeedsDesc": "Semi di zucca sgusciati e essiccati al sole, pieni di oli e minerali naturali.",
+    "sunflowerSeeds": "Semi di girasole",
+    "sunflowerSeedsDesc": "Semi di girasole di qualità premium, puliti e classificati per la fornitura sfusa.",
+    "flaxSeeds": "Semi di lino",
+    "flaxSeedsDesc": "Semi di lino dorati e marroni ricchi di omega-3 e fibre alimentari.",
+    "chiaSeeds": "Semi di chia",
+    "chiaSeedsDesc": "Semi di chia freschi, approvvigionati responsabilmente per la nutrizione quotidiana.",
+    "blackSesame": "Semi di sesamo nero",
+    "blackSesameDesc": "Sesamo nero pulito tradizionalmente con un aroma profondo e nocciolato.",
+    "oliveOil": "Olio d'oliva spremuto a freddo",
+    "oliveOilDesc": "Olio d'oliva spremuto lentamente a freddo che mantiene il sapore naturale e i nutrienti.",
+    "mustardOil": "Olio di senape spremuto a freddo",
+    "mustardOilDesc": "Olio di senape estratto tradizionalmente con un carattere audace e pungente.",
+    "coconutOil": "Olio di cocco spremuto a freddo",
+    "coconutOilDesc": "Olio di cocco vergine estratto fresco, preservando la dolcezza naturale."
+  },
+  "about": {
+    "eyebrow": "Chi è Faar Earth",
+    "title": "Radicato nella natura",
+    "subTitle": "Impegnato nella qualità",
+    "description1": "In Faar Earth, ci impegniamo a fornire i migliori ingredienti alle industrie di trasformazione alimentare a livello mondiale. Siamo un'azienda di esportazione principale con sede in India, specializzata nel sourcing, elaborazione e consegna di ingredienti agricoli di alta qualità e soluzioni a base vegetale.",
+    "description2": "Colmiamo il divario tra la ricca biodiversità agricola dell'India e i rigorosi standard di qualità globali. Guidati da due persone che combinano competenze molto complementari di un veterano aziendale esperto e di qualcuno cresciuto in un'azienda familiare indiana, offriamo soluzioni di catena di fornitura trasparenti, affidabili e altamente scalabili progettate per i moderni produttori di alimenti."
+  },
+  "enquiry": {
+    "eyebrow": "Contattaci",
+    "title": "Inviaci un'inchiesta",
+    "fullName": "Nome completo",
+    "companyName": "Nome azienda",
+    "email": "Indirizzo email",
+    "phone": "Numero di telefono",
+    "productInterest": "Interessi prodotto",
+    "requirement": "Il tuo requisito",
+    "sendButton": "Invia inchiesta",
+    "sending": "Invio in corso...",
+    "success": "Inchiesta inviata con successo!",
+    "error": "Impossibile inviare l'inchiesta. Riprova."
+  },
+  "footer": {
+    "quickLinks": "Collegamenti rapidi",
+    "ourCategories": "Le nostre categorie",
+    "contactUs": "Contattaci",
+    "categories": "Categorie",
+    "products": "Prodotti",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "editableSeeds": "Semi commestibili",
+    "coldPressedOils": "Oli spremuti a freddo",
+    "essentialOils": "Oli essenziali"
+  },
+  "language": {
+    "english": "English",
+    "german": "Deutsch",
+    "dutch": "Nederlands",
+    "french": "Français",
+    "spanish": "Español",
+    "italian": "Italiano",
+    "selectLanguage": "Seleziona lingua"
+  }
+}

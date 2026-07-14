@@ -1,11 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { products } from "@/data/products";
 import ProductsModal from "./ProductsModal";
 import Image from "next/image";
 
 export default function ProductsGallery() {
+  const { t } = useTranslation();
   const [modalOpen, setModalOpen] = useState(false);
   const preview = products.slice(0, 1);
   const large = preview[0];
@@ -14,7 +16,7 @@ export default function ProductsGallery() {
     <section id="products" className="section-pad bg-offwhite">
       <div className="container-xl">
         <div className="mb-12 text-center">
-          <span className="eyebrow">Our Products</span>
+          <span className="eyebrow">{t("products.allProducts")}</span>
           <h2 className="mt-2 font-heading text-h3 md:text-h2 text-[#404C3E]">
             A Glimpse of Our Range
           </h2>
@@ -59,7 +61,7 @@ export default function ProductsGallery() {
                 onClick={() => setModalOpen(true)}
                 className="inline-flex items-center gap-2 rounded-btn bg-primary-green px-7 py-3.5 text-[16px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green"
               >
-                View all Products <span aria-hidden>→</span>
+                {t("products.viewAllProducts")} <span aria-hidden>→</span>
               </button>
             </div>
           </div>

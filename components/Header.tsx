@@ -1,20 +1,23 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import MobileNav from "./MobileNav";
+import LanguageSwitcher from "./LanguageSwitcher";
 import Image from "next/image";
 
-const NAV_LINKS = [
-  { label: "Categories", href: "#categories" },
-  { label: "Products", href: "#products" },
-  { label: "About Us", href: "#about" },
-  { label: "Contact Us", href: "#enquiry" },
-];
-
 export default function Header() {
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [activeHref, setActiveHref] = useState("");
+
+  const NAV_LINKS = [
+    { label: t("header.categories"), href: "#categories" },
+    { label: t("header.products"), href: "#products" },
+    { label: t("header.aboutUs"), href: "#about" },
+    { label: t("header.contactUs"), href: "#enquiry" },
+  ];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -39,7 +42,7 @@ export default function Header() {
     );
     sections.forEach((s) => observer.observe(s));
     return () => observer.disconnect();
-  }, []);
+  }, [NAV_LINKS]);
 
   return (
     <header
@@ -79,6 +82,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
+          <LanguageSwitcher />
           <a
             href="#enquiry"
             className="hidden md:inline-flex items-center gap-2 rounded-btn bg-primary-green px-7 py-3.5 text-[16px] font-medium capitalize text-white shadow-btn transition-colors hover:bg-hover-green"

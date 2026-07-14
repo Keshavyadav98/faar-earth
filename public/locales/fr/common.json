@@ -1,0 +1,90 @@
+{
+  "header": {
+    "categories": "Catégories",
+    "products": "Produits",
+    "aboutUs": "À propos de nous",
+    "contactUs": "Nous contacter"
+  },
+  "hero": {
+    "mainTitle": "Ingrédients purs",
+    "subTitle": "Approuvés par la nature",
+    "description": "Graines comestibles de qualité premium, huiles pressées à froid et huiles essentielles pour un lendemain plus sain.",
+    "exploreButton": "Explorer les produits",
+    "contactButton": "Nous contacter"
+  },
+  "usp": {
+    "sustainability": "Approvisionnement durable",
+    "premium": "Qualité premium",
+    "partnership": "Partenariat à long terme"
+  },
+  "categories": {
+    "title": "Ce que nous offrons",
+    "viewNow": "Voir maintenant",
+    "editableSeeds": "Graines comestibles",
+    "coldPressedOils": "Huiles pressées à froid",
+    "whiteLabelling": "Marque blanche"
+  },
+  "products": {
+    "allProducts": "Nos produits",
+    "viewAllProducts": "Voir tous les produits",
+    "closeModal": "Fermer",
+    "pumpkinSeeds": "Graines de courge",
+    "pumpkinSeedsDesc": "Graines de courge décortiquées et séchées au soleil, riche en huiles et minéraux naturels.",
+    "sunflowerSeeds": "Graines de tournesol",
+    "sunflowerSeedsDesc": "Graines de tournesol de qualité premium, nettoyées et triées pour fournir en vrac.",
+    "flaxSeeds": "Graines de lin",
+    "flaxSeedsDesc": "Graines de lin dorées et brunes riches en oméga-3 et en fibres alimentaires.",
+    "chiaSeeds": "Graines de chia",
+    "chiaSeedsDesc": "Graines de chia fraîches, approvisionnées de manière responsable pour la nutrition quotidienne.",
+    "blackSesame": "Graines de sésame noir",
+    "blackSesameDesc": "Sésame noir nettoyé traditionnellement avec un arôme profond et noisetté.",
+    "oliveOil": "Huile d'olive pressée à froid",
+    "oliveOilDesc": "Huile d'olive pressée lentement à froid qui conserve la saveur naturelle et les nutriments.",
+    "mustardOil": "Huile de moutarde pressée à froid",
+    "mustardOilDesc": "Huile de moutarde extraite traditionnellement avec un caractère audacieux et piquant.",
+    "coconutOil": "Huile de noix de coco pressée à froid",
+    "coconutOilDesc": "Huile de noix de coco vierge fraîchement extraite, préservant la douceur naturelle."
+  },
+  "about": {
+    "eyebrow": "À propos de Faar Earth",
+    "title": "Enraciné dans la nature",
+    "subTitle": "Engagé envers la qualité",
+    "description1": "Chez Faar Earth, nous nous efforçons de fournir les meilleurs ingrédients aux industries de transformation alimentaire du monde entier. Nous sommes une entreprise d'exportation première basée en Inde, spécialisée dans l'approvisionnement, le traitement et la livraison d'ingrédients agricoles de haute qualité et de solutions à base de plantes.",
+    "description2": "Nous comblons le fossé entre la riche biodiversité agricole de l'Inde et les normes de qualité mondiales rigoureuses. Dirigée par deux personnes combinant des compétences très complémentaires d'un vétéran corporate chevronné et de quelqu'un qui a grandi dans une entreprise familiale indienne, nous offrons des solutions de chaîne d'approvisionnement transparentes, fiables et hautement évolutives conçues pour les fabricants de produits alimentaires modernes."
+  },
+  "enquiry": {
+    "eyebrow": "Nous contacter",
+    "title": "Nous envoyer une demande",
+    "fullName": "Nom complet",
+    "companyName": "Nom de l'entreprise",
+    "email": "Adresse e-mail",
+    "phone": "Numéro de téléphone",
+    "productInterest": "Intérêts produits",
+    "requirement": "Votre demande",
+    "sendButton": "Envoyer la demande",
+    "sending": "Envoi...",
+    "success": "Demande envoyée avec succès!",
+    "error": "Impossible d'envoyer la demande. Veuillez réessayer."
+  },
+  "footer": {
+    "quickLinks": "Liens rapides",
+    "ourCategories": "Nos catégories",
+    "contactUs": "Nous contacter",
+    "categories": "Catégories",
+    "products": "Produits",
+    "about": "À propos",
+    "contact": "Contact",
+    "editableSeeds": "Graines comestibles",
+    "coldPressedOils": "Huiles pressées à froid",
+    "essentialOils": "Huiles essentielles"
+  },
+  "language": {
+    "english": "English",
+    "german": "Deutsch",
+    "dutch": "Nederlands",
+    "french": "Français",
+    "spanish": "Español",
+    "italian": "Italiano",
+    "selectLanguage": "Sélectionner la langue"
+  }
+}
