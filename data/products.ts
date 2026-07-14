@@ -12,7 +12,7 @@ export const products: Product[] = [
   {
     id: "pumpkin-seeds",
     name: "Pumpkin Seeds",
-    category: "Edible Seeds",
+    category: "Edible Seeds", 
     image: "/Images/macro-green-pumpkin-seeds-texture.jpeg",
     description: "Hulled, sun-dried pumpkin seeds packed with natural oils and minerals.",
   },

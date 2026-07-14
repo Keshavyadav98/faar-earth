@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Product } from "@/data/products";
 
-const FILTERS = ["All"] as const;
+const FILTERS = ["All"] as const; 
 
 export default function ProductsModal({
   open,
