@@ -15,7 +15,13 @@
   "usp": {
     "sustainability": "Approvisionnement durable",
     "premium": "Qualité premium",
-    "partnership": "Partenariat à long terme"
+    "partnership": "Partenariat à long terme",
+    "natural": "100% Naturel",
+    "naturalDesc": "Aucun additif · Aucun compromis",
+    "bulk": "Approvisionnement en vrac",
+    "bulkDesc": "Pour B2B, tout l'Inde et le monde",
+    "quality": "Qualité assurée",
+    "qualityDesc": "Testé · Certifié · Fiable"
   },
   "categories": {
     "title": "Ce que nous offrons",
@@ -28,6 +34,9 @@
     "allProducts": "Nos produits",
     "viewAllProducts": "Voir tous les produits",
     "closeModal": "Fermer",
+    "description1": "Nous approvisionnons le meilleur des graines, épices, noix, huiles, légumineuses, additifs alimentaires dérivés naturellement, poudres de protéines à base de plantes, extraits de plantes, fruits et légumes lyophilisés, et associons cela à une décennie d'expérience dans l'industrie de l'emballage pour fournir à nos clients le produit qu'ils veulent, de la manière qu'ils le souhaitent, y compris des solutions de marque blanche.",
+    "description2": "En tant qu'entreprise, nous nous efforçons constamment non seulement de suivre les derniers développements des industries de la santé et de l'alimentation, mais aussi de travailler avec nos partenaires pour développer des produits qui peuvent créer de meilleurs produits finis et avoir un impact significatif.",
+    "description3": "Nous ne poursuivons pas seulement des transactions; nous construisons des chaînes d'approvisionnement. Nous cherchons activement à nouer des partenariats à long terme et contractuels avec les transformateurs alimentaires mondiaux pour assurer un approvisionnement constant, prévisible et stable en prix de matières premières, en atténuant les risques de volatilité du marché mondial.",
     "pumpkinSeeds": "Graines de courge",
     "pumpkinSeedsDesc": "Graines de courge décortiquées et séchées au soleil, riche en huiles et minéraux naturels.",
     "sunflowerSeeds": "Graines de tournesol",

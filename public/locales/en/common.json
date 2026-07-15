@@ -15,7 +15,13 @@
   "usp": {
     "sustainability": "Sustainability Sourcing",
     "premium": "Premium Quality",
-    "partnership": "Long Term Partnership"
+    "partnership": "Long Term Partnership",
+    "natural": "100% Natural",
+    "naturalDesc": "No Additive · No Compromise",
+    "bulk": "Bulk Supply",
+    "bulkDesc": "For B2B, Pan India & Global",
+    "quality": "Quality Assured",
+    "qualityDesc": "Tested · Certified · Trusted"
   },
   "categories": {
     "title": "What We Offer",
@@ -26,8 +32,12 @@
   },
   "products": {
     "allProducts": "Our Products",
+    "title": "A Glimpse of Our Range",
     "viewAllProducts": "View all Products",
     "closeModal": "Close",
+    "description1": "We are sourcing the best of seeds, spices, nuts, oils, pulses, naturally derived food additives, plant-based protein powders, plant extracts, freeze dried fruits and vegetables, and pairing that with a decade of experience in the packaging industry to provide our clients with the product they want, the way they want it, including white-labelling solutions.",
+    "description2": "As a business, we constantly strive to not only keep up with the latest developments in health and food industries, but also work with our partners to develop products that can create better end-products and make a meaningful impact.",
+    "description3": "We do not just chase transactions; we build supply chains. We actively seek long-term, contractual partnerships with global food processors to ensure a consistent, predictable, and price-stable supply of raw materials, mitigating the risks of global market volatility.",
     "pumpkinSeeds": "Pumpkin Seeds",
     "pumpkinSeedsDesc": "Hulled, sun-dried pumpkin seeds packed with natural oils and minerals.",
     "sunflowerSeeds": "Sunflower Seeds",
@@ -54,14 +64,14 @@
   },
   "enquiry": {
     "eyebrow": "Get In Touch",
-    "title": "Send Us an Enquiry",
+    "title": "Send Us an Enquire",
     "fullName": "Full Name",
     "companyName": "Company Name",
     "email": "Email Address",
     "phone": "Phone Number",
     "productInterest": "Product Interests",
     "requirement": "Your Requirement",
-    "sendButton": "Send Enquiry",
+    "sendButton": "Send Enquire",
     "sending": "Sending...",
     "success": "Enquiry sent successfully!",
     "error": "Failed to send enquiry. Please try again."

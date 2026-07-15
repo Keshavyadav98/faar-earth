@@ -15,7 +15,13 @@
   "usp": {
     "sustainability": "Nachhaltige Beschaffung",
     "premium": "Premium Qualität",
-    "partnership": "Langfristige Partnerschaft"
+    "partnership": "Langfristige Partnerschaft",
+    "natural": "100% Natürlich",
+    "naturalDesc": "Keine Zusatzstoffe · Kein Kompromiss",
+    "bulk": "Massenbeschaffung",
+    "bulkDesc": "Für B2B, ganz Indien & Global",
+    "quality": "Qualitätsgesichert",
+    "qualityDesc": "Getestet · Zertifiziert · Vertraut"
   },
   "categories": {
     "title": "Was wir anbieten",
@@ -28,6 +34,9 @@
     "allProducts": "Unsere Produkte",
     "viewAllProducts": "Alle Produkte ansehen",
     "closeModal": "Schließen",
+    "description1": "Wir beschaffen das Beste an Samen, Gewürzen, Nüssen, Ölen, Hülsenfrüchten, natürlich gewonnenen Lebensmittelzusatzstoffen, pflanzlichen Proteinpulvern, Pflanzenextrakten, gefriergetrockneten Früchten und Gemüse und koppeln dies mit einem Jahrzehnt Erfahrung in der Verpackungsindustrie, um unseren Kunden das Produkt zu liefern, das sie wünschen, so wie sie es wünschen, einschließlich White-Label-Lösungen.",
+    "description2": "Als Unternehmen bemühen wir uns ständig darum, nicht nur mit den neuesten Entwicklungen in der Gesundheits- und Lebensmittelindustrie Schritt zu halten, sondern auch mit unseren Partnern zusammenzuarbeiten, um Produkte zu entwickeln, die bessere Endprodukte schaffen und einen sinnvollen Einfluss haben.",
+    "description3": "Wir verfolgen nicht nur Transaktionen; wir bauen Lieferketten auf. Wir streben aktiv nach langfristigen, vertraglichen Partnerschaften mit globalen Lebensmittelherstellern, um eine konsistente, vorhersehbare und preisstabile Versorgung mit Rohstoffen zu gewährleisten und die Risiken der globalen Marktvolatilität zu mindern.",
     "pumpkinSeeds": "Kürbiskerne",
     "pumpkinSeedsDesc": "Geschälte, sonnengetrocknete Kürbiskerne voller natürlicher Öle und Mineralien.",
     "sunflowerSeeds": "Sonnenblumenkerne",

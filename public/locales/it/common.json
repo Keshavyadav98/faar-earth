@@ -15,7 +15,13 @@
   "usp": {
     "sustainability": "Approvvigionamento sostenibile",
     "premium": "Qualità premium",
-    "partnership": "Partnership a lungo termine"
+    "partnership": "Partnership a lungo termine",
+    "natural": "100% Naturale",
+    "naturalDesc": "Nessun additivo · Nessun compromesso",
+    "bulk": "Fornitura all'ingrosso",
+    "bulkDesc": "Per B2B, India intera e globale",
+    "quality": "Qualità garantita",
+    "qualityDesc": "Testato · Certificato · Affidabile"
   },
   "categories": {
     "title": "Cosa offriamo",
@@ -28,6 +34,9 @@
     "allProducts": "I nostri prodotti",
     "viewAllProducts": "Visualizza tutti i prodotti",
     "closeModal": "Chiudi",
+    "description1": "Stiamo fornendo il meglio dei semi, spezie, noci, oli, legumi, additivi alimentari derivati naturalmente, polveri proteiche a base vegetale, estratti vegetali, frutta e verdura liofilizzata, e abbinando ciò a un decennio di esperienza nell'industria dell'imballaggio per fornire ai nostri clienti il prodotto che desiderano, nel modo in cui lo desiderano, incluse soluzioni a marchio privato.",
+    "description2": "Come azienda, ci sforziamo costantemente non solo di stare al passo con gli ultimi sviluppi negli settori sanitario e alimentare, ma anche di lavorare con i nostri partner per sviluppare prodotti che possono creare prodotti finali migliori e avere un impatto significativo.",
+    "description3": "Non perseguiamo solo transazioni; costruiamo catene di fornitura. Cerchiamo attivamente partnership a lungo termine e contrattuali con i trasformatori alimentari globali per garantire una fornitura consistente, prevedibile e stabile nel prezzo delle materie prime, mitigando i rischi della volatilità del mercato globale.",
     "pumpkinSeeds": "Semi di zucca",
     "pumpkinSeedsDesc": "Semi di zucca sgusciati e essiccati al sole, pieni di oli e minerali naturali.",
     "sunflowerSeeds": "Semi di girasole",

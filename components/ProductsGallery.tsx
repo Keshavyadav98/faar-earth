@@ -18,7 +18,7 @@ export default function ProductsGallery() {
         <div className="mb-12 text-center">
           <span className="eyebrow">{t("products.allProducts")}</span>
           <h2 className="mt-2 font-heading text-h3 md:text-h2 text-[#404C3E]">
-            A Glimpse of Our Range
+            {t("products.title")}
           </h2>
           <div className="mx-auto flex w-full max-w-[280px]  items-center gap-3">
             <span className="block h-px w-full bg-primary-green" />
@@ -46,13 +46,13 @@ export default function ProductsGallery() {
           <div className="text-left">
             <div className="space-y-4 text-[16px] leading-relaxed text-text-gray">
               <p className="text-center">
-                We are sourcing the best of seeds, spices, nuts, oils, pulses, naturally derived food additives, plant-based protein powders, plant extracts, freeze dried fruits and vegetables, and pairing that with a decade of experience in the packaging industry to provide our clients with the product they want, the way they want it, including white-labelling solutions.
+                {t("products.description1")}
               </p>
               <p className="text-center">
-                As a business, we constantly strive to not only keep up with the latest developments in health and food industries, but also work with our partners to develop products that can create better end-products and make a meaningful impact.
+                {t("products.description2")}
               </p>
               <p className="text-justify">
-                We do not just chase transactions; we build supply chains. We actively seek long-term, contractual partnerships with global food processors to ensure a consistent, predictable, and price-stable supply of raw materials, mitigating the risks of global market volatility.
+                {t("products.description3")}
               </p>
             </div>
 

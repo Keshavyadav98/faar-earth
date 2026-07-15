@@ -87,7 +87,7 @@ export default function Header() {
             href="#enquiry"
             className="hidden md:inline-flex items-center gap-2 rounded-btn bg-primary-green px-7 py-3.5 text-[16px] font-medium capitalize text-white shadow-btn transition-colors hover:bg-hover-green"
           >
-            Enquiry Now  
+            Enquire Now  
           </a>
 
           <button

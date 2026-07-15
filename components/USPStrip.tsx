@@ -1,24 +1,29 @@
-import Image from "next/image";
+"use client";
 
-const USPS = [
-  {
-    title: "100% Natural",
-    desc: "No Additive · No Compromise",
-    icon: '/Images/nest_eco_leaf.png',
-  },
-  {
-    title: "Bulk Supply",
-    desc: "For B2B, Pan India & Global",
-    icon: '/Images/box.png',
-  },
-  {
-    title: "Quality Assured",
-    desc: "Tested · Certified · Trusted",
-    icon: '/Images/verified_user.png',
-  },
-];
+import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 export default function USPStrip() {
+  const { t } = useTranslation();
+
+  const USPS = [
+    {
+      title: t("usp.natural"),
+      desc: t("usp.naturalDesc"),
+      icon: '/Images/nest_eco_leaf.png',
+    },
+    {
+      title: t("usp.bulk"),
+      desc: t("usp.bulkDesc"),
+      icon: '/Images/box.png',
+    },
+    {
+      title: t("usp.quality"),
+      desc: t("usp.qualityDesc"),
+      icon: '/Images/verified_user.png',
+    },
+  ];
+
   return (
     <section className="hidden md:block bg-primary-green py-6 md:h-[90px] md:py-0">
       <div className="container-xl flex h-full flex-col items-center gap-6 md:flex-row md:justify-between md:gap-4">

@@ -15,7 +15,13 @@
   "usp": {
     "sustainability": "Duurzame inzameling",
     "premium": "Premium kwaliteit",
-    "partnership": "Langdurig partnerschap"
+    "partnership": "Langdurig partnerschap",
+    "natural": "100% Natuurlijk",
+    "naturalDesc": "Geen additieven · Geen compromissen",
+    "bulk": "Bulkaankopen",
+    "bulkDesc": "Voor B2B, heel India & wereldwijd",
+    "quality": "Kwaliteit verzekerd",
+    "qualityDesc": "Getest · Gecertificeerd · Vertrouwd"
   },
   "categories": {
     "title": "Wat wij aanbieden",
@@ -28,6 +34,9 @@
     "allProducts": "Onze producten",
     "viewAllProducts": "Alle producten weergeven",
     "closeModal": "Sluiten",
+    "description1": "We sourcing het beste uit zaden, kruiden, noten, oliën, peulvruchten, natuurlijk afgeleide voedseladditieven, plantaardige eiwitpoeder, plantenextracten, gevriesdroogde vruchten en groenten, en combineren dit met een decennium ervaring in de verpakkingsindustrie om onze klanten het product te leveren dat zij willen, op de manier waarop zij het willen, inclusief white-labeling-oplossingen.",
+    "description2": "Als bedrijf streven we voortdurend niet alleen naar bijhouden van de nieuwste ontwikkelingen in gezondheids- en voedselindustrieën, maar werken we ook met onze partners samen aan het ontwikkelen van producten die betere eindproducten kunnen creëren en een zinvol effect hebben.",
+    "description3": "We achtervolgen niet alleen transacties; we bouwen toeleveringsketens. We streven actief naar langetermijnpartnerschappen op contractuele basis met mondiale voedselverwerkers om een consistente, voorspelbare en prijsstabiele toevoer van grondstoffen te waarborgen, waarbij de risico's van wereldwijde marktvolatiliteit worden beperkt.",
     "pumpkinSeeds": "Pompoenpitten",
     "pumpkinSeedsDesc": "Ontbolsterde, zongedroogde pompoenpitten vol natuurlijke oliën en mineralen.",
     "sunflowerSeeds": "Zonnebloempitjes",

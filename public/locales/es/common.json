@@ -15,7 +15,13 @@
   "usp": {
     "sustainability": "Abastecimiento sostenible",
     "premium": "Calidad premium",
-    "partnership": "Asociación a largo plazo"
+    "partnership": "Asociación a largo plazo",
+    "natural": "100% Natural",
+    "naturalDesc": "Sin aditivos · Sin compromisos",
+    "bulk": "Suministro a granel",
+    "bulkDesc": "Para B2B, todo India y global",
+    "quality": "Calidad asegurada",
+    "qualityDesc": "Probado · Certificado · Confiable"
   },
   "categories": {
     "title": "Lo que ofrecemos",
@@ -28,6 +34,9 @@
     "allProducts": "Nuestros productos",
     "viewAllProducts": "Ver todos los productos",
     "closeModal": "Cerrar",
+    "description1": "Estamos abasteciendo lo mejor de semillas, especias, nueces, aceites, legumbres, aditivos alimentarios derivados naturalmente, polvos de proteína a base de plantas, extractos de plantas, frutas y verduras liofilizadas, e integrando eso con una década de experiencia en la industria del embalaje para proporcionar a nuestros clientes el producto que desean, de la manera que lo desean, incluidas soluciones de marca blanca.",
+    "description2": "Como empresa, nos esforzamos constantemente no solo por estar al día con los últimos desarrollos en la salud e industrias alimentarias, sino también por trabajar con nuestros socios para desarrollar productos que puedan crear mejores productos finales y generar un impacto significativo.",
+    "description3": "No solo perseguimos transacciones; construimos cadenas de suministro. Buscamos activamente asociaciones a largo plazo y contractuales con procesadores de alimentos globales para asegurar un suministro consistente, predecible y estable en precio de materias primas, mitigando los riesgos de la volatilidad del mercado global.",
     "pumpkinSeeds": "Semillas de calabaza",
     "pumpkinSeedsDesc": "Semillas de calabaza descascaradas y secadas al sol, llenas de aceites y minerales naturales.",
     "sunflowerSeeds": "Semillas de girasol",
