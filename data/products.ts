@@ -67,21 +67,20 @@ export const products: Product[] = [
   },
 ];
 
-export const categories = [
+export const categores = [
   {
-    name: "Edible Seeds",
-    tagline: "Discover More",
+    nameKey: "categories.editableSeeds",
+    taglineKey: "categories.discoverMore",
     image: "/Images/black-sesame-seeds-with-oil.jpeg",
   },
   {
-    name: "Cold Pressed Oils",
-    tagline: "Discover More",
+    nameKey: "categories.coldPressedOils",
+    taglineKey: "categories.discoverMore",
     image: "/Images/almond-oil-bottle-white-background.jpeg",
   },
   {
-    name: "White Labelling",
-    tagline: "Discover More",
+    nameKey: "categories.whiteLabelling",
+    taglineKey: "categories.discoverMore",
     image: "/Images/essential-oil-black-cuminselectiv-focusb-nature-food.jpeg",
   },
-  
 ];

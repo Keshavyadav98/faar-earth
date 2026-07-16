@@ -1,6 +1,6 @@
 "use client";
 
-import { categories } from "@/data/products";
+import { categores } from "@/data/products";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
 
@@ -27,38 +27,43 @@ export default function Categories() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
-          {categories.map((cat) => (
-            <div
-              key={cat.name}
-              className="group relative overflow-hidden rounded-card shadow-card transition-shadow duration-300 hover:shadow-card-hover"
-            >
-              <div className="aspect-[4/5] w-full overflow-hidden">
-                <img
-                  src={cat.image}
-                  alt={cat.name}
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-              </div>
-              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-6 pt-16">
-                <div className="flex items-end justify-between gap-3">
-                  <div>
-                    <h3 className="font-heading text-[20px] font-semibold text-white">
-                      {cat.name}
-                    </h3>
-                    <p className="text-[13px] text-white/80">{cat.tagline}</p>
-                  </div>
-                  <a
-                    href="#products"
-                    className="inline-flex shrink-0 items-center gap-1.5 rounded-pill bg-white px-4 py-2 text-[13px] font-medium text-[#404C3E] transition-colors hover:bg-primary-green hover:text-white"
-                  >
-                    {t("categories.viewNow")} <span aria-hidden>→</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          ))}
+       <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
+  {categores.map((cat) => (
+    <div
+      key={cat.nameKey}
+      className="group relative overflow-hidden rounded-card shadow-card transition-shadow duration-300 hover:shadow-card-hover"
+    >
+      <div className="aspect-[4/5] w-full overflow-hidden">
+        <img
+          src={cat.image}
+          alt={t(cat.nameKey)}
+          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+        />
+      </div>
+
+      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-6 pt-16">
+        <div className="flex items-end justify-between gap-3">
+          <div>
+            <h3 className="font-heading text-[20px] font-semibold text-white">
+              {t(cat.nameKey)}
+            </h3>
+
+            <p className="text-[13px] text-white/80">
+              {t(cat.taglineKey)}
+            </p>
+          </div>
+
+          <a
+            href="#products"
+            className="inline-flex shrink-0 items-center gap-1.5 rounded-pill bg-white px-4 py-2 text-[13px] font-medium text-[#404C3E] transition-colors hover:bg-primary-green hover:text-white"
+          >
+            {t("categories.viewNow")} <span aria-hidden>→</span>
+          </a>
         </div>
+      </div>
+    </div>
+  ))}
+</div>
       </div>
     </section>
   );

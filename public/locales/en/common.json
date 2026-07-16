@@ -28,7 +28,8 @@
     "viewNow": "View Now",
     "editableSeeds": "Edible Seeds",
     "coldPressedOils": "Cold Pressed Oils",
-    "whiteLabelling": "White Labelling"
+    "whiteLabelling": "White Labelling",
+    "discoverMore": "Discover More"
   },
   "products": {
     "allProducts": "Our Products",
@@ -38,22 +39,26 @@
     "description1": "We are sourcing the best of seeds, spices, nuts, oils, pulses, naturally derived food additives, plant-based protein powders, plant extracts, freeze dried fruits and vegetables, and pairing that with a decade of experience in the packaging industry to provide our clients with the product they want, the way they want it, including white-labelling solutions.",
     "description2": "As a business, we constantly strive to not only keep up with the latest developments in health and food industries, but also work with our partners to develop products that can create better end-products and make a meaningful impact.",
     "description3": "We do not just chase transactions; we build supply chains. We actively seek long-term, contractual partnerships with global food processors to ensure a consistent, predictable, and price-stable supply of raw materials, mitigating the risks of global market volatility.",
-    "pumpkinSeeds": "Pumpkin Seeds",
+    "pumpkinSeeds": "Seeds",
     "pumpkinSeedsDesc": "Hulled, sun-dried pumpkin seeds packed with natural oils and minerals.",
-    "sunflowerSeeds": "Sunflower Seeds",
+    "sunflowerSeeds": "Spices",
     "sunflowerSeedsDesc": "Premium grade sunflower seeds, cleaned and graded for bulk supply.",
-    "flaxSeeds": "Flax Seeds",
+    "flaxSeeds": "Nuts",
     "flaxSeedsDesc": "Golden and brown flax seeds rich in omega-3 and dietary fibre.",
-    "chiaSeeds": "Chia Seeds",
+    "chiaSeeds": "Oils",
     "chiaSeedsDesc": "Farm-fresh chia seeds sourced responsibly for everyday nutrition.",
-    "blackSesame": "Black Sesame Seeds",
+    "blackSesame": "Nature-derived Food Additives",
     "blackSesameDesc": "Traditionally cleaned black sesame with a deep, nutty aroma.",
-    "oliveOil": "Cold Pressed Olive Oil",
+    "oliveOil": "Plant-based Protein Powders",
     "oliveOilDesc": "Slow, cold-pressed olive oil that retains natural flavour and nutrients.",
-    "mustardOil": "Cold Pressed Mustard Oil",
+    "mustardOil": "Plant Extracts",
     "mustardOilDesc": "Traditionally extracted mustard oil with a bold, pungent character.",
-    "coconutOil": "Cold Pressed Coconut Oil",
-    "coconutOilDesc": "Virgin coconut oil extracted fresh, preserving natural sweetness."
+    "coconutOil": "Freeze Dried Fruits & Vegetables",
+    "coconutOilDesc": "Virgin coconut oil extracted fresh, preserving natural sweetness.",
+    "DietaryFibre" : "Dietary Fibre",
+    "pulses": "Pulses",
+    "sweeteners": "Sweeteners",
+    "whiteLabellingandRetailPackagingSolutions": "White Labelling and Retail Packaging Solutions"
   },
   "about": {
     "eyebrow": "About Faar Earth",
@@ -72,6 +77,7 @@
     "productInterest": "Product Interests",
     "requirement": "Your Requirement",
     "sendButton": "Send Enquire",
+    "enquire": "Enquire Now",
     "sending": "Sending...",
     "success": "Enquiry sent successfully!",
     "error": "Failed to send enquiry. Please try again."
@@ -87,6 +93,18 @@
     "editableSeeds": "Edible Seeds",
     "coldPressedOils": "Cold Pressed Oils",
     "essentialOils": "Essential Oils"
+  },
+  "categores": {
+    "editableSeeds": {
+      "name": "Edible Seeds"
+    },
+    "coldPressedOils": {
+      "name": "Cold Pressed Oils"
+    },
+    "whiteLabelling": {
+      "name": "White Labelling"
+    },
+    "discoverMor": "Discover More"
   },
   "language": {
     "english": "English",

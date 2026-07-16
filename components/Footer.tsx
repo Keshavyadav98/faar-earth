@@ -59,7 +59,7 @@ export default function Footer() {
           <div className="space-y-2 text-[14px] text-text-gray text-center">
             <p>+91 88606 11200 <br />connect@faarearth.com</p>
             <p >
-              FaarEarth Collective Private Limited  The Circle Work, A212, Unitech Business Zone, Sector 50, Gurgaon, India. 
+              FaarEarth Collective Private Limited <br /> The Circle Work, A212,<br /> Unitech Business Zone, Sector 50, Gurgaon, India. 
             </p>
           </div>
         </div>

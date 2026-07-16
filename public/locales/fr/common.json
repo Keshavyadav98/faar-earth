@@ -28,11 +28,13 @@
     "viewNow": "Voir maintenant",
     "editableSeeds": "Graines comestibles",
     "coldPressedOils": "Huiles pressées à froid",
-    "whiteLabelling": "Marque blanche"
+    "whiteLabelling": "Marque blanche",
+    "discoverMore": "Découvrir plus"
   },
   "products": {
     "allProducts": "Nos produits",
     "viewAllProducts": "Voir tous les produits",
+    "title": "Un aperçu de notre gamme",
     "closeModal": "Fermer",
     "description1": "Nous approvisionnons le meilleur des graines, épices, noix, huiles, légumineuses, additifs alimentaires dérivés naturellement, poudres de protéines à base de plantes, extraits de plantes, fruits et légumes lyophilisés, et associons cela à une décennie d'expérience dans l'industrie de l'emballage pour fournir à nos clients le produit qu'ils veulent, de la manière qu'ils le souhaitent, y compris des solutions de marque blanche.",
     "description2": "En tant qu'entreprise, nous nous efforçons constamment non seulement de suivre les derniers développements des industries de la santé et de l'alimentation, mais aussi de travailler avec nos partenaires pour développer des produits qui peuvent créer de meilleurs produits finis et avoir un impact significatif.",
@@ -71,6 +73,7 @@
     "productInterest": "Intérêts produits",
     "requirement": "Votre demande",
     "sendButton": "Envoyer la demande",
+    "enquire": "Demander un Devis",
     "sending": "Envoi...",
     "success": "Demande envoyée avec succès!",
     "error": "Impossible d'envoyer la demande. Veuillez réessayer."

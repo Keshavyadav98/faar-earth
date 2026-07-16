@@ -107,15 +107,15 @@ export default function ProductsModal({
                   <img src={p.image} alt={getProductTranslation(p.id, "name")} className="h-full w-full object-cover" />
                 </div>
                 <div className="p-4">
-                  <span className="text-[12px] font-medium uppercase tracking-wide text-primary-green">
+                  {/* <span className="text-[12px] font-medium uppercase tracking-wide text-primary-green">
                     {p.category}
-                  </span>
-                  <h4 className="mt-1 font-heading text-[17px] font-semibold text-[#404C3E]">
+                  </span> */}
+                  <h4 className="mt-1 font-heading text-[17px] font-semibold text-[#404C3E] text-center">
                     {getProductTranslation(p.id, "name")}
                   </h4>
-                  <p className="mt-1 text-[14px] leading-relaxed text-text-gray">
+                  {/* <p className="mt-1 text-[14px] leading-relaxed text-text-gray">
                     {getProductTranslation(p.id, "desc")}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             ))}
