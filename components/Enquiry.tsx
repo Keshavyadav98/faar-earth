@@ -75,13 +75,13 @@ export default function Enquiry() {
               className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green"
             />
             <input
-              required
               type="tel"
               name="phone"
               placeholder={t("enquiry.phone")}
               className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green"
             />
             <input
+              required
               name="productInterest"
               placeholder={t("enquiry.productInterest")}
               className="h-[52px] rounded-input border border-border-gray bg-white px-4 text-[15px] text-[#404C3E] placeholder:text-text-gray focus:border-primary-green sm:col-span-2"

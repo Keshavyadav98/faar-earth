@@ -1,7 +1,14 @@
 export type Product = {
   id: string;
   name: string;
-  category: "Edible Seeds" | "Cold Pressed Oils" | "Essential Oils";
+  category:
+    | "Edible Seeds"
+    | "Cold Pressed Oils"
+    | "Essential Oils"
+    | "Pulses"
+    | "Sweeteners"
+    | "Private Label Solutions"
+    | "Freeze Dried Fruits & Vegetables";
   image: string;
   description: string;
 };
@@ -20,7 +27,7 @@ export const products: Product[] = [
     id: "sunflower-seeds",
     name: "Sunflower Seeds",
     category: "Edible Seeds",
-    image: "/Images/bda6c30c-aed8-4544-81aa-173749df57a3.jpeg",
+    image: "/Images/Spices.jpeg",
     description: "Premium grade sunflower seeds, cleaned and graded for bulk supply.",
   },
   {
@@ -59,11 +66,32 @@ export const products: Product[] = [
     description: "Traditionally extracted mustard oil with a bold, pungent character.",
   },
   {
-    id: "coconut-oil",
-    name: "Cold Pressed Coconut Oil",
-    category: "Cold Pressed Oils",
-    image: "/Images/dietary-fiber-heap-psyllium-husk-powder-scoop-isolated-white.jpeg",
-    description: "Virgin coconut oil extracted fresh, preserving natural sweetness.",
+    id: "pulses",
+    name: "Pulses",
+    category: "Pulses",
+    image: "/Images/pulses.jpg",
+    description: "Sun-dried, sorted pulses and lentils supplied in bulk with consistent quality and moisture control.",
+  },
+  {
+    id: "sweeteners",
+    name: "Sweeteners",
+    category: "Sweeteners",
+    image: "/Images/sweeteners.jpeg",
+    description: "Naturally derived sweeteners processed and packed to meet global food industry standards.",
+  },
+  {
+    id: "private-label-solutions",
+    name: "Private Label Solutions",
+    category: "Private Label Solutions",
+    image: "/Images/private label.png",
+    description: "End-to-end private label and retail packaging solutions tailored to your brand's specifications.",
+  },
+  {
+    id: "freeze-dried-fruits-vegetables",
+    name: "Freeze Dried Fruits & Vegetables",
+    category: "Freeze Dried Fruits & Vegetables",
+    image: "/Images/freeze dried.jpg",
+    description: "Freeze-dried fruits and vegetables that retain natural flavour, colour and nutrients.",
   },
 ];
 
@@ -81,6 +109,6 @@ export const categores = [
   {
     nameKey: "categories.whiteLabelling",
     taglineKey: "categories.discoverMore",
-    image: "/Images/essential-oil-black-cuminselectiv-focusb-nature-food.jpeg",
+    image: "/Images/private label.png",
   },
 ];

@@ -58,7 +58,13 @@
     "coconutOilDesc": "Aceite de coco virgen extraído en fresco, que conserva su dulzura natural.",
     "DietaryFibre": "Fibra Dietética",
     "pulses": "Legumbres",
+    "pulsesDesc": "Legumbres secadas al sol y clasificadas, suministradas a granel con calidad constante y control de humedad.",
     "sweeteners": "Edulcorantes",
+    "sweetenersDesc": "Edulcorantes de origen natural, procesados y envasados según los estándares de la industria alimentaria global.",
+    "privateLabelSolutions": "Soluciones de Marca Privada",
+    "privateLabelSolutionsDesc": "Soluciones integrales de marca privada y envasado minorista, adaptadas a las especificaciones de su marca.",
+    "freezeDriedFruitsVegetables": "Frutas y Verduras Liofilizadas",
+    "freezeDriedFruitsVegetablesDesc": "Frutas y verduras liofilizadas que conservan su sabor, color y nutrientes naturales.",
     "whiteLabellingandRetailPackagingSolutions": "Soluciones de Marca Blanca y Envasado Minorista"
   },
   "about": {

@@ -54,7 +54,17 @@
     "mustardOil": "Huile de moutarde pressée à froid",
     "mustardOilDesc": "Huile de moutarde extraite traditionnellement avec un caractère audacieux et piquant.",
     "coconutOil": "Huile de noix de coco pressée à froid",
-    "coconutOilDesc": "Huile de noix de coco vierge fraîchement extraite, préservant la douceur naturelle."
+    "coconutOilDesc": "Huile de noix de coco vierge fraîchement extraite, préservant la douceur naturelle.",
+    "DietaryFibre": "Fibres Alimentaires",
+    "pulses": "Légumineuses",
+    "pulsesDesc": "Légumineuses séchées au soleil et triées, fournies en vrac avec une qualité constante et un contrôle de l'humidité.",
+    "sweeteners": "Édulcorants",
+    "sweetenersDesc": "Édulcorants d'origine naturelle, transformés et conditionnés selon les normes mondiales de l'industrie alimentaire.",
+    "privateLabelSolutions": "Solutions de Marque Privée",
+    "privateLabelSolutionsDesc": "Solutions complètes de marque privée et d'emballage de détail, adaptées aux spécifications de votre marque.",
+    "freezeDriedFruitsVegetables": "Fruits et Légumes Lyophilisés",
+    "freezeDriedFruitsVegetablesDesc": "Fruits et légumes lyophilisés qui conservent leur saveur, couleur et nutriments naturels.",
+    "whiteLabellingandRetailPackagingSolutions": "Solutions de Marque Blanche et d'Emballage de Détail"
   },
   "about": {
     "eyebrow": "À propos de Faar Earth",

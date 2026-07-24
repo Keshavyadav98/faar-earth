@@ -40,7 +40,7 @@ export default function RootLayout({
           <div className="relative min-h-screen">
             {children}
           <a
-            href="https://wa.me/918860611200"
+            href="https://wa.me/918700879647"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Contact us on WhatsApp"

@@ -6,9 +6,9 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
     const { fullName, companyName, email, phone, productInterest, requirement } = body;
 
-    if (!fullName || !email || !phone) {
+    if (!fullName || !email || !productInterest) {
       return NextResponse.json(
-        { error: "Full name, email and phone are required." },
+        { error: "Full name, email and product interest are required." },
         { status: 400 }
       );
     }

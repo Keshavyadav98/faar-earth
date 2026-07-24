@@ -28,7 +28,7 @@
     "viewNow": "View Now",
     "editableSeeds": "Edible Seeds",
     "coldPressedOils": "Cold Pressed Oils",
-    "whiteLabelling": "White Labelling",
+    "whiteLabelling": "Private Labelling",
     "discoverMore": "Discover More"
   },
   "products": {
@@ -57,7 +57,13 @@
     "coconutOilDesc": "Virgin coconut oil extracted fresh, preserving natural sweetness.",
     "DietaryFibre" : "Dietary Fibre",
     "pulses": "Pulses",
+    "pulsesDesc": "Sun-dried, sorted pulses and lentils supplied in bulk with consistent quality and moisture control.",
     "sweeteners": "Sweeteners",
+    "sweetenersDesc": "Naturally derived sweeteners processed and packed to meet global food industry standards.",
+    "privateLabelSolutions": "Private Label Solutions",
+    "privateLabelSolutionsDesc": "End-to-end private label and retail packaging solutions tailored to your brand's specifications.",
+    "freezeDriedFruitsVegetables": "Freeze Dried Fruits & Vegetables",
+    "freezeDriedFruitsVegetablesDesc": "Freeze-dried fruits and vegetables that retain natural flavour, colour and nutrients.",
     "whiteLabellingandRetailPackagingSolutions": "White Labelling and Retail Packaging Solutions"
   },
   "about": {
@@ -102,7 +108,7 @@
       "name": "Cold Pressed Oils"
     },
     "whiteLabelling": {
-      "name": "White Labelling"
+      "name": "Private Labelling"
     },
     "discoverMor": "Discover More"
   },
