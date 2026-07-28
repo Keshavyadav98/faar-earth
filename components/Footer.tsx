@@ -57,7 +57,7 @@ export default function Footer() {
         <div className="text-center sm:text-left">
           <h4 className="mb-4 text-[15px] font-semibold text-[#404C3E] text-center">{t("footer.contactUs")}</h4>
           <div className="space-y-2 text-[14px] text-text-gray text-center">
-            <p>+91 88606 11200 <br />connect@faarearth.com</p>
+            <p>+91 87008 79647 <br />connect@faarearth.com</p>
             <p >
               FaarEarth Collective Private Limited <br /> The Circle Work, A212,<br /> Unitech Business Zone, Sector 50, Gurgaon, India. 
             </p>

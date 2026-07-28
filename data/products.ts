@@ -8,7 +8,8 @@ export type Product = {
     | "Pulses"
     | "Sweeteners"
     | "Private Label Solutions"
-    | "Freeze Dried Fruits & Vegetables";
+    | "Freeze Dried Fruits & Vegetables"
+    | "Dietary Fibre";
   image: string;
   description: string;
 };
@@ -86,12 +87,20 @@ export const products: Product[] = [
     image: "/Images/private label.png",
     description: "End-to-end private label and retail packaging solutions tailored to your brand's specifications.",
   },
+  
   {
     id: "freeze-dried-fruits-vegetables",
     name: "Freeze Dried Fruits & Vegetables",
     category: "Freeze Dried Fruits & Vegetables",
     image: "/Images/freeze dried.jpg",
     description: "Freeze-dried fruits and vegetables that retain natural flavour, colour and nutrients.",
+  },
+  {
+    id: "dietary-fibre",
+    name: "Dietary Fibre",
+    category: "Dietary Fibre",
+    image: "/Images/dietary-fiber-heap-psyllium-husk-powder-scoop-isolated-white.jpeg",
+    description: "Fine-milled dietary fibre sourced from natural plant husks, ideal for functional food and nutraceutical formulations.",
   },
 ];
 

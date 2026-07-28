@@ -53,7 +53,7 @@ export default function Header() {
       <div className="bg-primary-green py-2 text-[13px] text-white">
         <div className="container-xl flex flex-col  items-center justify-center gap-2 md:gap-6 text-center text-sm md:flex-row md:text-[14px] md:text-left">
           <span className="   text-sm font-medium text-white ">
-            +91 8860611200
+            +91 8700879647
           </span>
           <span className="border-b border-white/40   text-sm font-medium text-white ">
             connect@faarearth.com
