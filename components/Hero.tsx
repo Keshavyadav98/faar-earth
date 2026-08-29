@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
+import { scrollToSection } from "@/lib/scrollToSection";
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -26,6 +27,9 @@ export default function Hero() {
           <br />
           {t("hero.subTitle")}
         </h1>
+        <p className="mt-2 text-[13px] font-medium text-white/80 sm:text-[14px]">
+          {t("hero.tagline")}
+        </p>
         <p className="mt-5 max-w-xl text-[16px] leading-relaxed text-white/90">
           {t("hero.description")}
         </p>
@@ -33,12 +37,14 @@ export default function Hero() {
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <a
             href="#products"
+            onClick={(e) => scrollToSection(e, "#products")}
             className="inline-flex items-center gap-2 rounded-pill bg-primary-green px-7 py-3.5 text-[16px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green"
           >
             {t("hero.exploreButton")} <span aria-hidden>→</span>
           </a>
           <a
             href="#enquiry"
+            onClick={(e) => scrollToSection(e, "#enquiry")}
             className="inline-flex items-center gap-2 rounded-pill border border-white bg-transparent px-7 py-3.5 text-[16px] font-medium text-white transition-colors hover:bg-white hover:text-primary-green"
           >
             {t("hero.contactButton")} <span aria-hidden>→</span>

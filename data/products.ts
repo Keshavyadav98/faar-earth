@@ -106,18 +106,24 @@ export const products: Product[] = [
 
 export const categores = [
   {
+    slug: "edible-seeds",
     nameKey: "categories.editableSeeds",
     taglineKey: "categories.discoverMore",
+    descKey: "categories.editableSeedsDesc",
     image: "/Images/black-sesame-seeds-with-oil.jpeg",
   },
   {
+    slug: "cold-pressed-oils",
     nameKey: "categories.coldPressedOils",
     taglineKey: "categories.discoverMore",
+    descKey: "categories.coldPressedOilsDesc",
     image: "/Images/almond-oil-bottle-white-background.jpeg",
   },
   {
+    slug: "private-labelling",
     nameKey: "categories.whiteLabelling",
     taglineKey: "categories.discoverMore",
+    descKey: "categories.whiteLabellingDesc",
     image: "/Images/private label.png",
   },
 ];

@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import MobileNav from "./MobileNav";
 import LanguageSwitcher from "./LanguageSwitcher";
 import Image from "next/image";
+import { scrollToSection } from "@/lib/scrollToSection";
 
 export default function Header() {
   const { t } = useTranslation();
@@ -16,6 +17,7 @@ export default function Header() {
     { label: t("header.categories"), href: "#categories" },
     { label: t("header.products"), href: "#products" },
     { label: t("header.aboutUs"), href: "#about" },
+    { label: t("header.blog"), href: "/blog" },
     { label: t("header.contactUs"), href: "#enquiry" },
   ];
 
@@ -27,9 +29,9 @@ export default function Header() {
   }, []);
    
   useEffect(() => {
-    const sections = NAV_LINKS.map((l) => document.querySelector(l.href)).filter(
-      (el): el is Element => !!el
-    );
+    const sections = NAV_LINKS.filter((l) => l.href.startsWith("#"))
+      .map((l) => document.querySelector(l.href))
+      .filter((el): el is Element => !!el);
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -61,7 +63,7 @@ export default function Header() {
         </div>
       </div>
       <div className="container-xl flex h-20 items-center justify-between">
-        <a href="#top" className="flex items-center gap-2">
+        <a href="#top" onClick={(e) => scrollToSection(e, "#top")} className="flex items-center gap-2">
          <Image src='/Images/faarEarthLogo.png' alt="Faar Earth Logo" width={180} height={40} />
         </a>
 
@@ -70,6 +72,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
+              onClick={(e) => scrollToSection(e, link.href)}
               className={`text-[16px] font-medium text-[#404C3E] transition-colors hover:text-primary-green ${
                 activeHref === link.href
                   ? "text-primary-green underline underline-offset-8"
@@ -85,6 +88,7 @@ export default function Header() {
           <LanguageSwitcher />
           <a
             href="#enquiry"
+            onClick={(e) => scrollToSection(e, "#enquiry")}
             className="hidden md:inline-flex items-center gap-2 rounded-btn bg-primary-green px-7 py-3.5 text-[16px] font-medium capitalize text-white shadow-btn transition-colors hover:bg-hover-green"
           >
             {t("enquiry.enquire")}

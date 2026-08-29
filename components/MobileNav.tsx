@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect } from "react";
+import { scrollToSection } from "@/lib/scrollToSection";
 
 type Link = { label: string; href: string };
 
@@ -73,7 +74,10 @@ export default function MobileNav({
             <a
               key={link.href}
               href={link.href}
-              onClick={onClose}
+              onClick={(e) => {
+                scrollToSection(e, link.href);
+                onClose();
+              }}
               className={`rounded-btn px-3 py-3 text-[16px] font-medium transition-colors ${
                 activeHref === link.href
                   ? "bg-beige text-primary-green"
@@ -88,7 +92,10 @@ export default function MobileNav({
         <div className="px-5">
           <a
            href="#enquiry"
-            onClick={onClose}
+            onClick={(e) => {
+              scrollToSection(e, "#enquiry");
+              onClose();
+            }}
             className="inline-flex w-full items-center justify-center rounded-btn bg-primary-green px-6 py-3.5 text-[15px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green"
           >
              Enquire Now 

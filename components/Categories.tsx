@@ -3,9 +3,37 @@
 import { categores } from "@/data/products";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import CategoryModal from "./CategoryModal";
+import { scrollToSection } from "@/lib/scrollToSection";
 
 export default function Categories() {
   const { t } = useTranslation();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const slugFromPath = pathname.replace(/^\//, "");
+  const [openSlug, setOpenSlug] = useState<string | null>(
+    categores.some((c) => c.slug === slugFromPath) ? slugFromPath : null
+  );
+
+  useEffect(() => {
+    const slug = pathname.replace(/^\//, "");
+    setOpenSlug(categores.some((c) => c.slug === slug) ? slug : null);
+  }, [pathname]);
+
+  const activeCategory = categores.find((c) => c.slug === openSlug) ?? null;
+
+  const handleOpen = (slug: string) => {
+    setOpenSlug(slug);
+    router.push(`/${slug}`, { scroll: false });
+  };
+
+  const handleClose = () => {
+    setOpenSlug(null);
+    router.push("/", { scroll: false });
+  };
 
   return (
     <section id="categories" className="section-pad bg-offwhite">
@@ -48,13 +76,18 @@ export default function Categories() {
               {t(cat.nameKey)}
             </h3>
 
-            <p className="text-[13px] text-white/80">
+            <button
+              type="button"
+              onClick={() => handleOpen(cat.slug)}
+              className="text-[13px] text-white/80 underline-offset-2 hover:text-white hover:underline"
+            >
               {t(cat.taglineKey)}
-            </p>
+            </button>
           </div>
 
           <a
             href="#products"
+            onClick={(e) => scrollToSection(e, "#products")}
             className="inline-flex shrink-0 items-center gap-1.5 rounded-pill bg-white px-4 py-2 text-[13px] font-medium text-[#404C3E] transition-colors hover:bg-primary-green hover:text-white"
           >
             {t("categories.viewNow")} <span aria-hidden>→</span>
@@ -65,6 +98,8 @@ export default function Categories() {
   ))}
 </div>
       </div>
+
+      <CategoryModal category={activeCategory} onClose={handleClose} />
     </section>
   );
 }

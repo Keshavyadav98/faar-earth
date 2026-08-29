@@ -3,14 +3,16 @@
     "categories": "Categories",
     "products": "Products",
     "aboutUs": "About Us",
-    "contactUs": "Contact Us"
+    "contactUs": "Contact Us",
+    "blog": "Blog"
   },
   "hero": {
-    "mainTitle": "Pure Ingredients",
+    "mainTitle": "Pure Ingredients,",
     "subTitle": "Trusted by Nature",
-    "description": "Premium quality edible seeds, cold pressed oils and essential oils for a healthier tomorrow.",
+    "tagline": "— Sourced and Exported from India",
+    "description": "From bulk export to fully custom private label manufacturing, we deliver premium, tested and certified products and ingredients — the way global food and wellness brands need them.",
     "exploreButton": "Explore Products",
-    "contactButton": "Contact us"
+    "contactButton": "Request a Private Label Quote"
   },
   "usp": {
     "sustainability": "Sustainability Sourcing",
@@ -21,7 +23,9 @@
     "bulk": "Bulk Supply",
     "bulkDesc": "For B2B, Pan India & Global",
     "quality": "Quality Assured",
-    "qualityDesc": "Tested · Certified · Trusted"
+    "qualityDesc": "Tested · Certified · Trusted",
+    "privateLabel": "Private Label & Contract Manufacturing",
+    "privateLabelDesc": "OEM & Custom Formulation"
   },
   "categories": {
     "title": "What We Offer",
@@ -29,14 +33,17 @@
     "editableSeeds": "Edible Seeds",
     "coldPressedOils": "Cold Pressed Oils",
     "whiteLabelling": "Private Labelling",
-    "discoverMore": "Discover More"
+    "discoverMore": "Discover More",
+    "editableSeedsDesc": "Faar Earth is a trusted edible seeds supplier and exporter from India, offering premium basil seeds, flaxseeds, pumpkin seeds and melon seeds for the global nutrition, bakery and health-food industry. Every batch is sourced and quality-tested to meet international food-safety standards, making us a preferred edible seeds manufacturer for brands that demand consistency at export scale.",
+    "coldPressedOilsDesc": "As a leading cold pressed oils supplier from India, Faar Earth delivers unrefined, nutrient-rich oils including moringa oil, castor oil, jojoba oil, hemp seed oil, almond oil, sesame oil, black seed oil and virgin coconut oil. Our cold pressed oil is supplied to cosmetic, wellness and food-processing partners worldwide, with private label and bulk packaging options available.",
+    "whiteLabellingDesc": "Faar Earth is a full-scale private label manufacturer in India, helping health, nutrition and food brands launch their own product lines without the complexity of building a manufacturing setup from scratch. From custom formulation to white label packaging, we act as your OEM manufacturing partner from raw material sourcing to export-ready finished goods."
   },
   "products": {
     "allProducts": "Our Products",
     "title": "A Glimpse of Our Range",
     "viewAllProducts": "View all Products",
     "closeModal": "Close",
-    "description1": "We are sourcing the best of seeds, spices, nuts, oils, pulses, naturally derived food additives, plant-based protein powders, plant extracts, freeze dried fruits and vegetables, and pairing that with a decade of experience in the packaging industry to provide our clients with the product they want, the way they want it, including white-labelling solutions.",
+    "description1": "We are sourcing the best of seeds, spices, nuts, oils, botanicals, naturally derived food additives, plant-based protein powders, plant extracts, and freeze dried fruits and vegetables — pairing this with a decade of experience in the packaging industry to give our clients the product they want, the way they want it, including private label and white-label solutions.",
     "description2": "As a business, we constantly strive to not only keep up with the latest developments in health and food industries, but also work with our partners to develop products that can create better end-products and make a meaningful impact.",
     "description3": "We do not just chase transactions; we build supply chains. We actively seek long-term, contractual partnerships with global food processors to ensure a consistent, predictable, and price-stable supply of raw materials, mitigating the risks of global market volatility.",
     "pumpkinSeeds": "Seeds",

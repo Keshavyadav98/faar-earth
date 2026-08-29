@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
+import { scrollToSection } from "@/lib/scrollToSection";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -23,7 +24,7 @@ export default function Footer() {
     <footer className="bg-beige">
       <div className="container-xl grid grid-cols-1 gap-10 py-16 sm:grid-cols-2 lg:grid-cols-4">
         <div className="text-center sm:text-left">
-          <a href="#top" className="inline-flex items-center justify-center sm:justify-start">
+          <a href="#top" onClick={(e) => scrollToSection(e, "#top")} className="inline-flex items-center justify-center sm:justify-start">
             <Image src="/Images/faarEarthLogo.png" alt="Faar Earth Logo" width={80} height={80} className="h-auto w-[480px] object-contain" />
           </a>
         </div>
@@ -33,7 +34,7 @@ export default function Footer() {
           <ul className="space-y-3">
             {QUICK_LINKS.map((l) => (
               <li key={l.href}>
-                <a href={l.href} className="text-[14px] text-text-gray transition-colors hover:text-primary-green">
+                <a href={l.href} onClick={(e) => scrollToSection(e, l.href)} className="text-[14px] text-text-gray transition-colors hover:text-primary-green">
                   {l.label}
                 </a>
               </li>
@@ -46,7 +47,7 @@ export default function Footer() {
           <ul className="space-y-3">
             {CATEGORY_LINKS.map((c) => (
               <li key={c}>
-                <a href="#products" className="text-[14px] text-text-gray transition-colors hover:text-primary-green">
+                <a href="#products" onClick={(e) => scrollToSection(e, "#products")} className="text-[14px] text-text-gray transition-colors hover:text-primary-green">
                   {c}
                 </a>
               </li>

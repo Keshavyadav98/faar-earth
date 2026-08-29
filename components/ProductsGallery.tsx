@@ -51,7 +51,7 @@ export default function ProductsGallery() {
               <p className="text-center">
                 {t("products.description2")}
               </p>
-              <p className="text-justify">
+              <p className="text-center">
                 {t("products.description3")}
               </p>
             </div>

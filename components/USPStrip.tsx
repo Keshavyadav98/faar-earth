@@ -22,11 +22,16 @@ export default function USPStrip() {
       desc: t("usp.qualityDesc"),
       icon: '/Images/verified_user.png',
     },
+    {
+      title: t("usp.privateLabel"),
+      desc: t("usp.privateLabelDesc"),
+      icon: '/Images/box.png',
+    },
   ];
 
   return (
-    <section className="hidden md:block bg-primary-green py-6 md:h-[90px] md:py-0">
-      <div className="container-xl flex h-full flex-col items-center gap-6 md:flex-row md:justify-between md:gap-4">
+    <section className="hidden md:block bg-primary-green py-6">
+      <div className="container-xl flex flex-wrap items-center justify-between gap-6 lg:flex-nowrap">
         {USPS.map((u) => (
           <div key={u.title} className="flex items-center gap-4">
             <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white">
