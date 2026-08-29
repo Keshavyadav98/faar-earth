@@ -13,6 +13,7 @@ export type DynamicBlogPost = {
   category: string;
   slugLink: string;
   createdAt: string;
+  updatedAt?: string;
 };
 
 const STORE_PATH = path.join(process.cwd(), "data", "blog-store.json");
@@ -52,4 +53,32 @@ export async function findDynamicBlogBySlug(slug: string): Promise<DynamicBlogPo
 export async function isDynamicSlugTaken(slug: string): Promise<boolean> {
   const posts = await readStore();
   return posts.some((p) => p.slug === slug);
+}
+
+export async function updateDynamicBlogPost(
+  slug: string,
+  updates: Partial<Omit<DynamicBlogPost, "id" | "slug" | "slugLink" | "createdAt">>
+): Promise<DynamicBlogPost | null> {
+  const posts = await readStore();
+  const index = posts.findIndex((p) => p.slug === slug);
+  if (index === -1) return null;
+
+  const updated: DynamicBlogPost = {
+    ...posts[index],
+    ...updates,
+    updatedAt: new Date().toISOString(),
+  };
+  posts[index] = updated;
+  await writeStore(posts);
+  return updated;
+}
+
+export async function deleteDynamicBlogPost(slug: string): Promise<DynamicBlogPost | null> {
+  const posts = await readStore();
+  const index = posts.findIndex((p) => p.slug === slug);
+  if (index === -1) return null;
+
+  const [removed] = posts.splice(index, 1);
+  await writeStore(posts);
+  return removed;
 }

@@ -1,6 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { promises as fs } from "fs";
-import path from "path";
 import {
   addDynamicBlogPost,
   getDynamicBlogPosts,
@@ -8,16 +6,8 @@ import {
   type DynamicBlogPost,
 } from "@/lib/blogStore";
 import { findStaticPostBySlug } from "@/data/blogPosts";
-
-const IMAGES_DIR = path.join(process.cwd(), "public", "Images");
-
-function slugify(text: string) {
-  return text
-    .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
-}
+import { saveBlogImage, slugify } from "@/lib/blogImages";
+import { isAdminRequestAuthenticated } from "@/lib/adminAuth";
 
 export async function GET() {
   const posts = await getDynamicBlogPosts();
@@ -25,6 +15,10 @@ export async function GET() {
 }
 
 export async function POST(req: NextRequest) {
+  if (!isAdminRequestAuthenticated(req)) {
+    return NextResponse.json({ error: "Unauthorized." }, { status: 401 });
+  }
+
   try {
     const form = await req.formData();
     const title = String(form.get("title") || "").trim();
@@ -65,12 +59,7 @@ export async function POST(req: NextRequest) {
           { status: 400 }
         );
       }
-      const ext = path.extname(image.name) || ".jpg";
-      const filename = `${slug}-${Date.now()}${ext}`;
-      await fs.mkdir(IMAGES_DIR, { recursive: true });
-      const buffer = Buffer.from(await image.arrayBuffer());
-      await fs.writeFile(path.join(IMAGES_DIR, filename), buffer);
-      thumbnail = `/Images/${filename}`;
+      thumbnail = await saveBlogImage(slug, image);
     }
 
     const now = new Date();

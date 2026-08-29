@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { staticPosts } from "@/data/blogPosts";
 import type { DynamicBlogPost } from "@/lib/blogStore";
 import BlogCard, { type BlogCardPost } from "@/components/BlogCard";
 
@@ -19,19 +18,10 @@ function toCardPost(post: DynamicBlogPost): BlogCardPost {
   };
 }
 
-export default function BlogListing() {
+export default function BlogListing({ initialPosts }: { initialPosts: DynamicBlogPost[] }) {
   const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE);
   const [loading, setLoading] = useState(false);
-  const [allPosts, setAllPosts] = useState<BlogCardPost[]>(
-    staticPosts.map((p) => ({
-      id: p.id,
-      title: p.title,
-      description: p.description,
-      thumbnail: p.thumbnail,
-      date: p.date,
-      slugLink: p.slugLink,
-    }))
-  );
+  const [allPosts, setAllPosts] = useState<BlogCardPost[]>(initialPosts.map(toCardPost));
 
   useEffect(() => {
     let cancelled = false;
@@ -41,11 +31,9 @@ export default function BlogListing() {
         if (!res.ok) return;
         const body = await res.json();
         const dynamicPosts: DynamicBlogPost[] = body.data || [];
-        if (!cancelled && dynamicPosts.length) {
-          setAllPosts((prev) => [...dynamicPosts.map(toCardPost), ...prev]);
-        }
+        if (!cancelled) setAllPosts(dynamicPosts.map(toCardPost));
       } catch {
-        // Static posts are already shown; a failed dynamic fetch is non-fatal.
+        // Server-rendered posts are already shown; a failed refresh is non-fatal.
       }
     })();
     return () => {
@@ -74,11 +62,15 @@ export default function BlogListing() {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 lg:grid-cols-3">
-          {visiblePosts.map((post, idx) => (
-            <BlogCard key={post.id} post={post} animationDelay={idx % LOAD_MORE_COUNT} />
-          ))}
-        </div>
+        {allPosts.length === 0 ? (
+          <p className="text-center text-[15px] text-text-gray">No blog posts yet — check back soon.</p>
+        ) : (
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 lg:grid-cols-3">
+            {visiblePosts.map((post, idx) => (
+              <BlogCard key={post.id} post={post} animationDelay={idx % LOAD_MORE_COUNT} />
+            ))}
+          </div>
+        )}
 
         {hasMore && (
           <div className="mt-12 flex justify-center">
