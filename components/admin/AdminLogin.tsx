@@ -40,7 +40,7 @@ export default function AdminLogin() {
         className="w-full max-w-sm rounded-card border border-border-gray bg-white p-8 shadow-card"
       >
         <h1 className="mb-6 text-center font-heading text-[22px] font-semibold text-[#404C3E]">
-          Blog Admin Login
+          Admin Login
         </h1>
 
         <label className="mb-1 block text-[13px] font-medium text-text-gray">Username</label>

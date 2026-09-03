@@ -1,39 +1,13 @@
 "use client";
 
-import { categores } from "@/data/products";
+import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
-import { usePathname, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
-import CategoryModal from "./CategoryModal";
-import { scrollToSection } from "@/lib/scrollToSection";
+import type { ProductCategory } from "@/lib/categoryStore";
+import { localize } from "@/lib/locale";
 
-export default function Categories() {
-  const { t } = useTranslation();
-  const router = useRouter();
-  const pathname = usePathname();
-
-  const slugFromPath = pathname.replace(/^\//, "");
-  const [openSlug, setOpenSlug] = useState<string | null>(
-    categores.some((c) => c.slug === slugFromPath) ? slugFromPath : null
-  );
-
-  useEffect(() => {
-    const slug = pathname.replace(/^\//, "");
-    setOpenSlug(categores.some((c) => c.slug === slug) ? slug : null);
-  }, [pathname]);
-
-  const activeCategory = categores.find((c) => c.slug === openSlug) ?? null;
-
-  const handleOpen = (slug: string) => {
-    setOpenSlug(slug);
-    router.push(`/${slug}`, { scroll: false });
-  };
-
-  const handleClose = () => {
-    setOpenSlug(null);
-    router.push("/", { scroll: false });
-  };
+export default function Categories({ categories }: { categories: ProductCategory[] }) {
+  const { t, i18n } = useTranslation();
 
   return (
     <section id="categories" className="section-pad bg-offwhite">
@@ -55,51 +29,53 @@ export default function Categories() {
           </div>
         </div>
 
-       <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
-  {categores.map((cat) => (
-    <div
-      key={cat.nameKey}
-      className="group relative overflow-hidden rounded-card shadow-card transition-shadow duration-300 hover:shadow-card-hover"
-    >
-      <div className="aspect-[4/5] w-full overflow-hidden">
-        <img
-          src={cat.image}
-          alt={t(cat.nameKey)}
-          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-        />
-      </div>
+        <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
+          {categories.map((cat) => {
+            const name = localize(cat.name, i18n.language);
+            return (
+              <div
+                key={cat.slug}
+                className="group relative overflow-hidden rounded-card shadow-card transition-shadow duration-300 hover:shadow-card-hover"
+              >
+                <div className="aspect-[4/5] w-full overflow-hidden">
+                  {cat.image && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={cat.image}
+                      alt={name}
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    />
+                  )}
+                </div>
 
-      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-6 pt-16">
-        <div className="flex items-end justify-between gap-3">
-          <div>
-            <h3 className="font-heading text-[20px] font-semibold text-white">
-              {t(cat.nameKey)}
-            </h3>
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-6 pt-16">
+                  <div className="flex items-end justify-between gap-3">
+                    <div>
+                      <h3 className="font-heading text-[20px] font-semibold text-white">
+                        {name}
+                      </h3>
 
-            <button
-              type="button"
-              onClick={() => handleOpen(cat.slug)}
-              className="text-[13px] text-white/80 underline-offset-2 hover:text-white hover:underline"
-            >
-              {t(cat.taglineKey)}
-            </button>
-          </div>
+                      <Link
+                        href={`/products/${cat.slug}`}
+                        className="text-[13px] text-white/80 underline-offset-2 hover:text-white hover:underline"
+                      >
+                        {t("categories.discoverMore")}
+                      </Link>
+                    </div>
 
-          <a
-            href="#products"
-            onClick={(e) => scrollToSection(e, "#products")}
-            className="inline-flex shrink-0 items-center gap-1.5 rounded-pill bg-white px-4 py-2 text-[13px] font-medium text-[#404C3E] transition-colors hover:bg-primary-green hover:text-white"
-          >
-            {t("categories.viewNow")} <span aria-hidden>→</span>
-          </a>
+                    <Link
+                      href={`/products/${cat.slug}`}
+                      className="inline-flex shrink-0 items-center gap-1.5 rounded-pill bg-white px-4 py-2 text-[13px] font-medium text-[#404C3E] transition-colors hover:bg-primary-green hover:text-white"
+                    >
+                      {t("categories.viewNow")} <span aria-hidden>→</span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
-    </div>
-  ))}
-</div>
-      </div>
-
-      <CategoryModal category={activeCategory} onClose={handleClose} />
     </section>
   );
 }

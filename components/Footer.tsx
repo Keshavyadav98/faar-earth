@@ -1,23 +1,29 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { scrollToSection } from "@/lib/scrollToSection";
+import type { ProductCategory } from "@/lib/categoryStore";
+import { localize } from "@/lib/locale";
 
 export default function Footer() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const [categories, setCategories] = useState<ProductCategory[]>([]);
+
+  useEffect(() => {
+    fetch("/api/categories")
+      .then((res) => res.json())
+      .then((body) => setCategories(body.data || []))
+      .catch(() => {});
+  }, []);
 
   const QUICK_LINKS = [
     { label: t("footer.categories"), href: "#categories" },
-    { label: t("footer.products"), href: "#products" },
+    { label: t("footer.products"), href: "/products" },
     { label: t("footer.about"), href: "#about" },
     { label: t("footer.contact"), href: "#enquiry" },
-  ];
-
-  const CATEGORY_LINKS = [
-    t("footer.editableSeeds"),
-    t("footer.coldPressedOils"),
-    t("footer.essentialOils"),
   ];
 
   return (
@@ -45,11 +51,11 @@ export default function Footer() {
         <div className="hidden lg:block text-center sm:text-left">
           <h4 className="mb-4 text-[15px] font-semibold text-[#404C3E]">{t("footer.ourCategories")}</h4>
           <ul className="space-y-3">
-            {CATEGORY_LINKS.map((c) => (
-              <li key={c}>
-                <a href="#products" onClick={(e) => scrollToSection(e, "#products")} className="text-[14px] text-text-gray transition-colors hover:text-primary-green">
-                  {c}
-                </a>
+            {categories.map((c) => (
+              <li key={c.slug}>
+                <Link href={`/products/${c.slug}`} className="text-[14px] text-text-gray transition-colors hover:text-primary-green">
+                  {localize(c.name, i18n.language)}
+                </Link>
               </li>
             ))}
           </ul>

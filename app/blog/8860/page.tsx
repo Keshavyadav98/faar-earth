@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import { isAdminAuthenticated } from "@/lib/adminAuth";
 import AdminLogin from "@/components/admin/AdminLogin";
-import AdminBlogDashboard from "@/components/admin/AdminBlogDashboard";
+import AdminDashboard from "@/components/admin/AdminDashboard";
 
 export const metadata: Metadata = {
-  title: "Blog Admin",
+  title: "Admin",
   robots: { index: false, follow: false },
 };
 
-export default async function BlogAdminPage() {
+export default async function AdminPage() {
   const authed = await isAdminAuthenticated();
 
-  return <main className="min-h-screen bg-offwhite">{authed ? <AdminBlogDashboard /> : <AdminLogin />}</main>;
+  return <main className="min-h-screen bg-offwhite">{authed ? <AdminDashboard /> : <AdminLogin />}</main>;
 }

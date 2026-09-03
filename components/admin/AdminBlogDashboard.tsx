@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 import type { DynamicBlogPost } from "@/lib/blogStore";
 
 const EMPTY_FORM = {
@@ -14,7 +13,6 @@ const EMPTY_FORM = {
 };
 
 export default function AdminBlogDashboard() {
-  const router = useRouter();
   const [posts, setPosts] = useState<DynamicBlogPost[]>([]);
   const [loadingPosts, setLoadingPosts] = useState(true);
   const [form, setForm] = useState(EMPTY_FORM);
@@ -121,23 +119,8 @@ export default function AdminBlogDashboard() {
     }
   };
 
-  const handleLogout = async () => {
-    await fetch("/api/admin/logout", { method: "POST" });
-    router.refresh();
-  };
-
   return (
-    <div className="mx-auto max-w-5xl px-4 py-10 sm:px-8">
-      <div className="mb-8 flex items-center justify-between">
-        <h1 className="font-heading text-[24px] font-semibold text-[#404C3E]">Blog Admin</h1>
-        <button
-          onClick={handleLogout}
-          className="rounded-btn border border-border-gray px-4 py-2 text-[14px] font-medium text-text-gray transition-colors hover:bg-beige"
-        >
-          Log out
-        </button>
-      </div>
-
+    <div>
       <form
         onSubmit={handleSubmit}
         className="mb-12 rounded-card border border-border-gray bg-white p-6 shadow-card sm:p-8"

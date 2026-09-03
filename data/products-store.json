@@ -1,0 +1,877 @@
+[
+  {
+    "id": "1788449087261100",
+    "slug": "pumpkin-seeds",
+    "categorySlug": "seeds",
+    "title": {
+      "en": "Pumpkin Seeds (Cucurbita pepo)"
+    },
+    "description": {
+      "en": "Sourced primarily from Madhya Pradesh and Chhattisgarh; supplied hulled or unhulled, cleaned and graded, for bakery, snack and functional-food export."
+    },
+    "image": "/Images/macro-green-pumpkin-seeds-texture.jpeg",
+    "form": "Hulled/unhulled, whole",
+    "hsHeading": "1207.70",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Pumpkin Seeds (Cucurbita pepo) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced primarily from Madhya Pradesh and Chhattisgarh; supplied hulled or unhulled, cleaned and graded, for bakery, snack and functional-food export."
+    },
+    "metaKeywords": {
+      "en": "pumpkin seeds, pumpkin seeds supplier india, pumpkin seeds exporter india, bulk pumpkin seeds, seeds"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261101",
+    "slug": "sesame-seeds",
+    "categorySlug": "seeds",
+    "title": {
+      "en": "Sesame Seeds (Sesamum indicum)"
+    },
+    "description": {
+      "en": "India is among the world's largest sesame exporters, sourced from Gujarat, Rajasthan and Madhya Pradesh; natural and hulled grades available for bakery, oil-pressing and confectionery use."
+    },
+    "image": "/Images/sesame-oil-raw-black-sesame-seeds-dark-background.jpeg",
+    "form": "Natural/hulled, whole",
+    "hsHeading": "1207.40",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Sesame Seeds (Sesamum indicum) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "India is among the world's largest sesame exporters, sourced from Gujarat, Rajasthan and Madhya Pradesh; natural and hulled grades available for bakery,..."
+    },
+    "metaKeywords": {
+      "en": "sesame seeds, sesame seeds supplier india, sesame seeds exporter india, bulk sesame seeds, seeds"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261102",
+    "slug": "basil-seeds",
+    "categorySlug": "seeds",
+    "title": {
+      "en": "Basil Seeds (Ocimum basilicum)"
+    },
+    "description": {
+      "en": "Sourced from Rajasthan and Gujarat; supplied cleaned and sortex-graded for functional beverage, dessert and fibre-supplement export applications."
+    },
+    "image": "/Images/basil-edible-seeds-bowl-with-fresh-leaves-close-up.jpeg",
+    "form": "Whole, cleaned",
+    "hsHeading": "1207.99",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Basil Seeds (Ocimum basilicum) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Rajasthan and Gujarat; supplied cleaned and sortex-graded for functional beverage, dessert and fibre-supplement export applications."
+    },
+    "metaKeywords": {
+      "en": "basil seeds, basil seeds supplier india, basil seeds exporter india, bulk basil seeds, seeds"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261103",
+    "slug": "black-seed-nigella-kalonji",
+    "categorySlug": "seeds",
+    "title": {
+      "en": "Black Seed / Nigella / Kalonji (Nigella sativa)"
+    },
+    "description": {
+      "en": "Sourced from Rajasthan and Madhya Pradesh; supplied whole for culinary seasoning, bakery topping and nutraceutical oil-pressing export markets."
+    },
+    "image": "/Images/essential-oil-black-cuminselectiv-focusb-nature-food.jpeg",
+    "form": "Whole, cleaned",
+    "hsHeading": "1207.99",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Black Seed / Nigella / Kalonji (Nigella sativa) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Rajasthan and Madhya Pradesh; supplied whole for culinary seasoning, bakery topping and nutraceutical oil-pressing export markets."
+    },
+    "metaKeywords": {
+      "en": "black seed / nigella / kalonji, black seed / nigella / kalonji supplier india, black seed / nigella / kalonji exporter india, bulk black seed / nigella / kalonji, seeds"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261104",
+    "slug": "niger-seed",
+    "categorySlug": "seeds",
+    "title": {
+      "en": "Niger Seed (Guizotia abyssinica)"
+    },
+    "description": {
+      "en": "Sourced from Madhya Pradesh, Chhattisgarh and Odisha — India is a leading global niger seed exporter; supplied cleaned for bird-feed, oil-pressing and confectionery use."
+    },
+    "image": "/Images/peeled-sunflower-seeds-bowl-trivet-marble-background.jpeg",
+    "form": "Whole, cleaned",
+    "hsHeading": "1207.99",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Niger Seed (Guizotia abyssinica) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Madhya Pradesh, Chhattisgarh and Odisha — India is a leading global niger seed exporter; supplied cleaned for bird-feed, oil-pressing and c..."
+    },
+    "metaKeywords": {
+      "en": "niger seed, niger seed supplier india, niger seed exporter india, bulk niger seed, seeds"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261105",
+    "slug": "flax-seeds",
+    "categorySlug": "seeds",
+    "title": {
+      "en": "Flax Seeds (Linum usitatissimum)"
+    },
+    "description": {
+      "en": "Sourced from Madhya Pradesh, Rajasthan and Chhattisgarh; supplied whole (brown/golden) for functional food, bakery and cold-press oil export applications."
+    },
+    "image": "/Images/flax seeds image.jpeg",
+    "form": "Whole, brown/golden",
+    "hsHeading": "1204.00",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Flax Seeds (Linum usitatissimum) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Madhya Pradesh, Rajasthan and Chhattisgarh; supplied whole (brown/golden) for functional food, bakery and cold-press oil export applications."
+    },
+    "metaKeywords": {
+      "en": "flax seeds, flax seeds supplier india, flax seeds exporter india, bulk flax seeds, seeds"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261106",
+    "slug": "melon-seeds",
+    "categorySlug": "seeds",
+    "title": {
+      "en": "Melon Seeds (Cucumis melo)"
+    },
+    "description": {
+      "en": "Sourced from Uttar Pradesh and Rajasthan; supplied hulled (kernel) or whole for snack, confectionery and bakery-topping export applications."
+    },
+    "image": "/Images/heap-quality-seeds-melon-pumpkin-your-unique-garden.jpeg",
+    "form": "Hulled kernel/whole",
+    "hsHeading": "1207.99",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Melon Seeds (Cucumis melo) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Uttar Pradesh and Rajasthan; supplied hulled (kernel) or whole for snack, confectionery and bakery-topping export applications."
+    },
+    "metaKeywords": {
+      "en": "melon seeds, melon seeds supplier india, melon seeds exporter india, bulk melon seeds, seeds"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261107",
+    "slug": "turmeric",
+    "categorySlug": "spices",
+    "title": {
+      "en": "Turmeric (Curcuma longa)"
+    },
+    "description": {
+      "en": "Sourced from Telangana, Maharashtra and Andhra Pradesh — India is the world's largest turmeric producer and exporter; supplied whole, cut or powder, curcumin-content graded."
+    },
+    "image": "/Images/Spices.jpeg",
+    "form": "Whole/cut/powder",
+    "hsHeading": "0910.30",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Turmeric (Curcuma longa) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Telangana, Maharashtra and Andhra Pradesh — India is the world's largest turmeric producer and exporter; supplied whole, cut or powder, cur..."
+    },
+    "metaKeywords": {
+      "en": "turmeric, turmeric supplier india, turmeric exporter india, bulk turmeric, spices"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261108",
+    "slug": "chilli-paprika-pepper",
+    "categorySlug": "spices",
+    "title": {
+      "en": "Chilli / Paprika / Pepper (Capsicum spp.)"
+    },
+    "description": {
+      "en": "Sourced from Andhra Pradesh and Telangana (India's largest chilli belt); supplied whole, crushed or powder, colour- and pungency-graded (ASTA/SHU) for export."
+    },
+    "image": "/Images/Spices.jpeg",
+    "form": "Whole/crushed/powder",
+    "hsHeading": "0904.21/0904.22",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Chilli / Paprika / Pepper (Capsicum spp.) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Andhra Pradesh and Telangana (India's largest chilli belt); supplied whole, crushed or powder, colour- and pungency-graded (ASTA/SHU) for e..."
+    },
+    "metaKeywords": {
+      "en": "chilli / paprika / pepper, chilli / paprika / pepper supplier india, chilli / paprika / pepper exporter india, bulk chilli / paprika / pepper, spices"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261109",
+    "slug": "cumin",
+    "categorySlug": "spices",
+    "title": {
+      "en": "Cumin (Cuminum cyminum)"
+    },
+    "description": {
+      "en": "Sourced from Gujarat and Rajasthan — India's dominant cumin belt; supplied whole seed or powder, cleaned and sortex-graded for export."
+    },
+    "image": "/Images/Spices.jpeg",
+    "form": "Whole/powder",
+    "hsHeading": "0909.31",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Cumin (Cuminum cyminum) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Gujarat and Rajasthan — India's dominant cumin belt; supplied whole seed or powder, cleaned and sortex-graded for export."
+    },
+    "metaKeywords": {
+      "en": "cumin, cumin supplier india, cumin exporter india, bulk cumin, spices"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261110",
+    "slug": "coriander",
+    "categorySlug": "spices",
+    "title": {
+      "en": "Coriander (Coriandrum sativum)"
+    },
+    "description": {
+      "en": "Sourced from Madhya Pradesh and Rajasthan; supplied whole seed or powder, oil-content graded, for culinary seasoning and spice-blend export."
+    },
+    "image": "/Images/Spices.jpeg",
+    "form": "Whole/powder",
+    "hsHeading": "0909.21",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Coriander (Coriandrum sativum) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Madhya Pradesh and Rajasthan; supplied whole seed or powder, oil-content graded, for culinary seasoning and spice-blend export."
+    },
+    "metaKeywords": {
+      "en": "coriander, coriander supplier india, coriander exporter india, bulk coriander, spices"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261111",
+    "slug": "black-pepper",
+    "categorySlug": "spices",
+    "title": {
+      "en": "Black Pepper (Piper nigrum)"
+    },
+    "description": {
+      "en": "Sourced from Kerala and Karnataka; supplied whole, cracked or powder, density- and piperine-graded for culinary and oleoresin-extraction export markets."
+    },
+    "image": "/Images/Spices.jpeg",
+    "form": "Whole/cracked/powder",
+    "hsHeading": "0904.11",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Black Pepper (Piper nigrum) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Kerala and Karnataka; supplied whole, cracked or powder, density- and piperine-graded for culinary and oleoresin-extraction export markets."
+    },
+    "metaKeywords": {
+      "en": "black pepper, black pepper supplier india, black pepper exporter india, bulk black pepper, spices"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261112",
+    "slug": "cardamom",
+    "categorySlug": "spices",
+    "title": {
+      "en": "Cardamom (Elettaria cardamomum)"
+    },
+    "description": {
+      "en": "Sourced from Kerala and Tamil Nadu (Western Ghats); supplied whole green pods, bold and small grades, for premium culinary export."
+    },
+    "image": "/Images/Spices.jpeg",
+    "form": "Whole pods, graded",
+    "hsHeading": "0908.31",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Cardamom (Elettaria cardamomum) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Kerala and Tamil Nadu (Western Ghats); supplied whole green pods, bold and small grades, for premium culinary export."
+    },
+    "metaKeywords": {
+      "en": "cardamom, cardamom supplier india, cardamom exporter india, bulk cardamom, spices"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261113",
+    "slug": "fennel",
+    "categorySlug": "spices",
+    "title": {
+      "en": "Fennel (Foeniculum vulgare)"
+    },
+    "description": {
+      "en": "Sourced from Gujarat and Rajasthan; supplied whole seed for culinary, herbal-tea and functional-food export applications."
+    },
+    "image": "/Images/Spices.jpeg",
+    "form": "Whole seed",
+    "hsHeading": "0909.61",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Fennel (Foeniculum vulgare) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Gujarat and Rajasthan; supplied whole seed for culinary, herbal-tea and functional-food export applications."
+    },
+    "metaKeywords": {
+      "en": "fennel, fennel supplier india, fennel exporter india, bulk fennel, spices"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261114",
+    "slug": "fenugreek",
+    "categorySlug": "spices",
+    "title": {
+      "en": "Fenugreek (Trigonella foenum-graecum)"
+    },
+    "description": {
+      "en": "Sourced from Rajasthan and Madhya Pradesh; supplied whole seed or powder for culinary seasoning and nutraceutical export applications."
+    },
+    "image": "/Images/Spices.jpeg",
+    "form": "Whole/powder",
+    "hsHeading": "0910.99",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Fenugreek (Trigonella foenum-graecum) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Rajasthan and Madhya Pradesh; supplied whole seed or powder for culinary seasoning and nutraceutical export applications."
+    },
+    "metaKeywords": {
+      "en": "fenugreek, fenugreek supplier india, fenugreek exporter india, bulk fenugreek, spices"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261115",
+    "slug": "nutmeg-mace",
+    "categorySlug": "spices",
+    "title": {
+      "en": "Nutmeg & Mace (Myristica fragrans)"
+    },
+    "description": {
+      "en": "Sourced from Kerala; nutmeg (kernel) and mace (aril) supplied whole or powder, oil-content graded, for premium culinary export."
+    },
+    "image": "/Images/Spices.jpeg",
+    "form": "Whole/powder",
+    "hsHeading": "0908.11 (nutmeg) / 0908.21 (mace)",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Nutmeg & Mace (Myristica fragrans) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Kerala; nutmeg (kernel) and mace (aril) supplied whole or powder, oil-content graded, for premium culinary export."
+    },
+    "metaKeywords": {
+      "en": "nutmeg & mace, nutmeg & mace supplier india, nutmeg & mace exporter india, bulk nutmeg & mace, spices"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261116",
+    "slug": "sesame-oil",
+    "categorySlug": "cold-press-oils",
+    "title": {
+      "en": "Sesame Oil"
+    },
+    "description": {
+      "en": "Cold-pressed from Gujarat- and Rajasthan-sourced sesame seed; supplied unrefined, for culinary and personal-care export applications."
+    },
+    "image": "/Images/sesame-oil-raw-black-sesame-seeds-dark-background.jpeg",
+    "form": "Cold-pressed, unrefined",
+    "hsHeading": "1515.50",
+    "moq": "From 100 kg / drums",
+    "metaTitle": {
+      "en": "Sesame Oil Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Cold-pressed from Gujarat- and Rajasthan-sourced sesame seed; supplied unrefined, for culinary and personal-care export applications."
+    },
+    "metaKeywords": {
+      "en": "sesame oil, sesame oil supplier india, sesame oil exporter india, bulk sesame oil, cold press oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261117",
+    "slug": "coconut-oil",
+    "categorySlug": "cold-press-oils",
+    "title": {
+      "en": "Coconut Oil"
+    },
+    "description": {
+      "en": "Cold-pressed (virgin) from Kerala and Tamil Nadu coconut belts; supplied unrefined for culinary, personal-care and cosmetic export markets."
+    },
+    "image": "/Images/almond-oil-bottle-white-background.jpeg",
+    "form": "Cold-pressed, virgin",
+    "hsHeading": "1513.11",
+    "moq": "From 100 kg / drums",
+    "metaTitle": {
+      "en": "Coconut Oil Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Cold-pressed (virgin) from Kerala and Tamil Nadu coconut belts; supplied unrefined for culinary, personal-care and cosmetic export markets."
+    },
+    "metaKeywords": {
+      "en": "coconut oil, coconut oil supplier india, coconut oil exporter india, bulk coconut oil, cold press oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261118",
+    "slug": "black-seed-oil",
+    "categorySlug": "cold-press-oils",
+    "title": {
+      "en": "Black Seed Oil"
+    },
+    "description": {
+      "en": "Cold-pressed from Rajasthan- and MP-sourced Nigella sativa seed; supplied unrefined for nutraceutical and personal-care export applications."
+    },
+    "image": "/Images/essential-oil-black-cuminselectiv-focusb-nature-food.jpeg",
+    "form": "Cold-pressed, unrefined",
+    "hsHeading": "1515.90",
+    "moq": "From 100 kg / drums",
+    "metaTitle": {
+      "en": "Black Seed Oil Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Cold-pressed from Rajasthan- and MP-sourced Nigella sativa seed; supplied unrefined for nutraceutical and personal-care export applications."
+    },
+    "metaKeywords": {
+      "en": "black seed oil, black seed oil supplier india, black seed oil exporter india, bulk black seed oil, cold press oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261119",
+    "slug": "almond-oil",
+    "categorySlug": "cold-press-oils",
+    "title": {
+      "en": "Almond Oil"
+    },
+    "description": {
+      "en": "Cold-pressed (sweet almond) sourced via Jammu & Kashmir processing; supplied unrefined for personal-care and nutraceutical export markets."
+    },
+    "image": "/Images/almond-oil-bottle-white-background.jpeg",
+    "form": "Cold-pressed, unrefined",
+    "hsHeading": "1515.19",
+    "moq": "From 100 kg / drums",
+    "metaTitle": {
+      "en": "Almond Oil Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Cold-pressed (sweet almond) sourced via Jammu & Kashmir processing; supplied unrefined for personal-care and nutraceutical export markets."
+    },
+    "metaKeywords": {
+      "en": "almond oil, almond oil supplier india, almond oil exporter india, bulk almond oil, cold press oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261120",
+    "slug": "apricot-oil",
+    "categorySlug": "cold-press-oils",
+    "title": {
+      "en": "Apricot Oil"
+    },
+    "description": {
+      "en": "Cold-pressed from Himachal Pradesh and Ladakh apricot kernel; supplied unrefined for personal-care and cosmetic export applications."
+    },
+    "image": "/Images/apricot-seed-oil-fresh-apricots-brown-wooden-table.jpeg",
+    "form": "Cold-pressed, unrefined",
+    "hsHeading": "1515.90",
+    "moq": "From 100 kg / drums",
+    "metaTitle": {
+      "en": "Apricot Oil Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Cold-pressed from Himachal Pradesh and Ladakh apricot kernel; supplied unrefined for personal-care and cosmetic export applications."
+    },
+    "metaKeywords": {
+      "en": "apricot oil, apricot oil supplier india, apricot oil exporter india, bulk apricot oil, cold press oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261121",
+    "slug": "turmeric-oleoresin",
+    "categorySlug": "oleoresins-spice-oils",
+    "title": {
+      "en": "Turmeric Oleoresin"
+    },
+    "description": {
+      "en": "Extracted from Telangana- and Andhra Pradesh-sourced turmeric rhizome; curcumin content standardised to buyer specification for natural colour and flavour export applications. Standardisation: Curcumin 3–7% (higher available)."
+    },
+    "image": "/Images/top-view-cbd-treatment-still-life.jpeg",
+    "form": "Liquid/semi-solid extract",
+    "hsHeading": "3301.90",
+    "moq": "On request",
+    "metaTitle": {
+      "en": "Turmeric Oleoresin Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Extracted from Telangana- and Andhra Pradesh-sourced turmeric rhizome; curcumin content standardised to buyer specification for natural colour and flavo..."
+    },
+    "metaKeywords": {
+      "en": "turmeric oleoresin, turmeric oleoresin supplier india, turmeric oleoresin exporter india, bulk turmeric oleoresin, oleoresins / spice oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261122",
+    "slug": "chilli-capsicum-oleoresin",
+    "categorySlug": "oleoresins-spice-oils",
+    "title": {
+      "en": "Chilli / Capsicum Oleoresin"
+    },
+    "description": {
+      "en": "Extracted from Andhra Pradesh-sourced chilli; colour value (ASTA) and pungency (SHU) standardised to specification for food and flavour export."
+    },
+    "image": "/Images/top-view-cbd-treatment-still-life.jpeg",
+    "form": "Liquid extract",
+    "hsHeading": "3301.90",
+    "moq": "On request",
+    "metaTitle": {
+      "en": "Chilli / Capsicum Oleoresin Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Extracted from Andhra Pradesh-sourced chilli; colour value (ASTA) and pungency (SHU) standardised to specification for food and flavour export."
+    },
+    "metaKeywords": {
+      "en": "chilli / capsicum oleoresin, chilli / capsicum oleoresin supplier india, chilli / capsicum oleoresin exporter india, bulk chilli / capsicum oleoresin, oleoresins / spice oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261123",
+    "slug": "black-pepper-oleoresin",
+    "categorySlug": "oleoresins-spice-oils",
+    "title": {
+      "en": "Black Pepper Oleoresin"
+    },
+    "description": {
+      "en": "Extracted from Kerala-sourced black pepper; piperine content standardised for flavour-house and functional-food export applications."
+    },
+    "image": "/Images/top-view-cbd-treatment-still-life.jpeg",
+    "form": "Liquid extract",
+    "hsHeading": "3301.90",
+    "moq": "On request",
+    "metaTitle": {
+      "en": "Black Pepper Oleoresin Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Extracted from Kerala-sourced black pepper; piperine content standardised for flavour-house and functional-food export applications."
+    },
+    "metaKeywords": {
+      "en": "black pepper oleoresin, black pepper oleoresin supplier india, black pepper oleoresin exporter india, bulk black pepper oleoresin, oleoresins / spice oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261124",
+    "slug": "ginger-oleoresin",
+    "categorySlug": "oleoresins-spice-oils",
+    "title": {
+      "en": "Ginger Oleoresin"
+    },
+    "description": {
+      "en": "Extracted from Kerala- and Karnataka-sourced ginger rhizome; gingerol content standardised for flavour, beverage and nutraceutical export."
+    },
+    "image": "/Images/top-view-cbd-treatment-still-life.jpeg",
+    "form": "Liquid extract",
+    "hsHeading": "3301.90",
+    "moq": "On request",
+    "metaTitle": {
+      "en": "Ginger Oleoresin Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Extracted from Kerala- and Karnataka-sourced ginger rhizome; gingerol content standardised for flavour, beverage and nutraceutical export."
+    },
+    "metaKeywords": {
+      "en": "ginger oleoresin, ginger oleoresin supplier india, ginger oleoresin exporter india, bulk ginger oleoresin, oleoresins / spice oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261125",
+    "slug": "cumin-oleoresin",
+    "categorySlug": "oleoresins-spice-oils",
+    "title": {
+      "en": "Cumin Oleoresin"
+    },
+    "description": {
+      "en": "Extracted from Gujarat-sourced cumin seed; flavour-profile standardised for spice-blend and flavour-house export applications."
+    },
+    "image": "/Images/top-view-cbd-treatment-still-life.jpeg",
+    "form": "Liquid extract",
+    "hsHeading": "3301.90",
+    "moq": "On request",
+    "metaTitle": {
+      "en": "Cumin Oleoresin Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Extracted from Gujarat-sourced cumin seed; flavour-profile standardised for spice-blend and flavour-house export applications."
+    },
+    "metaKeywords": {
+      "en": "cumin oleoresin, cumin oleoresin supplier india, cumin oleoresin exporter india, bulk cumin oleoresin, oleoresins / spice oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261126",
+    "slug": "cardamom-oleoresin",
+    "categorySlug": "oleoresins-spice-oils",
+    "title": {
+      "en": "Cardamom Oleoresin"
+    },
+    "description": {
+      "en": "Extracted from Kerala-sourced green cardamom; aromatic profile standardised for premium flavour and beverage export applications."
+    },
+    "image": "/Images/top-view-cbd-treatment-still-life.jpeg",
+    "form": "Liquid extract",
+    "hsHeading": "3301.90",
+    "moq": "On request",
+    "metaTitle": {
+      "en": "Cardamom Oleoresin Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Extracted from Kerala-sourced green cardamom; aromatic profile standardised for premium flavour and beverage export applications."
+    },
+    "metaKeywords": {
+      "en": "cardamom oleoresin, cardamom oleoresin supplier india, cardamom oleoresin exporter india, bulk cardamom oleoresin, oleoresins / spice oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261127",
+    "slug": "coriander-oleoresin",
+    "categorySlug": "oleoresins-spice-oils",
+    "title": {
+      "en": "Coriander Oleoresin"
+    },
+    "description": {
+      "en": "Extracted from Madhya Pradesh-sourced coriander seed; flavour-profile standardised for spice-blend and processed-food export applications."
+    },
+    "image": "/Images/top-view-cbd-treatment-still-life.jpeg",
+    "form": "Liquid extract",
+    "hsHeading": "3301.90",
+    "moq": "On request",
+    "metaTitle": {
+      "en": "Coriander Oleoresin Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Extracted from Madhya Pradesh-sourced coriander seed; flavour-profile standardised for spice-blend and processed-food export applications."
+    },
+    "metaKeywords": {
+      "en": "coriander oleoresin, coriander oleoresin supplier india, coriander oleoresin exporter india, bulk coriander oleoresin, oleoresins / spice oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261128",
+    "slug": "fenugreek-oleoresin",
+    "categorySlug": "oleoresins-spice-oils",
+    "title": {
+      "en": "Fenugreek Oleoresin"
+    },
+    "description": {
+      "en": "Extracted from Rajasthan-sourced fenugreek seed; standardised for flavour and functional-food export applications."
+    },
+    "image": "/Images/top-view-cbd-treatment-still-life.jpeg",
+    "form": "Liquid extract",
+    "hsHeading": "3301.90",
+    "moq": "On request",
+    "metaTitle": {
+      "en": "Fenugreek Oleoresin Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Extracted from Rajasthan-sourced fenugreek seed; standardised for flavour and functional-food export applications."
+    },
+    "metaKeywords": {
+      "en": "fenugreek oleoresin, fenugreek oleoresin supplier india, fenugreek oleoresin exporter india, bulk fenugreek oleoresin, oleoresins / spice oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261129",
+    "slug": "garlic-oleoresin",
+    "categorySlug": "oleoresins-spice-oils",
+    "title": {
+      "en": "Garlic Oleoresin"
+    },
+    "description": {
+      "en": "Extracted from Madhya Pradesh-sourced garlic; allicin-related flavour compounds standardised for flavour-house and processed-food export applications."
+    },
+    "image": "/Images/top-view-cbd-treatment-still-life.jpeg",
+    "form": "Liquid extract",
+    "hsHeading": "3301.90",
+    "moq": "On request",
+    "metaTitle": {
+      "en": "Garlic Oleoresin Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Extracted from Madhya Pradesh-sourced garlic; allicin-related flavour compounds standardised for flavour-house and processed-food export applications."
+    },
+    "metaKeywords": {
+      "en": "garlic oleoresin, garlic oleoresin supplier india, garlic oleoresin exporter india, bulk garlic oleoresin, oleoresins / spice oils"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261130",
+    "slug": "gluten-free-flour",
+    "categorySlug": "speciality-flours",
+    "title": {
+      "en": "Gluten Free Flour (Rice, chickpea/besan, almond and multigrain base options)"
+    },
+    "description": {
+      "en": "Milled from certified gluten-free source grains across multiple Indian regions depending on base; supplied to verified gluten-free specification for EU/UK free-from market export."
+    },
+    "image": "/Images/dietary-fiber-heap-psyllium-husk-powder-scoop-isolated-white.jpeg",
+    "form": "Powder, mesh-graded",
+    "hsHeading": "1102.90 / 1106.20 (base-dependent)",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Gluten Free Flour (Rice, chickpea/besan, almond and multigrain base options) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Milled from certified gluten-free source grains across multiple Indian regions depending on base; supplied to verified gluten-free specification for EU/..."
+    },
+    "metaKeywords": {
+      "en": "gluten free flour, gluten free flour supplier india, gluten free flour exporter india, bulk gluten free flour, speciality flours"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261131",
+    "slug": "high-protein-flour",
+    "categorySlug": "speciality-flours",
+    "title": {
+      "en": "High Protein Flour (Pulse and legume base — chickpea, moong, soy options)"
+    },
+    "description": {
+      "en": "Milled from Madhya Pradesh- and Rajasthan-sourced pulses; protein content graded for bakery, snack and functional-food export reformulation."
+    },
+    "image": "/Images/dietary-fiber-heap-psyllium-husk-powder-scoop-isolated-white.jpeg",
+    "form": "Powder, protein-graded",
+    "hsHeading": "1106.10",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "High Protein Flour (Pulse and legume base — chickpea, moong, soy options) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Milled from Madhya Pradesh- and Rajasthan-sourced pulses; protein content graded for bakery, snack and functional-food export reformulation."
+    },
+    "metaKeywords": {
+      "en": "high protein flour, high protein flour supplier india, high protein flour exporter india, bulk high protein flour, speciality flours"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261132",
+    "slug": "millet-flour",
+    "categorySlug": "speciality-flours",
+    "title": {
+      "en": "Millet Flour (Bajra, jowar, ragi options)"
+    },
+    "description": {
+      "en": "Milled from Rajasthan, Maharashtra and Karnataka-sourced millet — aligned with India's growing millet export push; supplied for bakery and functional-food export."
+    },
+    "image": "/Images/dietary-fiber-heap-psyllium-husk-powder-scoop-isolated-white.jpeg",
+    "form": "Powder, mesh-graded",
+    "hsHeading": "1102.90",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Millet Flour (Bajra, jowar, ragi options) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Milled from Rajasthan, Maharashtra and Karnataka-sourced millet — aligned with India's growing millet export push; supplied for bakery and functional-fo..."
+    },
+    "metaKeywords": {
+      "en": "millet flour, millet flour supplier india, millet flour exporter india, bulk millet flour, speciality flours"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261133",
+    "slug": "guar-gum",
+    "categorySlug": "thickeners",
+    "title": {
+      "en": "Guar Gum"
+    },
+    "description": {
+      "en": "India supplies the majority of the world's guar gum, sourced from Rajasthan and Gujarat; viscosity-graded (cps) for food, pharmaceutical and oilfield-application export."
+    },
+    "image": "/Images/guar gum image.jfif",
+    "form": "Powder, viscosity-graded",
+    "hsHeading": "1302.32",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Guar Gum Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "India supplies the majority of the world's guar gum, sourced from Rajasthan and Gujarat; viscosity-graded (cps) for food, pharmaceutical and oilfield-ap..."
+    },
+    "metaKeywords": {
+      "en": "guar gum, guar gum supplier india, guar gum exporter india, bulk guar gum, thickeners"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  },
+  {
+    "id": "1788449087261134",
+    "slug": "ginger-powder",
+    "categorySlug": "thickeners",
+    "title": {
+      "en": "Ginger Powder (as thickening/functional agent)"
+    },
+    "description": {
+      "en": "Sourced from Kerala and Karnataka; supplied fine-mesh powder for functional-food and beverage thickening/flavouring export applications."
+    },
+    "image": "/Images/dietary-fiber-heap-psyllium-husk-powder-scoop-isolated-white.jpeg",
+    "form": "Powder, fine mesh",
+    "hsHeading": "0910.11",
+    "moq": "From 100 kg",
+    "metaTitle": {
+      "en": "Ginger Powder (as thickening/functional agent) Supplier & Exporter from India | Faar Earth Collective"
+    },
+    "metaDescription": {
+      "en": "Sourced from Kerala and Karnataka; supplied fine-mesh powder for functional-food and beverage thickening/flavouring export applications."
+    },
+    "metaKeywords": {
+      "en": "ginger powder, ginger powder supplier india, ginger powder exporter india, bulk ginger powder, thickeners"
+    },
+    "createdAt": "2026-09-03T15:24:47.260Z"
+  }
+]

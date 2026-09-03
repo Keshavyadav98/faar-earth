@@ -7,15 +7,20 @@ import About from "@/components/About";
 import Enquiry from "@/components/Enquiry";
 import Footer from "@/components/Footer";
 import ScrollToSectionOnLoad from "@/components/ScrollToSectionOnLoad";
+import { getCategories } from "@/lib/categoryStore";
 
-export default function Home() {
+export const dynamic = "force-dynamic";
+
+export default async function Home() {
+  const categories = await getCategories();
+
   return (
     <main>
       <ScrollToSectionOnLoad />
       <Header />
       <Hero />
       <USPStrip />
-      <Categories />
+      <Categories categories={categories} />
       <ProductsGallery />
       <About />
       <Enquiry />
