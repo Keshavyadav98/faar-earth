@@ -9,7 +9,7 @@
     "description": {
       "en": "Sourced primarily from Madhya Pradesh and Chhattisgarh; supplied hulled or unhulled, cleaned and graded, for bakery, snack and functional-food export."
     },
-    "image": "/Images/macro-green-pumpkin-seeds-texture.jpeg",
+    "image": "/Images/pumpkin-seeds.png",
     "form": "Hulled/unhulled, whole",
     "hsHeading": "1207.70",
     "moq": "From 100 kg",
@@ -59,7 +59,7 @@
     "description": {
       "en": "Sourced from Rajasthan and Gujarat; supplied cleaned and sortex-graded for functional beverage, dessert and fibre-supplement export applications."
     },
-    "image": "/Images/basil-edible-seeds-bowl-with-fresh-leaves-close-up.jpeg",
+    "image": "/Images/BasilSeeds.png",
     "form": "Whole, cleaned",
     "hsHeading": "1207.99",
     "moq": "From 100 kg",
@@ -184,7 +184,7 @@
     "description": {
       "en": "Sourced from Telangana, Maharashtra and Andhra Pradesh — India is the world's largest turmeric producer and exporter; supplied whole, cut or powder, curcumin-content graded."
     },
-    "image": "/Images/Spices.jpeg",
+    "image": "/Images/Turmeric.png",
     "form": "Whole/cut/powder",
     "hsHeading": "0910.30",
     "moq": "From 100 kg",
@@ -209,7 +209,7 @@
     "description": {
       "en": "Sourced from Andhra Pradesh and Telangana (India's largest chilli belt); supplied whole, crushed or powder, colour- and pungency-graded (ASTA/SHU) for export."
     },
-    "image": "/Images/Spices.jpeg",
+    "image": "/Images/Chilli .png",
     "form": "Whole/crushed/powder",
     "hsHeading": "0904.21/0904.22",
     "moq": "From 100 kg",
@@ -234,7 +234,7 @@
     "description": {
       "en": "Sourced from Gujarat and Rajasthan — India's dominant cumin belt; supplied whole seed or powder, cleaned and sortex-graded for export."
     },
-    "image": "/Images/Spices.jpeg",
+    "image": "/Images/Cumin.png",
     "form": "Whole/powder",
     "hsHeading": "0909.31",
     "moq": "From 100 kg",
@@ -259,7 +259,7 @@
     "description": {
       "en": "Sourced from Madhya Pradesh and Rajasthan; supplied whole seed or powder, oil-content graded, for culinary seasoning and spice-blend export."
     },
-    "image": "/Images/Spices.jpeg",
+    "image": "/Images/Coriander.png",
     "form": "Whole/powder",
     "hsHeading": "0909.21",
     "moq": "From 100 kg",
@@ -284,7 +284,7 @@
     "description": {
       "en": "Sourced from Kerala and Karnataka; supplied whole, cracked or powder, density- and piperine-graded for culinary and oleoresin-extraction export markets."
     },
-    "image": "/Images/Spices.jpeg",
+    "image": "/Images/Black pepper.png",
     "form": "Whole/cracked/powder",
     "hsHeading": "0904.11",
     "moq": "From 100 kg",
@@ -309,7 +309,7 @@
     "description": {
       "en": "Sourced from Kerala and Tamil Nadu (Western Ghats); supplied whole green pods, bold and small grades, for premium culinary export."
     },
-    "image": "/Images/Spices.jpeg",
+    "image": "/Images/Cardamom.png",
     "form": "Whole pods, graded",
     "hsHeading": "0908.31",
     "moq": "From 100 kg",
@@ -334,7 +334,7 @@
     "description": {
       "en": "Sourced from Gujarat and Rajasthan; supplied whole seed for culinary, herbal-tea and functional-food export applications."
     },
-    "image": "/Images/Spices.jpeg",
+    "image": "/Images/Fennel .png",
     "form": "Whole seed",
     "hsHeading": "0909.61",
     "moq": "From 100 kg",
@@ -359,7 +359,7 @@
     "description": {
       "en": "Sourced from Rajasthan and Madhya Pradesh; supplied whole seed or powder for culinary seasoning and nutraceutical export applications."
     },
-    "image": "/Images/Spices.jpeg",
+    "image": "/Images/Fenugreek .png",
     "form": "Whole/powder",
     "hsHeading": "0910.99",
     "moq": "From 100 kg",
@@ -384,7 +384,7 @@
     "description": {
       "en": "Sourced from Kerala; nutmeg (kernel) and mace (aril) supplied whole or powder, oil-content graded, for premium culinary export."
     },
-    "image": "/Images/Spices.jpeg",
+    "image": "/Images/Nutmeg & Mace .png",
     "form": "Whole/powder",
     "hsHeading": "0908.11 (nutmeg) / 0908.21 (mace)",
     "moq": "From 100 kg",
@@ -409,7 +409,7 @@
     "description": {
       "en": "Cold-pressed from Gujarat- and Rajasthan-sourced sesame seed; supplied unrefined, for culinary and personal-care export applications."
     },
-    "image": "/Images/sesame-oil-raw-black-sesame-seeds-dark-background.jpeg",
+    "image": "/Images/Sesame Oil.png",
     "form": "Cold-pressed, unrefined",
     "hsHeading": "1515.50",
     "moq": "From 100 kg / drums",
@@ -434,7 +434,7 @@
     "description": {
       "en": "Cold-pressed (virgin) from Kerala and Tamil Nadu coconut belts; supplied unrefined for culinary, personal-care and cosmetic export markets."
     },
-    "image": "/Images/almond-oil-bottle-white-background.jpeg",
+    "image": "/Images/Coconut Oil.png",
     "form": "Cold-pressed, virgin",
     "hsHeading": "1513.11",
     "moq": "From 100 kg / drums",
@@ -459,7 +459,7 @@
     "description": {
       "en": "Cold-pressed from Rajasthan- and MP-sourced Nigella sativa seed; supplied unrefined for nutraceutical and personal-care export applications."
     },
-    "image": "/Images/essential-oil-black-cuminselectiv-focusb-nature-food.jpeg",
+    "image": "/Images/Black Seed Oil.png",
     "form": "Cold-pressed, unrefined",
     "hsHeading": "1515.90",
     "moq": "From 100 kg / drums",
@@ -484,7 +484,7 @@
     "description": {
       "en": "Cold-pressed (sweet almond) sourced via Jammu & Kashmir processing; supplied unrefined for personal-care and nutraceutical export markets."
     },
-    "image": "/Images/almond-oil-bottle-white-background.jpeg",
+    "image": "/Images/Almond Oil.png",
     "form": "Cold-pressed, unrefined",
     "hsHeading": "1515.19",
     "moq": "From 100 kg / drums",
@@ -509,7 +509,7 @@
     "description": {
       "en": "Cold-pressed from Himachal Pradesh and Ladakh apricot kernel; supplied unrefined for personal-care and cosmetic export applications."
     },
-    "image": "/Images/apricot-seed-oil-fresh-apricots-brown-wooden-table.jpeg",
+    "image": "/Images/Apricot OIl.png",
     "form": "Cold-pressed, unrefined",
     "hsHeading": "1515.90",
     "moq": "From 100 kg / drums",
@@ -759,7 +759,7 @@
     "description": {
       "en": "Milled from certified gluten-free source grains across multiple Indian regions depending on base; supplied to verified gluten-free specification for EU/UK free-from market export."
     },
-    "image": "/Images/dietary-fiber-heap-psyllium-husk-powder-scoop-isolated-white.jpeg",
+    "image": "/Images/Gluten Free.png",
     "form": "Powder, mesh-graded",
     "hsHeading": "1102.90 / 1106.20 (base-dependent)",
     "moq": "From 100 kg",
@@ -784,7 +784,7 @@
     "description": {
       "en": "Milled from Madhya Pradesh- and Rajasthan-sourced pulses; protein content graded for bakery, snack and functional-food export reformulation."
     },
-    "image": "/Images/dietary-fiber-heap-psyllium-husk-powder-scoop-isolated-white.jpeg",
+    "image": "/Images/High Protein Flour.png",
     "form": "Powder, protein-graded",
     "hsHeading": "1106.10",
     "moq": "From 100 kg",
@@ -809,7 +809,7 @@
     "description": {
       "en": "Milled from Rajasthan, Maharashtra and Karnataka-sourced millet — aligned with India's growing millet export push; supplied for bakery and functional-food export."
     },
-    "image": "/Images/dietary-fiber-heap-psyllium-husk-powder-scoop-isolated-white.jpeg",
+    "image": "/Images/Millet Flour.png",
     "form": "Powder, mesh-graded",
     "hsHeading": "1102.90",
     "moq": "From 100 kg",
@@ -834,7 +834,7 @@
     "description": {
       "en": "India supplies the majority of the world's guar gum, sourced from Rajasthan and Gujarat; viscosity-graded (cps) for food, pharmaceutical and oilfield-application export."
     },
-    "image": "/Images/guar gum image.jfif",
+    "image": "/Images/Guar Gam.png",
     "form": "Powder, viscosity-graded",
     "hsHeading": "1302.32",
     "moq": "From 100 kg",
@@ -859,7 +859,7 @@
     "description": {
       "en": "Sourced from Kerala and Karnataka; supplied fine-mesh powder for functional-food and beverage thickening/flavouring export applications."
     },
-    "image": "/Images/dietary-fiber-heap-psyllium-husk-powder-scoop-isolated-white.jpeg",
+    "image": "/Images/Ginger Powder.png",
     "form": "Powder, fine mesh",
     "hsHeading": "0910.11",
     "moq": "From 100 kg",
