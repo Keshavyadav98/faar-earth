@@ -14,8 +14,7 @@ export default function Header() {
   const [activeHref, setActiveHref] = useState("");
 
   const NAV_LINKS = [
-    { label: t("header.categories"), href: "#categories" },
-    { label: t("header.products"), href: "#products" },
+    { label: t("header.products"), href: "#categories" },
     { label: t("header.aboutUs"), href: "#about" },
     { label: t("header.blog"), href: "/blog" },
     { label: t("header.contactUs"), href: "#enquiry" },
