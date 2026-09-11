@@ -38,13 +38,13 @@ export default function ProductsGallery() {
 
           <div className="text-left">
             <div className="space-y-4 text-[16px] leading-relaxed text-text-gray">
-              <p className="text-center">
+              <p className="text-left">
                 {t("products.description1")}
               </p>
-              <p className="text-center">
+              <p className="text-left">
                 {t("products.description2")}
               </p>
-              <p className="text-center">
+              <p className="text-left">
                 {t("products.description3")}
               </p>
             </div>
