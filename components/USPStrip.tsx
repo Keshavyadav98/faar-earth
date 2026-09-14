@@ -10,7 +10,7 @@ export default function USPStrip() {
     {
       title: t("usp.natural"),
       desc: t("usp.naturalDesc"),
-      icon: '/Images/nest_eco_leaf.png',
+      icon: '/Images/nest-eco-leaf.png',
     },
     {
       title: t("usp.bulk"),
