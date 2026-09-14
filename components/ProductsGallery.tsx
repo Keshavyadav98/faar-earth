@@ -18,7 +18,7 @@ export default function ProductsGallery() {
           <div className="mx-auto flex w-full max-w-[280px]  items-center gap-3">
             <span className="block h-px w-full bg-primary-green" />
             <Image
-              src="/Images/lineLeaf.png"
+              src="/Images/line-leaf.png"
               alt="leaf"
               width={24}
               height={24}
