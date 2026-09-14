@@ -43,6 +43,7 @@ export default function About() {
     { src: "/Images/HACCP.webp", alt: "HACCP" },
     { src: "/Images/green-iso-22000-certified-stamp-260nw-2300012365.webp", alt: "ISO 22000 Certified" },
     { src: "/Images/bc-kosher-certification-services-500x500.webp", alt: "BC Kosher Certified" },
+    { src: "/Images/Firefly_RemoveBackground.png", alt: "Halal Certified" },
   ];
 
   return (
