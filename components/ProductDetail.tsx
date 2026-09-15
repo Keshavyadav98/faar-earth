@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import type { Product } from "@/lib/productStore";
 import type { ProductCategory } from "@/lib/categoryStore";
 import { localize } from "@/lib/locale";
+import ProductEnquiryModal from "@/components/ProductEnquiryModal";
 
 export default function ProductDetail({
   product,
@@ -22,6 +23,7 @@ export default function ProductDetail({
     { label: "Form", value: product.form },
     { label: "HS Heading", value: product.hsHeading },
     { label: "MOQ", value: product.moq },
+    { label: "Lead Time", value: "2-3 weeks" },
   ].filter((s) => s.value);
 
   return (
@@ -64,12 +66,7 @@ export default function ProductDetail({
           )}
 
           <div className="mt-8">
-            <a
-              href="/#enquiry"
-              className="inline-flex items-center gap-2 rounded-btn bg-primary-green px-7 py-3.5 text-[16px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green"
-            >
-              Enquire About This Product <span aria-hidden>→</span>
-            </a>
+            <ProductEnquiryModal productName={title} />
           </div>
         </div>
       </div>

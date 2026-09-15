@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import USPStrip from "@/components/USPStrip";
 import Categories from "@/components/Categories";
 import ProductsGallery from "@/components/ProductsGallery";
+import Certifications from "@/components/Certifications";
+import HowToOrder from "@/components/HowToOrder";
 import About from "@/components/About";
 import Enquiry from "@/components/Enquiry";
 import Footer from "@/components/Footer";
@@ -22,6 +24,8 @@ export default async function Home() {
       <USPStrip />
       <Categories categories={categories} />
       <ProductsGallery />
+      <Certifications />
+      <HowToOrder />
       <About />
       <Enquiry />
       <Footer />

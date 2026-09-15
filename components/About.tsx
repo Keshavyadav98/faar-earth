@@ -36,16 +36,6 @@ export default function About() {
     },
   ];
 
-  const CERTIFICATIONS = [
-    { src: "/Images/Indian_Organic_Logo.png", alt: "India Organic" },
-    { src: "/Images/fssai-logo-.jpg", alt: "FSSAI" },
-    { src: "/Images/EU organic.jfif", alt: "EU Organic" },
-    { src: "/Images/HACCP.webp", alt: "HACCP" },
-    { src: "/Images/green-iso-22000-certified-stamp-260nw-2300012365.webp", alt: "ISO 22000 Certified" },
-    { src: "/Images/bc-kosher-certification-services-500x500.webp", alt: "BC Kosher Certified" },
-    { src: "/Images/Firefly_RemoveBackground.png", alt: "Halal Certified" },
-  ];
-
   return (
     <section id="about" className="section-pad bg-beige">
       <div className="container-xl grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
@@ -94,26 +84,6 @@ export default function About() {
             alt="Faar Earth natural lifestyle setting with essential oil bottles and leaves"
             className="h-full w-full object-cover"
           />
-        </div>
-      </div>
-
-      <div className="container-xl mt-14 text-center">
-        <p className="text-[14px] font-medium uppercase tracking-wide text-[#404C3E]">
-          {t("about.certifications")}
-        </p>
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-10">
-          {CERTIFICATIONS.map((cert) => (
-            <div
-              key={cert.src}
-              className="flex h-28 w-28 items-center justify-center rounded-full bg-white shadow-card"
-            >
-              <img
-                src={cert.src}
-                alt={cert.alt}
-                className="h-20 w-20 object-contain"
-              />
-            </div>
-          ))}
         </div>
       </div>
     </section>
