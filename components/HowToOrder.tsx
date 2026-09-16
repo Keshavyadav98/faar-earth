@@ -25,16 +25,14 @@ export default function HowToOrder() {
   return (
     <section id="how-to-order" className="section-pad bg-beige">
       <div className="container-xl">
-        <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-          <div>
-            <span className="eyebrow">{t("howToOrder.eyebrow")}</span>
-            <h2 className="mt-2 font-heading text-h3 md:text-h2 text-[#404C3E]">
-              {t("howToOrder.titleLine1")}
-              <br />
-              <span className="italic">{t("howToOrder.titleLine2")}</span>
-            </h2>
-          </div>
-          <p className="max-w-sm text-[15px] leading-relaxed text-text-gray lg:text-right">
+        <div>
+          <span className="eyebrow">{t("howToOrder.eyebrow")}</span>
+          <h2 className="mt-2 font-heading text-h3 md:text-h2 text-[#404C3E]">
+            {t("howToOrder.titleLine1")}
+            <br />
+            <span className="italic">{t("howToOrder.titleLine2")}</span>
+          </h2>
+          <p className="mt-5 max-w-2xl text-[15px] leading-relaxed text-text-gray">
             {t("howToOrder.intro")}
           </p>
         </div>
