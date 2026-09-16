@@ -54,7 +54,7 @@ export default function Header() {
       }`}
     >
       <div className="bg-primary-green py-2 text-[13px] text-white">
-        <div className="container-xl flex flex-col items-center justify-center gap-2 text-center text-sm md:flex-row md:justify-between md:text-[14px] md:text-left">
+        <div className="container-xl relative flex flex-col items-center justify-center gap-2 text-center text-sm md:text-[14px]">
           <div className="flex flex-col items-center gap-2 md:flex-row md:gap-6">
             <span className="text-sm font-medium text-white">
               +91 8700879647
@@ -64,7 +64,7 @@ export default function Header() {
             </span>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 md:absolute md:right-0 md:top-1/2 md:-translate-y-1/2">
             <a
               href="https://instagram.com/faar.earth"
               target="_blank"
