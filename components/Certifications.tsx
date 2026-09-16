@@ -18,15 +18,16 @@ export default function Certifications() {
 
   return (
     <section id="certifications" className="section-pad bg-beige">
-      <div className="container-xl text-center">
-        <p className="text-[14px] font-medium uppercase tracking-wide text-[#404C3E]">
-          {t("about.certifications")}
-        </p>
-        <p className="mx-auto mt-5 max-w-3xl text-[15px] leading-relaxed text-text-gray">
+      <div className="container-xl text-left">
+        <span className="eyebrow">{t("certifications.eyebrow")}</span>
+        <h2 className="mt-2 font-heading text-h3 md:text-h2 text-[#404C3E]">
+          {t("certifications.heading")}
+        </h2>
+        <p className="mt-5 max-w-3xl text-[15px] leading-relaxed text-text-gray">
           {t("certifications.intro")}
         </p>
 
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-10">
+        <div className="mt-10 flex flex-wrap items-center gap-10">
           {CERTIFICATIONS.map((cert) => (
             <div
               key={cert.src}
@@ -41,7 +42,7 @@ export default function Certifications() {
           ))}
         </div>
 
-        <div className="mx-auto mt-14 grid max-w-4xl grid-cols-1 gap-10 text-left sm:grid-cols-2">
+        <div className="mt-14 grid max-w-4xl grid-cols-1 gap-10 text-left sm:grid-cols-2">
           <div>
             <h3 className="font-heading text-[17px] font-semibold leading-snug text-[#404C3E]">
               {t("certifications.standardTitle")}

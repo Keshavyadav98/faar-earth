@@ -16,18 +16,19 @@ const resources = {
   it: { translation: it },
 };
 
-// Detect user's language preference
-const getInitialLanguage = () => {
-  if (typeof window !== 'undefined') {
-    const storedLanguage = localStorage.getItem('preferredLanguage');
-    if (storedLanguage) return storedLanguage;
-    
-    // Browser language detection
-    const browserLanguage = navigator.language.split('-')[0];
-    if (['en', 'de', 'nl', 'fr', 'es', 'it'].includes(browserLanguage)) {
-      return browserLanguage;
-    }
-  }
+export const SUPPORTED_LANGUAGES = ['en', 'de', 'nl', 'fr', 'es', 'it'];
+
+// Detect user's preferred language — only called after mount (client-side),
+// never during init, so the server and the first client render always match ('en').
+export const getPreferredLanguage = () => {
+  if (typeof window === 'undefined') return 'en';
+
+  const storedLanguage = localStorage.getItem('preferredLanguage');
+  if (storedLanguage && SUPPORTED_LANGUAGES.includes(storedLanguage)) return storedLanguage;
+
+  const browserLanguage = navigator.language.split('-')[0];
+  if (SUPPORTED_LANGUAGES.includes(browserLanguage)) return browserLanguage;
+
   return 'en';
 };
 
@@ -35,7 +36,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: typeof window !== 'undefined' ? getInitialLanguage() : 'en',
+    lng: 'en',
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false,

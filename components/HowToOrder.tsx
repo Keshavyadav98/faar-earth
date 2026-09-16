@@ -10,62 +10,6 @@ function ArrowIcon() {
   );
 }
 
-const ICON_PROPS = {
-  width: 40,
-  height: 40,
-  viewBox: "0 0 24 24",
-  fill: "none",
-  stroke: "#404C3E",
-  strokeWidth: 1.4,
-  strokeLinecap: "round" as const,
-  strokeLinejoin: "round" as const,
-};
-
-const STEP_ICONS = [
-  // Enquire
-  <svg key="enquire" {...ICON_PROPS}>
-    <path d="M4 5h13a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-6l-4 3v-3H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" />
-    <circle cx="8" cy="10.5" r="0.6" fill="#404C3E" stroke="none" />
-    <circle cx="11.5" cy="10.5" r="0.6" fill="#404C3E" stroke="none" />
-    <circle cx="15" cy="10.5" r="0.6" fill="#404C3E" stroke="none" />
-  </svg>,
-  // Sample & Spec Sheet
-  <svg key="sample" {...ICON_PROPS}>
-    <path d="M4 2h7l4 4v9H4V2z" />
-    <path d="M11 2v4h4" />
-    <path d="M6.5 9.5h4M6.5 12h3" />
-    <path d="M14 13.5l3.2 1.8v3.6L14 20.7l-3.2-1.8v-3.6L14 13.5z" />
-    <path d="M14 13.5v3.7M14 17.2l-3.2-1.7M14 17.2l3.2-1.7" />
-  </svg>,
-  // Confirm Order
-  <svg key="confirm" {...ICON_PROPS}>
-    <path d="M2.5 10.5l3.8-2.6 3 1.8 2.2-1.1 2.2 1.1 3-1.8 3.8 2.6" />
-    <path d="M6.3 7.9l3 5.6 2.2-1.2 2 1.2 3-5.6" />
-    <path d="M9.3 13.5l1.8 1.8 1.8-1.8" />
-  </svg>,
-  // Documentation Prepared
-  <svg key="docs" {...ICON_PROPS}>
-    <path d="M5 2h8l4 4v14H5V2z" />
-    <path d="M13 2v4h4" />
-    <path d="M8 11h5M8 14h3" />
-    <circle cx="16.5" cy="17.5" r="3.1" />
-    <path d="M15 17.5l1.1 1.1 2-2.1" />
-  </svg>,
-  // Production & Dispatch
-  <svg key="production" {...ICON_PROPS}>
-    <path d="M3 21V11l5 3v-3l5 3V9l5 3v9H3z" />
-    <path d="M17 9V5h2v2" />
-    <path d="M6.5 21v-4M10.5 21v-4M14.5 21v-4" />
-  </svg>,
-  // Shipping & Customs Support
-  <svg key="shipping" {...ICON_PROPS}>
-    <path d="M12 3v6" />
-    <path d="M9 5h6" />
-    <path d="M5 12h14l-2 6H7l-2-6z" />
-    <path d="M2.5 17.5c1.5 1.4 3 1.4 4.5 0s3-1.4 4.5 0 3 1.4 4.5 0 3-1.4 4.5 0" />
-  </svg>,
-];
-
 export default function HowToOrder() {
   const { t } = useTranslation();
 
@@ -95,29 +39,27 @@ export default function HowToOrder() {
           </p>
         </div>
 
-        <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+        <div className="mt-14 grid grid-cols-1 gap-x-5 gap-y-8 sm:grid-cols-2 lg:grid-cols-6">
           {STEPS.map((step, i) => (
             <div
               key={step.title}
-              className="relative rounded-xl border border-divider bg-white/50 p-5"
+              className="relative rounded-lg border-b-4 border-primary-green bg-white p-5 shadow-card"
             >
-              <div className="flex items-center justify-between">
-                <span className="text-sm font-bold tracking-wide text-[#404C3E]">
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-                {i < STEPS.length - 1 && (
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary-green text-white">
-                    <ArrowIcon />
-                  </span>
-                )}
-              </div>
-              <div className="mt-4 flex h-10 items-center">{STEP_ICONS[i]}</div>
-              <h3 className="mt-4 font-heading text-[19px] font-semibold text-[#404C3E]">
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary-green/10 text-[13px] font-bold text-primary-green">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <h3 className="mt-3 font-heading text-[16px] font-semibold text-primary-green">
                 {step.title}
               </h3>
-              <p className="mt-2 text-[14px] leading-relaxed text-text-gray">
+              <p className="mt-2 text-[13px] leading-relaxed text-text-gray">
                 {step.desc}
               </p>
+
+              {i < STEPS.length - 1 && (
+                <span className="absolute right-[-14px] top-1/2 z-10 hidden h-7 w-7 -translate-y-1/2 items-center justify-center rounded-full bg-primary-green text-white shadow-card lg:flex">
+                  <ArrowIcon />
+                </span>
+              )}
             </div>
           ))}
         </div>

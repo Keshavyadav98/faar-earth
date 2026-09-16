@@ -2,6 +2,8 @@
   "header": {
     "categories": "Categories",
     "products": "Products",
+    "compliances": "Compliances",
+    "howToOrder": "How To Order",
     "aboutUs": "About Us",
     "contactUs": "Contact Us",
     "blog": "Blog"
@@ -84,6 +86,8 @@
     "certifications": "Certifications held by our partner Manufacturers and Processors"
   },
   "certifications": {
+    "eyebrow": "Trust & Compliance",
+    "heading": "Compliances and Certifications",
     "intro": "As an export partner, Faar Earth Collective sources exclusively from manufacturers holding the certifications relevant to each product and destination market. Every shipment is backed by the manufacturer's compliance credentials, verified and matched to your country's import requirements.",
     "standardTitle": "Standard documentation Faar Earth provides on every shipment",
     "standard1": "Certificate of Analysis (COA)",

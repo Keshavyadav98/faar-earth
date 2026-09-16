@@ -6,6 +6,8 @@ import { useEffect } from "react";
 const PATH_TO_ID: Record<string, string> = {
   "/categories": "categories",
   "/products": "products",
+  "/certifications": "certifications",
+  "/how-to-order": "how-to-order",
   "/about": "about",
   "/enquiry": "enquiry",
 };
