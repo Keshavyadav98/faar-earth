@@ -5,6 +5,16 @@ import { deleteBlogImage, saveBlogImage } from "@/lib/blogImages";
 import { isAdminRequestAuthenticated } from "@/lib/adminAuth";
 import { parseLocalizedField } from "@/lib/locale";
 
+function parseJsonArray<T>(raw: FormDataEntryValue | null): T[] {
+  if (typeof raw !== "string" || !raw.trim()) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
 export async function PUT(req: NextRequest, { params }: { params: Promise<{ slug: string }> }) {
   if (!isAdminRequestAuthenticated(req)) {
     return NextResponse.json({ error: "Unauthorized." }, { status: 401 });
@@ -27,6 +37,17 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ slug
     const formSpec = String(form.get("form") || "").trim();
     const hsHeading = String(form.get("hsHeading") || "").trim();
     const moq = String(form.get("moq") || "").trim();
+    const primaryKeyword = String(form.get("primaryKeyword") || "").trim();
+    const h1 = String(form.get("h1") || "").trim();
+    const botanicalName = String(form.get("botanicalName") || "").trim();
+    const origin = String(form.get("origin") || "").trim();
+    const grading = String(form.get("grading") || "").trim();
+    const packaging = String(form.get("packaging") || "").trim();
+    const applications = parseJsonArray<string>(form.get("applications")).filter(Boolean);
+    const whySourceFromUs = parseJsonArray<string>(form.get("whySourceFromUs")).filter(Boolean);
+    const faqs = parseJsonArray<{ question: string; answer: string }>(form.get("faqs")).filter(
+      (f) => f && f.question && f.answer
+    );
     const removeImage = form.get("removeImage") === "true";
     const image = form.get("image");
 
@@ -62,6 +83,15 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ slug
       metaTitle,
       metaDescription,
       metaKeywords,
+      primaryKeyword,
+      h1,
+      botanicalName,
+      origin,
+      grading,
+      packaging,
+      applications,
+      whySourceFromUs,
+      faqs,
       image: imagePath,
     });
 

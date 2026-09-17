@@ -19,7 +19,6 @@ export default function Header() {
     { label: t("header.howToOrder"), href: "#how-to-order" },
     { label: t("header.aboutUs"), href: "#about" },
     { label: t("header.blog"), href: "/blog" },
-    { label: t("header.contactUs"), href: "#enquiry" },
   ];
 
   useEffect(() => {

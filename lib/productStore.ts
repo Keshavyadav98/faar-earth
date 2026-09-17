@@ -2,6 +2,11 @@ import { promises as fs } from "fs";
 import path from "path";
 import type { LocalizedText } from "./locale";
 
+export type FaqItem = {
+  question: string;
+  answer: string;
+};
+
 export type Product = {
   id: string;
   slug: string;
@@ -17,6 +22,16 @@ export type Product = {
   metaKeywords: LocalizedText;
   createdAt: string;
   updatedAt?: string;
+  // SEO / content-brief fields
+  primaryKeyword?: string;
+  h1?: string;
+  botanicalName?: string;
+  origin?: string;
+  grading?: string;
+  packaging?: string;
+  applications?: string[];
+  whySourceFromUs?: string[];
+  faqs?: FaqItem[];
 };
 
 const STORE_PATH = path.join(process.cwd(), "data", "products-store.json");

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { Product } from "@/lib/productStore";
+import type { FaqItem, Product } from "@/lib/productStore";
 import type { ProductCategory } from "@/lib/categoryStore";
 import type { Locale, LocalizedText } from "@/lib/locale";
 import LocaleTabs from "./LocaleTabs";
@@ -17,6 +17,15 @@ const EMPTY_FORM: {
   metaTitle: LocalizedText;
   metaDescription: LocalizedText;
   metaKeywords: LocalizedText;
+  primaryKeyword: string;
+  h1: string;
+  botanicalName: string;
+  origin: string;
+  grading: string;
+  packaging: string;
+  applications: string[];
+  whySourceFromUs: string[];
+  faqs: FaqItem[];
 } = {
   title: {},
   description: {},
@@ -27,7 +36,122 @@ const EMPTY_FORM: {
   metaTitle: {},
   metaDescription: {},
   metaKeywords: {},
+  primaryKeyword: "",
+  h1: "",
+  botanicalName: "",
+  origin: "",
+  grading: "",
+  packaging: "",
+  applications: [],
+  whySourceFromUs: [],
+  faqs: [],
 };
+
+const inputClass =
+  "w-full rounded-input border border-border-gray px-3 py-2.5 text-[15px] outline-none focus:border-primary-green";
+
+function TextListEditor({
+  label,
+  hint,
+  items,
+  onChange,
+}: {
+  label: string;
+  hint?: string;
+  items: string[];
+  onChange: (next: string[]) => void;
+}) {
+  return (
+    <div className="sm:col-span-2">
+      <label className="mb-1 block text-[13px] font-medium text-text-gray">{label}</label>
+      {hint && <p className="mb-2 text-[12px] text-text-gray/70">{hint}</p>}
+      <div className="flex flex-col gap-2">
+        {items.map((item, i) => (
+          <div key={i} className="flex gap-2">
+            <input
+              type="text"
+              value={item}
+              onChange={(e) => {
+                const next = [...items];
+                next[i] = e.target.value;
+                onChange(next);
+              }}
+              className={inputClass}
+            />
+            <button
+              type="button"
+              onClick={() => onChange(items.filter((_, idx) => idx !== i))}
+              className="shrink-0 rounded-btn border border-red-200 px-3 text-[13px] font-medium text-red-600 transition-colors hover:bg-red-50"
+            >
+              Remove
+            </button>
+          </div>
+        ))}
+      </div>
+      <button
+        type="button"
+        onClick={() => onChange([...items, ""])}
+        className="mt-2 rounded-btn border border-border-gray px-4 py-2 text-[13px] font-medium text-text-gray transition-colors hover:bg-beige"
+      >
+        + Add item
+      </button>
+    </div>
+  );
+}
+
+function FaqEditor({ items, onChange }: { items: FaqItem[]; onChange: (next: FaqItem[]) => void }) {
+  return (
+    <div className="sm:col-span-2">
+      <label className="mb-1 block text-[13px] font-medium text-text-gray">Frequently Asked Questions</label>
+      <div className="flex flex-col gap-3">
+        {items.map((item, i) => (
+          <div key={i} className="rounded-input border border-border-gray p-3">
+            <div className="flex items-start gap-2">
+              <div className="flex-1 space-y-2">
+                <input
+                  type="text"
+                  value={item.question}
+                  onChange={(e) => {
+                    const next = [...items];
+                    next[i] = { ...next[i], question: e.target.value };
+                    onChange(next);
+                  }}
+                  placeholder="Question"
+                  className={inputClass}
+                />
+                <textarea
+                  value={item.answer}
+                  onChange={(e) => {
+                    const next = [...items];
+                    next[i] = { ...next[i], answer: e.target.value };
+                    onChange(next);
+                  }}
+                  placeholder="Answer"
+                  rows={2}
+                  className={inputClass}
+                />
+              </div>
+              <button
+                type="button"
+                onClick={() => onChange(items.filter((_, idx) => idx !== i))}
+                className="shrink-0 rounded-btn border border-red-200 px-3 py-2 text-[13px] font-medium text-red-600 transition-colors hover:bg-red-50"
+              >
+                Remove
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+      <button
+        type="button"
+        onClick={() => onChange([...items, { question: "", answer: "" }])}
+        className="mt-2 rounded-btn border border-border-gray px-4 py-2 text-[13px] font-medium text-text-gray transition-colors hover:bg-beige"
+      >
+        + Add question
+      </button>
+    </div>
+  );
+}
 
 export default function AdminProductDashboard() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -84,6 +208,15 @@ export default function AdminProductDashboard() {
       metaTitle: p.metaTitle,
       metaDescription: p.metaDescription,
       metaKeywords: p.metaKeywords,
+      primaryKeyword: p.primaryKeyword || "",
+      h1: p.h1 || "",
+      botanicalName: p.botanicalName || "",
+      origin: p.origin || "",
+      grading: p.grading || "",
+      packaging: p.packaging || "",
+      applications: p.applications || [],
+      whySourceFromUs: p.whySourceFromUs || [],
+      faqs: p.faqs || [],
     });
     setLocale("en");
     setImageFile(null);
@@ -134,6 +267,18 @@ export default function AdminProductDashboard() {
     fd.set("metaTitle", JSON.stringify(form.metaTitle));
     fd.set("metaDescription", JSON.stringify(form.metaDescription));
     fd.set("metaKeywords", JSON.stringify(form.metaKeywords));
+    fd.set("primaryKeyword", form.primaryKeyword);
+    fd.set("h1", form.h1);
+    fd.set("botanicalName", form.botanicalName);
+    fd.set("origin", form.origin);
+    fd.set("grading", form.grading);
+    fd.set("packaging", form.packaging);
+    fd.set("applications", JSON.stringify(form.applications.filter((a) => a.trim())));
+    fd.set("whySourceFromUs", JSON.stringify(form.whySourceFromUs.filter((a) => a.trim())));
+    fd.set(
+      "faqs",
+      JSON.stringify(form.faqs.filter((f) => f.question.trim() && f.answer.trim()))
+    );
     if (imageFile) fd.set("image", imageFile);
     if (editingSlug && removeImage) fd.set("removeImage", "true");
 
@@ -264,6 +409,98 @@ export default function AdminProductDashboard() {
               className="w-full rounded-input border border-border-gray px-3 py-2.5 text-[15px] outline-none focus:border-primary-green"
             />
           </div>
+
+          <div>
+            <label className="mb-1 block text-[13px] font-medium text-text-gray">Botanical Name</label>
+            <input
+              type="text"
+              value={form.botanicalName}
+              onChange={(e) => setForm((f) => ({ ...f, botanicalName: e.target.value }))}
+              placeholder="e.g. Cucurbita pepo"
+              className={inputClass}
+            />
+          </div>
+
+          <div>
+            <label className="mb-1 block text-[13px] font-medium text-text-gray">Origin</label>
+            <input
+              type="text"
+              value={form.origin}
+              onChange={(e) => setForm((f) => ({ ...f, origin: e.target.value }))}
+              placeholder="e.g. Madhya Pradesh, Chhattisgarh"
+              className={inputClass}
+            />
+          </div>
+
+          <div>
+            <label className="mb-1 block text-[13px] font-medium text-text-gray">Grading</label>
+            <input
+              type="text"
+              value={form.grading}
+              onChange={(e) => setForm((f) => ({ ...f, grading: e.target.value }))}
+              placeholder="e.g. Purity, moisture, size"
+              className={inputClass}
+            />
+          </div>
+
+          <div>
+            <label className="mb-1 block text-[13px] font-medium text-text-gray">Packaging</label>
+            <input
+              type="text"
+              value={form.packaging}
+              onChange={(e) => setForm((f) => ({ ...f, packaging: e.target.value }))}
+              placeholder="e.g. Food-grade bulk, export-packed"
+              className={inputClass}
+            />
+          </div>
+
+          <div className="sm:col-span-2">
+            <hr className="border-border-gray" />
+          </div>
+
+          <div>
+            <label className="mb-1 block text-[13px] font-medium text-text-gray">
+              Primary Keyword <span className="text-text-gray/60">(internal SEO reference, not shown on page)</span>
+            </label>
+            <input
+              type="text"
+              value={form.primaryKeyword}
+              onChange={(e) => setForm((f) => ({ ...f, primaryKeyword: e.target.value }))}
+              placeholder="e.g. pumpkin seeds exporter India"
+              className={inputClass}
+            />
+          </div>
+
+          <div>
+            <label className="mb-1 block text-[13px] font-medium text-text-gray">
+              H1 <span className="text-text-gray/60">(falls back to Title if left blank)</span>
+            </label>
+            <input
+              type="text"
+              value={form.h1}
+              onChange={(e) => setForm((f) => ({ ...f, h1: e.target.value }))}
+              placeholder="e.g. Pumpkin Seeds Exporter India — Hulled & Unhulled Bulk Supply"
+              className={inputClass}
+            />
+          </div>
+
+          <TextListEditor
+            label="Applications"
+            hint="One line per application, e.g. “Bakery — breads, granola, health bars, toppings”"
+            items={form.applications}
+            onChange={(next) => setForm((f) => ({ ...f, applications: next }))}
+          />
+
+          <TextListEditor
+            label="Why Source From Faar Earth"
+            items={form.whySourceFromUs}
+            onChange={(next) => setForm((f) => ({ ...f, whySourceFromUs: next }))}
+          />
+
+          <FaqEditor
+            items={form.faqs}
+            onChange={(next) => setForm((f) => ({ ...f, faqs: next }))}
+          />
 
           <div className="sm:col-span-2">
             <hr className="border-border-gray" />
