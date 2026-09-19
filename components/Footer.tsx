@@ -46,6 +46,9 @@ export default function Footer() {
               </li>
             ))}
           </ul>
+          <p className="mt-3 text-center text-[13px] text-text-gray sm:text-left">
+            IEC: AAHCF0698K
+          </p>
         </div>
 
         <div className="hidden lg:block text-center sm:text-left">
