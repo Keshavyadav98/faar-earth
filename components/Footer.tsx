@@ -22,17 +22,20 @@ export default function Footer() {
   const QUICK_LINKS = [
     { label: t("footer.categories"), href: "#categories" },
     { label: t("footer.products"), href: "/products" },
-    { label: t("footer.about"), href: "#about" },
-    { label: t("footer.contact"), href: "#enquiry" },
+    { label: t("header.aboutUs"), href: "#about" },
+    { label: t("footer.contactUs"), href: "#enquiry" },
   ];
 
   return (
     <footer className="bg-beige">
       <div className="container-xl grid grid-cols-1 gap-10 py-16 sm:grid-cols-2 lg:grid-cols-4">
-        <div className="text-center sm:text-left">
-          <a href="#top" onClick={(e) => scrollToSection(e, "#top")} className="inline-flex items-center justify-center sm:justify-start">
+        <div className="text-center">
+          <a href="#top" onClick={(e) => scrollToSection(e, "#top")} className="inline-flex items-center justify-center">
             <Image src="/Images/faarEarthLogo.png" alt="Faar Earth Logo" width={80} height={80} className="h-auto w-[480px] object-contain" />
           </a>
+          <p className="mt-3 text-center text-[13px] text-text-gray">
+            IEC: AAHCF0698K
+          </p>
         </div>
 
         <div className="hidden lg:block text-center sm:text-left">
@@ -46,9 +49,6 @@ export default function Footer() {
               </li>
             ))}
           </ul>
-          <p className="mt-3 text-center text-[13px] text-text-gray sm:text-left">
-            IEC: AAHCF0698K
-          </p>
         </div>
 
         <div className="hidden lg:block text-center sm:text-left">
