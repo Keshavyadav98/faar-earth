@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import { appendEnquiryRow } from "@/lib/googleSheets";
 
 export async function POST(req: NextRequest) {
   try {
@@ -12,6 +13,18 @@ export async function POST(req: NextRequest) {
         { status: 400 }
       );
     }
+
+    await appendEnquiryRow([
+      new Date().toISOString(),
+      "Compliance Documentation Request",
+      fullName,
+      companyName,
+      businessEmail,
+      "",
+      productInterest,
+      role,
+      country,
+    ]);
 
     const {
       SMTP_HOST,

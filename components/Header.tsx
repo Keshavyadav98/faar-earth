@@ -53,16 +53,19 @@ export default function Header() {
       }`}
     >
       <div className="bg-primary-green py-2 text-[13px] text-white">
-        <div className="container-xl flex flex-col items-center justify-center gap-2 text-center text-sm md:flex-row md:gap-6 md:text-[14px]">
-          <span className="text-sm font-medium text-white">
-            +91 8700879647
-          </span>
+        <div className="container-xl flex flex-col items-center justify-center gap-2 text-center text-sm md:flex-row md:text-[14px]">
+          <div className="hidden md:block md:w-24" aria-hidden />
 
-          <span className="flex items-center gap-5">
+          <div className="flex flex-1 flex-col items-center gap-2 md:flex-row md:justify-center md:gap-6">
+            <span className="text-sm font-medium text-white">
+              +91 8700879647
+            </span>
             <span className="border-b border-white/40 text-sm font-medium text-white">
               connect@faarearth.com
             </span>
+          </div>
 
+          <div className="flex items-center gap-4 md:w-24 md:justify-end">
             <a
               href="https://instagram.com/faar.earth"
               target="_blank"
@@ -87,11 +90,11 @@ export default function Header() {
                 <path d="M6.94 8.5H3.56V20h3.38V8.5zM5.25 3.5a1.96 1.96 0 100 3.92 1.96 1.96 0 000-3.92zM20.44 20h-3.37v-5.6c0-1.34-.03-3.06-1.86-3.06-1.87 0-2.16 1.46-2.16 2.96V20H9.68V8.5h3.24v1.57h.05c.45-.85 1.56-1.75 3.2-1.75 3.42 0 4.05 2.25 4.05 5.18V20z" />
               </svg>
             </a>
-          </span>
+          </div>
         </div>
       </div>
       <div className="container-xl flex h-20 items-center justify-between">
-        <a href="#top" onClick={(e) => scrollToSection(e, "#top")} className="flex items-center gap-2">
+        <a href="#top" onClick={(e) => scrollToSection(e, "#top")} className="-ml-5 flex items-center gap-2 sm:ml-0">
          <Image src='/Images/faarEarthLogo.png' alt="Faar Earth Logo" width={180} height={40} />
         </a>
 
