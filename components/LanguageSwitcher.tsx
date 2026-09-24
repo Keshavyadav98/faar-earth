@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { persistPreferredLanguage } from "@/lib/i18n";
 
 export default function LanguageSwitcher() {
   const { i18n, t } = useTranslation();
@@ -25,7 +26,7 @@ export default function LanguageSwitcher() {
 
   const handleLanguageChange = (code: string) => {
     i18n.changeLanguage(code);
-    localStorage.setItem("preferredLanguage", code);
+    persistPreferredLanguage(code);
     setIsOpen(false);
   };
 

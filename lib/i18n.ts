@@ -18,12 +18,37 @@ const resources = {
 
 export const SUPPORTED_LANGUAGES = ['en', 'de', 'nl', 'fr', 'es', 'it'];
 
+const LANGUAGE_COOKIE = 'language';
+const LANGUAGE_STORAGE_KEY = 'preferredLanguage';
+
+function getCookie(name: string): string | undefined {
+  return document.cookie
+    .split('; ')
+    .find((row) => row.startsWith(`${name}=`))
+    ?.split('=')[1];
+}
+
+// Persist the chosen language to both a cookie (sent to the server, survives
+// longer / independent of localStorage) and localStorage (existing fallback).
+export function persistPreferredLanguage(lang: string) {
+  if (typeof window === 'undefined') return;
+  document.cookie = `${LANGUAGE_COOKIE}=${lang}; path=/; max-age=31536000`;
+  try {
+    localStorage.setItem(LANGUAGE_STORAGE_KEY, lang);
+  } catch {
+    // ignore (e.g. private browsing)
+  }
+}
+
 // Detect user's preferred language — only called after mount (client-side),
 // never during init, so the server and the first client render always match ('en').
 export const getPreferredLanguage = () => {
   if (typeof window === 'undefined') return 'en';
 
-  const storedLanguage = localStorage.getItem('preferredLanguage');
+  const cookieLanguage = getCookie(LANGUAGE_COOKIE);
+  if (cookieLanguage && SUPPORTED_LANGUAGES.includes(cookieLanguage)) return cookieLanguage;
+
+  const storedLanguage = localStorage.getItem(LANGUAGE_STORAGE_KEY);
   if (storedLanguage && SUPPORTED_LANGUAGES.includes(storedLanguage)) return storedLanguage;
 
   const browserLanguage = navigator.language.split('-')[0];
