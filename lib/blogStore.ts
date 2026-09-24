@@ -1,12 +1,13 @@
 import { promises as fs } from "fs";
 import path from "path";
+import type { LocalizedText } from "./locale";
 
 export type DynamicBlogPost = {
   id: string;
   slug: string;
-  title: string;
-  description: string;
-  content: string;
+  title: LocalizedText;
+  description: LocalizedText;
+  content: LocalizedText;
   thumbnail: string;
   author: string;
   date: string;

@@ -27,8 +27,8 @@ export async function generateMetadata({
   const dynamicPost = await findDynamicBlogBySlug(slug);
   if (dynamicPost) {
     return {
-      title: `${dynamicPost.title} | Faar Earth Collective`,
-      description: dynamicPost.description,
+      title: `${dynamicPost.title.en} | Faar Earth Collective`,
+      description: dynamicPost.description.en,
     };
   }
 

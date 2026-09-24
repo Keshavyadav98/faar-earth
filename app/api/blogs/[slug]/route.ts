@@ -6,6 +6,7 @@ import {
 } from "@/lib/blogStore";
 import { deleteBlogImage, saveBlogImage } from "@/lib/blogImages";
 import { isAdminRequestAuthenticated } from "@/lib/adminAuth";
+import { parseLocalizedField, LOCALES } from "@/lib/locale";
 
 export async function PUT(req: NextRequest, { params }: { params: Promise<{ slug: string }> }) {
   if (!isAdminRequestAuthenticated(req)) {
@@ -20,20 +21,26 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ slug
     }
 
     const form = await req.formData();
-    const title = String(form.get("title") || "").trim();
-    const content = String(form.get("content") || "").trim();
-    const description = String(form.get("description") || "").trim();
+    const title = parseLocalizedField(form.get("title"));
+    const content = parseLocalizedField(form.get("content"));
+    const description = parseLocalizedField(form.get("description"));
     const author = String(form.get("author") || "").trim();
     const category = String(form.get("category") || "").trim();
     const dateInput = String(form.get("date") || "").trim();
     const removeImage = form.get("removeImage") === "true";
     const image = form.get("image");
 
-    if (!title || !content) {
+    if (!title.en || !content.en) {
       return NextResponse.json(
-        { error: "Title and content are required." },
+        { error: "English title and content are required." },
         { status: 400 }
       );
+    }
+
+    for (const locale of LOCALES) {
+      if (!description[locale] && content[locale]) {
+        description[locale] = content[locale]!.slice(0, 160);
+      }
     }
 
     let thumbnail = existing.thumbnail;
@@ -55,7 +62,7 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ slug
     const updated = await updateDynamicBlogPost(slug, {
       title,
       content,
-      description: description || content.slice(0, 160),
+      description,
       author: author || existing.author,
       category: category || existing.category,
       date: dateInput || existing.date,

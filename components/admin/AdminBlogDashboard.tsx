@@ -2,11 +2,21 @@
 
 import { useEffect, useState } from "react";
 import type { DynamicBlogPost } from "@/lib/blogStore";
+import type { Locale, LocalizedText } from "@/lib/locale";
+import LocaleTabs from "./LocaleTabs";
+import LocalizedField from "./LocalizedField";
 
-const EMPTY_FORM = {
-  title: "",
-  description: "",
-  content: "",
+const EMPTY_FORM: {
+  title: LocalizedText;
+  description: LocalizedText;
+  content: LocalizedText;
+  author: string;
+  category: string;
+  date: string;
+} = {
+  title: {},
+  description: {},
+  content: {},
   author: "",
   category: "",
   date: "",
@@ -16,6 +26,7 @@ export default function AdminBlogDashboard() {
   const [posts, setPosts] = useState<DynamicBlogPost[]>([]);
   const [loadingPosts, setLoadingPosts] = useState(true);
   const [form, setForm] = useState(EMPTY_FORM);
+  const [locale, setLocale] = useState<Locale>("en");
   const [imageFile, setImageFile] = useState<File | null>(null);
   const [removeImage, setRemoveImage] = useState(false);
   const [editingSlug, setEditingSlug] = useState<string | null>(null);
@@ -42,6 +53,7 @@ export default function AdminBlogDashboard() {
 
   const resetForm = () => {
     setForm(EMPTY_FORM);
+    setLocale("en");
     setImageFile(null);
     setRemoveImage(false);
     setEditingSlug(null);
@@ -57,6 +69,7 @@ export default function AdminBlogDashboard() {
       category: post.category,
       date: post.date,
     });
+    setLocale("en");
     setImageFile(null);
     setRemoveImage(false);
     setMessage("");
@@ -90,9 +103,9 @@ export default function AdminBlogDashboard() {
     setMessage("");
 
     const fd = new FormData();
-    fd.set("title", form.title);
-    fd.set("description", form.description);
-    fd.set("content", form.content);
+    fd.set("title", JSON.stringify(form.title));
+    fd.set("description", JSON.stringify(form.description));
+    fd.set("content", JSON.stringify(form.content));
     fd.set("author", form.author);
     fd.set("category", form.category);
     fd.set("date", form.date);
@@ -129,15 +142,16 @@ export default function AdminBlogDashboard() {
           {editingSlug ? `Edit: ${editingSlug}` : "New Post"}
         </h2>
 
+        <LocaleTabs active={locale} onChange={setLocale} />
+
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div className="sm:col-span-2">
-            <label className="mb-1 block text-[13px] font-medium text-text-gray">Title *</label>
-            <input
-              type="text"
+            <LocalizedField
+              label="Title"
               value={form.title}
-              onChange={(e) => setForm((f) => ({ ...f, title: e.target.value }))}
+              onChange={(v) => setForm((f) => ({ ...f, title: v }))}
+              locale={locale}
               required
-              className="w-full rounded-input border border-border-gray px-3 py-2.5 text-[15px] outline-none focus:border-primary-green"
             />
           </div>
 
@@ -199,31 +213,27 @@ export default function AdminBlogDashboard() {
           </div>
 
           <div className="sm:col-span-2">
-            <label className="mb-1 block text-[13px] font-medium text-text-gray">
-              Description <span className="text-text-gray/60">(optional, auto-generated if blank)</span>
-            </label>
-            <textarea
+            <LocalizedField
+              label="Description"
               value={form.description}
-              onChange={(e) => setForm((f) => ({ ...f, description: e.target.value }))}
+              onChange={(v) => setForm((f) => ({ ...f, description: v }))}
+              locale={locale}
+              multiline
               rows={2}
-              className="w-full rounded-input border border-border-gray px-3 py-2.5 text-[15px] outline-none focus:border-primary-green"
+              placeholder="Optional, auto-generated from content if left blank"
             />
           </div>
 
           <div className="sm:col-span-2">
-            <label className="mb-1 block text-[13px] font-medium text-text-gray">
-              Content *{" "}
-              <span className="text-text-gray/60">
-                (blank line between paragraphs · start a line with &quot;## &quot; for a heading ·
-                start lines with &quot;- &quot; for a bullet list)
-              </span>
-            </label>
-            <textarea
+            <LocalizedField
+              label="Content"
               value={form.content}
-              onChange={(e) => setForm((f) => ({ ...f, content: e.target.value }))}
+              onChange={(v) => setForm((f) => ({ ...f, content: v }))}
+              locale={locale}
               required
+              multiline
               rows={10}
-              className="w-full rounded-input border border-border-gray px-3 py-2.5 text-[15px] outline-none focus:border-primary-green"
+              placeholder="Blank line between paragraphs · start a line with “## ” for a heading · start lines with “- ” for a bullet list"
             />
           </div>
         </div>
@@ -267,7 +277,7 @@ export default function AdminBlogDashboard() {
               className="flex flex-col gap-3 rounded-card border border-border-gray bg-white p-4 sm:flex-row sm:items-center sm:justify-between"
             >
               <div className="min-w-0">
-                <p className="truncate font-medium text-[#404C3E]">{post.title}</p>
+                <p className="truncate font-medium text-[#404C3E]">{post.title.en}</p>
                 <p className="text-[13px] text-text-gray">
                   {post.slug} · {post.date}
                 </p>

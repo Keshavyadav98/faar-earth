@@ -141,9 +141,32 @@
     "requirement": "Il tuo requisito",
     "sendButton": "Invia richiesta",
     "enquire": "Richiedi Informazioni",
+    "enquireAboutProduct": "Richiedi informazioni su questo prodotto",
     "sending": "Invio in corso...",
     "success": "Inchiesta inviata con successo!",
     "error": "Impossibile inviare l'inchiesta. Riprova."
+  },
+  "productDetail": {
+    "backTo": "Torna a {{category}}",
+    "botanicalName": "Nome botanico",
+    "form": "Forma",
+    "origin": "Origine",
+    "hsHeading": "Codice doganale (SA)",
+    "moq": "Quantità minima d'ordine",
+    "leadTime": "Tempi di consegna",
+    "leadTimeValue": "2-3 settimane",
+    "grading": "Classificazione",
+    "packaging": "Confezionamento",
+    "applications": "Applicazioni",
+    "whySourceFromUs": "Perché scegliere Faar Earth",
+    "faqTitle": "Domande frequenti"
+  },
+  "blog": {
+    "eyebrow": "Il Nostro Blog",
+    "heading": "Approfondimenti dalla fonte",
+    "empty": "Ancora nessun articolo — torna presto a trovarci.",
+    "loadMore": "Carica altri",
+    "loading": "Caricamento…"
   },
   "footer": {
     "quickLinks": "Collegamenti rapidi",

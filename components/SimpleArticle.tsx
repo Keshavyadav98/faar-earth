@@ -1,4 +1,8 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
 import type { DynamicBlogPost } from "@/lib/blogStore";
+import { localize } from "@/lib/locale";
 
 function renderContent(content: string) {
   const blocks = content.split(/\n\s*\n/).filter(Boolean);
@@ -39,21 +43,26 @@ function renderContent(content: string) {
 }
 
 export default function SimpleArticle({ post }: { post: DynamicBlogPost }) {
+  const { i18n } = useTranslation();
+  const lang = i18n.language;
+  const title = localize(post.title, lang);
+  const content = localize(post.content, lang);
+
   return (
     <article className="mx-auto w-full max-w-[800px] px-4 py-12 sm:px-8">
       {post.thumbnail && (
         <div className="mb-8 w-full overflow-hidden rounded-card bg-beige" style={{ aspectRatio: "16/7" }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={post.thumbnail} alt={post.title} className="h-full w-full object-cover" />
+          <img src={post.thumbnail} alt={title} className="h-full w-full object-cover" />
         </div>
       )}
       <h1 className="mb-3 font-heading text-[28px] font-bold leading-tight text-[#404C3E] sm:text-[36px]">
-        {post.title}
+        {title}
       </h1>
       <p className="mb-8 text-[13px] text-text-gray">
         {post.author} · {post.date}
       </p>
-      {renderContent(post.content)}
+      {renderContent(content)}
     </article>
   );
 }

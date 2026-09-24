@@ -148,9 +148,32 @@
     "requirement": "Your Requirement",
     "sendButton": "Send Inquiry",
     "enquire": "Enquire Now",
+    "enquireAboutProduct": "Enquire About This Product",
     "sending": "Sending...",
     "success": "Enquiry sent successfully!",
     "error": "Failed to send enquiry. Please try again."
+  },
+  "productDetail": {
+    "backTo": "Back to {{category}}",
+    "botanicalName": "Botanical Name",
+    "form": "Form",
+    "origin": "Origin",
+    "hsHeading": "HS Heading",
+    "moq": "MOQ",
+    "leadTime": "Lead Time",
+    "leadTimeValue": "2-3 weeks",
+    "grading": "Grading",
+    "packaging": "Packaging",
+    "applications": "Applications",
+    "whySourceFromUs": "Why Source From Faar Earth",
+    "faqTitle": "Frequently Asked Questions"
+  },
+  "blog": {
+    "eyebrow": "Our Blog",
+    "heading": "Insights from the Source",
+    "empty": "No blog posts yet — check back soon.",
+    "loadMore": "Load more",
+    "loading": "Loading…"
   },
   "footer": {
     "quickLinks": "Quick Links",

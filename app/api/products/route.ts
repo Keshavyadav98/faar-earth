@@ -9,17 +9,11 @@ import {
 import { findCategoryBySlug } from "@/lib/categoryStore";
 import { saveBlogImage, slugify } from "@/lib/blogImages";
 import { isAdminRequestAuthenticated } from "@/lib/adminAuth";
-import { parseLocalizedField } from "@/lib/locale";
-
-function parseJsonArray<T>(raw: FormDataEntryValue | null): T[] {
-  if (typeof raw !== "string" || !raw.trim()) return [];
-  try {
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
-}
+import {
+  parseLocalizedField,
+  parseLocalizedListField,
+  parseLocalizedFaqsField,
+} from "@/lib/locale";
 
 export async function GET(req: NextRequest) {
   const category = req.nextUrl.searchParams.get("category");
@@ -40,20 +34,18 @@ export async function POST(req: NextRequest) {
     const metaDescription = parseLocalizedField(form.get("metaDescription"));
     const metaKeywords = parseLocalizedField(form.get("metaKeywords"));
     const categorySlug = String(form.get("categorySlug") || "").trim();
-    const formSpec = String(form.get("form") || "").trim();
+    const formSpec = parseLocalizedField(form.get("form"));
     const hsHeading = String(form.get("hsHeading") || "").trim();
-    const moq = String(form.get("moq") || "").trim();
+    const moq = parseLocalizedField(form.get("moq"));
     const primaryKeyword = String(form.get("primaryKeyword") || "").trim();
-    const h1 = String(form.get("h1") || "").trim();
+    const h1 = parseLocalizedField(form.get("h1"));
     const botanicalName = String(form.get("botanicalName") || "").trim();
     const origin = String(form.get("origin") || "").trim();
-    const grading = String(form.get("grading") || "").trim();
-    const packaging = String(form.get("packaging") || "").trim();
-    const applications = parseJsonArray<string>(form.get("applications")).filter(Boolean);
-    const whySourceFromUs = parseJsonArray<string>(form.get("whySourceFromUs")).filter(Boolean);
-    const faqs = parseJsonArray<{ question: string; answer: string }>(form.get("faqs")).filter(
-      (f) => f && f.question && f.answer
-    );
+    const grading = parseLocalizedField(form.get("grading"));
+    const packaging = parseLocalizedField(form.get("packaging"));
+    const applications = parseLocalizedListField(form.get("applications"));
+    const whySourceFromUs = parseLocalizedListField(form.get("whySourceFromUs"));
+    const faqs = parseLocalizedFaqsField(form.get("faqs"));
     const image = form.get("image");
 
     if (!title.en) {

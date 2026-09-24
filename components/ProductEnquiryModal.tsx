@@ -48,7 +48,7 @@ export default function ProductEnquiryModal({ productName }: { productName: stri
         onClick={() => setOpen(true)}
         className="inline-flex items-center gap-2 rounded-btn bg-primary-green px-7 py-3.5 text-[16px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green"
       >
-        Enquire About This Product <span aria-hidden>→</span>
+        {t("enquiry.enquireAboutProduct")} <span aria-hidden>→</span>
       </button>
 
       {open && (

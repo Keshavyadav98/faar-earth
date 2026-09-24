@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import type { Product } from "@/lib/productStore";
 import type { ProductCategory } from "@/lib/categoryStore";
-import { localize } from "@/lib/locale";
+import { localize, localizeList, localizeFaqs } from "@/lib/locale";
 import ProductEnquiryModal from "@/components/ProductEnquiryModal";
 
 export default function ProductDetail({
@@ -14,26 +14,28 @@ export default function ProductDetail({
   product: Product;
   category: ProductCategory;
 }) {
-  const { i18n } = useTranslation();
-  const title = localize(product.title, i18n.language);
-  const description = localize(product.description, i18n.language);
-  const categoryName = localize(category.name, i18n.language);
-  const heading = product.h1 || title;
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language;
+  const title = localize(product.title, lang);
+  const description = localize(product.description, lang);
+  const categoryName = localize(category.name, lang);
+  const h1 = localize(product.h1, lang);
+  const heading = h1 || title;
 
   const specs = [
-    { label: "Botanical Name", value: product.botanicalName },
-    { label: "Form", value: product.form },
-    { label: "Origin", value: product.origin },
-    { label: "HS Heading", value: product.hsHeading },
-    { label: "MOQ", value: product.moq },
-    { label: "Lead Time", value: "2-3 weeks" },
-    { label: "Grading", value: product.grading },
-    { label: "Packaging", value: product.packaging },
+    { label: t("productDetail.botanicalName"), value: product.botanicalName },
+    { label: t("productDetail.form"), value: localize(product.form, lang) },
+    { label: t("productDetail.origin"), value: product.origin },
+    { label: t("productDetail.hsHeading"), value: product.hsHeading },
+    { label: t("productDetail.moq"), value: localize(product.moq, lang) },
+    { label: t("productDetail.leadTime"), value: t("productDetail.leadTimeValue") },
+    { label: t("productDetail.grading"), value: localize(product.grading, lang) },
+    { label: t("productDetail.packaging"), value: localize(product.packaging, lang) },
   ].filter((s) => s.value);
 
-  const applications = (product.applications || []).filter(Boolean);
-  const whySourceFromUs = (product.whySourceFromUs || []).filter(Boolean);
-  const faqs = (product.faqs || []).filter((f) => f.question && f.answer);
+  const applications = localizeList(product.applications, lang);
+  const whySourceFromUs = localizeList(product.whySourceFromUs, lang);
+  const faqs = localizeFaqs(product.faqs, lang);
 
   const faqJsonLd =
     faqs.length > 0
@@ -55,7 +57,7 @@ export default function ProductDetail({
           href={`/products/${category.slug}`}
           className="text-sm text-text-gray hover:text-primary-green"
         >
-          ← Back to {categoryName}
+          ← {t("productDetail.backTo", { category: categoryName })}
         </Link>
       </div>
 
@@ -98,7 +100,7 @@ export default function ProductDetail({
           {applications.length > 0 && (
             <div>
               <h2 className="font-heading text-[22px] font-semibold text-[#404C3E]">
-                Applications
+                {t("productDetail.applications")}
               </h2>
               <ul className="mt-4 space-y-3">
                 {applications.map((item) => (
@@ -114,7 +116,7 @@ export default function ProductDetail({
           {whySourceFromUs.length > 0 && (
             <div>
               <h2 className="font-heading text-[22px] font-semibold text-[#404C3E]">
-                Why Source From Faar Earth
+                {t("productDetail.whySourceFromUs")}
               </h2>
               <ul className="mt-4 space-y-3">
                 {whySourceFromUs.map((item) => (
@@ -130,7 +132,7 @@ export default function ProductDetail({
           {faqs.length > 0 && (
             <div className="lg:col-span-2">
               <h2 className="font-heading text-[22px] font-semibold text-[#404C3E]">
-                Frequently Asked Questions
+                {t("productDetail.faqTitle")}
               </h2>
               <div className="mt-4 divide-y divide-border-gray rounded-card border border-border-gray">
                 {faqs.map((f) => (

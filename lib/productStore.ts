@@ -1,11 +1,8 @@
 import { promises as fs } from "fs";
 import path from "path";
-import type { LocalizedText } from "./locale";
+import type { LocalizedText, LocalizedStringList, LocalizedFaqs, FaqItem } from "./locale";
 
-export type FaqItem = {
-  question: string;
-  answer: string;
-};
+export type { FaqItem };
 
 export type Product = {
   id: string;
@@ -14,9 +11,9 @@ export type Product = {
   title: LocalizedText;
   description: LocalizedText;
   image: string;
-  form: string;
+  form: LocalizedText;
   hsHeading: string;
-  moq: string;
+  moq: LocalizedText;
   metaTitle: LocalizedText;
   metaDescription: LocalizedText;
   metaKeywords: LocalizedText;
@@ -24,14 +21,14 @@ export type Product = {
   updatedAt?: string;
   // SEO / content-brief fields
   primaryKeyword?: string;
-  h1?: string;
+  h1?: LocalizedText;
   botanicalName?: string;
   origin?: string;
-  grading?: string;
-  packaging?: string;
-  applications?: string[];
-  whySourceFromUs?: string[];
-  faqs?: FaqItem[];
+  grading?: LocalizedText;
+  packaging?: LocalizedText;
+  applications?: LocalizedStringList;
+  whySourceFromUs?: LocalizedStringList;
+  faqs?: LocalizedFaqs;
 };
 
 const STORE_PATH = path.join(process.cwd(), "data", "products-store.json");

@@ -141,9 +141,32 @@
     "requirement": "Votre demande",
     "sendButton": "Envoyer la demande",
     "enquire": "Demander un Devis",
+    "enquireAboutProduct": "Demander un devis pour ce produit",
     "sending": "Envoi...",
     "success": "Demande envoyée avec succès!",
     "error": "Impossible d'envoyer la demande. Veuillez réessayer."
+  },
+  "productDetail": {
+    "backTo": "Retour à {{category}}",
+    "botanicalName": "Nom botanique",
+    "form": "Forme",
+    "origin": "Origine",
+    "hsHeading": "Position tarifaire (SH)",
+    "moq": "Quantité minimale de commande",
+    "leadTime": "Délai de livraison",
+    "leadTimeValue": "2-3 semaines",
+    "grading": "Classification",
+    "packaging": "Emballage",
+    "applications": "Applications",
+    "whySourceFromUs": "Pourquoi choisir Faar Earth",
+    "faqTitle": "Questions fréquentes"
+  },
+  "blog": {
+    "eyebrow": "Notre Blog",
+    "heading": "Regards depuis la source",
+    "empty": "Aucun article pour le moment — revenez bientôt.",
+    "loadMore": "Charger plus",
+    "loading": "Chargement…"
   },
   "footer": {
     "quickLinks": "Liens rapides",

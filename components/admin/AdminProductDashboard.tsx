@@ -1,9 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { FaqItem, Product } from "@/lib/productStore";
+import type { Product } from "@/lib/productStore";
 import type { ProductCategory } from "@/lib/categoryStore";
-import type { Locale, LocalizedText } from "@/lib/locale";
+import type {
+  Locale,
+  LocalizedText,
+  LocalizedStringList,
+  LocalizedFaqs,
+  FaqItem,
+} from "@/lib/locale";
 import LocaleTabs from "./LocaleTabs";
 import LocalizedField from "./LocalizedField";
 
@@ -11,59 +17,72 @@ const EMPTY_FORM: {
   title: LocalizedText;
   description: LocalizedText;
   categorySlug: string;
-  form: string;
+  form: LocalizedText;
   hsHeading: string;
-  moq: string;
+  moq: LocalizedText;
   metaTitle: LocalizedText;
   metaDescription: LocalizedText;
   metaKeywords: LocalizedText;
   primaryKeyword: string;
-  h1: string;
+  h1: LocalizedText;
   botanicalName: string;
   origin: string;
-  grading: string;
-  packaging: string;
-  applications: string[];
-  whySourceFromUs: string[];
-  faqs: FaqItem[];
+  grading: LocalizedText;
+  packaging: LocalizedText;
+  applications: LocalizedStringList;
+  whySourceFromUs: LocalizedStringList;
+  faqs: LocalizedFaqs;
 } = {
   title: {},
   description: {},
   categorySlug: "",
-  form: "",
+  form: {},
   hsHeading: "",
-  moq: "",
+  moq: {},
   metaTitle: {},
   metaDescription: {},
   metaKeywords: {},
   primaryKeyword: "",
-  h1: "",
+  h1: {},
   botanicalName: "",
   origin: "",
-  grading: "",
-  packaging: "",
-  applications: [],
-  whySourceFromUs: [],
-  faqs: [],
+  grading: {},
+  packaging: {},
+  applications: {},
+  whySourceFromUs: {},
+  faqs: {},
 };
 
 const inputClass =
   "w-full rounded-input border border-border-gray px-3 py-2.5 text-[15px] outline-none focus:border-primary-green";
 
-function TextListEditor({
+function LocalizedTextListEditor({
   label,
   hint,
-  items,
+  value,
+  locale,
   onChange,
 }: {
   label: string;
   hint?: string;
-  items: string[];
-  onChange: (next: string[]) => void;
+  value: LocalizedStringList;
+  locale: Locale;
+  onChange: (next: LocalizedStringList) => void;
 }) {
+  const items = value[locale] ?? [];
+
+  const setItems = (next: string[]) => {
+    onChange({ ...value, [locale]: next });
+  };
+
   return (
     <div className="sm:col-span-2">
-      <label className="mb-1 block text-[13px] font-medium text-text-gray">{label}</label>
+      <label className="mb-1 block text-[13px] font-medium text-text-gray">
+        {label}
+        {locale !== "en" && items.length === 0 && (
+          <span className="text-text-gray/60"> (falls back to English if left blank)</span>
+        )}
+      </label>
       {hint && <p className="mb-2 text-[12px] text-text-gray/70">{hint}</p>}
       <div className="flex flex-col gap-2">
         {items.map((item, i) => (
@@ -74,13 +93,13 @@ function TextListEditor({
               onChange={(e) => {
                 const next = [...items];
                 next[i] = e.target.value;
-                onChange(next);
+                setItems(next);
               }}
               className={inputClass}
             />
             <button
               type="button"
-              onClick={() => onChange(items.filter((_, idx) => idx !== i))}
+              onClick={() => setItems(items.filter((_, idx) => idx !== i))}
               className="shrink-0 rounded-btn border border-red-200 px-3 text-[13px] font-medium text-red-600 transition-colors hover:bg-red-50"
             >
               Remove
@@ -90,7 +109,7 @@ function TextListEditor({
       </div>
       <button
         type="button"
-        onClick={() => onChange([...items, ""])}
+        onClick={() => setItems([...items, ""])}
         className="mt-2 rounded-btn border border-border-gray px-4 py-2 text-[13px] font-medium text-text-gray transition-colors hover:bg-beige"
       >
         + Add item
@@ -99,10 +118,29 @@ function TextListEditor({
   );
 }
 
-function FaqEditor({ items, onChange }: { items: FaqItem[]; onChange: (next: FaqItem[]) => void }) {
+function LocalizedFaqEditor({
+  value,
+  locale,
+  onChange,
+}: {
+  value: LocalizedFaqs;
+  locale: Locale;
+  onChange: (next: LocalizedFaqs) => void;
+}) {
+  const items = value[locale] ?? [];
+
+  const setItems = (next: FaqItem[]) => {
+    onChange({ ...value, [locale]: next });
+  };
+
   return (
     <div className="sm:col-span-2">
-      <label className="mb-1 block text-[13px] font-medium text-text-gray">Frequently Asked Questions</label>
+      <label className="mb-1 block text-[13px] font-medium text-text-gray">
+        Frequently Asked Questions
+        {locale !== "en" && items.length === 0 && (
+          <span className="text-text-gray/60"> (falls back to English if left blank)</span>
+        )}
+      </label>
       <div className="flex flex-col gap-3">
         {items.map((item, i) => (
           <div key={i} className="rounded-input border border-border-gray p-3">
@@ -114,7 +152,7 @@ function FaqEditor({ items, onChange }: { items: FaqItem[]; onChange: (next: Faq
                   onChange={(e) => {
                     const next = [...items];
                     next[i] = { ...next[i], question: e.target.value };
-                    onChange(next);
+                    setItems(next);
                   }}
                   placeholder="Question"
                   className={inputClass}
@@ -124,7 +162,7 @@ function FaqEditor({ items, onChange }: { items: FaqItem[]; onChange: (next: Faq
                   onChange={(e) => {
                     const next = [...items];
                     next[i] = { ...next[i], answer: e.target.value };
-                    onChange(next);
+                    setItems(next);
                   }}
                   placeholder="Answer"
                   rows={2}
@@ -133,7 +171,7 @@ function FaqEditor({ items, onChange }: { items: FaqItem[]; onChange: (next: Faq
               </div>
               <button
                 type="button"
-                onClick={() => onChange(items.filter((_, idx) => idx !== i))}
+                onClick={() => setItems(items.filter((_, idx) => idx !== i))}
                 className="shrink-0 rounded-btn border border-red-200 px-3 py-2 text-[13px] font-medium text-red-600 transition-colors hover:bg-red-50"
               >
                 Remove
@@ -144,7 +182,7 @@ function FaqEditor({ items, onChange }: { items: FaqItem[]; onChange: (next: Faq
       </div>
       <button
         type="button"
-        onClick={() => onChange([...items, { question: "", answer: "" }])}
+        onClick={() => setItems([...items, { question: "", answer: "" }])}
         className="mt-2 rounded-btn border border-border-gray px-4 py-2 text-[13px] font-medium text-text-gray transition-colors hover:bg-beige"
       >
         + Add question
@@ -209,14 +247,14 @@ export default function AdminProductDashboard() {
       metaDescription: p.metaDescription,
       metaKeywords: p.metaKeywords,
       primaryKeyword: p.primaryKeyword || "",
-      h1: p.h1 || "",
+      h1: p.h1 || {},
       botanicalName: p.botanicalName || "",
       origin: p.origin || "",
-      grading: p.grading || "",
-      packaging: p.packaging || "",
-      applications: p.applications || [],
-      whySourceFromUs: p.whySourceFromUs || [],
-      faqs: p.faqs || [],
+      grading: p.grading || {},
+      packaging: p.packaging || {},
+      applications: p.applications || {},
+      whySourceFromUs: p.whySourceFromUs || {},
+      faqs: p.faqs || {},
     });
     setLocale("en");
     setImageFile(null);
@@ -261,24 +299,21 @@ export default function AdminProductDashboard() {
     fd.set("title", JSON.stringify(form.title));
     fd.set("description", JSON.stringify(form.description));
     fd.set("categorySlug", form.categorySlug);
-    fd.set("form", form.form);
+    fd.set("form", JSON.stringify(form.form));
     fd.set("hsHeading", form.hsHeading);
-    fd.set("moq", form.moq);
+    fd.set("moq", JSON.stringify(form.moq));
     fd.set("metaTitle", JSON.stringify(form.metaTitle));
     fd.set("metaDescription", JSON.stringify(form.metaDescription));
     fd.set("metaKeywords", JSON.stringify(form.metaKeywords));
     fd.set("primaryKeyword", form.primaryKeyword);
-    fd.set("h1", form.h1);
+    fd.set("h1", JSON.stringify(form.h1));
     fd.set("botanicalName", form.botanicalName);
     fd.set("origin", form.origin);
-    fd.set("grading", form.grading);
-    fd.set("packaging", form.packaging);
-    fd.set("applications", JSON.stringify(form.applications.filter((a) => a.trim())));
-    fd.set("whySourceFromUs", JSON.stringify(form.whySourceFromUs.filter((a) => a.trim())));
-    fd.set(
-      "faqs",
-      JSON.stringify(form.faqs.filter((f) => f.question.trim() && f.answer.trim()))
-    );
+    fd.set("grading", JSON.stringify(form.grading));
+    fd.set("packaging", JSON.stringify(form.packaging));
+    fd.set("applications", JSON.stringify(form.applications));
+    fd.set("whySourceFromUs", JSON.stringify(form.whySourceFromUs));
+    fd.set("faqs", JSON.stringify(form.faqs));
     if (imageFile) fd.set("image", imageFile);
     if (editingSlug && removeImage) fd.set("removeImage", "true");
 
@@ -377,19 +412,18 @@ export default function AdminProductDashboard() {
             />
           </div>
 
-          <div>
-            <label className="mb-1 block text-[13px] font-medium text-text-gray">Form</label>
-            <input
-              type="text"
-              value={form.form}
-              onChange={(e) => setForm((f) => ({ ...f, form: e.target.value }))}
-              placeholder="e.g. Whole, cleaned"
-              className="w-full rounded-input border border-border-gray px-3 py-2.5 text-[15px] outline-none focus:border-primary-green"
-            />
-          </div>
+          <LocalizedField
+            label="Form"
+            value={form.form}
+            onChange={(v) => setForm((f) => ({ ...f, form: v }))}
+            locale={locale}
+            placeholder="e.g. Whole, cleaned"
+          />
 
           <div>
-            <label className="mb-1 block text-[13px] font-medium text-text-gray">HS Heading</label>
+            <label className="mb-1 block text-[13px] font-medium text-text-gray">
+              HS Heading <span className="text-text-gray/60">(code — same across all languages)</span>
+            </label>
             <input
               type="text"
               value={form.hsHeading}
@@ -399,19 +433,18 @@ export default function AdminProductDashboard() {
             />
           </div>
 
-          <div>
-            <label className="mb-1 block text-[13px] font-medium text-text-gray">MOQ</label>
-            <input
-              type="text"
-              value={form.moq}
-              onChange={(e) => setForm((f) => ({ ...f, moq: e.target.value }))}
-              placeholder="e.g. From 100 kg"
-              className="w-full rounded-input border border-border-gray px-3 py-2.5 text-[15px] outline-none focus:border-primary-green"
-            />
-          </div>
+          <LocalizedField
+            label="MOQ"
+            value={form.moq}
+            onChange={(v) => setForm((f) => ({ ...f, moq: v }))}
+            locale={locale}
+            placeholder="e.g. From 100 kg"
+          />
 
           <div>
-            <label className="mb-1 block text-[13px] font-medium text-text-gray">Botanical Name</label>
+            <label className="mb-1 block text-[13px] font-medium text-text-gray">
+              Botanical Name <span className="text-text-gray/60">(Latin — same across all languages)</span>
+            </label>
             <input
               type="text"
               value={form.botanicalName}
@@ -422,7 +455,9 @@ export default function AdminProductDashboard() {
           </div>
 
           <div>
-            <label className="mb-1 block text-[13px] font-medium text-text-gray">Origin</label>
+            <label className="mb-1 block text-[13px] font-medium text-text-gray">
+              Origin <span className="text-text-gray/60">(place names — same across all languages)</span>
+            </label>
             <input
               type="text"
               value={form.origin}
@@ -432,27 +467,21 @@ export default function AdminProductDashboard() {
             />
           </div>
 
-          <div>
-            <label className="mb-1 block text-[13px] font-medium text-text-gray">Grading</label>
-            <input
-              type="text"
-              value={form.grading}
-              onChange={(e) => setForm((f) => ({ ...f, grading: e.target.value }))}
-              placeholder="e.g. Purity, moisture, size"
-              className={inputClass}
-            />
-          </div>
+          <LocalizedField
+            label="Grading"
+            value={form.grading}
+            onChange={(v) => setForm((f) => ({ ...f, grading: v }))}
+            locale={locale}
+            placeholder="e.g. Purity, moisture, size"
+          />
 
-          <div>
-            <label className="mb-1 block text-[13px] font-medium text-text-gray">Packaging</label>
-            <input
-              type="text"
-              value={form.packaging}
-              onChange={(e) => setForm((f) => ({ ...f, packaging: e.target.value }))}
-              placeholder="e.g. Food-grade bulk, export-packed"
-              className={inputClass}
-            />
-          </div>
+          <LocalizedField
+            label="Packaging"
+            value={form.packaging}
+            onChange={(v) => setForm((f) => ({ ...f, packaging: v }))}
+            locale={locale}
+            placeholder="e.g. Food-grade bulk, export-packed"
+          />
 
           <div className="sm:col-span-2">
             <hr className="border-border-gray" />
@@ -471,34 +500,32 @@ export default function AdminProductDashboard() {
             />
           </div>
 
-          <div>
-            <label className="mb-1 block text-[13px] font-medium text-text-gray">
-              H1 <span className="text-text-gray/60">(falls back to Title if left blank)</span>
-            </label>
-            <input
-              type="text"
-              value={form.h1}
-              onChange={(e) => setForm((f) => ({ ...f, h1: e.target.value }))}
-              placeholder="e.g. Pumpkin Seeds Exporter India — Hulled & Unhulled Bulk Supply"
-              className={inputClass}
-            />
-          </div>
+          <LocalizedField
+            label="H1"
+            value={form.h1}
+            onChange={(v) => setForm((f) => ({ ...f, h1: v }))}
+            locale={locale}
+            placeholder="e.g. Pumpkin Seeds Exporter India — Hulled & Unhulled Bulk Supply"
+          />
 
-          <TextListEditor
+          <LocalizedTextListEditor
             label="Applications"
             hint="One line per application, e.g. “Bakery — breads, granola, health bars, toppings”"
-            items={form.applications}
+            value={form.applications}
+            locale={locale}
             onChange={(next) => setForm((f) => ({ ...f, applications: next }))}
           />
 
-          <TextListEditor
+          <LocalizedTextListEditor
             label="Why Source From Faar Earth"
-            items={form.whySourceFromUs}
+            value={form.whySourceFromUs}
+            locale={locale}
             onChange={(next) => setForm((f) => ({ ...f, whySourceFromUs: next }))}
           />
 
-          <FaqEditor
-            items={form.faqs}
+          <LocalizedFaqEditor
+            value={form.faqs}
+            locale={locale}
             onChange={(next) => setForm((f) => ({ ...f, faqs: next }))}
           />
 

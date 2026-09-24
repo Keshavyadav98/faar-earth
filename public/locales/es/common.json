@@ -142,9 +142,32 @@
     "requirement": "Su requisito",
     "sendButton": "Enviar consulta",
     "enquire": "Consultar ahora",
+    "enquireAboutProduct": "Consultar sobre este producto",
     "sending": "Enviando...",
     "success": "¡Consulta enviada exitosamente!",
     "error": "Falló al enviar la consulta. Por favor, inténtelo de nuevo."
+  },
+  "productDetail": {
+    "backTo": "Volver a {{category}}",
+    "botanicalName": "Nombre botánico",
+    "form": "Forma",
+    "origin": "Origen",
+    "hsHeading": "Partida arancelaria",
+    "moq": "Pedido mínimo (MOQ)",
+    "leadTime": "Plazo de entrega",
+    "leadTimeValue": "2-3 semanas",
+    "grading": "Clasificación",
+    "packaging": "Envasado",
+    "applications": "Aplicaciones",
+    "whySourceFromUs": "Por qué elegir a Faar Earth",
+    "faqTitle": "Preguntas frecuentes"
+  },
+  "blog": {
+    "eyebrow": "Nuestro Blog",
+    "heading": "Perspectivas desde el origen",
+    "empty": "Aún no hay publicaciones — vuelva pronto.",
+    "loadMore": "Cargar más",
+    "loading": "Cargando…"
   },
   "footer": {
     "quickLinks": "Enlaces rápidos",

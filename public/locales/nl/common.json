@@ -141,9 +141,32 @@
     "requirement": "Uw vereiste",
     "sendButton": "Aanvraag verzenden",
     "enquire": "Vraag Nu Aan",
+    "enquireAboutProduct": "Vraag informatie aan over dit product",
     "sending": "Verzenden...",
     "success": "Vraag succesvol verzonden!",
     "error": "Kan vraag niet verzenden. Probeer het later opnieuw."
+  },
+  "productDetail": {
+    "backTo": "Terug naar {{category}}",
+    "botanicalName": "Botanische naam",
+    "form": "Vorm",
+    "origin": "Herkomst",
+    "hsHeading": "GS-code",
+    "moq": "Minimale bestelhoeveelheid",
+    "leadTime": "Levertijd",
+    "leadTimeValue": "2-3 weken",
+    "grading": "Classificatie",
+    "packaging": "Verpakking",
+    "applications": "Toepassingen",
+    "whySourceFromUs": "Waarom inkopen bij Faar Earth",
+    "faqTitle": "Veelgestelde vragen"
+  },
+  "blog": {
+    "eyebrow": "Onze Blog",
+    "heading": "Inzichten uit de bron",
+    "empty": "Nog geen blogberichten — kom binnenkort terug.",
+    "loadMore": "Meer laden",
+    "loading": "Laden…"
   },
   "footer": {
     "quickLinks": "Snelle koppelingen",
