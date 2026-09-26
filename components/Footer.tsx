@@ -76,8 +76,11 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-divider py-6">
-        <p className="text-center text-[13px] text-text-gray">
-          © {new Date().getFullYear()} Faar Earth Collective. All Rights Reserved.
+        <p className="flex flex-col items-center justify-center gap-2 text-center text-[13px] text-text-gray sm:flex-row sm:gap-4">
+          <span>© {new Date().getFullYear()} Faar Earth Collective. All Rights Reserved.</span>
+          <Link href="/cookie-policy" className="hover:text-primary-green hover:underline">
+            Cookie Policy
+          </Link>
         </p>
       </div>
     </footer>

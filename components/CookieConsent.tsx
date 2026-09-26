@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const STORAGE_KEY = "cookieConsent";
 
@@ -36,7 +37,11 @@ export default function CookieConsent() {
       <div className="container-xl flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
         <p className="text-center text-[13px] leading-relaxed text-text-gray sm:text-left">
           We use cookies to improve your experience on our site and to understand how it&apos;s
-          used. By clicking &ldquo;Accept&rdquo;, you agree to our use of cookies.
+          used. By clicking &ldquo;Accept&rdquo;, you agree to our use of cookies. See our{" "}
+          <Link href="/cookie-policy" className="underline hover:text-primary-green">
+            Cookie Policy
+          </Link>{" "}
+          for details.
         </p>
         <div className="flex shrink-0 items-center gap-3">
           <button
