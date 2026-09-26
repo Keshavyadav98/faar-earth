@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 import { scrollToSection } from "@/lib/scrollToSection";
 import type { ProductCategory } from "@/lib/categoryStore";
 import { localize } from "@/lib/locale";
+import { openCookiePreferences } from "@/lib/cookieConsent";
 
 export default function Footer() {
   const { t, i18n } = useTranslation();
@@ -76,12 +77,24 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-divider py-6">
-        <p className="flex flex-col items-center justify-center gap-2 text-center text-[13px] text-text-gray sm:flex-row sm:gap-4">
-          <span>© {new Date().getFullYear()} Faar Earth Collective. All Rights Reserved.</span>
-          <Link href="/cookie-policy" className="hover:text-primary-green hover:underline">
+        <div className="flex flex-col items-center justify-center gap-3 text-center sm:flex-row sm:gap-6">
+          <p className="text-[13px] text-text-gray">
+            © {new Date().getFullYear()} Faar Earth Collective. All Rights Reserved.
+          </p>
+          <Link
+            href="/cookie-policy"
+            className="text-[15px] font-semibold text-primary-green underline underline-offset-2 transition-colors hover:text-hover-green"
+          >
             Cookie Policy
           </Link>
-        </p>
+          <button
+            type="button"
+            onClick={openCookiePreferences}
+            className="text-[13px] text-text-gray transition-colors hover:text-primary-green hover:underline"
+          >
+            Cookie Settings
+          </button>
+        </div>
       </div>
     </footer>
   );

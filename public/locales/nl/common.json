@@ -188,5 +188,124 @@
     "spanish": "Español",
     "italian": "Italiano",
     "selectLanguage": "Selecteer taal"
+  },
+  "cookie": {
+    "banner": {
+      "message": "Wij gebruiken cookies om uw ervaring op onze site te verbeteren en te begrijpen hoe deze wordt gebruikt. Strikt noodzakelijke cookies staan altijd aan. Zie ons",
+      "policyLink": "Cookiebeleid",
+      "messageSuffix": "voor meer informatie.",
+      "managePreferences": "Voorkeuren beheren",
+      "rejectNonEssential": "Niet-essentiële weigeren",
+      "acceptAll": "Alles accepteren"
+    },
+    "preferences": {
+      "title": "Cookievoorkeuren beheren",
+      "description": "Kies welke categorieën niet-essentiële cookies u wilt toestaan. Lees ons",
+      "descriptionSuffix": "voor wat elke categorie inhoudt.",
+      "necessaryTitle": "Strikt noodzakelijk",
+      "necessaryDesc": "Altijd aan — noodzakelijk voor het functioneren van de site.",
+      "functionalTitle": "Functioneel",
+      "functionalDesc": "Onthoudt voorkeuren zoals uw gekozen taal.",
+      "analyticsTitle": "Analytisch",
+      "analyticsDesc": "Meet het sitegebruik en de prestaties van onze advertenties.",
+      "marketingTitle": "Marketing",
+      "marketingDesc": "Wordt momenteel niet gebruikt op deze site.",
+      "back": "Terug",
+      "save": "Voorkeuren opslaan"
+    },
+    "policy": {
+      "eyebrow": "Juridisch",
+      "title": "Cookiebeleid",
+      "lastUpdated": "Laatst bijgewerkt: 26 september 2026",
+      "section1": {
+        "title": "1. Inleiding",
+        "p1": "Dit Cookiebeleid legt uit hoe Faar Earth Collective (\"wij\", \"ons\", \"onze\") cookies en vergelijkbare trackingtechnologieën gebruikt op www.faarearth.com (de \"Site\"). Het legt uit wat deze technologieën zijn, waarom we ze gebruiken en welke rechten u heeft om het gebruik ervan te controleren.",
+        "p2": "Een apart Privacybeleid dat breder ingaat op hoe wij persoonsgegevens verwerken, is in voorbereiding en zal hier worden gelinkt zodra het is gepubliceerd. Voor privacyvragen kunt u ondertussen contact met ons opnemen via de gegevens in Sectie 11."
+      },
+      "section2": {
+        "title": "2. Wat Zijn Cookies?",
+        "p1": "Cookies zijn kleine tekstbestanden die op uw apparaat worden geplaatst wanneer u een website bezoekt. Ze stellen de site in staat uw apparaat te herkennen en informatie over uw bezoek te onthouden, zoals uw voorkeuren en acties op de site."
+      },
+      "section3": {
+        "title": "3. Hoe Wij Cookies Gebruiken",
+        "intro": "Wij gebruiken cookies voor de volgende doeleinden:",
+        "sub1Title": "3.1 Strikt Noodzakelijke Cookies",
+        "sub1Desc": "Deze cookies zijn essentieel om de Site goed te laten functioneren. Ze vereisen geen toestemming, omdat ze strikt noodzakelijk zijn om de door u gevraagde dienst te leveren.",
+        "tableHeaderName": "Cookienaam",
+        "tableHeaderProvider": "Aanbieder",
+        "tableHeaderPurpose": "Doel",
+        "tableHeaderDuration": "Duur",
+        "table1Name": "fe_admin_session",
+        "table1Provider": "Faar Earth Collective",
+        "table1Purpose": "Houdt een geautoriseerd personeelslid ingelogd in het contentbeheergedeelte. Wordt niet geplaatst voor gewone bezoekers.",
+        "table1Duration": "7 dagen",
+        "sub2Title": "3.2 Functionele Cookies",
+        "sub2Desc": "Deze cookies stellen de Site in staat om keuzes die u maakt te onthouden, om verbeterde, meer persoonlijke functies te bieden.",
+        "table2Name": "language",
+        "table2Provider": "Faar Earth Collective",
+        "table2Purpose": "Onthoudt de door u geselecteerde sitetaal tussen bezoeken.",
+        "table2Duration": "1 jaar",
+        "sub3Title": "3.3 Analytische / Advertentiemeting-cookies",
+        "sub3Desc": "Deze cookies helpen ons te begrijpen hoe bezoekers de Site bereiken en gebruiken, en meten de prestaties van onze advertenties.",
+        "table3Name": "Geplaatst door Google (bijv. _gcl_au en gerelateerde identifiers)",
+        "table3Provider": "Google (Google Ads-tag, account AW-1018014349)",
+        "table3Purpose": "Meet de effectiviteit van onze advertenties en conversietracking.",
+        "table3Duration": "Volgens de gepubliceerde bewaartermijnen van Google (doorgaans tot 90 dagen)",
+        "sub4Title": "3.4 Marketing- / Social-mediacookies",
+        "sub4Desc": "Wij gebruiken momenteel geen marketing- of retargetingpixels zoals de LinkedIn Insight Tag of de Meta Pixel op deze Site. De Instagram- en LinkedIn-iconen in onze header linken naar die platforms, maar plaatsen zelf geen cookies op deze Site. Deze sectie wordt bijgewerkt als dit verandert."
+      },
+      "section4": {
+        "title": "4. Uw Toestemmingskeuzes",
+        "intro": "Bij uw eerste bezoek aan de Site kunt u via een cookiebanner:",
+        "li1Strong": "Alles accepteren",
+        "li1": "— toestemming geven voor alle cookiecategorieën (Functioneel, Analytisch, Marketing)",
+        "li2Strong": "Niet-essentiële weigeren",
+        "li2": "— alleen strikt noodzakelijke cookies toestaan",
+        "li3Strong": "Voorkeuren beheren",
+        "li3": "— toestemming per categorie afzonderlijk kiezen (Functioneel / Analytisch / Marketing)",
+        "p1": "Niet-essentiële cookies (Functioneel, Analytisch, Marketing) worden pas geplaatst nadat u toestemming heeft gegeven. Door \"Niet-essentiële weigeren\" te kiezen — of een categorie uit te vinken bij \"Voorkeuren beheren\" — worden reeds geplaatste niet-essentiële cookies van ons verwijderd (bijvoorbeeld de taalcookie beschreven in Sectie 3.2). Strikt noodzakelijke cookies (Sectie 3.1) worden hoe dan ook geplaatst, omdat de Site niet zonder kan functioneren.",
+        "p2Pre": "U kunt uw keuze op elk moment wijzigen via de link",
+        "p2Strong": "\"Cookie-instellingen\"",
+        "p2Suffix": "in de footer van de site, die dit voorkeurenpaneel opnieuw opent."
+      },
+      "section5": {
+        "title": "5. Rechtsgrondslag",
+        "li1Strong": "Europese Unie, Europese Economische Ruimte en Verenigd Koninkrijk",
+        "li1": ": wij baseren ons op uw uitdrukkelijke toestemming voor niet-essentiële cookies, in lijn met de ePrivacyrichtlijn en de UK GDPR/PECR.",
+        "li2Strong": "Brazilië",
+        "li2": ": wij baseren ons op uw toestemming voor niet-essentiële cookies, in lijn met de Lei Geral de Proteção de Dados (LGPD).",
+        "li3Strong": "India",
+        "li3": ": als Indiaas bedrijf passen wij deze toestemmingsstandaard ook toe in lijn met de Digital Personal Data Protection Act, 2023 (DPDP Act).",
+        "li4Strong": "Alle andere rechtsgebieden",
+        "li4": ": wij passen dezelfde opt-in toestemmingsstandaard hierboven beschreven toe op alle bezoekers, ongeacht hun locatie."
+      },
+      "section6": {
+        "title": "6. Cookies van Derden",
+        "p1": "Sommige cookies worden geplaatst door externe diensten die op onze Site verschijnen. Wij hebben geen controle over deze cookies. Raadpleeg het eigen beleid van de betreffende derde partij voor meer informatie:",
+        "li1": "Google: https://policies.google.com/privacy",
+        "p2": "Wanneer Analytische cookies zijn ingeschakeld, kan dit inhouden dat bepaalde gegevens worden doorgegeven aan Google LLC in de Verenigde Staten. Google hanteert eigen waarborgen voor dergelijke internationale doorgiften; zie de bovenstaande link voor details."
+      },
+      "section7": {
+        "title": "7. Cookies Beheren via Uw Browser",
+        "p1": "Naast de toestemmingsbanner op deze Site kunt u via de instellingen van de meeste webbrowsers cookies beheren of verwijderen. Het uitschakelen van cookies kan van invloed zijn op het functioneren van deze en andere websites."
+      },
+      "section8": {
+        "title": "8. Bewaartermijn van Gegevens",
+        "p1": "Cookiegegevens worden alleen bewaard zolang als nodig is voor het doel waarvoor ze zijn verzameld, zoals uiteengezet in Sectie 3. Uw toestemmingskeuze zelf wordt alleen opgeslagen in uw eigen browser (niet op onze servers) en blijft dus bestaan totdat u de opgeslagen gegevens van uw browser voor deze Site wist of uw keuze wijzigt via \"Cookie-instellingen\", waarna u opnieuw wordt gevraagd."
+      },
+      "section9": {
+        "title": "9. Uw Rechten",
+        "p1": "Afhankelijk van uw locatie kunt u rechten hebben om uw persoonsgegevens in te zien, te corrigeren, te verwijderen of de verwerking ervan te beperken. Neem contact met ons op via de gegevens in Sectie 11 om deze rechten uit te oefenen."
+      },
+      "section10": {
+        "title": "10. Wijzigingen in Dit Beleid",
+        "p1": "Wij kunnen dit Cookiebeleid van tijd tot tijd bijwerken. De datum \"Laatst bijgewerkt\" bovenaan deze pagina toont wanneer het voor het laatst is herzien."
+      },
+      "section11": {
+        "title": "11. Contact",
+        "p1": "Als u vragen heeft over dit Cookiebeleid, neem dan contact met ons op via:",
+        "email": "E-mail:"
+      }
+    }
   }
 }

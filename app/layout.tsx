@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Poppins, Inter } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 import LanguageProvider from "@/components/LanguageProvider";
 import CookieConsent from "@/components/CookieConsent";
+import GoogleAdsTag from "@/components/GoogleAdsTag";
 
 const heading = Poppins({
   subsets: ["latin"],
@@ -37,23 +37,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${heading.variable} ${body.variable}`}>
-      <head>
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-1018014349"
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'AW-1018014349');
-          `}
-        </Script>
-      </head>
       <body className="font-body text-[#404C3E] antialiased">
+        <GoogleAdsTag />
         <LanguageProvider>
           <div className="relative min-h-screen">
             {children}

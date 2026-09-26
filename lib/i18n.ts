@@ -1,5 +1,6 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
+import { hasConsent } from './cookieConsent';
 import en from '../public/locales/en/common.json';
 import de from '../public/locales/de/common.json';
 import nl from '../public/locales/nl/common.json';
@@ -30,13 +31,28 @@ function getCookie(name: string): string | undefined {
 
 // Persist the chosen language to both a cookie (sent to the server, survives
 // longer / independent of localStorage) and localStorage (existing fallback).
+// This is a "Functional" cookie under our Cookie Policy, so it's only written
+// once the visitor has given functional consent via the cookie banner.
 export function persistPreferredLanguage(lang: string) {
   if (typeof window === 'undefined') return;
+  if (!hasConsent('functional')) return;
   document.cookie = `${LANGUAGE_COOKIE}=${lang}; path=/; max-age=31536000`;
   try {
     localStorage.setItem(LANGUAGE_STORAGE_KEY, lang);
   } catch {
     // ignore (e.g. private browsing)
+  }
+}
+
+// Removes the previously-set language cookie/localStorage — called when the
+// visitor withdraws functional consent.
+export function clearPreferredLanguage() {
+  if (typeof window === 'undefined') return;
+  document.cookie = `${LANGUAGE_COOKIE}=; path=/; max-age=0`;
+  try {
+    localStorage.removeItem(LANGUAGE_STORAGE_KEY);
+  } catch {
+    // ignore
   }
 }
 

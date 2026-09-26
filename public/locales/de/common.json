@@ -188,5 +188,124 @@
     "spanish": "Español",
     "italian": "Italiano",
     "selectLanguage": "Sprache auswählen"
+  },
+  "cookie": {
+    "banner": {
+      "message": "Wir verwenden Cookies, um Ihre Erfahrung auf unserer Website zu verbessern und zu verstehen, wie sie genutzt wird. Unbedingt erforderliche Cookies sind immer aktiv. Weitere Informationen finden Sie in unserer",
+      "policyLink": "Cookie-Richtlinie",
+      "messageSuffix": ".",
+      "managePreferences": "Einstellungen verwalten",
+      "rejectNonEssential": "Nicht erforderliche ablehnen",
+      "acceptAll": "Alle akzeptieren"
+    },
+    "preferences": {
+      "title": "Cookie-Einstellungen verwalten",
+      "description": "Wählen Sie aus, welche Kategorien nicht erforderlicher Cookies zugelassen werden sollen. Lesen Sie unsere",
+      "descriptionSuffix": ", um zu erfahren, was jede Kategorie umfasst.",
+      "necessaryTitle": "Unbedingt erforderlich",
+      "necessaryDesc": "Immer aktiv – erforderlich, damit die Website funktioniert.",
+      "functionalTitle": "Funktional",
+      "functionalDesc": "Speichert Einstellungen wie Ihre gewählte Sprache.",
+      "analyticsTitle": "Analyse",
+      "analyticsDesc": "Misst die Nutzung der Website und die Leistung unserer Werbung.",
+      "marketingTitle": "Marketing",
+      "marketingDesc": "Wird auf dieser Website derzeit nicht verwendet.",
+      "back": "Zurück",
+      "save": "Einstellungen speichern"
+    },
+    "policy": {
+      "eyebrow": "Rechtliches",
+      "title": "Cookie-Richtlinie",
+      "lastUpdated": "Zuletzt aktualisiert: 26. September 2026",
+      "section1": {
+        "title": "1. Einleitung",
+        "p1": "Diese Cookie-Richtlinie erklärt, wie Faar Earth Collective („wir“, „uns“, „unser“) Cookies und ähnliche Tracking-Technologien auf www.faarearth.com (die „Website“) verwendet. Sie erläutert, was diese Technologien sind, warum wir sie einsetzen und welche Rechte Sie zu deren Kontrolle haben.",
+        "p2": "Eine separate Datenschutzerklärung, die unseren Umgang mit personenbezogenen Daten umfassender beschreibt, befindet sich in Vorbereitung und wird hier verlinkt, sobald sie veröffentlicht ist. In der Zwischenzeit können Sie sich mit datenschutzbezogenen Fragen an uns wenden, siehe Kontaktdaten in Abschnitt 11."
+      },
+      "section2": {
+        "title": "2. Was sind Cookies?",
+        "p1": "Cookies sind kleine Textdateien, die beim Besuch einer Website auf Ihrem Gerät gespeichert werden. Sie ermöglichen es der Website, Ihr Gerät wiederzuerkennen und Informationen über Ihren Besuch zu speichern, wie z. B. Ihre Präferenzen und Aktionen auf der Website."
+      },
+      "section3": {
+        "title": "3. Wie wir Cookies verwenden",
+        "intro": "Wir verwenden Cookies für folgende Zwecke:",
+        "sub1Title": "3.1 Unbedingt erforderliche Cookies",
+        "sub1Desc": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website unerlässlich. Sie erfordern keine Einwilligung, da sie zur Bereitstellung des von Ihnen angeforderten Dienstes unbedingt erforderlich sind.",
+        "tableHeaderName": "Cookie-Name",
+        "tableHeaderProvider": "Anbieter",
+        "tableHeaderPurpose": "Zweck",
+        "tableHeaderDuration": "Dauer",
+        "table1Name": "fe_admin_session",
+        "table1Provider": "Faar Earth Collective",
+        "table1Purpose": "Hält ein autorisiertes Mitarbeiterkonto im Content-Management-Bereich angemeldet. Wird für gewöhnliche Besucher nicht gesetzt.",
+        "table1Duration": "7 Tage",
+        "sub2Title": "3.2 Funktionale Cookies",
+        "sub2Desc": "Diese Cookies ermöglichen es der Website, sich an Ihre Auswahl zu erinnern, um erweiterte, persönlichere Funktionen bereitzustellen.",
+        "table2Name": "language",
+        "table2Provider": "Faar Earth Collective",
+        "table2Purpose": "Speichert Ihre gewählte Website-Sprache über mehrere Besuche hinweg.",
+        "table2Duration": "1 Jahr",
+        "sub3Title": "3.3 Analyse-/Werbemess-Cookies",
+        "sub3Desc": "Diese Cookies helfen uns zu verstehen, wie Besucher auf die Website gelangen und sie nutzen, und die Leistung unserer Werbung zu messen.",
+        "table3Name": "Von Google gesetzt (z. B. _gcl_au und verwandte Kennungen)",
+        "table3Provider": "Google (Google Ads Tag, Konto AW-1018014349)",
+        "table3Purpose": "Misst die Wirksamkeit unserer Werbung und Conversion-Tracking.",
+        "table3Duration": "Gemäß den veröffentlichten Aufbewahrungsfristen von Google (in der Regel bis zu 90 Tage)",
+        "sub4Title": "3.4 Marketing-/Social-Media-Cookies",
+        "sub4Desc": "Wir setzen derzeit keine Marketing- oder Retargeting-Pixel wie das LinkedIn Insight Tag oder den Meta Pixel auf dieser Website ein. Die Instagram- und LinkedIn-Symbole in unserer Kopfzeile verlinken zu diesen Plattformen, setzen aber selbst keine Cookies auf dieser Website. Dieser Abschnitt wird aktualisiert, sollte sich dies ändern."
+      },
+      "section4": {
+        "title": "4. Ihre Einwilligungsoptionen",
+        "intro": "Bei Ihrem ersten Besuch der Website können Sie über ein Cookie-Banner:",
+        "li1Strong": "Alle akzeptieren",
+        "li1": "— Einwilligung zu allen Cookie-Kategorien (Funktional, Analyse, Marketing)",
+        "li2Strong": "Nicht erforderliche ablehnen",
+        "li2": "— nur unbedingt erforderliche Cookies zulassen",
+        "li3Strong": "Einstellungen verwalten",
+        "li3": "— die Einwilligung individuell pro Kategorie wählen (Funktional / Analyse / Marketing)",
+        "p1": "Nicht erforderliche Cookies (Funktional, Analyse, Marketing) werden erst gesetzt, nachdem Sie Ihre Einwilligung erteilt haben. Wenn Sie „Nicht erforderliche ablehnen“ wählen – oder eine Kategorie in „Einstellungen verwalten“ deaktivieren – werden bereits gesetzte nicht erforderliche Cookies entfernt (z. B. das in Abschnitt 3.2 beschriebene Sprach-Cookie). Unbedingt erforderliche Cookies (Abschnitt 3.1) werden unabhängig davon gesetzt, da die Website ohne sie nicht funktionieren kann.",
+        "p2Pre": "Sie können Ihre Wahl jederzeit über den Link",
+        "p2Strong": "„Cookie-Einstellungen“",
+        "p2Suffix": "in der Fußzeile der Website ändern, der dieses Einstellungsfenster erneut öffnet."
+      },
+      "section5": {
+        "title": "5. Rechtsgrundlage",
+        "li1Strong": "Europäische Union, Europäischer Wirtschaftsraum und Vereinigtes Königreich",
+        "li1": ": Wir stützen uns auf Ihre ausdrückliche Einwilligung für nicht erforderliche Cookies, im Einklang mit der ePrivacy-Richtlinie und der UK GDPR/PECR.",
+        "li2Strong": "Brasilien",
+        "li2": ": Wir stützen uns auf Ihre Einwilligung für nicht erforderliche Cookies, im Einklang mit der Lei Geral de Proteção de Dados (LGPD).",
+        "li3Strong": "Indien",
+        "li3": ": Als indisches Unternehmen wenden wir diesen Einwilligungsstandard auch im Einklang mit dem Digital Personal Data Protection Act, 2023 (DPDP Act) an.",
+        "li4Strong": "Alle anderen Rechtsordnungen",
+        "li4": ": Wir wenden denselben Opt-in-Einwilligungsstandard unabhängig vom Standort auf alle Besucher an."
+      },
+      "section6": {
+        "title": "6. Cookies von Drittanbietern",
+        "p1": "Einige Cookies werden von Drittanbieterdiensten gesetzt, die auf unserer Website erscheinen. Wir haben keine Kontrolle über diese Cookies. Weitere Informationen finden Sie in den jeweiligen Richtlinien des Drittanbieters:",
+        "li1": "Google: https://policies.google.com/privacy",
+        "p2": "Sofern Analyse-Cookies aktiviert sind, kann dies die Übermittlung bestimmter Daten an Google LLC in den Vereinigten Staaten beinhalten. Google unterhält eigene Schutzmaßnahmen für solche internationalen Datenübermittlungen; Einzelheiten finden Sie über den obigen Link."
+      },
+      "section7": {
+        "title": "7. Kontrolle von Cookies über Ihren Browser",
+        "p1": "Zusätzlich zum Einwilligungsbanner auf dieser Website können Sie über die Einstellungen der meisten Webbrowser Cookies steuern oder löschen. Das Deaktivieren von Cookies kann die Funktionsweise dieser und anderer Websites beeinträchtigen."
+      },
+      "section8": {
+        "title": "8. Datenspeicherung",
+        "p1": "Cookie-Daten werden nur so lange gespeichert, wie es für den in Abschnitt 3 genannten Zweck erforderlich ist. Ihre Einwilligungswahl selbst wird nur in Ihrem eigenen Browser gespeichert (nicht auf unseren Servern) und bleibt bestehen, bis Sie die gespeicherten Daten Ihres Browsers für diese Website löschen oder Ihre Wahl über „Cookie-Einstellungen“ ändern; danach werden Sie erneut gefragt."
+      },
+      "section9": {
+        "title": "9. Ihre Rechte",
+        "p1": "Je nach Ihrem Standort haben Sie möglicherweise das Recht, auf Ihre personenbezogenen Daten zuzugreifen, sie zu berichtigen, zu löschen oder deren Verarbeitung einzuschränken. Um diese Rechte auszuüben, kontaktieren Sie uns bitte über die Angaben in Abschnitt 11."
+      },
+      "section10": {
+        "title": "10. Änderungen dieser Richtlinie",
+        "p1": "Wir können diese Cookie-Richtlinie von Zeit zu Zeit aktualisieren. Das Datum „Zuletzt aktualisiert“ oben auf dieser Seite zeigt an, wann sie zuletzt überarbeitet wurde."
+      },
+      "section11": {
+        "title": "11. Kontakt",
+        "p1": "Wenn Sie Fragen zu dieser Cookie-Richtlinie haben, kontaktieren Sie uns bitte unter:",
+        "email": "E-Mail:"
+      }
+    }
   }
 }

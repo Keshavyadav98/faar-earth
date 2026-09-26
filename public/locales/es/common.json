@@ -189,5 +189,124 @@
     "spanish": "Español",
     "italian": "Italiano",
     "selectLanguage": "Seleccionar idioma"
+  },
+  "cookie": {
+    "banner": {
+      "message": "Utilizamos cookies para mejorar su experiencia en nuestro sitio y para entender cómo se utiliza. Las cookies estrictamente necesarias siempre están activas. Consulte nuestra",
+      "policyLink": "Política de Cookies",
+      "messageSuffix": "para más información.",
+      "managePreferences": "Gestionar Preferencias",
+      "rejectNonEssential": "Rechazar No Esenciales",
+      "acceptAll": "Aceptar Todo"
+    },
+    "preferences": {
+      "title": "Gestionar Preferencias de Cookies",
+      "description": "Elija qué categorías de cookies no esenciales desea permitir. Lea nuestra",
+      "descriptionSuffix": "para saber qué cubre cada categoría.",
+      "necessaryTitle": "Estrictamente Necesarias",
+      "necessaryDesc": "Siempre activas — necesarias para que el sitio funcione.",
+      "functionalTitle": "Funcionales",
+      "functionalDesc": "Recuerdan preferencias como el idioma seleccionado.",
+      "analyticsTitle": "Analíticas",
+      "analyticsDesc": "Miden el uso del sitio y el rendimiento de nuestra publicidad.",
+      "marketingTitle": "Marketing",
+      "marketingDesc": "Actualmente no se utilizan en este sitio.",
+      "back": "Atrás",
+      "save": "Guardar Preferencias"
+    },
+    "policy": {
+      "eyebrow": "Legal",
+      "title": "Política de Cookies",
+      "lastUpdated": "Última actualización: 26 de septiembre de 2026",
+      "section1": {
+        "title": "1. Introducción",
+        "p1": "Esta Política de Cookies explica cómo Faar Earth Collective (\"nosotros\", \"nos\", \"nuestro\") utiliza cookies y tecnologías de seguimiento similares en www.faarearth.com (el \"Sitio\"). Explica qué son estas tecnologías, por qué las utilizamos y sus derechos para controlar su uso.",
+        "p2": "Una Política de Privacidad independiente que cubre de forma más amplia cómo tratamos los datos personales está en preparación y se enlazará aquí una vez publicada. Mientras tanto, cualquier consulta sobre privacidad puede dirigirse a nosotros utilizando los datos de la Sección 11."
+      },
+      "section2": {
+        "title": "2. ¿Qué son las cookies?",
+        "p1": "Las cookies son pequeños archivos de texto que se colocan en su dispositivo al visitar un sitio web. Permiten que el sitio reconozca su dispositivo y recuerde información sobre su visita, como sus preferencias y acciones en el sitio."
+      },
+      "section3": {
+        "title": "3. Cómo utilizamos las cookies",
+        "intro": "Utilizamos cookies para los siguientes fines:",
+        "sub1Title": "3.1 Cookies Estrictamente Necesarias",
+        "sub1Desc": "Estas cookies son esenciales para que el Sitio funcione correctamente. No requieren consentimiento, ya que son estrictamente necesarias para prestar el servicio solicitado.",
+        "tableHeaderName": "Nombre de la Cookie",
+        "tableHeaderProvider": "Proveedor",
+        "tableHeaderPurpose": "Finalidad",
+        "tableHeaderDuration": "Duración",
+        "table1Name": "fe_admin_session",
+        "table1Provider": "Faar Earth Collective",
+        "table1Purpose": "Mantiene la sesión iniciada de un miembro del personal autorizado en el área de gestión de contenidos. No se establece para visitantes ordinarios.",
+        "table1Duration": "7 días",
+        "sub2Title": "3.2 Cookies Funcionales",
+        "sub2Desc": "Estas cookies permiten que el Sitio recuerde las elecciones que realiza para ofrecer funciones más personales y mejoradas.",
+        "table2Name": "language",
+        "table2Provider": "Faar Earth Collective",
+        "table2Purpose": "Recuerda el idioma seleccionado del sitio entre visitas.",
+        "table2Duration": "1 año",
+        "sub3Title": "3.3 Cookies de Analítica / Medición Publicitaria",
+        "sub3Desc": "Estas cookies nos ayudan a entender cómo los visitantes llegan y utilizan el Sitio, y a medir el rendimiento de nuestra publicidad.",
+        "table3Name": "Establecida por Google (p. ej. _gcl_au e identificadores relacionados)",
+        "table3Provider": "Google (etiqueta de Google Ads, cuenta AW-1018014349)",
+        "table3Purpose": "Mide la eficacia de nuestra publicidad y el seguimiento de conversiones.",
+        "table3Duration": "Según los periodos de retención publicados por Google (normalmente hasta 90 días)",
+        "sub4Title": "3.4 Cookies de Marketing / Redes Sociales",
+        "sub4Desc": "Actualmente no utilizamos píxeles de marketing o retargeting como el LinkedIn Insight Tag o el Meta Pixel en este Sitio. Los iconos de Instagram y LinkedIn en nuestra cabecera enlazan a esas plataformas, pero no establecen cookies en este Sitio por sí mismos. Esta sección se actualizará si esto cambia."
+      },
+      "section4": {
+        "title": "4. Sus Opciones de Consentimiento",
+        "intro": "Cuando visita el Sitio por primera vez, un banner de cookies le permite:",
+        "li1Strong": "Aceptar Todo",
+        "li1": "— dar su consentimiento a todas las categorías de cookies (Funcionales, Analíticas, Marketing)",
+        "li2Strong": "Rechazar No Esenciales",
+        "li2": "— permitir solo cookies estrictamente necesarias",
+        "li3Strong": "Gestionar Preferencias",
+        "li3": "— elegir el consentimiento individualmente por categoría (Funcionales / Analíticas / Marketing)",
+        "p1": "Las cookies no esenciales (Funcionales, Analíticas, Marketing) no se establecen hasta que otorgue su consentimiento, y al elegir \"Rechazar No Esenciales\" — o desmarcar una categoría en \"Gestionar Preferencias\" — se eliminan las cookies no esenciales propias ya establecidas (por ejemplo, la cookie de idioma descrita en la Sección 3.2). Las cookies estrictamente necesarias (Sección 3.1) se establecen de todos modos, ya que el Sitio no puede funcionar sin ellas.",
+        "p2Pre": "Puede cambiar su elección en cualquier momento a través del enlace",
+        "p2Strong": "\"Configuración de Cookies\"",
+        "p2Suffix": "en el pie de página del sitio, que vuelve a abrir este panel de preferencias."
+      },
+      "section5": {
+        "title": "5. Base Jurídica",
+        "li1Strong": "Unión Europea, Espacio Económico Europeo y Reino Unido",
+        "li1": ": nos basamos en su consentimiento explícito para las cookies no esenciales, de conformidad con la Directiva ePrivacy y el UK GDPR/PECR.",
+        "li2Strong": "Brasil",
+        "li2": ": nos basamos en su consentimiento para las cookies no esenciales, de conformidad con la Lei Geral de Proteção de Dados (LGPD).",
+        "li3Strong": "India",
+        "li3": ": como empresa india, también aplicamos este estándar de consentimiento de conformidad con la Digital Personal Data Protection Act, 2023 (Ley DPDP).",
+        "li4Strong": "Todas las demás jurisdicciones",
+        "li4": ": aplicamos el mismo estándar de consentimiento de tipo \"opt-in\" descrito anteriormente a todos los visitantes, independientemente de su ubicación."
+      },
+      "section6": {
+        "title": "6. Cookies de Terceros",
+        "p1": "Algunas cookies son establecidas por servicios de terceros que aparecen en nuestro Sitio. No controlamos estas cookies. Consulte la propia política del tercero para más información:",
+        "li1": "Google: https://policies.google.com/privacy",
+        "p2": "Cuando las cookies de Analítica están activadas, esto puede implicar la transferencia de algunos datos a Google LLC en Estados Unidos. Google mantiene sus propias salvaguardas para estas transferencias internacionales; consulte el enlace anterior para más detalles."
+      },
+      "section7": {
+        "title": "7. Cómo Controlar las Cookies Desde su Navegador",
+        "p1": "Además del banner de consentimiento de este Sitio, la mayoría de los navegadores web le permiten controlar o eliminar cookies a través de su configuración. Desactivar las cookies puede afectar al funcionamiento de este y otros sitios web."
+      },
+      "section8": {
+        "title": "8. Conservación de Datos",
+        "p1": "Los datos de cookies se conservan solo durante el tiempo necesario para la finalidad para la que se recopilaron, según lo establecido en la Sección 3. Su elección de consentimiento se almacena únicamente en su propio navegador (no en nuestros servidores), por lo que se mantiene hasta que borre los datos almacenados de su navegador para este Sitio o cambie su elección a través de \"Configuración de Cookies\", momento en el que se le volverá a preguntar."
+      },
+      "section9": {
+        "title": "9. Sus Derechos",
+        "p1": "Dependiendo de su ubicación, puede tener derechos de acceso, rectificación, supresión o limitación del tratamiento de sus datos personales. Para ejercer estos derechos, contáctenos utilizando los datos de la Sección 11."
+      },
+      "section10": {
+        "title": "10. Cambios en Esta Política",
+        "p1": "Podemos actualizar esta Política de Cookies de vez en cuando. La fecha de \"Última actualización\" en la parte superior de esta página indica cuándo fue revisada por última vez."
+      },
+      "section11": {
+        "title": "11. Contáctenos",
+        "p1": "Si tiene preguntas sobre esta Política de Cookies, contáctenos en:",
+        "email": "Correo electrónico:"
+      }
+    }
   }
 }

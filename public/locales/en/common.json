@@ -207,5 +207,124 @@
     "spanish": "Español",
     "italian": "Italiano",
     "selectLanguage": "Select Language"
+  },
+  "cookie": {
+    "banner": {
+      "message": "We use cookies to improve your experience on our site and to understand how it's used. Strictly necessary cookies are always on. See our",
+      "policyLink": "Cookie Policy",
+      "messageSuffix": "for details.",
+      "managePreferences": "Manage Preferences",
+      "rejectNonEssential": "Reject Non-Essential",
+      "acceptAll": "Accept All"
+    },
+    "preferences": {
+      "title": "Manage Cookie Preferences",
+      "description": "Choose which categories of non-essential cookies to allow. Read the",
+      "descriptionSuffix": "for what each category covers.",
+      "necessaryTitle": "Strictly Necessary",
+      "necessaryDesc": "Always on — required for the site to work.",
+      "functionalTitle": "Functional",
+      "functionalDesc": "Remembers preferences such as your selected language.",
+      "analyticsTitle": "Analytics",
+      "analyticsDesc": "Measures site usage and advertising performance.",
+      "marketingTitle": "Marketing",
+      "marketingDesc": "Not currently used on this site.",
+      "back": "Back",
+      "save": "Save Preferences"
+    },
+    "policy": {
+      "eyebrow": "Legal",
+      "title": "Cookie Policy",
+      "lastUpdated": "Last updated: 26 September 2026",
+      "section1": {
+        "title": "1. Introduction",
+        "p1": "This Cookie Policy explains how Faar Earth Collective (\"we,\" \"us,\" \"our\") uses cookies and similar tracking technologies on www.faarearth.com (the \"Site\"). It explains what these technologies are, why we use them, and your rights to control our use of them.",
+        "p2": "A separate Privacy Policy covering how we handle personal data more broadly is in preparation and will be linked here once published. In the meantime, any privacy questions can be directed to us using the details in Section 11."
+      },
+      "section2": {
+        "title": "2. What Are Cookies?",
+        "p1": "Cookies are small text files placed on your device when you visit a website. They allow the site to recognise your device and remember information about your visit, such as your preferences and actions on the site."
+      },
+      "section3": {
+        "title": "3. How We Use Cookies",
+        "intro": "We use cookies for the following purposes:",
+        "sub1Title": "3.1 Strictly Necessary Cookies",
+        "sub1Desc": "These cookies are essential for the Site to function properly. They do not require consent, as they are strictly necessary to provide the service you request.",
+        "tableHeaderName": "Cookie Name",
+        "tableHeaderProvider": "Provider",
+        "tableHeaderPurpose": "Purpose",
+        "tableHeaderDuration": "Duration",
+        "table1Name": "fe_admin_session",
+        "table1Provider": "Faar Earth Collective",
+        "table1Purpose": "Keeps an authorised staff member signed in to the content-management area. Not set for ordinary visitors.",
+        "table1Duration": "7 days",
+        "sub2Title": "3.2 Functional Cookies",
+        "sub2Desc": "These cookies allow the Site to remember choices you make to provide enhanced, more personal features.",
+        "table2Name": "language",
+        "table2Provider": "Faar Earth Collective",
+        "table2Purpose": "Remembers your selected site language across visits.",
+        "table2Duration": "1 year",
+        "sub3Title": "3.3 Analytics / Advertising Measurement Cookies",
+        "sub3Desc": "These cookies help us understand how visitors reach and use the Site and measure the performance of our advertising.",
+        "table3Name": "Set by Google (e.g. _gcl_au and related identifiers)",
+        "table3Provider": "Google (Google Ads tag, account AW-1018014349)",
+        "table3Purpose": "Measures the effectiveness of our advertising and conversion tracking.",
+        "table3Duration": "Per Google's published retention periods (typically up to 90 days)",
+        "sub4Title": "3.4 Marketing / Social Media Cookies",
+        "sub4Desc": "We do not currently run marketing or retargeting pixels such as the LinkedIn Insight Tag or Meta Pixel on this Site. The Instagram and LinkedIn icons in our header link out to those platforms but do not themselves set cookies on this Site. This section will be updated if that changes."
+      },
+      "section4": {
+        "title": "4. Your Consent Choices",
+        "intro": "When you first visit the Site, a cookie banner lets you:",
+        "li1Strong": "Accept All",
+        "li1": "— consent to all cookie categories (Functional, Analytics, Marketing)",
+        "li2Strong": "Reject Non-Essential",
+        "li2": "— allow only strictly necessary cookies",
+        "li3Strong": "Manage Preferences",
+        "li3": "— choose consent individually per category (Functional / Analytics / Marketing)",
+        "p1": "Non-essential cookies (Functional, Analytics, Marketing) are not set until you provide consent, and choosing \"Reject Non-Essential\" — or unchecking a category in \"Manage Preferences\" — removes any of our own non-essential cookies already set (for example, the language cookie described in Section 3.2). Strictly necessary cookies (Section 3.1) are set regardless, as the Site cannot function without them.",
+        "p2Pre": "You can change your choice at any time via the",
+        "p2Strong": "\"Cookie Settings\"",
+        "p2Suffix": "link in the site footer, which reopens this preference panel."
+      },
+      "section5": {
+        "title": "5. Legal Basis",
+        "li1Strong": "European Union, European Economic Area, and United Kingdom",
+        "li1": ": we rely on your explicit consent for non-essential cookies, in line with the ePrivacy Directive and UK GDPR/PECR.",
+        "li2Strong": "Brazil",
+        "li2": ": we rely on your consent for non-essential cookies, in line with the Lei Geral de Proteção de Dados (LGPD).",
+        "li3Strong": "India",
+        "li3": ": as an Indian company, we also apply this consent standard in line with the Digital Personal Data Protection Act, 2023 (DPDP Act).",
+        "li4Strong": "All other jurisdictions",
+        "li4": ": we apply the same opt-in consent standard described above to all visitors, regardless of location."
+      },
+      "section6": {
+        "title": "6. Third-Party Cookies",
+        "p1": "Some cookies are placed by third-party services that appear on our Site. We do not control these cookies. Please refer to the third party's own policy for further information:",
+        "li1": "Google: https://policies.google.com/privacy",
+        "p2": "Where Analytics cookies are enabled, this may involve transferring some data to Google LLC in the United States. Google maintains its own safeguards for such international transfers; see the link above for details."
+      },
+      "section7": {
+        "title": "7. How to Control Cookies via Your Browser",
+        "p1": "In addition to the consent banner on this Site, most web browsers allow you to control or delete cookies through their settings. Disabling cookies may affect how well this and other websites work."
+      },
+      "section8": {
+        "title": "8. Data Retention",
+        "p1": "Cookie data is retained only for as long as necessary for the purpose it was collected, as set out in Section 3. Your consent choice itself is stored only in your own browser (not on our servers), so it lasts until you clear your browser's stored data for this Site or change your choice via \"Cookie Settings,\" at which point you will be asked again."
+      },
+      "section9": {
+        "title": "9. Your Rights",
+        "p1": "Depending on your location, you may have rights to access, correct, delete, or restrict the processing of your personal data. To exercise these rights, contact us using the details in Section 11."
+      },
+      "section10": {
+        "title": "10. Changes to This Policy",
+        "p1": "We may update this Cookie Policy from time to time. The \"Last updated\" date at the top of this page shows when it was last revised."
+      },
+      "section11": {
+        "title": "11. Contact Us",
+        "p1": "If you have questions about this Cookie Policy, please contact us at:",
+        "email": "Email:"
+      }
+    }
   }
 }
