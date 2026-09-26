@@ -195,7 +195,7 @@
       "policyLink": "Cookie Policy",
       "messageSuffix": "per i dettagli.",
       "managePreferences": "Gestisci Preferenze",
-      "rejectNonEssential": "Rifiuta Non Essenziali",
+      "rejectNonEssential": "Rifiuta Tutti",
       "acceptAll": "Accetta Tutti"
     },
     "preferences": {
@@ -259,11 +259,11 @@
         "intro": "Alla prima visita del Sito, un banner sui cookie ti consente di:",
         "li1Strong": "Accetta Tutti",
         "li1": "— acconsentire a tutte le categorie di cookie (Funzionali, Analitici, Marketing)",
-        "li2Strong": "Rifiuta Non Essenziali",
+        "li2Strong": "Rifiuta Tutti",
         "li2": "— consentire solo i cookie strettamente necessari",
         "li3Strong": "Gestisci Preferenze",
         "li3": "— scegliere il consenso individualmente per categoria (Funzionali / Analitici / Marketing)",
-        "p1": "I cookie non essenziali (Funzionali, Analitici, Marketing) non vengono impostati finché non fornisci il consenso, e scegliendo \"Rifiuta Non Essenziali\" — o deselezionando una categoria in \"Gestisci Preferenze\" — vengono rimossi eventuali cookie non essenziali già impostati (ad esempio, il cookie della lingua descritto nella Sezione 3.2). I cookie strettamente necessari (Sezione 3.1) vengono comunque impostati, poiché il Sito non può funzionare senza di essi.",
+        "p1": "I cookie non essenziali (Funzionali, Analitici, Marketing) non vengono impostati finché non fornisci il consenso, e scegliendo \"Rifiuta Tutti\" — o deselezionando una categoria in \"Gestisci Preferenze\" — vengono rimossi eventuali cookie non essenziali già impostati (ad esempio, il cookie della lingua descritto nella Sezione 3.2). I cookie strettamente necessari (Sezione 3.1) vengono comunque impostati, poiché il Sito non può funzionare senza di essi.",
         "p2Pre": "Puoi modificare la tua scelta in qualsiasi momento tramite il link",
         "p2Strong": "\"Impostazioni Cookie\"",
         "p2Suffix": "nel piè di pagina del sito, che riapre questo pannello delle preferenze."

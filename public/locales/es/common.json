@@ -196,7 +196,7 @@
       "policyLink": "Política de Cookies",
       "messageSuffix": "para más información.",
       "managePreferences": "Gestionar Preferencias",
-      "rejectNonEssential": "Rechazar No Esenciales",
+      "rejectNonEssential": "Rechazar Todo",
       "acceptAll": "Aceptar Todo"
     },
     "preferences": {
@@ -260,11 +260,11 @@
         "intro": "Cuando visita el Sitio por primera vez, un banner de cookies le permite:",
         "li1Strong": "Aceptar Todo",
         "li1": "— dar su consentimiento a todas las categorías de cookies (Funcionales, Analíticas, Marketing)",
-        "li2Strong": "Rechazar No Esenciales",
+        "li2Strong": "Rechazar Todo",
         "li2": "— permitir solo cookies estrictamente necesarias",
         "li3Strong": "Gestionar Preferencias",
         "li3": "— elegir el consentimiento individualmente por categoría (Funcionales / Analíticas / Marketing)",
-        "p1": "Las cookies no esenciales (Funcionales, Analíticas, Marketing) no se establecen hasta que otorgue su consentimiento, y al elegir \"Rechazar No Esenciales\" — o desmarcar una categoría en \"Gestionar Preferencias\" — se eliminan las cookies no esenciales propias ya establecidas (por ejemplo, la cookie de idioma descrita en la Sección 3.2). Las cookies estrictamente necesarias (Sección 3.1) se establecen de todos modos, ya que el Sitio no puede funcionar sin ellas.",
+        "p1": "Las cookies no esenciales (Funcionales, Analíticas, Marketing) no se establecen hasta que otorgue su consentimiento, y al elegir \"Rechazar Todo\" — o desmarcar una categoría en \"Gestionar Preferencias\" — se eliminan las cookies no esenciales propias ya establecidas (por ejemplo, la cookie de idioma descrita en la Sección 3.2). Las cookies estrictamente necesarias (Sección 3.1) se establecen de todos modos, ya que el Sitio no puede funcionar sin ellas.",
         "p2Pre": "Puede cambiar su elección en cualquier momento a través del enlace",
         "p2Strong": "\"Configuración de Cookies\"",
         "p2Suffix": "en el pie de página del sitio, que vuelve a abrir este panel de preferencias."

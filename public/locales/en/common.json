@@ -214,7 +214,7 @@
       "policyLink": "Cookie Policy",
       "messageSuffix": "for details.",
       "managePreferences": "Manage Preferences",
-      "rejectNonEssential": "Reject Non-Essential",
+      "rejectNonEssential": "Reject All",
       "acceptAll": "Accept All"
     },
     "preferences": {
@@ -278,11 +278,11 @@
         "intro": "When you first visit the Site, a cookie banner lets you:",
         "li1Strong": "Accept All",
         "li1": "— consent to all cookie categories (Functional, Analytics, Marketing)",
-        "li2Strong": "Reject Non-Essential",
+        "li2Strong": "Reject All",
         "li2": "— allow only strictly necessary cookies",
         "li3Strong": "Manage Preferences",
         "li3": "— choose consent individually per category (Functional / Analytics / Marketing)",
-        "p1": "Non-essential cookies (Functional, Analytics, Marketing) are not set until you provide consent, and choosing \"Reject Non-Essential\" — or unchecking a category in \"Manage Preferences\" — removes any of our own non-essential cookies already set (for example, the language cookie described in Section 3.2). Strictly necessary cookies (Section 3.1) are set regardless, as the Site cannot function without them.",
+        "p1": "Non-essential cookies (Functional, Analytics, Marketing) are not set until you provide consent, and choosing \"Reject All\" — or unchecking a category in \"Manage Preferences\" — removes any of our own non-essential cookies already set (for example, the language cookie described in Section 3.2). Strictly necessary cookies (Section 3.1) are set regardless, as the Site cannot function without them.",
         "p2Pre": "You can change your choice at any time via the",
         "p2Strong": "\"Cookie Settings\"",
         "p2Suffix": "link in the site footer, which reopens this preference panel."

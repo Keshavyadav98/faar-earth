@@ -195,7 +195,7 @@
       "policyLink": "Cookiebeleid",
       "messageSuffix": "voor meer informatie.",
       "managePreferences": "Voorkeuren beheren",
-      "rejectNonEssential": "Niet-essentiële weigeren",
+      "rejectNonEssential": "Alles weigeren",
       "acceptAll": "Alles accepteren"
     },
     "preferences": {
@@ -259,11 +259,11 @@
         "intro": "Bij uw eerste bezoek aan de Site kunt u via een cookiebanner:",
         "li1Strong": "Alles accepteren",
         "li1": "— toestemming geven voor alle cookiecategorieën (Functioneel, Analytisch, Marketing)",
-        "li2Strong": "Niet-essentiële weigeren",
+        "li2Strong": "Alles weigeren",
         "li2": "— alleen strikt noodzakelijke cookies toestaan",
         "li3Strong": "Voorkeuren beheren",
         "li3": "— toestemming per categorie afzonderlijk kiezen (Functioneel / Analytisch / Marketing)",
-        "p1": "Niet-essentiële cookies (Functioneel, Analytisch, Marketing) worden pas geplaatst nadat u toestemming heeft gegeven. Door \"Niet-essentiële weigeren\" te kiezen — of een categorie uit te vinken bij \"Voorkeuren beheren\" — worden reeds geplaatste niet-essentiële cookies van ons verwijderd (bijvoorbeeld de taalcookie beschreven in Sectie 3.2). Strikt noodzakelijke cookies (Sectie 3.1) worden hoe dan ook geplaatst, omdat de Site niet zonder kan functioneren.",
+        "p1": "Niet-essentiële cookies (Functioneel, Analytisch, Marketing) worden pas geplaatst nadat u toestemming heeft gegeven. Door \"Alles weigeren\" te kiezen — of een categorie uit te vinken bij \"Voorkeuren beheren\" — worden reeds geplaatste niet-essentiële cookies van ons verwijderd (bijvoorbeeld de taalcookie beschreven in Sectie 3.2). Strikt noodzakelijke cookies (Sectie 3.1) worden hoe dan ook geplaatst, omdat de Site niet zonder kan functioneren.",
         "p2Pre": "U kunt uw keuze op elk moment wijzigen via de link",
         "p2Strong": "\"Cookie-instellingen\"",
         "p2Suffix": "in de footer van de site, die dit voorkeurenpaneel opnieuw opent."

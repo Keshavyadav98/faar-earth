@@ -195,7 +195,7 @@
       "policyLink": "Politique relative aux cookies",
       "messageSuffix": "pour plus de détails.",
       "managePreferences": "Gérer les préférences",
-      "rejectNonEssential": "Refuser les non essentiels",
+      "rejectNonEssential": "Tout refuser",
       "acceptAll": "Tout accepter"
     },
     "preferences": {
@@ -259,11 +259,11 @@
         "intro": "Lors de votre première visite du Site, une bannière de cookies vous permet de :",
         "li1Strong": "Tout accepter",
         "li1": "— consentir à toutes les catégories de cookies (Fonctionnels, Analytiques, Marketing)",
-        "li2Strong": "Refuser les non essentiels",
+        "li2Strong": "Tout refuser",
         "li2": "— autoriser uniquement les cookies strictement nécessaires",
         "li3Strong": "Gérer les préférences",
         "li3": "— choisir individuellement le consentement par catégorie (Fonctionnels / Analytiques / Marketing)",
-        "p1": "Les cookies non essentiels (Fonctionnels, Analytiques, Marketing) ne sont déposés qu'après votre consentement, et le fait de choisir « Refuser les non essentiels » — ou de décocher une catégorie dans « Gérer les préférences » — supprime tout cookie non essentiel déjà déposé par nos soins (par exemple, le cookie de langue décrit à la Section 3.2). Les cookies strictement nécessaires (Section 3.1) sont déposés dans tous les cas, le Site ne pouvant fonctionner sans eux.",
+        "p1": "Les cookies non essentiels (Fonctionnels, Analytiques, Marketing) ne sont déposés qu'après votre consentement, et le fait de choisir « Tout refuser » — ou de décocher une catégorie dans « Gérer les préférences » — supprime tout cookie non essentiel déjà déposé par nos soins (par exemple, le cookie de langue décrit à la Section 3.2). Les cookies strictement nécessaires (Section 3.1) sont déposés dans tous les cas, le Site ne pouvant fonctionner sans eux.",
         "p2Pre": "Vous pouvez modifier votre choix à tout moment via le lien",
         "p2Strong": "« Paramètres des cookies »",
         "p2Suffix": "dans le pied de page du site, qui rouvre ce panneau de préférences."

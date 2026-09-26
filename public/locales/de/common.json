@@ -195,7 +195,7 @@
       "policyLink": "Cookie-Richtlinie",
       "messageSuffix": ".",
       "managePreferences": "Einstellungen verwalten",
-      "rejectNonEssential": "Nicht erforderliche ablehnen",
+      "rejectNonEssential": "Alle ablehnen",
       "acceptAll": "Alle akzeptieren"
     },
     "preferences": {
@@ -259,11 +259,11 @@
         "intro": "Bei Ihrem ersten Besuch der Website können Sie über ein Cookie-Banner:",
         "li1Strong": "Alle akzeptieren",
         "li1": "— Einwilligung zu allen Cookie-Kategorien (Funktional, Analyse, Marketing)",
-        "li2Strong": "Nicht erforderliche ablehnen",
+        "li2Strong": "Alle ablehnen",
         "li2": "— nur unbedingt erforderliche Cookies zulassen",
         "li3Strong": "Einstellungen verwalten",
         "li3": "— die Einwilligung individuell pro Kategorie wählen (Funktional / Analyse / Marketing)",
-        "p1": "Nicht erforderliche Cookies (Funktional, Analyse, Marketing) werden erst gesetzt, nachdem Sie Ihre Einwilligung erteilt haben. Wenn Sie „Nicht erforderliche ablehnen“ wählen – oder eine Kategorie in „Einstellungen verwalten“ deaktivieren – werden bereits gesetzte nicht erforderliche Cookies entfernt (z. B. das in Abschnitt 3.2 beschriebene Sprach-Cookie). Unbedingt erforderliche Cookies (Abschnitt 3.1) werden unabhängig davon gesetzt, da die Website ohne sie nicht funktionieren kann.",
+        "p1": "Nicht erforderliche Cookies (Funktional, Analyse, Marketing) werden erst gesetzt, nachdem Sie Ihre Einwilligung erteilt haben. Wenn Sie „Alle ablehnen“ wählen – oder eine Kategorie in „Einstellungen verwalten“ deaktivieren – werden bereits gesetzte nicht erforderliche Cookies entfernt (z. B. das in Abschnitt 3.2 beschriebene Sprach-Cookie). Unbedingt erforderliche Cookies (Abschnitt 3.1) werden unabhängig davon gesetzt, da die Website ohne sie nicht funktionieren kann.",
         "p2Pre": "Sie können Ihre Wahl jederzeit über den Link",
         "p2Strong": "„Cookie-Einstellungen“",
         "p2Suffix": "in der Fußzeile der Website ändern, der dieses Einstellungsfenster erneut öffnet."

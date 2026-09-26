@@ -81,7 +81,7 @@ export default function CookieConsent() {
               <button
                 type="button"
                 onClick={() => setShowPreferences(true)}
-                className="rounded-btn border border-border-gray px-5 py-2.5 text-[14px] font-medium text-text-gray transition-colors hover:bg-beige"
+                className="rounded-btn border-2 border-border-gray px-5 py-2.5 text-[14px] font-semibold text-text-gray transition-colors hover:bg-beige"
               >
                 {t("cookie.banner.managePreferences")}
               </button>
@@ -95,7 +95,7 @@ export default function CookieConsent() {
               <button
                 type="button"
                 onClick={acceptAll}
-                className="rounded-btn bg-primary-green px-5 py-2.5 text-[14px] font-semibold text-white transition-colors hover:bg-hover-green"
+                className="rounded-btn border-2 border-primary-green bg-primary-green px-5 py-2.5 text-[14px] font-semibold text-white transition-colors hover:border-hover-green hover:bg-hover-green"
               >
                 {t("cookie.banner.acceptAll")}
               </button>
