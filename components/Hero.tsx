@@ -38,9 +38,20 @@ export default function Hero() {
           <a
             href="#products"
             onClick={(e) => scrollToSection(e, "#products")}
-            className="inline-flex items-center gap-2 rounded-pill bg-primary-green px-7 py-3.5 text-[16px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green"
+            className="inline-flex items-center gap-2 rounded-pill border border-white bg-transparent px-7 py-3.5 text-[16px] font-medium text-white transition-colors hover:bg-white hover:text-primary-green"
           >
             {t("hero.exploreButton")} <span aria-hidden>→</span>
+          </a>
+          <a
+            href="#enquiry"
+            onClick={(e) => scrollToSection(e, "#enquiry")}
+            className="inline-flex items-center gap-2 rounded-pill bg-primary-green px-7 py-3.5 text-[16px] font-semibold text-white shadow-btn transition-colors hover:bg-hover-green"
+          >
+            <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 7v5l3 3" />
+            </svg>
+            {t("hero.quoteButton")} <span aria-hidden>→</span>
           </a>
           <a
             href="#enquiry"
