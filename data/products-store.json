@@ -419,7 +419,7 @@
       "it": "I nostri semi di sesamo bianchi naturali (non decorticati) provengono da Gujarat e Rajasthan e vengono puliti e classificati per l'export verso spremitura dell'olio, guarnizione da forno e snack. Guscio intatto, confezionati secondo gli standard alimentari, a partire da 100 kg con documentazione completa.",
       "nl": "Ons natuurlijke (ongepelde) witte sesamzaad is afkomstig uit Gujarat en Rajasthan en wordt schoongemaakt en gesorteerd voor export naar oliepersing, bakkerijtopping en snacks. Schil intact, voedselveilig verpakt, vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/Sesame Seeds.png",
+    "image": "/Images/white-sesame-natural.png",
     "form": {
       "en": "Natural, whole",
       "de": "Natürlich, ganz",
@@ -843,7 +843,7 @@
       "it": "I nostri semi di senape provengono da Rajasthan e Madhya Pradesh e sono forniti nei gradi giallo, marrone e nero, puliti per l'export verso miscele di spezie, sottaceti e spremitura dell'olio. A partire da 100 kg con documentazione completa.",
       "nl": "Ons mosterdzaad is afkomstig uit Rajasthan en Madhya Pradesh en wordt geleverd in gele, bruine en zwarte kwaliteiten, schoongemaakt voor export naar kruidenmixen, inmaak en oliepersing. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-mustard-seeds.svg",
+    "image": "/Images/yellow-mustard-seed.png",
     "form": {
       "en": "Whole, cleaned",
       "de": "Ganz, gereinigt",
@@ -958,146 +958,6 @@
       "nl": [
         {"question": "Wat is de GS-code voor mosterdzaad?", "answer": "GS-code 1207.50 op internationaal niveau van 4–6 cijfers. Het 8-cijferige tarief verschilt per land — bevestig dit bij uw douane-expediteur."},
         {"question": "Welke kwaliteiten levert u?", "answer": "Gele, bruine en zwarte mosterd. Laat ons weten welke kwaliteit u nodig heeft, wij bevestigen de beschikbaarheid."},
-        {"question": "Wat is de minimale bestelhoeveelheid (MOQ)?", "answer": "Vanaf 100 kg. Grotere volumes op aanvraag beschikbaar."}
-      ]
-    },
-    "updatedAt": "2026-10-20T00:00:00.000Z"
-  },
-  {
-    "id": "1792100000000004",
-    "slug": "psyllium-seeds",
-    "categorySlug": "seeds",
-    "title": {
-      "en": "Psyllium Seeds / Isabgol (Plantago ovata)",
-      "de": "Flohsamen / Isabgol (Plantago ovata)",
-      "es": "Semillas de Psyllium / Isabgol (Plantago ovata)",
-      "fr": "Graines de Psyllium / Isabgol (Plantago ovata)",
-      "it": "Semi di Psillio / Isabgol (Plantago ovata)",
-      "nl": "Psylliumzaad / Isabgol (Plantago ovata)"
-    },
-    "description": {
-      "en": "Sourced from Gujarat and Rajasthan, where India supplies the large majority of the world's psyllium, our psyllium seeds are supplied whole and cleaned for husk processing and supplement export. From 100 kg with full documentation. Husk and husk powder are listed separately under Botanicals (HS 1211.90).",
-      "de": "Unsere Flohsamen stammen aus Gujarat und Rajasthan, wo Indien den Großteil des weltweiten Psyllium-Bedarfs deckt, und werden ganz und gereinigt für Schalenverarbeitung und Nahrungsergänzungsmittelexport geliefert. Ab 100 kg mit vollständiger Dokumentation. Schale und Schalenpulver sind separat unter Botanicals gelistet (Zolltarif 1211.90).",
-      "es": "Nuestras semillas de psyllium se obtienen de Gujarat y Rajasthan, donde India suministra la gran mayoría del psyllium mundial, y se suministran enteras y limpias para procesamiento de cáscara y exportación de suplementos. Desde 100 kg con documentación completa. La cáscara y el polvo de cáscara se listan por separado bajo Botánicos (HS 1211.90).",
-      "fr": "Nos graines de psyllium proviennent du Gujarat et du Rajasthan, où l'Inde fournit la grande majorité du psyllium mondial, et sont fournies entières et nettoyées pour la transformation en enveloppe et l'export de compléments alimentaires. À partir de 100 kg avec documentation complète. L'enveloppe et la poudre d'enveloppe figurent séparément sous Botaniques (SH 1211.90).",
-      "it": "I nostri semi di psillio provengono da Gujarat e Rajasthan, dove l'India fornisce la grande maggioranza dello psillio mondiale, e vengono forniti interi e puliti per la lavorazione della cuticola e l'export di integratori. A partire da 100 kg con documentazione completa. Cuticola e polvere di cuticola sono elencate separatamente sotto Botanici (SA 1211.90).",
-      "nl": "Ons psylliumzaad is afkomstig uit Gujarat en Rajasthan, waar India het grootste deel van 's werelds psyllium levert, en wordt heel en schoongemaakt geleverd voor schilverwerking en supplementexport. Vanaf 100 kg met volledige documentatie. Schil en schilpoeder staan apart vermeld onder Botanicals (GS 1211.90)."
-    },
-    "image": "/Images/placeholder-psyllium-seeds.svg",
-    "form": {
-      "en": "Whole, cleaned",
-      "de": "Ganz, gereinigt",
-      "es": "Entera, limpia",
-      "fr": "Entière, nettoyée",
-      "it": "Intero, pulito",
-      "nl": "Heel, schoongemaakt"
-    },
-    "hsHeading": "1209.99",
-    "moq": {
-      "en": "From 100 kg",
-      "de": "Ab 100 kg",
-      "es": "Desde 100 kg",
-      "fr": "À partir de 100 kg",
-      "it": "A partire da 100 kg",
-      "nl": "Vanaf 100 kg"
-    },
-    "metaTitle": {
-      "en": "Psyllium Seeds Exporter India | Isabgol Bulk Supply",
-      "de": "Flohsamen Exporteur Indien | Isabgol Großhandel",
-      "es": "Exportador de Semillas de Psyllium India | Isabgol a Granel",
-      "fr": "Exportateur de Graines de Psyllium Inde | Isabgol en Vrac",
-      "it": "Esportatore di Semi di Psillio India | Isabgol all'Ingrosso",
-      "nl": "Psylliumzaad Exporteur India | Isabgol in Bulk"
-    },
-    "metaDescription": {
-      "en": "Psyllium seeds (Isabgol) from Gujarat & Rajasthan, whole and cleaned, for husk processing and supplement export.",
-      "de": "Flohsamen (Isabgol) aus Gujarat & Rajasthan, ganz und gereinigt, für Schalenverarbeitung und Nahrungsergänzungsmittelexport.",
-      "es": "Semillas de psyllium (Isabgol) de Gujarat y Rajasthan, enteras y limpias, para procesamiento de cáscara y exportación de suplementos.",
-      "fr": "Graines de psyllium (Isabgol) du Gujarat et du Rajasthan, entières et nettoyées, pour la transformation en enveloppe et l'export de compléments.",
-      "it": "Semi di psillio (Isabgol) da Gujarat e Rajasthan, interi e puliti, per la lavorazione della cuticola e l'export di integratori.",
-      "nl": "Psylliumzaad (Isabgol) uit Gujarat & Rajasthan, heel en schoongemaakt, voor schilverwerking en supplementexport."
-    },
-    "metaKeywords": {
-      "en": "psyllium seeds exporter india, isabgol seeds supplier, psyllium seed bulk, plantago ovata seeds india",
-      "de": "flohsamen exporteur indien, isabgol samen lieferant, flohsamen großhandel, plantago ovata samen indien",
-      "es": "exportador de semillas de psyllium india, proveedor de semillas de isabgol, psyllium a granel, semillas plantago ovata india",
-      "fr": "exportateur de graines de psyllium inde, fournisseur de graines d'isabgol, psyllium en vrac, graines plantago ovata inde",
-      "it": "esportatore di semi di psillio india, fornitore di semi di isabgol, psillio all'ingrosso, semi plantago ovata india",
-      "nl": "psylliumzaad exporteur india, isabgol zaad leverancier, psylliumzaad in bulk, plantago ovata zaad india"
-    },
-    "createdAt": "2026-10-20T00:00:00.000Z",
-    "primaryKeyword": "psyllium seeds exporter India",
-    "h1": {
-      "en": "Psyllium Seeds / Isabgol Exporter India — Bulk Supply",
-      "de": "Flohsamen / Isabgol Exporteur Indien — Großhandel",
-      "es": "Exportador de Semillas de Psyllium / Isabgol India — A Granel",
-      "fr": "Exportateur de Graines de Psyllium / Isabgol Inde — En Vrac",
-      "it": "Esportatore di Semi di Psillio / Isabgol India — All'Ingrosso",
-      "nl": "Psylliumzaad / Isabgol Exporteur India — In Bulk"
-    },
-    "botanicalName": "Plantago ovata",
-    "origin": "Gujarat, Rajasthan",
-    "grading": {
-      "en": "Purity, moisture, husk content",
-      "de": "Reinheit, Feuchtigkeit, Schalengehalt",
-      "es": "Pureza, humedad, contenido de cáscara",
-      "fr": "Pureté, humidité, teneur en enveloppe",
-      "it": "Purezza, umidità, contenuto di cuticola",
-      "nl": "Zuiverheid, vochtigheid, schilgehalte"
-    },
-    "packaging": {
-      "en": "Food-grade bulk, export-packed",
-      "de": "Lebensmittelgerechte Großverpackung, exportfertig",
-      "es": "A granel apto para alimentos, envasado para exportación",
-      "fr": "Vrac de qualité alimentaire, conditionné pour l'export",
-      "it": "Confezione all'ingrosso di grado alimentare, pronta per l'export",
-      "nl": "Voedselveilige bulkverpakking, exportklaar"
-    },
-    "applications": {
-      "en": ["Husk and husk powder processing", "Dietary fibre supplement export", "Pharmaceutical and nutraceutical feedstock", "Bulk seed export for further processing"],
-      "de": ["Schalen- und Schalenpulververarbeitung", "Export von Ballaststoffpräparaten", "Pharmazeutischer und nutrazeutischer Rohstoff", "Großhandels-Samenexport zur Weiterverarbeitung"],
-      "es": ["Procesamiento de cáscara y polvo de cáscara", "Exportación de suplementos de fibra dietética", "Materia prima farmacéutica y nutracéutica", "Exportación de semilla a granel para procesamiento posterior"],
-      "fr": ["Transformation en enveloppe et poudre d'enveloppe", "Export de compléments de fibres alimentaires", "Matière première pharmaceutique et nutraceutique", "Export de graines en vrac pour transformation ultérieure"],
-      "it": ["Lavorazione di cuticola e polvere di cuticola", "Export di integratori di fibra alimentare", "Materia prima farmaceutica e nutraceutica", "Export di seme all'ingrosso per ulteriore lavorazione"],
-      "nl": ["Schil- en schilpoederverwerking", "Export van voedingsvezelsupplementen", "Farmaceutische en nutraceutische grondstof", "Bulkzaadexport voor verdere verwerking"]
-    },
-    "whySourceFromUs": {
-      "en": ["Direct sourcing from Gujarat and Rajasthan, India's principal psyllium belts", "Cleaned and graded to export specification", "Consistent supply under long-term contracts", "Full export documentation — HS, phytosanitary, COO"],
-      "de": ["Direkter Bezug aus Gujarat und Rajasthan, Indiens wichtigsten Flohsamenanbaugebieten", "Gereinigt und nach Exportspezifikation sortiert", "Gleichbleibende Lieferung im Rahmen langfristiger Verträge", "Vollständige Exportdokumentation — Zolltarif, Phytosanitär, Ursprungszeugnis"],
-      "es": ["Abastecimiento directo de Gujarat y Rajasthan, las principales regiones de psyllium de India", "Limpias y clasificadas según especificación de exportación", "Suministro constante bajo contratos a largo plazo", "Documentación de exportación completa — HS, fitosanitaria, certificado de origen"],
-      "fr": ["Approvisionnement direct depuis le Gujarat et le Rajasthan, principales régions de psyllium de l'Inde", "Nettoyées et calibrées selon la spécification d'exportation", "Approvisionnement constant dans le cadre de contrats à long terme", "Documentation d'exportation complète — SH, phytosanitaire, certificat d'origine"],
-      "it": ["Approvvigionamento diretto da Gujarat e Rajasthan, le principali regioni di psillio dell'India", "Puliti e classificati secondo la specifica di esportazione", "Fornitura costante nell'ambito di contratti a lungo termine", "Documentazione di esportazione completa — SA, fitosanitaria, certificato di origine"],
-      "nl": ["Directe inkoop uit Gujarat en Rajasthan, India's belangrijkste psylliumgebieden", "Schoongemaakt en gesorteerd volgens exportspecificatie", "Consistente levering onder langetermijncontracten", "Volledige exportdocumentatie — GS, fytosanitair, certificaat van oorsprong"]
-    },
-    "faqs": {
-      "en": [
-        {"question": "What is the HS code for psyllium seeds?", "answer": "HS heading 1209.99 at the 4–6 digit level. The 8-digit tariff varies by country — confirm with your customs broker."},
-        {"question": "Do you also supply psyllium husk or husk powder?", "answer": "Yes — husk and husk powder are listed separately under our Botanicals range (HS 1211.90)."},
-        {"question": "What is the MOQ?", "answer": "From 100 kg. Bulk volumes available on request."}
-      ],
-      "de": [
-        {"question": "Wie lautet der Zolltarifcode für Flohsamen?", "answer": "Zolltarifnummer 1209.99 auf internationaler 4–6-stelliger Ebene. Der 8-stellige Tarif variiert je nach Land — bestätigen Sie ihn mit Ihrem Zollmakler."},
-        {"question": "Liefern Sie auch Flohsamenschalen oder Schalenpulver?", "answer": "Ja — Schale und Schalenpulver sind separat in unserem Botanicals-Sortiment gelistet (Zolltarif 1211.90)."},
-        {"question": "Wie hoch ist die Mindestbestellmenge?", "answer": "Ab 100 kg. Größere Mengen auf Anfrage erhältlich."}
-      ],
-      "es": [
-        {"question": "¿Cuál es el código HS para las semillas de psyllium?", "answer": "Partida HS 1209.99 a nivel internacional de 4–6 dígitos. El arancel de 8 dígitos varía según el país — confírmelo con su agente aduanal."},
-        {"question": "¿También suministran cáscara o polvo de cáscara de psyllium?", "answer": "Sí — la cáscara y el polvo de cáscara se listan por separado en nuestra gama de Botánicos (HS 1211.90)."},
-        {"question": "¿Cuál es el pedido mínimo (MOQ)?", "answer": "Desde 100 kg. Volúmenes mayores disponibles bajo pedido."}
-      ],
-      "fr": [
-        {"question": "Quel est le code SH pour les graines de psyllium ?", "answer": "Position SH 1209.99 au niveau international à 4–6 chiffres. Le tarif à 8 chiffres varie selon le pays — confirmez-le auprès de votre courtier en douane."},
-        {"question": "Fournissez-vous aussi l'enveloppe ou la poudre d'enveloppe de psyllium ?", "answer": "Oui — l'enveloppe et la poudre d'enveloppe figurent séparément dans notre gamme Botaniques (SH 1211.90)."},
-        {"question": "Quelle est la quantité minimale de commande (MOQ) ?", "answer": "À partir de 100 kg. Des volumes plus importants sont disponibles sur demande."}
-      ],
-      "it": [
-        {"question": "Qual è il codice doganale (SA) per i semi di psillio?", "answer": "Voce doganale 1209.99 a livello internazionale a 4–6 cifre. La tariffa a 8 cifre varia in base al paese — confermare con il proprio spedizioniere doganale."},
-        {"question": "Fornite anche cuticola o polvere di cuticola di psillio?", "answer": "Sì — cuticola e polvere di cuticola sono elencate separatamente nella nostra gamma Botanici (SA 1211.90)."},
-        {"question": "Qual è la quantità minima d'ordine (MOQ)?", "answer": "A partire da 100 kg. Volumi maggiori disponibili su richiesta."}
-      ],
-      "nl": [
-        {"question": "Wat is de GS-code voor psylliumzaad?", "answer": "GS-code 1209.99 op internationaal niveau van 4–6 cijfers. Het 8-cijferige tarief verschilt per land — bevestig dit bij uw douane-expediteur."},
-        {"question": "Levert u ook psylliumschil of schilpoeder?", "answer": "Ja — schil en schilpoeder staan apart vermeld in ons Botanicals-assortiment (GS 1211.90)."},
         {"question": "Wat is de minimale bestelhoeveelheid (MOQ)?", "answer": "Vanaf 100 kg. Grotere volumes op aanvraag beschikbaar."}
       ]
     },
@@ -1263,7 +1123,7 @@
       "it": "I nostri semi di arachide provengono da Gujarat, Rajasthan e Andhra Pradesh e vengono forniti sbollentati, spezzati o grezzi, testati per le aflatossine, nei gradi bold e java per l'export di snack, dolciumi e burro. I test sulle aflatossine sono essenziali per le spedizioni verso l'UE.",
       "nl": "Onze pindapitten zijn afkomstig uit Gujarat, Rajasthan en Andhra Pradesh en worden geblancheerd, gesplitst of rauw geleverd, getest op aflatoxine, in bold- en java-kwaliteiten voor export naar snacks, zoetwaren en pindakaas. Aflatoxinetesten zijn essentieel voor zendingen naar de EU."
     },
-    "image": "/Images/placeholder-groundnut-peanut.svg",
+    "image": "/Images/peanuts.png",
     "form": {
       "en": "Raw / blanched kernels",
       "de": "Rohe / blanchierte Kerne",
@@ -1528,22 +1388,22 @@
     "slug": "makhana-lotus-seeds",
     "categorySlug": "seeds",
     "title": {
-      "en": "Lotus Seeds / Makhana — Fox Nut (Euryale ferox)",
-      "de": "Lotussamen / Makhana — Gorgonnuss (Euryale ferox)",
-      "es": "Semillas de Loto / Makhana — Nuez de Zorro (Euryale ferox)",
-      "fr": "Graines de Lotus / Makhana — Noix de Renard (Euryale ferox)",
-      "it": "Semi di Loto / Makhana — Noce di Fox (Euryale ferox)",
-      "nl": "Lotuszaad / Makhana — Vossennoot (Euryale ferox)"
+      "en": "Makhana — Fox Nut (Euryale ferox)",
+      "de": "Makhana — Gorgonnuss (Euryale ferox)",
+      "es": "Makhana — Nuez de Zorro (Euryale ferox)",
+      "fr": "Makhana — Noix de Renard (Euryale ferox)",
+      "it": "Makhana — Noce di Fox (Euryale ferox)",
+      "nl": "Makhana — Vossennoot (Euryale ferox)"
     },
     "description": {
-      "en": "Sourced from Bihar, which supplies the large majority of India's makhana, our lotus seeds are supplied popped and graded (4 / 5 / 6 suta) for snack and health-food export. From 100 kg with full documentation.",
-      "de": "Unsere Lotussamen stammen aus Bihar, das den Großteil des indischen Makhana-Bedarfs deckt, und werden gepufft und sortiert (4 / 5 / 6 Suta) für Snack- und Health-Food-Export geliefert. Ab 100 kg mit vollständiger Dokumentation.",
-      "es": "Nuestras semillas de loto se obtienen de Bihar, que suministra la gran mayoría del makhana de India, y se suministran infladas y clasificadas (4 / 5 / 6 suta) para exportación de snacks y alimentos saludables. Desde 100 kg con documentación completa.",
-      "fr": "Nos graines de lotus proviennent du Bihar, qui fournit la grande majorité du makhana indien, et sont fournies soufflées et calibrées (4 / 5 / 6 suta) pour l'export de snacks et d'aliments santé. À partir de 100 kg avec documentation complète.",
-      "it": "I nostri semi di loto provengono dal Bihar, che fornisce la grande maggioranza del makhana indiano, e vengono forniti soffiati e classificati (4 / 5 / 6 suta) per l'export di snack e alimenti salutistici. A partire da 100 kg con documentazione completa.",
-      "nl": "Ons lotuszaad is afkomstig uit Bihar, dat het grootste deel van India's makhana levert, en wordt gepoft en gesorteerd (4 / 5 / 6 suta) geleverd voor export naar snacks en gezonde voeding. Vanaf 100 kg met volledige documentatie."
+      "en": "Sourced from Bihar, which supplies the large majority of India's makhana, our makhana is supplied popped and graded (4 / 5 / 6 suta) for snack and health-food export. From 100 kg with full documentation.",
+      "de": "Unser Makhana stammt aus Bihar, das den Großteil des indischen Makhana-Bedarfs deckt, und wird gepufft und sortiert (4 / 5 / 6 Suta) für Snack- und Health-Food-Export geliefert. Ab 100 kg mit vollständiger Dokumentation.",
+      "es": "Nuestro makhana se obtiene de Bihar, que suministra la gran mayoría del makhana de India, y se suministra inflado y clasificado (4 / 5 / 6 suta) para exportación de snacks y alimentos saludables. Desde 100 kg con documentación completa.",
+      "fr": "Notre makhana provient du Bihar, qui fournit la grande majorité du makhana indien, et est fourni soufflé et calibré (4 / 5 / 6 suta) pour l'export de snacks et d'aliments santé. À partir de 100 kg avec documentation complète.",
+      "it": "Il nostro makhana proviene dal Bihar, che fornisce la grande maggioranza del makhana indiano, ed è fornito soffiato e classificato (4 / 5 / 6 suta) per l'export di snack e alimenti salutistici. A partire da 100 kg con documentazione completa.",
+      "nl": "Onze makhana is afkomstig uit Bihar, dat het grootste deel van India's makhana levert, en wordt gepoft en gesorteerd (4 / 5 / 6 suta) geleverd voor export naar snacks en gezonde voeding. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-makhana-lotus-seeds.svg",
+    "image": "/Images/Fox nuts.png",
     "form": {
       "en": "Popped, graded",
       "de": "Gepufft, sortiert",
@@ -1562,12 +1422,12 @@
       "nl": "Vanaf 100 kg"
     },
     "metaTitle": {
-      "en": "Makhana / Lotus Seeds Exporter India | Fox Nut Bulk",
-      "de": "Makhana / Lotussamen Exporteur Indien | Gorgonnuss Großhandel",
-      "es": "Exportador de Makhana / Semillas de Loto India | A Granel",
-      "fr": "Exportateur de Makhana / Graines de Lotus Inde | En Vrac",
-      "it": "Esportatore di Makhana / Semi di Loto India | All'Ingrosso",
-      "nl": "Makhana / Lotuszaad Exporteur India | In Bulk"
+      "en": "Makhana Exporter India | Fox Nut Bulk Supply",
+      "de": "Makhana Exporteur Indien | Gorgonnuss Großhandel",
+      "es": "Exportador de Makhana India | Nuez de Zorro a Granel",
+      "fr": "Exportateur de Makhana Inde | Noix de Renard en Vrac",
+      "it": "Esportatore di Makhana India | Noce di Fox all'Ingrosso",
+      "nl": "Makhana Exporteur India | Vossennoot in Bulk"
     },
     "metaDescription": {
       "en": "Makhana (fox nut) from Bihar, popped and graded (4/5/6 suta), for snack and health-food export.",
@@ -1578,22 +1438,22 @@
       "nl": "Makhana (vossennoot) uit Bihar, gepoft en gesorteerd (4/5/6 suta), voor export naar snacks en gezonde voeding."
     },
     "metaKeywords": {
-      "en": "makhana exporter india, lotus seeds supplier india, fox nut bulk export, popped lotus seeds",
-      "de": "makhana exporteur indien, lotussamen lieferant indien, gorgonnuss großhandel export, gepuffte lotussamen",
-      "es": "exportador de makhana india, proveedor de semillas de loto india, nuez de zorro a granel, semillas de loto infladas",
-      "fr": "exportateur de makhana inde, fournisseur de graines de lotus inde, noix de renard en vrac, graines de lotus soufflées",
-      "it": "esportatore di makhana india, fornitore di semi di loto india, noce di fox all'ingrosso, semi di loto soffiati",
-      "nl": "makhana exporteur india, lotuszaad leverancier india, vossennoot in bulk, gepoft lotuszaad"
+      "en": "makhana exporter india, fox nut supplier india, popped makhana export, graded makhana bulk",
+      "de": "makhana exporteur indien, gorgonnuss lieferant indien, gepuffter makhana export, sortierter makhana großhandel",
+      "es": "exportador de makhana india, proveedor de nuez de zorro india, makhana inflado exportacion, makhana clasificado a granel",
+      "fr": "exportateur de makhana inde, fournisseur de noix de renard inde, makhana souffle export, makhana calibre en vrac",
+      "it": "esportatore di makhana india, fornitore di noce di fox india, makhana soffiato export, makhana classificato all'ingrosso",
+      "nl": "makhana exporteur india, vossennoot leverancier india, gepofte makhana export, gesorteerde makhana in bulk"
     },
     "createdAt": "2026-10-20T00:00:00.000Z",
     "primaryKeyword": "makhana exporter India",
     "h1": {
-      "en": "Makhana / Lotus Seeds Exporter India — Fox Nut, Graded",
-      "de": "Makhana / Lotussamen Exporteur Indien — Gorgonnuss, Sortiert",
-      "es": "Exportador de Makhana / Semillas de Loto India — Nuez de Zorro, Clasificada",
-      "fr": "Exportateur de Makhana / Graines de Lotus Inde — Noix de Renard, Calibrée",
-      "it": "Esportatore di Makhana / Semi di Loto India — Noce di Fox, Classificata",
-      "nl": "Makhana / Lotuszaad Exporteur India — Vossennoot, Gesorteerd"
+      "en": "Makhana Exporter India — Fox Nut, Graded",
+      "de": "Makhana Exporteur Indien — Gorgonnuss, Sortiert",
+      "es": "Exportador de Makhana India — Nuez de Zorro, Clasificada",
+      "fr": "Exportateur de Makhana Inde — Noix de Renard, Calibrée",
+      "it": "Esportatore di Makhana India — Noce di Fox, Classificata",
+      "nl": "Makhana Exporteur India — Vossennoot, Gesorteerd"
     },
     "botanicalName": "Euryale ferox",
     "origin": "Bihar",
@@ -1631,32 +1491,32 @@
     },
     "faqs": {
       "en": [
-        {"question": "What is the HS code for makhana / lotus seeds?", "answer": "We use HS heading 1212.99 as an indicative classification — please confirm the exact code with your customs broker, as this is still to be verified for your destination."},
+        {"question": "What is the HS code for makhana?", "answer": "We use HS heading 1212.99 as an indicative classification — please confirm the exact code with your customs broker, as this is still to be verified for your destination."},
         {"question": "What suta grades do you supply?", "answer": "4, 5 and 6 suta grades. Tell us your required size and we confirm availability."},
         {"question": "What is the MOQ?", "answer": "From 100 kg. Bulk volumes available on request."}
       ],
       "de": [
-        {"question": "Wie lautet der Zolltarifcode für Makhana / Lotussamen?", "answer": "Wir verwenden die Zolltarifnummer 1212.99 als indikative Einordnung — bitte bestätigen Sie den genauen Code mit Ihrem Zollmakler, da dies für Ihr Zielland noch zu verifizieren ist."},
+        {"question": "Wie lautet der Zolltarifcode für Makhana?", "answer": "Wir verwenden die Zolltarifnummer 1212.99 als indikative Einordnung — bitte bestätigen Sie den genauen Code mit Ihrem Zollmakler, da dies für Ihr Zielland noch zu verifizieren ist."},
         {"question": "Welche Suta-Qualitäten liefern Sie?", "answer": "Suta-Qualitäten 4, 5 und 6. Teilen Sie uns die gewünschte Größe mit, wir bestätigen die Verfügbarkeit."},
         {"question": "Wie hoch ist die Mindestbestellmenge?", "answer": "Ab 100 kg. Größere Mengen auf Anfrage erhältlich."}
       ],
       "es": [
-        {"question": "¿Cuál es el código HS para makhana / semillas de loto?", "answer": "Usamos la partida HS 1212.99 como clasificación indicativa — confirme el código exacto con su agente aduanal, ya que aún debe verificarse para su destino."},
+        {"question": "¿Cuál es el código HS para el makhana?", "answer": "Usamos la partida HS 1212.99 como clasificación indicativa — confirme el código exacto con su agente aduanal, ya que aún debe verificarse para su destino."},
         {"question": "¿Qué grados suta suministran?", "answer": "Grados suta 4, 5 y 6. Indíquenos el tamaño requerido y confirmamos disponibilidad."},
         {"question": "¿Cuál es el pedido mínimo (MOQ)?", "answer": "Desde 100 kg. Volúmenes mayores disponibles bajo pedido."}
       ],
       "fr": [
-        {"question": "Quel est le code SH pour le makhana / les graines de lotus ?", "answer": "Nous utilisons la position SH 1212.99 à titre indicatif — veuillez confirmer le code exact auprès de votre courtier en douane, car il reste à vérifier pour votre destination."},
+        {"question": "Quel est le code SH pour le makhana ?", "answer": "Nous utilisons la position SH 1212.99 à titre indicatif — veuillez confirmer le code exact auprès de votre courtier en douane, car il reste à vérifier pour votre destination."},
         {"question": "Quelles qualités suta fournissez-vous ?", "answer": "Qualités suta 4, 5 et 6. Indiquez-nous la taille requise, nous confirmons la disponibilité."},
         {"question": "Quelle est la quantité minimale de commande (MOQ) ?", "answer": "À partir de 100 kg. Des volumes plus importants sont disponibles sur demande."}
       ],
       "it": [
-        {"question": "Qual è il codice doganale (SA) per makhana / semi di loto?", "answer": "Utilizziamo la voce doganale 1212.99 come classificazione indicativa — si prega di confermare il codice esatto con il proprio spedizioniere doganale, poiché deve ancora essere verificato per la destinazione."},
+        {"question": "Qual è il codice doganale (SA) per il makhana?", "answer": "Utilizziamo la voce doganale 1212.99 come classificazione indicativa — si prega di confermare il codice esatto con il proprio spedizioniere doganale, poiché deve ancora essere verificato per la destinazione."},
         {"question": "Quali gradi suta fornite?", "answer": "Gradi suta 4, 5 e 6. Indicateci la dimensione richiesta e confermiamo la disponibilità."},
         {"question": "Qual è la quantità minima d'ordine (MOQ)?", "answer": "A partire da 100 kg. Volumi maggiori disponibili su richiesta."}
       ],
       "nl": [
-        {"question": "Wat is de GS-code voor makhana / lotuszaad?", "answer": "Wij gebruiken GS-code 1212.99 als indicatieve classificatie — bevestig de exacte code bij uw douane-expediteur, aangezien dit voor uw bestemming nog moet worden geverifieerd."},
+        {"question": "Wat is de GS-code voor makhana?", "answer": "Wij gebruiken GS-code 1212.99 als indicatieve classificatie — bevestig de exacte code bij uw douane-expediteur, aangezien dit voor uw bestemming nog moet worden geverifieerd."},
         {"question": "Welke suta-kwaliteiten levert u?", "answer": "Suta-kwaliteiten 4, 5 en 6. Laat ons de gewenste maat weten, wij bevestigen de beschikbaarheid."},
         {"question": "Wat is de minimale bestelhoeveelheid (MOQ)?", "answer": "Vanaf 100 kg. Grotere volumes op aanvraag beschikbaar."}
       ]
@@ -2971,7 +2831,7 @@
       "it": "Il nostro zenzero essiccato proviene da Kerala, Karnataka, Assam e dal nord-est dell'India ed è fornito intero, spaccato, affettato o in polvere, sbiancato o non sbiancato, per l'export verso tè, panificazione ed estrazione. A partire da 100 kg con documentazione completa.",
       "nl": "Onze gedroogde gember is afkomstig uit Kerala, Karnataka, Assam en Noordoost-India en wordt heel, gespleten, gesneden of als poeder, gebleekt of ongebleekt, geleverd voor export naar thee, bakkerij en extractie. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-ginger-dried.svg",
+    "image": "/Images/ginger-root-ginger-powder-table.jpg",
     "form": {
       "en": "Whole / split / sliced / powder",
       "de": "Ganz / gespalten / geschnitten / Pulver",
@@ -3111,7 +2971,7 @@
       "it": "Il nostro aglio disidratato proviene da Madhya Pradesh, Gujarat e Rajasthan ed è fornito in fiocchi, granuli o polvere, con microbiologia priva di Salmonella, per l'export verso condimenti e alimenti trasformati. A partire da 100 kg con documentazione completa.",
       "nl": "Onze gedehydreerde knoflook is afkomstig uit Madhya Pradesh, Gujarat en Rajasthan en wordt geleverd als vlokken, granulaat of poeder, met Salmonella-vrije microbiologie, voor export naar kruiden en verwerkte voeding. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-garlic-dehydrated.svg",
+    "image": "/Images/garlic-pwoder.png",
     "form": {
       "en": "Flakes / granules / powder",
       "de": "Flocken / Granulat / Pulver",
@@ -3251,7 +3111,7 @@
       "it": "La nostra cipolla disidratata proviene da Gujarat, Maharashtra e Rajasthan ed è fornita nelle varietà bianca e rossa, in fiocchi, granuli o polvere, per l'export verso condimenti e alimenti istantanei. A partire da 100 kg con documentazione completa.",
       "nl": "Onze gedehydreerde ui is afkomstig uit Gujarat, Maharashtra en Rajasthan en wordt geleverd in witte en rode variëteiten, als vlokken, granulaat of poeder, voor export naar kruiden en instantvoeding. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-onion-dehydrated.svg",
+    "image": "/Images/onion-powder.png",
     "form": {
       "en": "Flakes / granules / powder",
       "de": "Flocken / Granulat / Pulver",
@@ -3391,7 +3251,7 @@
       "it": "I nostri semi di ajwain provengono da Rajasthan e Gujarat — l'India è la fonte mondiale dominante di ajwain — e vengono forniti interi, puliti e classificati con Sortex per l'export culinario ed erboristico. A partire da 100 kg con documentazione completa.",
       "nl": "Ons ajwainzaad is afkomstig uit Rajasthan en Gujarat — India is de dominante wereldwijde bron van ajwain — en wordt heel, schoongemaakt en Sortex-gesorteerd geleverd voor culinaire en kruidenexport. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-ajwain-seeds.svg",
+    "image": "/Images/ajwain-seeds.jpg",
     "form": {
       "en": "Whole, cleaned",
       "de": "Ganz, gereinigt",
@@ -3531,7 +3391,7 @@
       "it": "I nostri semi di aneto provengono da Gujarat e Madhya Pradesh e vengono forniti interi e puliti per l'export verso sottaceti, miscele di spezie e tisane. A partire da 100 kg con documentazione completa.",
       "nl": "Ons dillezaad is afkomstig uit Gujarat en Madhya Pradesh en wordt heel en schoongemaakt geleverd voor export naar inmaak, kruidenmixen en kruidenthee. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-dill-seeds.svg",
+    "image": "/Images/dillo-seeds.png",
     "form": {
       "en": "Whole, cleaned",
       "de": "Ganz, gereinigt",
@@ -3671,7 +3531,7 @@
       "it": "I nostri semi di sedano provengono da Rajasthan e Punjab — l'India è una fonte mondiale leader di semi di sedano — e vengono forniti interi e puliti per l'export verso condimenti ed estrazione di oleoresina. A partire da 100 kg con documentazione completa.",
       "nl": "Ons selderijzaad is afkomstig uit Rajasthan en Punjab — India is een wereldwijd toonaangevende bron van selderijzaad — en wordt heel en schoongemaakt geleverd voor export naar kruiden en oleohars-extractie. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-celery-seeds.svg",
+    "image": "/Images/celery-seeds-and-leaves.png",
     "form": {
       "en": "Whole, cleaned",
       "de": "Ganz, gereinigt",
@@ -3811,7 +3671,7 @@
       "it": "Il nostro kasuri methi (foglie essiccate di fieno greco) proviene da Rajasthan e Gujarat ed è fornito in foglia intera o sbriciolato per l'export culinario e di miscele di spezie. A partire da 100 kg con documentazione completa. Il nostro seme di fieno greco è elencato separatamente nella nostra gamma di spezie.",
       "nl": "Onze kasuri methi (gedroogde fenegriekblaadjes) is afkomstig uit Rajasthan en Gujarat en wordt als heel blad of verkruimeld geleverd voor culinaire en kruidenmixexport. Vanaf 100 kg met volledige documentatie. Ons fenegriekzaad staat apart vermeld in ons kruidenassortiment."
     },
-    "image": "/Images/placeholder-kasuri-methi.svg",
+    "image": "/Images/kasuri-methi.png",
     "form": {
       "en": "Dried leaf, whole or crushed",
       "de": "Getrocknetes Blatt, ganz oder zerkleinert",
@@ -3951,7 +3811,7 @@
       "it": "Il nostro tamarindo proviene da Andhra Pradesh, Karnataka e Tamil Nadu ed è fornito come blocco senza semi, polpa o concentrato per l'export verso salse e bevande. A partire da 100 kg con documentazione completa.",
       "nl": "Onze tamarinde is afkomstig uit Andhra Pradesh, Karnataka en Tamil Nadu en wordt geleverd als pitloos blok, pulp of concentraat voor export naar sauzen en dranken. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-tamarind.svg",
+    "image": "/Images/tamarind.png",
     "form": {
       "en": "Block / pulp / concentrate",
       "de": "Block / Fruchtfleisch / Konzentrat",
@@ -4091,7 +3951,7 @@
       "it": "Il nostro amchur (polvere di mango essiccato) proviene da Uttar Pradesh e Madhya Pradesh ed è fornito in polvere o fette per l'export verso miscele di spezie e condimenti per snack. A partire da 100 kg con documentazione completa.",
       "nl": "Onze amchur (gedroogd mangopoeder) is afkomstig uit Uttar Pradesh en Madhya Pradesh en wordt als poeder of plakjes geleverd voor export naar kruidenmixen en snackkruiden. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-amchur.svg",
+    "image": "/Images/amchur-powder.png",
     "form": {
       "en": "Powder / slices",
       "de": "Pulver / Scheiben",
@@ -4231,7 +4091,7 @@
       "it": "La nostra proteina di soia testurizzata, prodotta con soia non OGM da Madhya Pradesh e Maharashtra, è fornita in pezzi, granuli o fiocchi con un minimo del 50% di proteine per l'export verso analoghi della carne, piatti pronti e retail. La percentuale proteica è un grado commerciale tipico, confermato per lotto tramite COA. A partire da 100 kg con documentazione completa.",
       "nl": "Ons getextureerde sojaproteïne, gemaakt van non-GMO soja uit Madhya Pradesh en Maharashtra, wordt geleverd als brokken, granulaat of vlokken met minimaal 50% eiwit voor export naar vleesvervangers, kant-en-klare maaltijden en retail. Het eiwitpercentage is een typische handelsgraad, per partij bevestigd via COA. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-soy-chunks.svg",
+    "image": "/Images/soy-granules.png",
     "form": {
       "en": "Chunks / granules / flakes",
       "de": "Stücke / Granulat / Flocken",
@@ -4371,7 +4231,7 @@
       "it": "Isolato di proteina di soia non OGM, essiccato a spruzzo, con un minimo del 90% di proteine, per l'export verso nutrizione sportiva, bevande e analoghi della carne. La percentuale proteica è un grado commerciale tipico, confermato per lotto tramite COA. A partire da 100 kg con documentazione completa.",
       "nl": "Non-GMO, sproeigedroogd soja-eiwitisolaat met minimaal 90% eiwit, voor export naar sportvoeding, dranken en vleesvervangers. Het eiwitpercentage is een typische handelsgraad, per partij bevestigd via COA. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-soy-protein-isolate.svg",
+    "image": "/Images/soy-protein-isolate.png",
     "form": {
       "en": "Powder",
       "de": "Pulver",
@@ -4511,7 +4371,7 @@
       "it": "Concentrato di proteina di soia non OGM al 65-70% di proteine per l'export verso panificazione, analoghi della carne e formulazione infantile/clinica. La percentuale proteica è un grado commerciale tipico, confermato per lotto tramite COA. A partire da 100 kg con documentazione completa.",
       "nl": "Non-GMO soja-eiwitconcentraat met 65-70% eiwit voor export naar bakkerij, vleesvervangers en babyvoeding-/klinische formulering. Het eiwitpercentage is een typische handelsgraad, per partij bevestigd via COA. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-soy-protein-concentrate.svg",
+    "image": "/Images/soy-concentrate.png",
     "form": {
       "en": "Powder",
       "de": "Pulver",
@@ -4651,7 +4511,7 @@
       "it": "Farina di soia sgrassata non OGM al 50% di proteine per l'export verso panificazione, noodles e snack. La percentuale proteica è un grado commerciale tipico, confermato per lotto tramite COA. A partire da 100 kg con documentazione completa.",
       "nl": "Non-GMO ontvette sojameel met 50% eiwit voor export naar bakkerij, noedels en snacks. Het eiwitpercentage is een typische handelsgraad, per partij bevestigd via COA. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-defatted-soy-flour.svg",
+    "image": "/Images/soy-defatted-flour.png",
     "form": {
       "en": "Flour",
       "de": "Mehl",
@@ -4791,7 +4651,7 @@
       "it": "Il cece è la più grande coltura di legumi dell'India, quindi la disponibilità è solida. La nostra proteina di ceci è fornita come concentrato al 50-70% di proteine per l'export verso panificazione, snack e analoghi della carne. La percentuale proteica è un grado commerciale tipico, confermato per lotto tramite COA. A partire da 100 kg con documentazione completa.",
       "nl": "Kikkererwten zijn India's grootste peulvruchtengewas, dus het aanbod is sterk. Ons kikkererwteneiwit wordt geleverd als concentraat met 50-70% eiwit voor export naar bakkerij, snacks en vleesvervangers. Het eiwitpercentage is een typische handelsgraad, per partij bevestigd via COA. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-chickpea-protein.svg",
+    "image": "/Images/chickpea-protein.png",
     "form": {
       "en": "Powder",
       "de": "Pulver",
@@ -4931,7 +4791,7 @@
       "it": "L'India è il maggiore produttore mondiale di fagiolo mung. La nostra proteina di fagiolo mung è fornita come polvere al 55-80% di proteine per l'export verso uovo vegetale e bevande. La percentuale proteica è un grado commerciale tipico, confermato per lotto tramite COA. A partire da 100 kg con documentazione completa.",
       "nl": "India is 's werelds grootste producent van mungbonen. Ons mungboneneiwit wordt geleverd als poeder met 55-80% eiwit voor export naar plantaardig ei en dranken. Het eiwitpercentage is een typische handelsgraad, per partij bevestigd via COA. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-mung-bean-protein.svg",
+    "image": "/Images/Mung-Powder.png",
     "form": {
       "en": "Powder",
       "de": "Pulver",
@@ -5211,7 +5071,7 @@
       "it": "La nostra farina di arachidi sgrassata, proveniente dal Gujarat, è fornita al 50% di proteine per l'export verso snack e panificazione. Si applica l'etichettatura degli allergeni — l'arachide è un allergene alimentare importante. La percentuale proteica è un grado commerciale tipico, confermato per lotto tramite COA. A partire da 100 kg con documentazione completa.",
       "nl": "Onze ontvette pindameel, afkomstig uit Gujarat, wordt geleverd met 50% eiwit voor export naar snacks en bakkerij. Allergeenetikettering is van toepassing — pinda is een belangrijk voedselallergeen. Het eiwitpercentage is een typische handelsgraad, per partij bevestigd via COA. Vanaf 100 kg met volledige documentatie."
     },
-    "image": "/Images/placeholder-peanut-protein-flour.svg",
+    "image": "/Images/peanut-protein.png",
     "form": {
       "en": "Flour",
       "de": "Mehl",
