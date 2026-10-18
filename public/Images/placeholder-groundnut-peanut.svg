@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- peanut shell -->
+  <g fill="none" stroke="#9C6B3A" stroke-width="7">
+    <path d="M430 400
+             C 390 400, 370 440, 390 480
+             C 370 510, 380 550, 420 560
+             C 410 590, 430 620, 470 615
+             C 500 640, 545 635, 560 600
+             C 600 600, 615 560, 590 530
+             C 605 500, 590 465, 555 455
+             C 560 420, 530 390, 495 400
+             C 475 375, 445 375, 430 400 Z" />
+    <path d="M475 495 C 460 480, 460 460, 475 445" />
+  </g>
+  <ellipse cx="455" cy="455" rx="30" ry="40" fill="#D9A867" transform="rotate(-20 455 455)" />
+  <ellipse cx="520" cy="540" rx="30" ry="40" fill="#D9A867" transform="rotate(-20 520 540)" />
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

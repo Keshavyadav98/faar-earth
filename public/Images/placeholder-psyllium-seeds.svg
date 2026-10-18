@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- psyllium seeds: small boat-shaped seeds scattered -->
+  <g fill="#B9794A">
+    <ellipse cx="440" cy="420" rx="26" ry="11" transform="rotate(-20 440 420)" />
+    <ellipse cx="510" cy="400" rx="26" ry="11" transform="rotate(15 510 400)" />
+    <ellipse cx="560" cy="450" rx="26" ry="11" transform="rotate(-35 560 450)" />
+    <ellipse cx="465" cy="470" rx="26" ry="11" transform="rotate(40 465 470)" />
+    <ellipse cx="530" cy="500" rx="26" ry="11" transform="rotate(-10 530 500)" />
+    <ellipse cx="440" cy="530" rx="26" ry="11" transform="rotate(20 440 530)" />
+    <ellipse cx="500" cy="550" rx="26" ry="11" transform="rotate(-25 500 550)" />
+  </g>
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

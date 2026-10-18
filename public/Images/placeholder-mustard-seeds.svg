@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- mustard sprig -->
+  <g>
+    <path d="M500 600 C 500 540, 480 500, 460 460" fill="none" stroke="#56654E" stroke-width="6" stroke-linecap="round" />
+    <path d="M500 600 C 500 540, 520 500, 545 455" fill="none" stroke="#56654E" stroke-width="6" stroke-linecap="round" />
+    <path d="M500 600 C 500 520, 500 470, 500 410" fill="none" stroke="#56654E" stroke-width="6" stroke-linecap="round" />
+    <circle cx="455" cy="450" r="14" fill="#C58A32" />
+    <circle cx="500" cy="400" r="16" fill="#C58A32" />
+    <circle cx="548" cy="447" r="14" fill="#C58A32" />
+    <g fill="#C58A32">
+      <circle cx="440" cy="480" r="9" />
+      <circle cx="480" cy="430" r="9" />
+      <circle cx="515" cy="440" r="9" />
+      <circle cx="560" cy="475" r="9" />
+      <circle cx="500" cy="440" r="9" />
+    </g>
+  </g>
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

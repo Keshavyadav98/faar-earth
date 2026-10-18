@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- ginger rhizome -->
+  <path d="M400 500 C 380 470, 390 430, 420 420 C 410 390, 430 365, 460 370
+           C 465 345, 495 335, 515 355 C 545 345, 570 365, 565 395
+           C 590 405, 595 440, 570 460 C 580 490, 560 520, 525 515
+           C 515 540, 485 545, 465 525 C 435 535, 405 520, 400 500 Z"
+        fill="#C58A32" stroke="#9C6B3A" stroke-width="4" />
+  <ellipse cx="455" cy="560" rx="26" ry="14" fill="#DCAF6E" stroke="#9C6B3A" stroke-width="3" transform="rotate(-10 455 560)" />
+  <ellipse cx="520" cy="575" rx="26" ry="14" fill="#DCAF6E" stroke="#9C6B3A" stroke-width="3" transform="rotate(8 520 575)" />
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

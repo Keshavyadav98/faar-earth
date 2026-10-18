@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- flour mound + peanut shell accent -->
+  <path d="M400 540 C 400 470, 445 420, 500 420 C 555 420, 600 470, 600 540 Z"
+        fill="#F6EFE0" stroke="#B9792A" stroke-width="5" />
+  <g fill="none" stroke="#9C6B3A" stroke-width="4">
+    <path d="M460 400 C 440 400, 428 418, 438 436 C 428 452, 438 470, 460 468
+             C 468 480, 488 478, 494 464 C 512 464, 520 448, 510 434
+             C 518 420, 508 404, 490 406 C 484 394, 466 394, 460 400 Z" />
+  </g>
+  <ellipse cx="455" cy="422" rx="11" ry="15" fill="#D9A867" transform="rotate(-20 455 422)" />
+  <ellipse cx="485" cy="452" rx="11" ry="15" fill="#D9A867" transform="rotate(-20 485 452)" />
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- curved tamarind pod -->
+  <path d="M400 400 C 450 370, 560 370, 610 430 C 640 470, 630 530, 580 560
+           C 530 590, 450 580, 410 540 C 380 505, 375 440, 400 400 Z"
+        fill="#8B5E34" stroke="#5C3A1E" stroke-width="5" />
+  <path d="M430 420 C 480 400, 560 405, 590 450" fill="none" stroke="#5C3A1E" stroke-width="2" opacity="0.6" />
+  <path d="M520 470 C 500 490, 490 510, 500 530 L 540 520 C 545 500, 540 480, 520 470 Z"
+        fill="#B9794A" stroke="#5C3A1E" stroke-width="3" />
+  <circle cx="515" cy="498" r="9" fill="#5C3A1E" />
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

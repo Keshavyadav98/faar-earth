@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- dill umbel sprig + flat seeds -->
+  <path d="M500 600 C 500 540, 500 480, 500 420" fill="none" stroke="#56654E" stroke-width="5" stroke-linecap="round" />
+  <g stroke="#56654E" stroke-width="3" fill="none">
+    <path d="M500 420 L 455 390" />
+    <path d="M500 420 L 480 385" />
+    <path d="M500 420 L 500 380" />
+    <path d="M500 420 L 520 385" />
+    <path d="M500 420 L 545 390" />
+  </g>
+  <g fill="#C58A32">
+    <circle cx="455" cy="390" r="6" /><circle cx="480" cy="385" r="6" /><circle cx="500" cy="378" r="6" />
+    <circle cx="520" cy="385" r="6" /><circle cx="545" cy="390" r="6" />
+  </g>
+  <g fill="#B9794A" stroke="#8B5E34" stroke-width="1.5">
+    <ellipse cx="440" cy="500" rx="16" ry="7" transform="rotate(-15 440 500)" />
+    <ellipse cx="480" cy="520" rx="16" ry="7" transform="rotate(10 480 520)" />
+    <ellipse cx="520" cy="505" rx="16" ry="7" transform="rotate(-20 520 505)" />
+    <ellipse cx="560" cy="525" rx="16" ry="7" transform="rotate(15 560 525)" />
+    <ellipse cx="460" cy="550" rx="16" ry="7" transform="rotate(5 460 550)" />
+  </g>
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

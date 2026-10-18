@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- celery seeds: very small ridged ovals, denser cluster -->
+  <g fill="#8B5E34">
+    <ellipse cx="445" cy="410" rx="9" ry="5" transform="rotate(-10 445 410)" />
+    <ellipse cx="470" cy="400" rx="9" ry="5" transform="rotate(15 470 400)" />
+    <ellipse cx="500" cy="395" rx="9" ry="5" transform="rotate(-5 500 395)" />
+    <ellipse cx="530" cy="402" rx="9" ry="5" transform="rotate(20 530 402)" />
+    <ellipse cx="555" cy="415" rx="9" ry="5" transform="rotate(-15 555 415)" />
+    <ellipse cx="430" cy="445" rx="9" ry="5" transform="rotate(10 430 445)" />
+    <ellipse cx="460" cy="440" rx="9" ry="5" transform="rotate(-20 460 440)" />
+    <ellipse cx="495" cy="435" rx="9" ry="5" transform="rotate(5 495 435)" />
+    <ellipse cx="525" cy="442" rx="9" ry="5" transform="rotate(-10 525 442)" />
+    <ellipse cx="555" cy="450" rx="9" ry="5" transform="rotate(15 555 450)" />
+    <ellipse cx="450" cy="480" rx="9" ry="5" transform="rotate(-5 450 480)" />
+    <ellipse cx="480" cy="475" rx="9" ry="5" transform="rotate(20 480 475)" />
+    <ellipse cx="510" cy="470" rx="9" ry="5" transform="rotate(-15 510 470)" />
+    <ellipse cx="540" cy="478" rx="9" ry="5" transform="rotate(10 540 478)" />
+  </g>
+  <path d="M470 580 C 480 550, 490 530, 500 510" fill="none" stroke="#56654E" stroke-width="4" stroke-linecap="round" />
+  <path d="M500 575 C 495 545, 498 525, 500 510" fill="none" stroke="#56654E" stroke-width="4" stroke-linecap="round" />
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

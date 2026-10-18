@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- mango slice + powder dust -->
+  <path d="M430 380 C 490 360, 560 380, 580 440 C 600 500, 560 560, 500 570
+           C 440 560, 400 500, 420 440 C 425 415, 430 395, 430 380 Z"
+        fill="#E2A63A" stroke="#B9792A" stroke-width="5" />
+  <path d="M460 400 C 500 390, 540 405, 555 440 C 568 475, 545 515, 505 525
+           C 465 518, 440 480, 450 445 C 453 428, 457 412, 460 400 Z"
+        fill="#F2C76B" stroke="#B9792A" stroke-width="2" opacity="0.8" />
+  <path d="M500 370 L 500 340 M 500 340 C 495 325, 500 315, 510 310" fill="none" stroke="#56654E" stroke-width="4" stroke-linecap="round" />
+  <g fill="#D99A2B">
+    <circle cx="620" cy="520" r="6" /><circle cx="640" cy="545" r="5" /><circle cx="605" cy="555" r="5" />
+    <circle cx="380" cy="560" r="6" /><circle cx="360" cy="535" r="5" /><circle cx="395" cy="585" r="5" />
+  </g>
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- ajwain / carom seeds: tiny ridged ovals -->
+  <g fill="#B9794A" stroke="#8B5E34" stroke-width="1.5">
+    <ellipse cx="440" cy="420" rx="20" ry="9" transform="rotate(-15 440 420)" />
+    <ellipse cx="500" cy="405" rx="20" ry="9" transform="rotate(10 500 405)" />
+    <ellipse cx="560" cy="430" rx="20" ry="9" transform="rotate(-25 560 430)" />
+    <ellipse cx="420" cy="470" rx="20" ry="9" transform="rotate(20 420 470)" />
+    <ellipse cx="480" cy="460" rx="20" ry="9" transform="rotate(-5 480 460)" />
+    <ellipse cx="545" cy="480" rx="20" ry="9" transform="rotate(15 545 480)" />
+    <ellipse cx="455" cy="515" rx="20" ry="9" transform="rotate(-10 455 515)" />
+    <ellipse cx="520" cy="525" rx="20" ry="9" transform="rotate(25 520 525)" />
+  </g>
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- powder pouch + soy beans -->
+  <path d="M440 390 L 560 390 L 575 420 L 575 540 C 575 555, 560 565, 545 565 L 455 565 C 440 565, 425 555, 425 540 L 425 420 Z"
+        fill="#F2EAD8" stroke="#B9792A" stroke-width="5" />
+  <path d="M460 390 C 460 370, 475 355, 500 355 C 525 355, 540 370, 540 390" fill="none" stroke="#9C6B3A" stroke-width="5" />
+  <g fill="#C8D08E" stroke="#56654E" stroke-width="2.5">
+    <ellipse cx="470" cy="460" rx="18" ry="24" transform="rotate(-10 470 460)" />
+    <ellipse cx="510" cy="450" rx="18" ry="24" transform="rotate(10 510 450)" />
+    <ellipse cx="530" cy="490" rx="18" ry="24" transform="rotate(-15 530 490)" />
+    <ellipse cx="480" cy="510" rx="18" ry="24" transform="rotate(12 480 510)" />
+  </g>
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

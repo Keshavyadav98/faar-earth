@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- powder scoop + chickpeas -->
+  <path d="M420 480 C 420 420, 460 385, 500 385 C 540 385, 580 420, 580 480
+           C 580 520, 545 545, 500 545 C 455 545, 420 520, 420 480 Z"
+        fill="#F2EAD8" stroke="#B9792A" stroke-width="5" />
+  <g fill="#D9A867" stroke="#9C6B3A" stroke-width="2">
+    <circle cx="465" cy="450" r="20" />
+    <circle cx="510" cy="435" r="20" />
+    <circle cx="545" cy="470" r="20" />
+    <circle cx="490" cy="495" r="20" />
+  </g>
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

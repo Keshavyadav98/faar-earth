@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- fine powder scoop + soy bean -->
+  <path d="M420 460 C 420 400, 460 365, 500 365 C 540 365, 580 400, 580 460
+           C 580 505, 545 535, 500 535 C 455 535, 420 505, 420 460 Z"
+        fill="#F2EAD8" stroke="#B9792A" stroke-width="5" />
+  <path d="M470 405 L 420 365 M 530 405 L 580 365" fill="none" stroke="#9C6B3A" stroke-width="6" stroke-linecap="round" />
+  <ellipse cx="500" cy="460" rx="34" ry="42" fill="#C8D08E" stroke="#56654E" stroke-width="3" />
+  <path d="M500 420 C 480 440, 480 480, 500 500" fill="none" stroke="#56654E" stroke-width="2" opacity="0.6" />
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

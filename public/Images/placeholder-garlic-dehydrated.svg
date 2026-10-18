@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- garlic bulb -->
+  <path d="M500 380 C 440 390, 410 440, 420 500 C 400 530, 410 570, 450 585
+           C 460 610, 500 620, 520 600 C 555 610, 590 585, 585 550
+           C 610 530, 605 490, 575 470 C 580 430, 555 390, 500 380 Z"
+        fill="none" stroke="#9C6B3A" stroke-width="6" />
+  <path d="M500 380 L 500 350 M 500 350 C 490 335, 495 320, 505 315" fill="none" stroke="#56654E" stroke-width="5" stroke-linecap="round" />
+  <path d="M500 400 L 500 595 M 465 420 L 460 585 M 535 420 L 540 585" fill="none" stroke="#9C6B3A" stroke-width="2.5" opacity="0.6" />
+  <g fill="#D9A867">
+    <circle cx="430" cy="470" r="8" />
+    <circle cx="455" cy="520" r="8" />
+    <circle cx="570" cy="500" r="8" />
+    <circle cx="545" cy="545" r="8" />
+  </g>
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

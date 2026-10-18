@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- scoop with protein powder + beans -->
+  <path d="M400 480 C 400 420, 445 380, 500 380 C 555 380, 600 420, 600 480
+           L 600 490 C 600 540, 555 575, 500 575 C 445 575, 400 540, 400 490 Z"
+        fill="#F2C76B" stroke="#B9792A" stroke-width="5" />
+  <path d="M460 420 L 400 380 M 540 420 L 600 380" fill="none" stroke="#9C6B3A" stroke-width="6" stroke-linecap="round" />
+  <g fill="#8B5E34">
+    <ellipse cx="460" cy="460" rx="18" ry="24" transform="rotate(-15 460 460)" />
+    <ellipse cx="510" cy="445" rx="18" ry="24" transform="rotate(10 510 445)" />
+    <ellipse cx="545" cy="475" rx="18" ry="24" transform="rotate(-20 545 475)" />
+    <ellipse cx="480" cy="500" rx="18" ry="24" transform="rotate(15 480 500)" />
+  </g>
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>
