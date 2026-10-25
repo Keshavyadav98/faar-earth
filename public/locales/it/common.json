@@ -10,21 +10,39 @@
   "hero": {
     "mainTitle": "Ingredienti puri",
     "subTitle": "Affidabili dalla natura",
-    "description": "Semi commestibili di qualità premium, oli spremuti a freddo e oli essenziali per un domani più sano.",
+    "description": "Faar Earth Collective Exports mette in contatto trasformatori alimentari, marchi e importatori di tutto il mondo con produttori indiani validati e qualificati. Indicateci il prodotto, il grado e la quantità. Riceverete una tariffa e un preventivo entro 24 ore. Avete bisogno di biologico? Offriamo opzioni biologiche ogni volta che ne avete bisogno, da produttori certificati NPOP.",
     "exploreButton": "Esplora prodotti",
     "quoteButton": "Ricevi un Preventivo in 24 Ore",
     "contactButton": "Contattaci"
   },
   "usp": {
-    "sustainability": "Approvvigionamento sostenibile",
-    "premium": "Qualità premium",
-    "partnership": "Partnership a lungo termine",
+    "sustainability": "Approvvigionamento Sostenibile",
+    "sustainabilityDesc": "Ingredienti tracciati fino alle loro regioni di coltivazione e approvvigionati in modo responsabile.",
+    "premium": "Qualità Premium",
+    "premiumDesc": "Ogni lotto viene testato secondo le vostre specifiche prima della spedizione.",
+    "partnership": "Partnership a Lungo Termine",
+    "partnershipDesc": "Fornitura affidabile e prezzi stabili, ordine dopo ordine.",
     "natural": "100% Naturale",
     "naturalDesc": "Nessun additivo · Nessun compromesso",
     "bulk": "Fornitura all'ingrosso",
     "bulkDesc": "Per B2B, India intera e globale",
     "quality": "Qualità garantita",
     "qualityDesc": "Testato · Certificato · Affidabile"
+  },
+  "commitments": {
+    "eyebrow": "I Nostri Impegni",
+    "heading": "Su Cosa Potete Contare",
+    "item1Title": "Preventivi in 24 Ore",
+    "item1Desc": "Indicateci il grado e la quantità. Rispondiamo con tariffe e un preventivo formale entro 24 ore nei giorni lavorativi.",
+    "item2Title": "Solo Produttori Validati",
+    "item2Desc": "Lavoriamo solo con produttori qualificati e verificati le cui certificazioni corrispondono al vostro prodotto e mercato di destinazione. Gli ordini biologici provengono solo da produttori certificati NPOP. Qualità garantita, testata e certificata.",
+    "item3Title": "Provate Prima di Impegnarvi",
+    "item3Desc": "Ordinate un pacco di prova, o richiedete un campione e una scheda tecnica, prima di effettuare un ordine all'ingrosso.",
+    "item4Title": "Sempre Informati",
+    "item4Desc": "Dalla richiesta alla consegna, avrete nostre notizie ad ogni fase, tramite il canale che preferite: email, WhatsApp o telefono.",
+    "item5Title": "Opzioni Biologiche Quando Ne Avete Bisogno",
+    "item5Desc": "Diteci che avete bisogno di biologico e lo forniamo da produttori certificati NPOP (National Programme for Organic Production, India Organic), con il certificato biologico e un Certificato di Analisi per ogni lotto.",
+    "trustStatement": "Non inseguiamo solo transazioni; costruiamo catene di approvvigionamento. Ogni prodotto che offriamo proviene da un produttore che abbiamo verificato, e ogni spedizione parte con i documenti richiesti dalle norme doganali e di sicurezza alimentare del vostro paese. Se qualcosa non va, lo saprete prima da noi. E quando il vostro prodotto o mercato richiede biologico, il produttore dietro di esso sarà certificato NPOP."
   },
   "categories": {
     "title": "Cosa offriamo",
@@ -72,11 +90,11 @@
     "whiteLabellingandRetailPackagingSolutions": "Soluzioni di Private Label e Packaging per la Vendita al Dettaglio"
   },
   "about": {
-    "eyebrow": "Chi è Faar Earth",
-    "title": "Radicato nella natura",
-    "subTitle": "Impegnato nella qualità",
-    "description1": "In Faar Earth, ci impegniamo a fornire i migliori ingredienti alle industrie di trasformazione alimentare a livello mondiale. Siamo un'azienda di esportazione principale con sede in India, specializzata nel sourcing, elaborazione e consegna di ingredienti agricoli di alta qualità e soluzioni a base vegetale.",
-    "description2": "Colmiamo il divario tra la ricca biodiversità agricola dell'India e i rigorosi standard di qualità globali. Guidati da due persone che combinano competenze molto complementari di un veterano aziendale esperto e di qualcuno cresciuto in un'azienda familiare indiana, offriamo soluzioni di catena di fornitura trasparenti, affidabili e altamente scalabili progettate per i moderni produttori di alimenti.",
+    "eyebrow": "Chi Siamo",
+    "title": "Chi è Faar Earth",
+    "subTitle": "Collective Exports",
+    "description1": "In Faar Earth Collective Exports, forniamo i migliori ingredienti alle industrie di trasformazione alimentare in tutto il mondo. Siamo un'azienda esportatrice di primo piano con sede in India, specializzata nell'approvvigionamento, nella lavorazione e nella consegna di ingredienti agricoli, collegando la biodiversità agricola dell'India agli standard di qualità globali.",
+    "description2": "Siamo guidati dai fondatori, quindi tratti direttamente con chi prende le decisioni. Questo significa risposte rapide, consigli onesti e nessun intermediario tra voi e il vostro ordine.",
     "certifications": "Le Nostre Certificazioni"
   },
   "certifications": {
@@ -133,7 +151,8 @@
   },
   "enquiry": {
     "eyebrow": "Contattaci",
-    "title": "Inviaci una rinchiesta",
+    "title": "Ricevi il tuo Preventivo in 24 Ore",
+    "intro": "Prodotto, grado, quantità, paese di destinazione e se hai bisogno di biologico. È tutto ciò di cui abbiamo bisogno per iniziare.",
     "fullName": "Nome completo",
     "companyName": "Nome azienda",
     "email": "Indirizzo email",
@@ -146,6 +165,11 @@
     "sending": "Invio in corso...",
     "success": "Inchiesta inviata con successo!",
     "error": "Impossibile inviare l'inchiesta. Riprova."
+  },
+  "cantFind": {
+    "heading": "Non Trovate Il Vostro Prodotto?",
+    "body": "Non trovate il vostro prodotto nel nostro catalogo? Non preoccupatevi. Lo troveremo per voi. Se viene prodotto in India per l'esportazione, possiamo reperirlo. Indicateci il prodotto, il grado e la quantità, e troveremo un produttore qualificato e validato, offrendovi il miglior preventivo valido, con le certificazioni richieste dal vostro paese, e in versione biologica dove necessario. Da spezie e botanici rari a ingredienti speciali, se l'India lo produce, possiamo procurarvelo.",
+    "button": "Diteci Cosa Vi Serve"
   },
   "productDetail": {
     "backTo": "Torna a {{category}}",

@@ -10,21 +10,39 @@
   "hero": {
     "mainTitle": "Zuivere ingrediënten",
     "subTitle": "Vertrouwd door de natuur",
-    "description": "Premium kwaliteit eetbare zaden, koudgeperste oliën en etherische oliën voor een gezondere morgen.",
+    "description": "Faar Earth Collective Exports verbindt wereldwijde voedselverwerkers, merken en importeurs met gevalideerde, gekwalificeerde Indiase fabrikanten. Vertel ons het product, de kwaliteit en de hoeveelheid. U ontvangt een tarief en een offerte binnen 24 uur. Heeft u biologisch nodig? Wij bieden biologische opties wanneer u ze nodig heeft, van NPOP-gecertificeerde fabrikanten.",
     "exploreButton": "Producten verkennen",
     "quoteButton": "Ontvang een Offerte binnen 24 Uur",
     "contactButton": "Neem contact met ons op"
   },
   "usp": {
-    "sustainability": "Duurzame inzameling",
-    "premium": "Premium kwaliteit",
-    "partnership": "Langdurig partnerschap",
+    "sustainability": "Duurzame Inkoop",
+    "sustainabilityDesc": "Ingrediënten die worden herleid tot hun teeltgebieden en verantwoord worden ingekocht.",
+    "premium": "Premium Kwaliteit",
+    "premiumDesc": "Elke partij wordt getest tegen uw specificatie voordat deze wordt verzonden.",
+    "partnership": "Langdurig Partnerschap",
+    "partnershipDesc": "Betrouwbare levering en stabiele prijzen, bestelling na bestelling.",
     "natural": "100% Natuurlijk",
     "naturalDesc": "Geen additieven · Geen compromissen",
     "bulk": "Bulkaankopen",
     "bulkDesc": "Voor B2B, heel India & wereldwijd",
     "quality": "Kwaliteit verzekerd",
     "qualityDesc": "Getest · Gecertificeerd · Vertrouwd"
+  },
+  "commitments": {
+    "eyebrow": "Onze Beloften",
+    "heading": "Waar U Op Kunt Rekenen",
+    "item1Title": "Offertes binnen 24 Uur",
+    "item1Desc": "Laat ons de kwaliteit en hoeveelheid weten. Wij reageren met tarieven en een formele offerte binnen 24 uur op werkdagen.",
+    "item2Title": "Alleen Gevalideerde Fabrikanten",
+    "item2Desc": "Wij werken uitsluitend met gekwalificeerde, geauditeerde fabrikanten wiens certificeringen aansluiten bij uw product en bestemmingsmarkt. Biologische bestellingen komen uitsluitend van NPOP-gecertificeerde fabrikanten. Kwaliteit gegarandeerd, getest en gecertificeerd.",
+    "item3Title": "Probeer Voordat U Zich Vastlegt",
+    "item3Desc": "Bestel een proefpakket, of vraag een monster en specificatieblad aan, voordat u een bulkbestelling plaatst.",
+    "item4Title": "Altijd Op De Hoogte",
+    "item4Desc": "Van aanvraag tot levering hoort u van ons bij elke stap, via het kanaal van uw voorkeur: e-mail, WhatsApp of telefoon.",
+    "item5Title": "Biologische Opties Wanneer U Ze Nodig Heeft",
+    "item5Desc": "Laat ons weten dat u biologisch nodig heeft en wij leveren het van NPOP-gecertificeerde fabrikanten (National Programme for Organic Production, India Organic), met het biologisch certificaat en een analysecertificaat (COA) voor elke partij.",
+    "trustStatement": "Wij jagen niet alleen transacties na; wij bouwen toeleveringsketens. Elk product dat wij aanbieden komt van een fabrikant die wij hebben gecontroleerd, en elke zending gaat uit met de documenten die de douane- en voedselveiligheidsregels van uw land vereisen. Als er iets niet klopt, hoort u dat eerst van ons. En wanneer uw product of markt biologisch vereist, is de fabrikant erachter NPOP-gecertificeerd."
   },
   "categories": {
     "title": "Wat wij aanbieden",
@@ -72,11 +90,11 @@
     "whiteLabellingandRetailPackagingSolutions": "White-label- en Retailverpakkingsoplossingen"
   },
   "about": {
-    "eyebrow": "Over Faar Earth",
-    "title": "Geworteld in de natuur",
-    "subTitle": "Toegewijd aan kwaliteit",
-    "description1": "Bij Faar Earth streven we ernaar de beste ingrediënten voor de voedingsverwerkingsindustrie wereldwijd te leveren. We zijn een premier Indiaas exportbedrijf dat zich specialiseert in het inzamelen, verwerken en leveren van hoogwaardige landbouwingrediënten en plantaardige oplossingen.",
-    "description2": "We overbruggen de kloof tussen Indië's rijke landbouwbiodiversiteit en strikte wereldwijd kwaliteitsnormen. Onder leiding van twee personen met aanvullende vaardigheden van een ervaren bedrijfsleider en iemand die in een Indisch familiebedrijf is opgegroeid, bieden we naadloze, betrouwbare en zeer schaalbare leveringskettingoplossingen voor moderne voedingsmiddellenfabrikanten.",
+    "eyebrow": "Over Ons",
+    "title": "Over Faar Earth",
+    "subTitle": "Collective Exports",
+    "description1": "Bij Faar Earth Collective Exports leveren wij de beste ingrediënten aan voedselverwerkende industrieën wereldwijd. Wij zijn een toonaangevend, in India gevestigd exportbedrijf, gespecialiseerd in de inkoop, verwerking en levering van landbouwingrediënten, en overbruggen India's landbouwbiodiversiteit met wereldwijde kwaliteitsnormen.",
+    "description2": "Wij worden geleid door onze oprichters, zodat u rechtstreeks te maken heeft met de mensen die beslissingen nemen. Dat betekent snelle antwoorden, eerlijk advies en geen tussenlagen tussen u en uw bestelling.",
     "certifications": "Onze Certificeringen"
   },
   "certifications": {
@@ -133,7 +151,8 @@
   },
   "enquiry": {
     "eyebrow": "Neem contact op",
-    "title": "Stuur ons een vraag",
+    "title": "Ontvang Uw Offerte binnen 24 Uur",
+    "intro": "Product, kwaliteit, hoeveelheid, bestemmingsland en of u biologisch nodig heeft. Dat is alles wat we nodig hebben om te beginnen.",
     "fullName": "Volledige naam",
     "companyName": "Bedrijfsnaam",
     "email": "E-mailadres",
@@ -146,6 +165,11 @@
     "sending": "Verzenden...",
     "success": "Vraag succesvol verzonden!",
     "error": "Kan vraag niet verzenden. Probeer het later opnieuw."
+  },
+  "cantFind": {
+    "heading": "Vindt U Uw Product Niet?",
+    "body": "Vindt u uw product niet in onze catalogus? Geen zorgen. Wij vinden het voor u. Als het in India voor export wordt geproduceerd, kunnen wij het inkopen. Laat ons het product, de kwaliteit en de hoeveelheid weten, en wij vinden een gekwalificeerde, gevalideerde fabrikant en bezorgen u de beste geldige offerte, met de certificeringen die uw land vereist, en in een biologische versie waar nodig. Van zeldzame kruiden en botanicals tot speciale ingrediënten — als India het maakt, kunnen wij het voor u regelen.",
+    "button": "Vertel Ons Wat U Nodig Heeft"
   },
   "productDetail": {
     "backTo": "Terug naar {{category}}",

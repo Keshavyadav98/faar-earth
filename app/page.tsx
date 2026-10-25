@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import USPStrip from "@/components/USPStrip";
+import Commitments from "@/components/Commitments";
 import Categories from "@/components/Categories";
 import ProductsGallery from "@/components/ProductsGallery";
 import Certifications from "@/components/Certifications";
@@ -21,7 +21,7 @@ export default async function Home() {
       <ScrollToSectionOnLoad />
       <Header />
       <Hero />
-      <USPStrip />
+      <Commitments />
       <Categories categories={categories} />
       <ProductsGallery />
       <Certifications />

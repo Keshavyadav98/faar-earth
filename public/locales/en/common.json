@@ -12,15 +12,18 @@
     "mainTitle": "Pure Ingredients,",
     "subTitle": "Trusted by Nature",
     "tagline": "— Sourced and Exported from India",
-    "description": "From bulk export to fully custom private label manufacturing, we deliver premium, tested and certified products and ingredients — the way global food and wellness brands need them.",
+    "description": "Faar Earth Collective Exports connects global food processors, brands and importers with validated, qualified Indian manufacturers. Tell us the product, grade and quantity. You get a rate and a quote within 24 hours. Need organic? We offer organic options whenever you require them, from NPOP-certified manufacturers.",
     "exploreButton": "Explore Products",
     "quoteButton": "Get a Quote in 24 Hours",
     "contactButton": "Request a Private Label Quote"
   },
   "usp": {
-    "sustainability": "Sustainability Sourcing",
+    "sustainability": "Sustainable Sourcing",
+    "sustainabilityDesc": "Ingredients traced to their growing regions and sourced responsibly.",
     "premium": "Premium Quality",
-    "partnership": "Long Term Partnership",
+    "premiumDesc": "Every lot is tested against your specification before it ships.",
+    "partnership": "Long-Term Partnership",
+    "partnershipDesc": "Reliable supply and stable pricing, order after order.",
     "natural": "100% Natural",
     "naturalDesc": "No Additive · No Compromise",
     "bulk": "Bulk Supply",
@@ -29,6 +32,21 @@
     "qualityDesc": "Tested · Certified · Trusted",
     "privateLabel": "Private Label & Contract Manufacturing",
     "privateLabelDesc": "OEM & Custom Formulation"
+  },
+  "commitments": {
+    "eyebrow": "Our Commitments",
+    "heading": "What You Can Count On",
+    "item1Title": "Quotes in 24 Hours",
+    "item1Desc": "Send the grade and quantity. We reply with rates and a formal quote within 24 hours on working days.",
+    "item2Title": "Validated Manufacturers Only",
+    "item2Desc": "We work only with qualified, audited manufacturers whose certifications match your product and destination market. Organic orders come only from NPOP-certified manufacturers. Quality assured, tested and certified.",
+    "item3Title": "Try Before You Commit",
+    "item3Desc": "Order a trial pack, or request a sample and specification sheet, before placing a bulk order.",
+    "item4Title": "Always Informed",
+    "item4Desc": "From enquiry to delivery, you hear from us at every stage, through the channel you prefer: email, WhatsApp or phone.",
+    "item5Title": "Organic Options Whenever You Need Them",
+    "item5Desc": "Tell us you need organic and we supply it from NPOP-certified manufacturers (National Programme for Organic Production, India Organic), with the organic certificate and a Certificate of Analysis for every lot.",
+    "trustStatement": "We do not just chase transactions; we build supply chains. Every product we offer comes from a manufacturer we have checked, and every shipment goes out with the documents your country's customs and food-safety rules require. If something is not right, you will hear it from us first. And when your product or market calls for organic, the manufacturer behind it will be NPOP certified."
   },
   "categories": {
     "title": "What We Offer",
@@ -79,11 +97,11 @@
     "whiteLabellingandRetailPackagingSolutions": "White Labelling and Retail Packaging Solutions"
   },
   "about": {
-    "eyebrow": "About Faar Earth",
-    "title": "Rooted In Nature",
-    "subTitle": "Committed to Quality",
-    "description1": "At Faar Earth, we strive to provide the best of ingredients to food processing industries globally. We are a premier, India-based export enterprise specialising in sourcing, processing and delivery of high-quality agricultural ingredients and plant-based solutions.",
-    "description2": "We bridge the gap between India's rich agricultural biodiversity and stringent global quality standards. Headed by two people combining very complimentary skillsets of a seasoned corporate veteran and someone who grew up in an Indian family business, we offer seamless, reliable and highly scalable supply chain solutions designed for modern food manufacturers.",
+    "eyebrow": "About Us",
+    "title": "About Faar Earth",
+    "subTitle": "Collective Exports",
+    "description1": "At Faar Earth Collective Exports, we provide the best ingredients to food-processing industries worldwide. We are a premier India-based export enterprise specialising in the sourcing, processing and delivery of agricultural ingredients, bridging India's agricultural biodiversity with global quality standards.",
+    "description2": "We are founder-led, so you deal directly with the people who make decisions. That means fast answers, honest advice and no layers between you and your order.",
     "certifications": "Certifications held by our partner Manufacturers and Processors"
   },
   "certifications": {
@@ -140,7 +158,8 @@
   },
   "enquiry": {
     "eyebrow": "Get In Touch",
-    "title": "Send Us an Inquiry",
+    "title": "Get Your Quote in 24 Hours",
+    "intro": "Product, grade, quantity, destination country, and whether you need organic. That is all we need to start.",
     "fullName": "Full Name",
     "companyName": "Company Name",
     "email": "Email Address",
@@ -153,6 +172,11 @@
     "sending": "Sending...",
     "success": "Enquiry sent successfully!",
     "error": "Failed to send enquiry. Please try again."
+  },
+  "cantFind": {
+    "heading": "Can't Find Your Product?",
+    "body": "Can't find your product in our catalogue? Don't worry. We'll find it for you. If it is produced in India for export, we can source it. Tell us the product, grade and quantity, and we will find a qualified, validated manufacturer and bring you the best valid quote, with the certifications your country requires, and in an organic version where you need one. From rare spices and botanicals to speciality ingredients, if India makes it, we can get it to you.",
+    "button": "Tell Us What You Need"
   },
   "productDetail": {
     "backTo": "Back to {{category}}",

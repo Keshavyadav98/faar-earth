@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
+import { scrollToSection } from "@/lib/scrollToSection";
 
 export default function About() {
   const { t } = useTranslation();
@@ -9,6 +10,7 @@ export default function About() {
   const FEATURES = [
     {
       title: t("usp.sustainability"),
+      desc: t("usp.sustainabilityDesc"),
       icon: (
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
           <path d="M12 3c4 3 7 6 7 10a7 7 0 11-14 0c0-4 3-7 7-10z" stroke="#4C5A44" strokeWidth="1.6" />
@@ -17,6 +19,7 @@ export default function About() {
     },
     {
       title: t("usp.premium"),
+      desc: t("usp.premiumDesc"),
       icon: (
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
           <path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" stroke="#4C5A44" strokeWidth="1.6" strokeLinecap="round" />
@@ -26,6 +29,7 @@ export default function About() {
     },
     {
       title: t("usp.partnership"),
+      desc: t("usp.partnershipDesc"),
       icon: (
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
           <circle cx="8" cy="9" r="3" stroke="#4C5A44" strokeWidth="1.6" />
@@ -66,12 +70,15 @@ export default function About() {
 
           <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-3">
             {FEATURES.map((f) => (
-              <div key={f.title} className="flex items-start gap-3">
+              <div key={f.title} className="rounded-card border border-border-gray bg-white p-5 shadow-card">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-secondary-green/15">
                   {f.icon}
                 </span>
-                <p className="text-[14px] font-medium leading-snug text-[#404C3E]">
+                <p className="mt-3 text-[14px] font-semibold leading-snug text-[#404C3E]">
                   {f.title}
+                </p>
+                <p className="mt-1.5 text-[13px] leading-relaxed text-text-gray">
+                  {f.desc}
                 </p>
               </div>
             ))}
@@ -84,6 +91,24 @@ export default function About() {
             alt="Faar Earth natural lifestyle setting with essential oil bottles and leaves"
             className="h-full w-full object-cover"
           />
+        </div>
+      </div>
+
+      <div className="container-xl mt-12">
+        <div className="mx-auto max-w-[1000px] bg-transparent p-8 text-center sm:p-12">
+          <h3 className="font-heading text-h4 text-[#404C3E]">
+            {t("cantFind.heading")}
+          </h3>
+          <p className="mt-4 text-[15px] leading-relaxed text-text-gray">
+            {t("cantFind.body")}
+          </p>
+          <a
+            href="#enquiry"
+            onClick={(e) => scrollToSection(e, "#enquiry")}
+            className="mt-6 inline-flex items-center gap-2 rounded-btn bg-primary-green px-7 py-3.5 text-[16px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green"
+          >
+            {t("cantFind.button")} <span aria-hidden>→</span>
+          </a>
         </div>
       </div>
     </section>

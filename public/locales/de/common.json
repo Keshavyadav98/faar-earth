@@ -10,21 +10,39 @@
   "hero": {
     "mainTitle": "Reine Inhaltsstoffe",
     "subTitle": "Von der Natur vertraut",
-    "description": "Hochwertige Speisesamen, kalt gepresste Öle und ätherische Öle für ein gesünderes Morgen.",
+    "description": "Faar Earth Collective Exports verbindet globale Lebensmittelverarbeiter, Marken und Importeure mit geprüften, qualifizierten indischen Herstellern. Teilen Sie uns Produkt, Qualität und Menge mit. Sie erhalten einen Preis und ein Angebot innerhalb von 24 Stunden. Benötigen Sie Bio? Wir bieten Bio-Optionen, wann immer Sie sie benötigen, von NPOP-zertifizierten Herstellern.",
     "exploreButton": "Produkte erkunden",
     "quoteButton": "Angebot in 24 Stunden erhalten",
     "contactButton": "Kontaktieren Sie uns"
   },
   "usp": {
     "sustainability": "Nachhaltige Beschaffung",
+    "sustainabilityDesc": "Zutaten, die bis zu ihren Anbauregionen zurückverfolgt und verantwortungsvoll bezogen werden.",
     "premium": "Premium Qualität",
+    "premiumDesc": "Jede Charge wird vor dem Versand gegen Ihre Spezifikation geprüft.",
     "partnership": "Langfristige Partnerschaft",
+    "partnershipDesc": "Zuverlässige Lieferung und stabile Preise, Bestellung für Bestellung.",
     "natural": "100% Natürlich",
     "naturalDesc": "Keine Zusatzstoffe · Kein Kompromiss",
     "bulk": "Massenbeschaffung",
     "bulkDesc": "Für B2B, ganz Indien & Global",
     "quality": "Qualitätsgesichert",
     "qualityDesc": "Getestet · Zertifiziert · Vertraut"
+  },
+  "commitments": {
+    "eyebrow": "Unsere Zusagen",
+    "heading": "Worauf Sie Sich Verlassen Können",
+    "item1Title": "Angebote innerhalb von 24 Stunden",
+    "item1Desc": "Teilen Sie uns Qualität und Menge mit. Wir antworten mit Preisen und einem verbindlichen Angebot innerhalb von 24 Stunden an Werktagen.",
+    "item2Title": "Nur geprüfte Hersteller",
+    "item2Desc": "Wir arbeiten ausschließlich mit qualifizierten, auditierten Herstellern, deren Zertifizierungen zu Ihrem Produkt und Zielmarkt passen. Bio-Bestellungen stammen ausschließlich von NPOP-zertifizierten Herstellern. Qualität gesichert, geprüft und zertifiziert.",
+    "item3Title": "Testen, bevor Sie sich binden",
+    "item3Desc": "Bestellen Sie ein Testpaket oder fordern Sie ein Muster und ein Spezifikationsblatt an, bevor Sie eine Großbestellung aufgeben.",
+    "item4Title": "Immer informiert",
+    "item4Desc": "Von der Anfrage bis zur Lieferung hören Sie bei jedem Schritt von uns — über den Kanal Ihrer Wahl: E-Mail, WhatsApp oder Telefon.",
+    "item5Title": "Bio-Optionen, wann immer Sie sie brauchen",
+    "item5Desc": "Teilen Sie uns mit, dass Sie Bio benötigen, und wir liefern es von NPOP-zertifizierten Herstellern (National Programme for Organic Production, India Organic), mit Bio-Zertifikat und Analysezertifikat (COA) für jede Charge.",
+    "trustStatement": "Wir jagen nicht nur Transaktionen hinterher — wir bauen Lieferketten auf. Jedes Produkt, das wir anbieten, stammt von einem Hersteller, den wir geprüft haben, und jede Lieferung wird mit den Dokumenten versandt, die die Zoll- und Lebensmittelsicherheitsvorschriften Ihres Landes verlangen. Sollte etwas nicht stimmen, erfahren Sie es zuerst von uns. Und wenn Ihr Produkt oder Markt Bio verlangt, ist der dahinterstehende Hersteller NPOP-zertifiziert."
   },
   "categories": {
     "title": "Was wir anbieten",
@@ -72,11 +90,11 @@
     "whiteLabellingandRetailPackagingSolutions": "White-Label- und Einzelhandelsverpackungslösungen"
   },
   "about": {
-    "eyebrow": "Über Faar Earth",
-    "title": "In der Natur verwurzelt",
-    "subTitle": "Dem Qualität verpflichtet",
-    "description1": "Bei Faar Earth bemühen wir uns, die besten Inhaltsstoffe für Lebensmittelverarbeitungsindustrien weltweit bereitzustellen. Wir sind ein führendes, in Indien ansässiges Exportunternehmen, das sich auf die Beschaffung, Verarbeitung und Lieferung hochwertiger landwirtschaftlicher Zutaten und pflanzlicher Lösungen spezialisiert hat.",
-    "description2": "Wir überbrücken die Lücke zwischen Indiens reichhaltiger landwirtschaftlicher Biodiversität und strengen globalen Qualitätsstandards. Geleitet von zwei Personen mit sich ergänzenden Fähigkeiten eines erfahrenen Unternehmens und jemandem, der in einem indischen Familienunternehmen aufwuchs, bieten wir nahtlose, zuverlässige und hochgradig skalierbare Lieferkettenla lösungen für moderne Lebensmittelhersteller.",
+    "eyebrow": "Über Uns",
+    "title": "Über Faar Earth",
+    "subTitle": "Collective Exports",
+    "description1": "Bei Faar Earth Collective Exports liefern wir die besten Zutaten an Lebensmittelverarbeitungsindustrien weltweit. Wir sind ein führendes, in Indien ansässiges Exportunternehmen, spezialisiert auf Beschaffung, Verarbeitung und Lieferung landwirtschaftlicher Zutaten, und überbrücken Indiens landwirtschaftliche Biodiversität mit globalen Qualitätsstandards.",
+    "description2": "Wir sind inhabergeführt, sodass Sie direkt mit den Entscheidungsträgern zu tun haben. Das bedeutet schnelle Antworten, ehrlichen Rat und keine Zwischenebenen zwischen Ihnen und Ihrer Bestellung.",
     "certifications": "Unsere Zertifizierungen"
   },
   "certifications": {
@@ -133,7 +151,8 @@
   },
   "enquiry": {
     "eyebrow": "Kontakt aufnehmen",
-    "title": "Senden Sie uns eine Anfrage",
+    "title": "Erhalten Sie Ihr Angebot in 24 Stunden",
+    "intro": "Produkt, Qualität, Menge, Zielland und ob Sie Bio benötigen. Das ist alles, was wir zum Start brauchen.",
     "fullName": "Vollständiger Name",
     "companyName": "Firmenname",
     "email": "E-Mail-Adresse",
@@ -146,6 +165,11 @@
     "sending": "Wird gesendet...",
     "success": "Anfrage erfolgreich gesendet!",
     "error": "Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es später."
+  },
+  "cantFind": {
+    "heading": "Ihr Produkt Nicht Gefunden?",
+    "body": "Finden Sie Ihr Produkt nicht in unserem Katalog? Keine Sorge. Wir finden es für Sie. Wenn es in Indien für den Export hergestellt wird, können wir es beschaffen. Teilen Sie uns Produkt, Qualität und Menge mit, und wir finden einen qualifizierten, geprüften Hersteller und bringen Ihnen das beste gültige Angebot, mit den von Ihrem Land geforderten Zertifizierungen, und in einer Bio-Version, wo Sie sie benötigen. Von seltenen Gewürzen und Pflanzenstoffen bis hin zu Spezialzutaten — wenn Indien es herstellt, können wir es Ihnen besorgen.",
+    "button": "Sagen Sie Uns, Was Sie Brauchen"
   },
   "productDetail": {
     "backTo": "Zurück zu {{category}}",

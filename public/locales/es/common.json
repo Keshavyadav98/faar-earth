@@ -10,21 +10,39 @@
   "hero": {
     "mainTitle": "Ingredientes puros",
     "subTitle": "Confiables por la naturaleza",
-    "description": "Semillas comestibles de calidad premium, aceites prensados en frío y aceites esenciales para un mañana más saludable.",
+    "description": "Faar Earth Collective Exports conecta a procesadores de alimentos, marcas e importadores globales con fabricantes indios validados y calificados. Indíquenos el producto, el grado y la cantidad. Recibirá una tarifa y una cotización en 24 horas. ¿Necesita productos orgánicos? Ofrecemos opciones orgánicas siempre que las necesite, de fabricantes certificados por NPOP.",
     "exploreButton": "Explorar productos",
     "quoteButton": "Obtenga una Cotización en 24 Horas",
     "contactButton": "Contáctenos"
   },
   "usp": {
-    "sustainability": "Abastecimiento sostenible",
-    "premium": "Calidad premium",
-    "partnership": "Asociación a largo plazo",
+    "sustainability": "Abastecimiento Sostenible",
+    "sustainabilityDesc": "Ingredientes rastreados hasta sus regiones de cultivo y obtenidos de forma responsable.",
+    "premium": "Calidad Premium",
+    "premiumDesc": "Cada lote se analiza según su especificación antes de enviarse.",
+    "partnership": "Asociación a Largo Plazo",
+    "partnershipDesc": "Suministro fiable y precios estables, pedido tras pedido.",
     "natural": "100% Natural",
     "naturalDesc": "Sin aditivos · Sin compromisos",
     "bulk": "Suministro a granel",
     "bulkDesc": "Para B2B, todo India y global",
     "quality": "Calidad asegurada",
     "qualityDesc": "Probado · Certificado · Confiable"
+  },
+  "commitments": {
+    "eyebrow": "Nuestros Compromisos",
+    "heading": "En Qué Puede Confiar",
+    "item1Title": "Cotizaciones en 24 Horas",
+    "item1Desc": "Indíquenos el grado y la cantidad. Le respondemos con tarifas y una cotización formal en 24 horas en días laborables.",
+    "item2Title": "Solo Fabricantes Validados",
+    "item2Desc": "Trabajamos únicamente con fabricantes calificados y auditados cuyas certificaciones coinciden con su producto y mercado de destino. Los pedidos orgánicos provienen únicamente de fabricantes certificados por NPOP. Calidad asegurada, probada y certificada.",
+    "item3Title": "Pruebe Antes de Comprometerse",
+    "item3Desc": "Solicite un paquete de prueba, o una muestra y una hoja de especificaciones, antes de realizar un pedido a granel.",
+    "item4Title": "Siempre Informado",
+    "item4Desc": "Desde la consulta hasta la entrega, tendrá noticias nuestras en cada etapa, a través del canal que prefiera: correo electrónico, WhatsApp o teléfono.",
+    "item5Title": "Opciones Orgánicas Cuando las Necesite",
+    "item5Desc": "Díganos que necesita productos orgánicos y se los suministramos de fabricantes certificados por NPOP (Programa Nacional de Producción Orgánica, India Orgánica), con el certificado orgánico y un Certificado de Análisis para cada lote.",
+    "trustStatement": "No solo buscamos transacciones; construimos cadenas de suministro. Cada producto que ofrecemos proviene de un fabricante que hemos verificado, y cada envío sale con los documentos que exigen las normas aduaneras y de seguridad alimentaria de su país. Si algo no está bien, lo sabrá primero por nosotros. Y cuando su producto o mercado requiera orgánico, el fabricante detrás de él estará certificado por NPOP."
   },
   "categories": {
     "title": "Lo que ofrecemos",
@@ -73,11 +91,11 @@
     "whiteLabellingandRetailPackagingSolutions": "Soluciones de Marca Blanca y Envasado Minorista"
   },
   "about": {
-    "eyebrow": "Acerca de Faar Earth",
-    "title": "Enraizado en la naturaleza",
-    "subTitle": "Comprometido con la calidad",
-    "description1": "En Faar Earth, nos esforzamos por proporcionar los mejores ingredientes a las industrias de procesamiento de alimentos en todo el mundo. Somos una empresa de exportación de primera base en India, especializada en el abastecimiento, procesamiento y entrega de ingredientes agrícolas de alta calidad y soluciones a base de plantas.",
-    "description2": "Cerramos la brecha entre la rica biodiversidad agrícola de India y los rigurosos estándares de calidad global. Dirigida por dos personas que combinan habilidades muy complementarias de un veterano corporativo experimentado y alguien que creció en un negocio familiar indio, ofrecemos soluciones de cadena de suministro transparentes, confiables y altamente escalables diseñadas para fabricantes de alimentos modernos.",
+    "eyebrow": "Sobre Nosotros",
+    "title": "Acerca de Faar Earth",
+    "subTitle": "Collective Exports",
+    "description1": "En Faar Earth Collective Exports, proporcionamos los mejores ingredientes a las industrias de procesamiento de alimentos en todo el mundo. Somos una empresa exportadora líder con sede en India, especializada en el abastecimiento, procesamiento y entrega de ingredientes agrícolas, uniendo la biodiversidad agrícola de India con los estándares globales de calidad.",
+    "description2": "Estamos liderados por nuestros fundadores, por lo que trata directamente con quienes toman las decisiones. Eso significa respuestas rápidas, consejos honestos y ningún intermediario entre usted y su pedido.",
     "certifications": "Nuestras Certificaciones"
   },
   "certifications": {
@@ -134,7 +152,8 @@
   },
   "enquiry": {
     "eyebrow": "Ponerse en contacto",
-    "title": "Envíenos una consulta",
+    "title": "Reciba su Cotización en 24 Horas",
+    "intro": "Producto, grado, cantidad, país de destino y si necesita productos orgánicos. Eso es todo lo que necesitamos para empezar.",
     "fullName": "Nombre completo",
     "companyName": "Nombre de la empresa",
     "email": "Correo electrónico",
@@ -147,6 +166,11 @@
     "sending": "Enviando...",
     "success": "¡Consulta enviada exitosamente!",
     "error": "Falló al enviar la consulta. Por favor, inténtelo de nuevo."
+  },
+  "cantFind": {
+    "heading": "¿No Encuentra Su Producto?",
+    "body": "¿No encuentra su producto en nuestro catálogo? No se preocupe. Lo encontraremos por usted. Si se produce en India para exportación, podemos conseguirlo. Indíquenos el producto, el grado y la cantidad, y encontraremos un fabricante calificado y validado, ofreciéndole la mejor cotización válida, con las certificaciones que requiere su país, y en una versión orgánica cuando la necesite. Desde especias y botánicos raros hasta ingredientes especializados: si India lo fabrica, nosotros se lo conseguimos.",
+    "button": "Díganos Lo Que Necesita"
   },
   "productDetail": {
     "backTo": "Volver a {{category}}",

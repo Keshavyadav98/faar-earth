@@ -10,21 +10,39 @@
   "hero": {
     "mainTitle": "Ingrédients purs",
     "subTitle": "Approuvés par la nature",
-    "description": "Graines comestibles de qualité premium, huiles pressées à froid et huiles essentielles pour un lendemain plus sain.",
+    "description": "Faar Earth Collective Exports met en relation les transformateurs alimentaires, marques et importateurs du monde entier avec des fabricants indiens validés et qualifiés. Indiquez-nous le produit, la qualité et la quantité. Vous recevez un tarif et un devis sous 24 heures. Besoin de bio ? Nous proposons des options biologiques chaque fois que vous en avez besoin, auprès de fabricants certifiés NPOP.",
     "exploreButton": "Explorer les produits",
     "quoteButton": "Obtenez un Devis en 24 Heures",
     "contactButton": "Nous contacter"
   },
   "usp": {
-    "sustainability": "Approvisionnement durable",
-    "premium": "Qualité premium",
-    "partnership": "Partenariat à long terme",
+    "sustainability": "Approvisionnement Durable",
+    "sustainabilityDesc": "Ingrédients tracés jusqu'à leurs régions de culture et approvisionnés de manière responsable.",
+    "premium": "Qualité Premium",
+    "premiumDesc": "Chaque lot est testé selon votre spécification avant expédition.",
+    "partnership": "Partenariat à Long Terme",
+    "partnershipDesc": "Approvisionnement fiable et prix stables, commande après commande.",
     "natural": "100% Naturel",
     "naturalDesc": "Aucun additif · Aucun compromis",
     "bulk": "Approvisionnement en vrac",
     "bulkDesc": "Pour B2B, tout l'Inde et le monde",
     "quality": "Qualité assurée",
     "qualityDesc": "Testé · Certifié · Fiable"
+  },
+  "commitments": {
+    "eyebrow": "Nos Engagements",
+    "heading": "Ce Sur Quoi Vous Pouvez Compter",
+    "item1Title": "Devis sous 24 Heures",
+    "item1Desc": "Indiquez-nous la qualité et la quantité. Nous répondons avec des tarifs et un devis formel sous 24 heures les jours ouvrés.",
+    "item2Title": "Uniquement des Fabricants Validés",
+    "item2Desc": "Nous travaillons uniquement avec des fabricants qualifiés et audités dont les certifications correspondent à votre produit et à votre marché de destination. Les commandes biologiques proviennent uniquement de fabricants certifiés NPOP. Qualité assurée, testée et certifiée.",
+    "item3Title": "Testez Avant de Vous Engager",
+    "item3Desc": "Commandez un pack d'essai, ou demandez un échantillon et une fiche technique, avant de passer une commande en gros.",
+    "item4Title": "Toujours Informé",
+    "item4Desc": "De la demande à la livraison, vous avez de nos nouvelles à chaque étape, via le canal de votre choix : e-mail, WhatsApp ou téléphone.",
+    "item5Title": "Options Biologiques Quand Vous en Avez Besoin",
+    "item5Desc": "Dites-nous que vous avez besoin de bio et nous le fournissons auprès de fabricants certifiés NPOP (National Programme for Organic Production, India Organic), avec le certificat biologique et un certificat d'analyse pour chaque lot.",
+    "trustStatement": "Nous ne courons pas seulement après les transactions ; nous construisons des chaînes d'approvisionnement. Chaque produit que nous proposons provient d'un fabricant que nous avons vérifié, et chaque expédition part avec les documents exigés par les règles douanières et de sécurité alimentaire de votre pays. Si quelque chose ne va pas, vous l'apprendrez de nous en premier. Et lorsque votre produit ou votre marché exige du bio, le fabricant derrière sera certifié NPOP."
   },
   "categories": {
     "title": "Ce que nous offrons",
@@ -72,11 +90,11 @@
     "whiteLabellingandRetailPackagingSolutions": "Solutions de Marque Blanche et d'Emballage de Détail"
   },
   "about": {
-    "eyebrow": "À propos de Faar Earth",
-    "title": "Enraciné dans la nature",
-    "subTitle": "Engagé envers la qualité",
-    "description1": "Chez Faar Earth, nous nous efforçons de fournir les meilleurs ingrédients aux industries de transformation alimentaire du monde entier. Nous sommes une entreprise d'exportation première basée en Inde, spécialisée dans l'approvisionnement, le traitement et la livraison d'ingrédients agricoles de haute qualité et de solutions à base de plantes.",
-    "description2": "Nous comblons le fossé entre la riche biodiversité agricole de l'Inde et les normes de qualité mondiales rigoureuses. Dirigée par deux personnes combinant des compétences très complémentaires d'un vétéran corporate chevronné et de quelqu'un qui a grandi dans une entreprise familiale indienne, nous offrons des solutions de chaîne d'approvisionnement transparentes, fiables et hautement évolutives conçues pour les fabricants de produits alimentaires modernes.",
+    "eyebrow": "À Propos de Nous",
+    "title": "À Propos de Faar Earth",
+    "subTitle": "Collective Exports",
+    "description1": "Chez Faar Earth Collective Exports, nous fournissons les meilleurs ingrédients aux industries de transformation alimentaire du monde entier. Nous sommes une entreprise d'exportation de premier plan basée en Inde, spécialisée dans l'approvisionnement, la transformation et la livraison d'ingrédients agricoles, faisant le lien entre la biodiversité agricole de l'Inde et les normes de qualité mondiales.",
+    "description2": "Nous sommes dirigés par nos fondateurs, vous traitez donc directement avec les personnes qui prennent les décisions. Cela signifie des réponses rapides, des conseils honnêtes et aucun intermédiaire entre vous et votre commande.",
     "certifications": "Nos Certifications"
   },
   "certifications": {
@@ -133,7 +151,8 @@
   },
   "enquiry": {
     "eyebrow": "Nous contacter",
-    "title": "Nous envoyer une demande",
+    "title": "Recevez votre Devis sous 24 Heures",
+    "intro": "Produit, qualité, quantité, pays de destination et si vous avez besoin de bio. C'est tout ce dont nous avons besoin pour commencer.",
     "fullName": "Nom complet",
     "companyName": "Nom de l'entreprise",
     "email": "Adresse e-mail",
@@ -146,6 +165,11 @@
     "sending": "Envoi...",
     "success": "Demande envoyée avec succès!",
     "error": "Impossible d'envoyer la demande. Veuillez réessayer."
+  },
+  "cantFind": {
+    "heading": "Vous Ne Trouvez Pas Votre Produit ?",
+    "body": "Vous ne trouvez pas votre produit dans notre catalogue ? Ne vous inquiétez pas. Nous le trouverons pour vous. S'il est fabriqué en Inde pour l'export, nous pouvons le sourcer. Indiquez-nous le produit, la qualité et la quantité, et nous trouverons un fabricant qualifié et validé pour vous apporter le meilleur devis valide, avec les certifications exigées par votre pays, et dans une version biologique si besoin. Des épices et plantes rares aux ingrédients de spécialité, si l'Inde le fabrique, nous pouvons vous le procurer.",
+    "button": "Dites-Nous Ce Dont Vous Avez Besoin"
   },
   "productDetail": {
     "backTo": "Retour à {{category}}",

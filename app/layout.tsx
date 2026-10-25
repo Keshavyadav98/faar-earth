@@ -20,9 +20,9 @@ const body = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Faar Earth Collective | Pure Ingredients, Trusted by Nature",
+  title: "Spices & Seeds Exporter India | Faar Earth Collective Exports",
   description:
-    "Premium quality edible seeds, cold pressed oils and essential oils for B2B, pan-India and global bulk supply. Natural, sustainable, quality assured.",
+    "B2B exporter of spices, seeds, oils, oleoresins and botanicals from India. Vetted manufacturers, NPOP organic options, 24-hour quotes, trial packs.",
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",

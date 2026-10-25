@@ -53,6 +53,14 @@ export default function Enquiry() {
             <h2 className="mt-2 font-heading text-h4 md:text-h3 text-[#404C3E]">
               {t("enquiry.title")}
             </h2>
+            <div className="mx-auto mt-4 flex max-w-[480px] items-center justify-center gap-2.5 rounded-card border border-primary-green bg-white px-5 py-3 text-left shadow-card">
+              <svg viewBox="0 0 24 24" className="h-5 w-5 shrink-0 text-primary-green" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              <p className="text-[14px] font-semibold leading-snug text-primary-green">
+                {t("enquiry.intro")}
+              </p>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
