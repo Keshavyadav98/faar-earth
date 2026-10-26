@@ -74,12 +74,12 @@ export default function Commitments() {
               key={item.title}
               className="group relative overflow-hidden rounded-[20px] border border-border-gray bg-white p-6 shadow-card transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-green hover:bg-primary-green hover:shadow-card-hover"
             >
-              <span className="pointer-events-none absolute -right-8 -top-8 h-28 w-28 rounded-full bg-beige transition-colors duration-300 group-hover:bg-white/10" />
+              <span className="pointer-events-none absolute -right-8 -top-8 h-28 w-28 rounded-full bg-[#5E6B57]" />
 
-              <span className="relative z-10 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary-green/10 text-primary-green shadow-sm transition-colors duration-300 group-hover:bg-white/15 group-hover:text-white">
+              <span className="relative z-10 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary-green text-white shadow-sm transition-colors duration-300 group-hover:bg-white group-hover:text-primary-green">
                 {item.icon}
               </span>
-              <h3 className="relative z-10 mt-4 font-heading text-[17px] font-bold text-[#404C3E] transition-colors duration-300 group-hover:text-white">
+              <h3 className="relative z-10 mt-5 font-heading text-[17px] font-bold text-[#404C3E] transition-colors duration-300 group-hover:text-white">
                 {item.title}
               </h3>
               <p className="relative z-10 mt-2 text-[13px] leading-relaxed text-text-gray transition-colors duration-300 group-hover:text-white/85">

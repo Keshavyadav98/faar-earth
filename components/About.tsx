@@ -95,17 +95,27 @@ export default function About() {
       </div>
 
       <div className="container-xl mt-12">
-        <div className="mx-auto max-w-[1000px] bg-transparent p-8 text-center sm:p-12">
-          <h3 className="font-heading text-h4 text-[#404C3E]">
+        <div className="relative mx-auto max-w-[1200px] overflow-hidden rounded-card bg-primary-green p-6 text-center shadow-card-hover sm:p-8">
+          <span className="pointer-events-none absolute -left-8 -top-8 h-28 w-28 rounded-full bg-white/5" />
+          <span className="pointer-events-none absolute -bottom-10 -right-10 h-36 w-36 rounded-full bg-white/5" />
+
+          <span className="relative z-10 mx-auto flex h-11 w-11 items-center justify-center rounded-full bg-white/15">
+            <svg viewBox="0 0 24 24" className="h-5 w-5 text-white" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" />
+              <path d="M21 21l-4.3-4.3" />
+            </svg>
+          </span>
+
+          <h3 className="relative z-10 mt-3 font-heading text-h4 text-white">
             {t("cantFind.heading")}
           </h3>
-          <p className="mt-4 text-[15px] leading-relaxed text-text-gray">
+          <p className="relative z-10 mx-auto mt-2.5 max-w-2xl text-[14px] leading-relaxed text-white/85">
             {t("cantFind.body")}
           </p>
           <a
             href="#enquiry"
             onClick={(e) => scrollToSection(e, "#enquiry")}
-            className="mt-6 inline-flex items-center gap-2 rounded-btn bg-primary-green px-7 py-3.5 text-[16px] font-medium text-white shadow-btn transition-colors hover:bg-hover-green"
+            className="relative z-10 mt-5 inline-flex items-center gap-2 rounded-btn bg-white px-6 py-2.5 text-[15px] font-semibold text-primary-green shadow-btn transition-colors hover:bg-beige"
           >
             {t("cantFind.button")} <span aria-hidden>→</span>
           </a>
