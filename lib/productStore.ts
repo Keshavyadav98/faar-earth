@@ -26,6 +26,7 @@ export type Product = {
   origin?: string;
   grading?: LocalizedText;
   packaging?: LocalizedText;
+  processingOptions?: LocalizedStringList;
   applications?: LocalizedStringList;
   whySourceFromUs?: LocalizedStringList;
   faqs?: LocalizedFaqs;

@@ -22,6 +22,12 @@ export default function ProductDetail({
   const h1 = localize(product.h1, lang);
   const heading = h1 || title;
 
+  const processingOptions = localizeList(product.processingOptions, lang);
+  const processingPairs: string[][] = [];
+  for (let i = 0; i < processingOptions.length; i += 2) {
+    processingPairs.push(processingOptions.slice(i, i + 2));
+  }
+
   const specs = [
     { label: t("productDetail.botanicalName"), value: product.botanicalName },
     { label: t("productDetail.form"), value: localize(product.form, lang) },
@@ -76,7 +82,7 @@ export default function ProductDetail({
           </h1>
           <p className="mt-6 text-[16px] leading-relaxed text-text-gray">{description}</p>
 
-          {specs.length > 0 && (
+          {(specs.length > 0 || processingOptions.length > 0) && (
             <dl className="mt-8 divide-y divide-border-gray rounded-card border border-border-gray">
               {specs.map((s) => (
                 <div key={s.label} className="flex items-center justify-between gap-4 px-5 py-3">
@@ -84,6 +90,15 @@ export default function ProductDetail({
                     {s.label}
                   </dt>
                   <dd className="text-[14px] font-medium text-[#404C3E]">{s.value}</dd>
+                </div>
+              ))}
+              {processingPairs.map((pair, i) => (
+                <div key={i} className="grid grid-cols-2 gap-x-4 px-5 py-3">
+                  {pair.map((item) => (
+                    <dd key={item} className="text-[14px] font-medium text-[#404C3E]">
+                      {item}
+                    </dd>
+                  ))}
                 </div>
               ))}
             </dl>
