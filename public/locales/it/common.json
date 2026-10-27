@@ -168,7 +168,14 @@
   },
   "cantFind": {
     "heading": "Non Trovate Il Vostro Prodotto?",
-    "body": "Non trovate il vostro prodotto nel nostro catalogo? Non preoccupatevi. Lo troveremo per voi. Se viene prodotto in India per l'esportazione, possiamo reperirlo. Indicateci il prodotto, il grado e la quantità, e troveremo un produttore qualificato e validato, offrendovi il miglior preventivo valido, con le certificazioni richieste dal vostro paese, e in versione biologica dove necessario. Da spezie e botanici rari a ingredienti speciali, se l'India lo produce, possiamo procurarvelo.",
+    "intro": "Non trovate il vostro prodotto nel nostro catalogo? Non preoccupatevi. Lo troveremo per voi.",
+    "bullets": [
+      "Se viene prodotto in India per l'esportazione, possiamo reperirlo.",
+      "Indicateci il prodotto, il grado e la quantità, e troveremo un produttore qualificato e validato per voi.",
+      "Vi offriamo il miglior preventivo valido, con le certificazioni richieste dal vostro paese.",
+      "Disponibile in versione biologica ovunque ne abbiate bisogno.",
+      "Da spezie e botanici rari a ingredienti speciali — se l'India lo produce, possiamo procurarvelo."
+    ],
     "button": "Diteci Cosa Vi Serve"
   },
   "productDetail": {

@@ -69,20 +69,26 @@ export default function Commitments() {
         </div>
 
         <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">
-          {ITEMS.map((item) => (
+          {ITEMS.map((item, i) => (
             <div
               key={item.title}
-              className="group relative overflow-hidden rounded-[20px] border border-border-gray bg-white p-6 shadow-card transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-green hover:bg-primary-green hover:shadow-card-hover"
+              className="group relative overflow-hidden rounded-[20px] border border-border-gray bg-white p-5 shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-green hover:bg-primary-green hover:shadow-card-hover"
             >
-              <span className="pointer-events-none absolute -right-8 -top-8 h-28 w-28 rounded-full bg-[#5E6B57]" />
+              <span className="absolute left-0 top-0 h-1 w-full bg-[#8A9A80]" />
 
-              <span className="relative z-10 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary-green text-white shadow-sm transition-colors duration-300 group-hover:bg-white group-hover:text-primary-green">
+              <span className="pointer-events-none absolute -right-7 -top-7 flex h-24 w-24 items-center justify-center rounded-full bg-[#8A9A80]">
+                <span className="font-heading text-[22px] font-bold text-white/70">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+              </span>
+
+              <span className="relative z-10 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#8A9A80] text-white shadow-sm transition-colors duration-300 group-hover:bg-white group-hover:text-primary-green">
                 {item.icon}
               </span>
-              <h3 className="relative z-10 mt-5 font-heading text-[17px] font-bold text-[#404C3E] transition-colors duration-300 group-hover:text-white">
+              <h3 className="relative z-10 mt-4 font-heading text-[16px] font-bold text-[#404C3E] transition-colors duration-300 group-hover:text-white">
                 {item.title}
               </h3>
-              <p className="relative z-10 mt-2 text-[13px] leading-relaxed text-text-gray transition-colors duration-300 group-hover:text-white/85">
+              <p className="relative z-10 mt-1.5 text-[13px] leading-snug text-text-gray transition-colors duration-300 group-hover:text-white/85">
                 {item.desc}
               </p>
             </div>

@@ -168,7 +168,14 @@
   },
   "cantFind": {
     "heading": "Vous Ne Trouvez Pas Votre Produit ?",
-    "body": "Vous ne trouvez pas votre produit dans notre catalogue ? Ne vous inquiétez pas. Nous le trouverons pour vous. S'il est fabriqué en Inde pour l'export, nous pouvons le sourcer. Indiquez-nous le produit, la qualité et la quantité, et nous trouverons un fabricant qualifié et validé pour vous apporter le meilleur devis valide, avec les certifications exigées par votre pays, et dans une version biologique si besoin. Des épices et plantes rares aux ingrédients de spécialité, si l'Inde le fabrique, nous pouvons vous le procurer.",
+    "intro": "Vous ne trouvez pas votre produit dans notre catalogue ? Ne vous inquiétez pas. Nous le trouverons pour vous.",
+    "bullets": [
+      "S'il est fabriqué en Inde pour l'export, nous pouvons le sourcer.",
+      "Indiquez-nous le produit, la qualité et la quantité, et nous trouverons un fabricant qualifié et validé pour vous.",
+      "Nous vous apportons le meilleur devis valide, avec les certifications exigées par votre pays.",
+      "Disponible en version biologique partout où vous en avez besoin.",
+      "Des épices et plantes rares aux ingrédients de spécialité — si l'Inde le fabrique, nous pouvons vous le procurer."
+    ],
     "button": "Dites-Nous Ce Dont Vous Avez Besoin"
   },
   "productDetail": {

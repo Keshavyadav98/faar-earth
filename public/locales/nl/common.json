@@ -168,7 +168,14 @@
   },
   "cantFind": {
     "heading": "Vindt U Uw Product Niet?",
-    "body": "Vindt u uw product niet in onze catalogus? Geen zorgen. Wij vinden het voor u. Als het in India voor export wordt geproduceerd, kunnen wij het inkopen. Laat ons het product, de kwaliteit en de hoeveelheid weten, en wij vinden een gekwalificeerde, gevalideerde fabrikant en bezorgen u de beste geldige offerte, met de certificeringen die uw land vereist, en in een biologische versie waar nodig. Van zeldzame kruiden en botanicals tot speciale ingrediënten — als India het maakt, kunnen wij het voor u regelen.",
+    "intro": "Vindt u uw product niet in onze catalogus? Geen zorgen. Wij vinden het voor u.",
+    "bullets": [
+      "Als het in India voor export wordt geproduceerd, kunnen wij het inkopen.",
+      "Laat ons het product, de kwaliteit en de hoeveelheid weten, en wij vinden een gekwalificeerde, gevalideerde fabrikant voor u.",
+      "Wij bezorgen u de beste geldige offerte, met de certificeringen die uw land vereist.",
+      "Beschikbaar in een biologische versie waar u die ook nodig heeft.",
+      "Van zeldzame kruiden en botanicals tot speciale ingrediënten — als India het maakt, kunnen wij het voor u regelen."
+    ],
     "button": "Vertel Ons Wat U Nodig Heeft"
   },
   "productDetail": {

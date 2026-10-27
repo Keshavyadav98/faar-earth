@@ -169,7 +169,14 @@
   },
   "cantFind": {
     "heading": "¿No Encuentra Su Producto?",
-    "body": "¿No encuentra su producto en nuestro catálogo? No se preocupe. Lo encontraremos por usted. Si se produce en India para exportación, podemos conseguirlo. Indíquenos el producto, el grado y la cantidad, y encontraremos un fabricante calificado y validado, ofreciéndole la mejor cotización válida, con las certificaciones que requiere su país, y en una versión orgánica cuando la necesite. Desde especias y botánicos raros hasta ingredientes especializados: si India lo fabrica, nosotros se lo conseguimos.",
+    "intro": "¿No encuentra su producto en nuestro catálogo? No se preocupe. Lo encontraremos por usted.",
+    "bullets": [
+      "Si se produce en India para exportación, podemos conseguirlo.",
+      "Indíquenos el producto, el grado y la cantidad, y encontraremos un fabricante calificado y validado para usted.",
+      "Le ofrecemos la mejor cotización válida, con las certificaciones que requiere su país.",
+      "Disponible en versión orgánica siempre que la necesite.",
+      "Desde especias y botánicos raros hasta ingredientes especializados: si India lo fabrica, nosotros se lo conseguimos."
+    ],
     "button": "Díganos Lo Que Necesita"
   },
   "productDetail": {

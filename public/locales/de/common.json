@@ -168,7 +168,14 @@
   },
   "cantFind": {
     "heading": "Ihr Produkt Nicht Gefunden?",
-    "body": "Finden Sie Ihr Produkt nicht in unserem Katalog? Keine Sorge. Wir finden es für Sie. Wenn es in Indien für den Export hergestellt wird, können wir es beschaffen. Teilen Sie uns Produkt, Qualität und Menge mit, und wir finden einen qualifizierten, geprüften Hersteller und bringen Ihnen das beste gültige Angebot, mit den von Ihrem Land geforderten Zertifizierungen, und in einer Bio-Version, wo Sie sie benötigen. Von seltenen Gewürzen und Pflanzenstoffen bis hin zu Spezialzutaten — wenn Indien es herstellt, können wir es Ihnen besorgen.",
+    "intro": "Finden Sie Ihr Produkt nicht in unserem Katalog? Keine Sorge. Wir finden es für Sie.",
+    "bullets": [
+      "Wenn es in Indien für den Export hergestellt wird, können wir es beschaffen.",
+      "Teilen Sie uns Produkt, Qualität und Menge mit, und wir finden einen qualifizierten, geprüften Hersteller für Sie.",
+      "Wir bringen Ihnen das beste gültige Angebot, mit den von Ihrem Land geforderten Zertifizierungen.",
+      "Erhältlich in einer Bio-Version, wo immer Sie sie benötigen.",
+      "Von seltenen Gewürzen und Pflanzenstoffen bis hin zu Spezialzutaten — wenn Indien es herstellt, können wir es Ihnen besorgen."
+    ],
     "button": "Sagen Sie Uns, Was Sie Brauchen"
   },
   "productDetail": {

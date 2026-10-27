@@ -175,7 +175,14 @@
   },
   "cantFind": {
     "heading": "Can't Find Your Product?",
-    "body": "Can't find your product in our catalogue? Don't worry. We'll find it for you. If it is produced in India for export, we can source it. Tell us the product, grade and quantity, and we will find a qualified, validated manufacturer and bring you the best valid quote, with the certifications your country requires, and in an organic version where you need one. From rare spices and botanicals to speciality ingredients, if India makes it, we can get it to you.",
+    "intro": "Can't find your product in our catalogue? Don't worry. We'll find it for you.",
+    "bullets": [
+      "If it is produced in India for export, we can source it.",
+      "Tell us the product, grade and quantity, and we will find a qualified, validated manufacturer for you.",
+      "We bring you the best valid quote, with the certifications your country requires.",
+      "Available in an organic version wherever you need one.",
+      "From rare spices and botanicals to speciality ingredients — if India makes it, we can get it to you."
+    ],
     "button": "Tell Us What You Need"
   },
   "productDetail": {
