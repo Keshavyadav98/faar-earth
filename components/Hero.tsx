@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative flex h-[92vh] min-h-[560px] w-full items-center justify-center overflow-hidden"
+      className="relative flex w-full items-center justify-center overflow-hidden py-28 sm:h-[92dvh] sm:min-h-[560px] sm:py-0"
     >
       <img
         src="/Images/banner.png"
@@ -18,7 +18,7 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-black/35" />
 
-      <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center px-6 text-center fade-up">
+      <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-start px-6 text-left fade-up sm:items-center sm:text-center">
         {/* <span className="mb-5 rounded-pill border border-white/40 bg-white/10 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm">
           connect@faarearth.com
         </span> */}
@@ -34,7 +34,7 @@ export default function Hero() {
           {t("hero.description")}
         </p>
 
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+        <div className="mt-8 flex flex-wrap items-center justify-start gap-4 sm:justify-center">
           <a
             href="#products"
             onClick={(e) => scrollToSection(e, "#products")}
