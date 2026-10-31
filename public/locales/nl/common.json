@@ -1,5 +1,6 @@
 {
   "header": {
+    "exploreBotanicals": "Botanicals Ontdekken",
     "categories": "Categorieën",
     "products": "Producten",
     "compliances": "Compliance",
@@ -189,6 +190,9 @@
     "leadTimeValue": "2-3 weken",
     "grading": "Classificatie",
     "packaging": "Verpakking",
+    "shelfLife": "Houdbaarheid",
+    "sampleTrialOrder": "Monster & Proefbestelling",
+    "shipping": "Verzending",
     "processing": "Verwerking",
     "applications": "Toepassingen",
     "whySourceFromUs": "Waarom inkopen bij Faar Earth",

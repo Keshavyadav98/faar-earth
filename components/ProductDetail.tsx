@@ -28,6 +28,12 @@ export default function ProductDetail({
     processingPairs.push(processingOptions.slice(i, i + 2));
   }
 
+  const additionalSpecs = localizeList(product.additionalSpecs, lang).map((entry) => {
+    const idx = entry.indexOf(":");
+    if (idx === -1) return { label: entry, value: "" };
+    return { label: entry.slice(0, idx).trim(), value: entry.slice(idx + 1).trim() };
+  });
+
   const specs = [
     { label: t("productDetail.botanicalName"), value: product.botanicalName },
     { label: t("productDetail.form"), value: localize(product.form, lang) },
@@ -37,6 +43,10 @@ export default function ProductDetail({
     { label: t("productDetail.leadTime"), value: t("productDetail.leadTimeValue") },
     { label: t("productDetail.grading"), value: localize(product.grading, lang) },
     { label: t("productDetail.packaging"), value: localize(product.packaging, lang) },
+    ...additionalSpecs,
+    { label: t("productDetail.shelfLife"), value: localize(product.shelfLife, lang) },
+    { label: t("productDetail.sampleTrialOrder"), value: localize(product.sampleTrialOrder, lang) },
+    { label: t("productDetail.shipping"), value: localize(product.shipping, lang) },
   ].filter((s) => s.value);
 
   const applications = localizeList(product.applications, lang);
@@ -85,11 +95,16 @@ export default function ProductDetail({
           {(specs.length > 0 || processingOptions.length > 0) && (
             <dl className="mt-8 divide-y divide-border-gray rounded-card border border-border-gray">
               {specs.map((s) => (
-                <div key={s.label} className="flex items-center justify-between gap-4 px-5 py-3">
-                  <dt className="text-[13px] font-medium uppercase tracking-wide text-text-gray">
+                <div
+                  key={s.label}
+                  className="grid grid-cols-[150px_1fr] divide-x divide-border-gray sm:grid-cols-[200px_1fr]"
+                >
+                  <dt className="px-5 py-3 text-[13px] font-medium uppercase tracking-wide text-text-gray">
                     {s.label}
                   </dt>
-                  <dd className="text-[14px] font-medium text-[#404C3E]">{s.value}</dd>
+                  <dd className="px-5 py-3 text-right text-[14px] font-medium text-[#404C3E]">
+                    {s.value}
+                  </dd>
                 </div>
               ))}
               {processingPairs.map((pair, i) => (

@@ -1,5 +1,6 @@
 {
   "header": {
+    "exploreBotanicals": "Découvrir les Botaniques",
     "categories": "Catégories",
     "products": "Produits",
     "compliances": "Conformité",
@@ -189,6 +190,9 @@
     "leadTimeValue": "2-3 semaines",
     "grading": "Classification",
     "packaging": "Emballage",
+    "shelfLife": "Durée de Conservation",
+    "sampleTrialOrder": "Échantillon & Commande d'Essai",
+    "shipping": "Expédition",
     "processing": "Traitement",
     "applications": "Applications",
     "whySourceFromUs": "Pourquoi choisir Faar Earth",

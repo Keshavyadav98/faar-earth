@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductGrid from "@/components/ProductGrid";
 import CategoryHeader from "@/components/CategoryHeader";
+import CategoryFaq from "@/components/CategoryFaq";
 import { findCategoryBySlug } from "@/lib/categoryStore";
 import { getProductsByCategory } from "@/lib/productStore";
 import { localize } from "@/lib/locale";
@@ -52,6 +53,7 @@ export default async function CategoryProductsPage({
         <div className="container-xl">
           <ProductGrid products={products} categorySlug={category} />
         </div>
+        <CategoryFaq category={cat} />
       </div>
       <Footer />
     </main>

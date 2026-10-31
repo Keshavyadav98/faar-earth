@@ -53,10 +53,10 @@ export default function Header() {
       }`}
     >
       <div className="bg-primary-green py-2 text-[13px] text-white">
-        <div className="container-xl flex flex-col items-center justify-center gap-2 text-center text-sm md:flex-row md:text-[14px]">
-          <div className="hidden md:block md:w-24" aria-hidden />
+        <div className="container-xl grid grid-cols-1 items-center gap-2 text-center text-sm md:grid-cols-3 md:text-[14px]">
+          <div className="hidden md:block" aria-hidden />
 
-          <div className="flex flex-1 flex-col items-center gap-2 md:flex-row md:justify-center md:gap-6">
+          <div className="flex flex-col items-center gap-2 md:flex-row md:justify-center md:gap-6">
             <span className="text-sm font-medium text-white">
               +91 8700879647
             </span>
@@ -65,7 +65,15 @@ export default function Header() {
             </span>
           </div>
 
-          <div className="flex items-center gap-4 md:w-24 md:justify-end">
+          <div className="flex items-center justify-center gap-4 md:justify-end">
+            <a
+              href="https://www.faarearth.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whitespace-nowrap rounded-pill bg-white px-3.5 py-1.5 text-[12px] font-semibold text-primary-green transition-colors hover:bg-beige"
+            >
+              {t("header.exploreBotanicals")}
+            </a>
             <a
               href="https://instagram.com/faar.earth"
               target="_blank"

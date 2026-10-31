@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9CF" />
+      <stop offset="100%" stop-color="#E3C093" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#warmBg)" />
+  <circle cx="500" cy="460" r="260" fill="#FFFFFF" fill-opacity="0.5" stroke="#4C5A44" stroke-width="3" />
+
+  <!-- coconut half shell -->
+  <path d="M330 520 C 330 400, 410 320, 500 320 C 590 320, 670 400, 670 520 C 670 540, 650 545, 630 545 L 370 545 C 350 545, 330 540, 330 520 Z" fill="#8A5A3A" stroke="#5E3B24" stroke-width="4" />
+  <path d="M355 520 C 355 410, 425 345, 500 345 C 575 345, 645 410, 645 520" fill="#F7F1E6" />
+
+  <!-- shredded curls -->
+  <g fill="#FBF7EE" stroke="#D8CBAE" stroke-width="2">
+    <path d="M400 470 C 420 440, 460 440, 470 475 C 475 495, 450 500, 430 495 C 415 491, 395 485, 400 470 Z" />
+    <path d="M470 440 C 495 415, 535 420, 540 455 C 543 475, 515 480, 495 472 C 480 466, 462 455, 470 440 Z" />
+    <path d="M540 475 C 565 455, 600 465, 598 495 C 596 512, 568 512, 552 503 C 540 496, 528 488, 540 475 Z" />
+    <path d="M440 510 C 465 495, 500 500, 500 525 C 500 542, 475 545, 458 538 C 445 532, 428 522, 440 510 Z" />
+    <path d="M520 515 C 545 500, 580 510, 575 535 C 572 550, 545 550, 530 541 C 518 534, 505 525, 520 515 Z" />
+  </g>
+
+  <image href="/favicon.png" x="800" y="800" width="150" height="153" opacity="0.92" />
+</svg>

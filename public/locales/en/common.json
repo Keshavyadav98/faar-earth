@@ -1,5 +1,6 @@
 {
   "header": {
+    "exploreBotanicals": "Explore Botanicals",
     "categories": "Categories",
     "products": "Products",
     "compliances": "Compliances",
@@ -196,6 +197,9 @@
     "leadTimeValue": "2-3 weeks",
     "grading": "Grading",
     "packaging": "Packaging",
+    "shelfLife": "Shelf Life",
+    "sampleTrialOrder": "Sample & Trial Order",
+    "shipping": "Shipping",
     "processing": "Processing",
     "applications": "Applications",
     "whySourceFromUs": "Why Source From Faar Earth",

@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
-import type { LocalizedText } from "./locale";
+import type { LocalizedText, LocalizedFaqs } from "./locale";
 
 export type ProductCategory = {
   id: string;
@@ -11,6 +11,7 @@ export type ProductCategory = {
   metaTitle: LocalizedText;
   metaDescription: LocalizedText;
   metaKeywords: LocalizedText;
+  faqs?: LocalizedFaqs;
   createdAt: string;
   updatedAt?: string;
 };

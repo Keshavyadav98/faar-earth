@@ -27,6 +27,10 @@ export type Product = {
   grading?: LocalizedText;
   packaging?: LocalizedText;
   processingOptions?: LocalizedStringList;
+  additionalSpecs?: LocalizedStringList;
+  shelfLife?: LocalizedText;
+  sampleTrialOrder?: LocalizedText;
+  shipping?: LocalizedText;
   applications?: LocalizedStringList;
   whySourceFromUs?: LocalizedStringList;
   faqs?: LocalizedFaqs;
