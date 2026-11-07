@@ -51,6 +51,7 @@ export default function ProductDetail({
 
   const applications = localizeList(product.applications, lang);
   const whySourceFromUs = localizeList(product.whySourceFromUs, lang);
+  const buyerNotes = localizeList(product.buyerNotes, lang);
   const faqs = localizeFaqs(product.faqs, lang);
 
   const faqJsonLd =
@@ -92,21 +93,39 @@ export default function ProductDetail({
           </h1>
           <p className="mt-6 text-[16px] leading-relaxed text-text-gray">{description}</p>
 
-          {(specs.length > 0 || processingOptions.length > 0) && (
-            <dl className="mt-8 divide-y divide-border-gray rounded-card border border-border-gray">
-              {specs.map((s) => (
-                <div
-                  key={s.label}
-                  className="grid grid-cols-[150px_1fr] divide-x divide-border-gray sm:grid-cols-[200px_1fr]"
+          <div className="mt-8">
+            <ProductEnquiryModal productName={title} />
+          </div>
+        </div>
+      </div>
+
+      {(specs.length > 0 || processingOptions.length > 0) && (
+        <div className="container-xl mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
+          {[specs.slice(0, Math.ceil(specs.length / 2)), specs.slice(Math.ceil(specs.length / 2))].map(
+            (half, colIndex) =>
+              half.length > 0 && (
+                <dl
+                  key={colIndex}
+                  className="mt-0 divide-y divide-border-gray rounded-card border border-border-gray sm:self-start"
                 >
-                  <dt className="px-5 py-3 text-[13px] font-medium uppercase tracking-wide text-text-gray">
-                    {s.label}
-                  </dt>
-                  <dd className="px-5 py-3 text-right text-[14px] font-medium text-[#404C3E]">
-                    {s.value}
-                  </dd>
-                </div>
-              ))}
+                  {half.map((s) => (
+                    <div
+                      key={s.label}
+                      className="grid grid-cols-[150px_1fr] divide-x divide-border-gray sm:grid-cols-[160px_1fr]"
+                    >
+                      <dt className="px-5 py-3 text-[13px] font-medium uppercase tracking-wide text-text-gray">
+                        {s.label}
+                      </dt>
+                      <dd className="px-5 py-3 text-right text-[14px] font-medium text-[#404C3E]">
+                        {s.value}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              )
+          )}
+          {processingPairs.length > 0 && (
+            <dl className="divide-y divide-border-gray rounded-card border border-border-gray sm:col-span-2">
               {processingPairs.map((pair, i) => (
                 <div key={i} className="grid grid-cols-2 gap-x-4 px-5 py-3">
                   {pair.map((item) => (
@@ -118,14 +137,10 @@ export default function ProductDetail({
               ))}
             </dl>
           )}
-
-          <div className="mt-8">
-            <ProductEnquiryModal productName={title} />
-          </div>
         </div>
-      </div>
+      )}
 
-      {(applications.length > 0 || whySourceFromUs.length > 0 || faqs.length > 0) && (
+      {(applications.length > 0 || whySourceFromUs.length > 0 || buyerNotes.length > 0 || faqs.length > 0) && (
         <div className="container-xl mt-16 grid grid-cols-1 gap-12 lg:grid-cols-2">
           {applications.length > 0 && (
             <div>
@@ -150,6 +165,22 @@ export default function ProductDetail({
               </h2>
               <ul className="mt-4 space-y-3">
                 {whySourceFromUs.map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-[15px] leading-relaxed text-text-gray">
+                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary-green" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {buyerNotes.length > 0 && (
+            <div>
+              <h2 className="font-heading text-[22px] font-semibold text-[#404C3E]">
+                {t("productDetail.buyerNotes")}
+              </h2>
+              <ul className="mt-4 space-y-3">
+                {buyerNotes.map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[15px] leading-relaxed text-text-gray">
                     <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary-green" />
                     {item}

@@ -16052,5 +16052,1574 @@
         }
       ]
     }
+  },
+  {
+    "id": "1788449087268001",
+    "slug": "arabica-plantation-a-aa",
+    "categorySlug": "indian-coffee",
+    "title": {
+      "en": "Arabica Plantation A and AA",
+      "de": "Arabica Plantation A und AA",
+      "es": "Arábica Plantation A y AA",
+      "fr": "Arabica Plantation A et AA",
+      "it": "Arabica Plantation A e AA",
+      "nl": "Arabica Plantation A en AA"
+    },
+    "description": {
+      "en": "Arabica Plantation A and AA are the main washed Arabica grades from India. They come from shade-grown estates in the Western Ghats and are sorted by bean size, with AA the largest. Faar Earth Exports supplies them as green coffee from qualified curing works, with a COA for each lot and the export papers from the Coffee Board.",
+      "de": "Arabica Plantation A und AA sind die wichtigsten gewaschenen Arabica-Qualitäten aus Indien. Sie stammen von schattenbewirtschafteten Plantagen in den Western Ghats und werden nach Bohnengröße sortiert, wobei AA die größte ist. Faar Earth Exports liefert sie als Rohkaffee von qualifizierten Aufbereitungsbetrieben, mit einem COA für jede Charge und den Exportpapieren des Coffee Board.",
+      "es": "Arábica Plantation A y AA son las principales calidades de Arábica lavado de India. Provienen de fincas cultivadas a la sombra en los Ghats Occidentales y se clasifican por tamaño de grano, siendo AA el mayor. Faar Earth Exports las suministra como café verde de plantas de beneficio cualificadas, con un COA para cada lote y los documentos de exportación de la Coffee Board.",
+      "fr": "Arabica Plantation A et AA sont les principales qualités d'Arabica lavé d'Inde. Elles proviennent de domaines cultivés à l'ombre dans les Ghâts occidentaux et sont triées par taille de grain, AA étant la plus grande. Faar Earth Exports les fournit en café vert provenant d'usines de traitement qualifiées, avec un COA pour chaque lot et les documents d'exportation du Coffee Board.",
+      "it": "Arabica Plantation A e AA sono le principali qualità di Arabica lavato dall'India. Provengono da piantagioni coltivate all'ombra nei Ghati Occidentali e sono selezionate per dimensione del chicco, con AA la più grande. Faar Earth Exports le fornisce come caffè verde da stabilimenti di lavorazione qualificati, con un COA per ogni lotto e i documenti di esportazione del Coffee Board.",
+      "nl": "Arabica Plantation A en AA zijn de belangrijkste gewassen Arabica-kwaliteiten uit India. Ze komen van in de schaduw geteelde landgoederen in de Western Ghats en worden gesorteerd op boongrootte, waarbij AA de grootste is. Faar Earth Exports levert ze als groene koffie van gekwalificeerde verwerkingsbedrijven, met een COA per partij en de exportdocumenten van de Coffee Board."
+    },
+    "image": "/Images/arabica-plantation-a-aa.jpg",
+    "form": {
+      "en": "Washed (wet processed), cured and graded",
+      "de": "Gewaschen (Nassaufbereitung), kuriert und sortiert",
+      "es": "Lavado (procesado húmedo), curado y clasificado",
+      "fr": "Lavé (traitement humide), curé et classé",
+      "it": "Lavato (lavorazione a umido), stagionato e selezionato",
+      "nl": "Gewassen (natte verwerking), gecureerd en gesorteerd"
+    },
+    "hsHeading": "0901.11 (coffee, not roasted, not decaffeinated)",
+    "moq": {
+      "en": "250 g to 1 kg sample; trial order volume confirmed per estate",
+      "de": "250-g- bis 1-kg-Muster; Testbestellmenge je nach Plantage bestätigt",
+      "es": "Muestra de 250 g a 1 kg; volumen de pedido de prueba confirmado según finca",
+      "fr": "Échantillon de 250 g à 1 kg ; volume de commande d'essai confirmé selon le domaine",
+      "it": "Campione da 250 g a 1 kg; volume dell'ordine di prova confermato per piantagione",
+      "nl": "Monster van 250 g tot 1 kg; proefbestellingsvolume per landgoed bevestigd"
+    },
+    "metaTitle": {
+      "en": "Indian Arabica Plantation A and AA Green Coffee | Faar Earth",
+      "de": "Indischer Arabica Plantation A und AA Rohkaffee | Faar Earth",
+      "es": "Café Verde Arábica Plantation A y AA de India | Faar Earth",
+      "fr": "Café Vert Arabica Plantation A et AA d'Inde | Faar Earth",
+      "it": "Caffè Verde Arabica Plantation A e AA dall'India | Faar Earth",
+      "nl": "Indiase Arabica Plantation A en AA Groene Koffie | Faar Earth"
+    },
+    "metaDescription": {
+      "en": "Washed Indian Arabica Plantation A and AA green coffee from Karnataka and Kerala estates. Samples, COA and Coffee Board export papers. FOB or CIF.",
+      "de": "Gewaschener indischer Arabica Plantation A und AA Rohkaffee von Plantagen in Karnataka und Kerala. Muster, COA und Coffee-Board-Exportpapiere. FOB oder CIF.",
+      "es": "Café verde Arábica Plantation A y AA lavado de fincas de Karnataka y Kerala. Muestras, COA y documentos de exportación de la Coffee Board. FOB o CIF.",
+      "fr": "Café vert Arabica Plantation A et AA lavé de domaines du Karnataka et du Kerala. Échantillons, COA et documents d'exportation du Coffee Board. FOB ou CIF.",
+      "it": "Caffè verde Arabica Plantation A e AA lavato da piantagioni di Karnataka e Kerala. Campioni, COA e documenti di esportazione del Coffee Board. FOB o CIF.",
+      "nl": "Gewassen Indiase Arabica Plantation A en AA groene koffie van landgoederen in Karnataka en Kerala. Monsters, COA en Coffee Board-exportdocumenten. FOB of CIF."
+    },
+    "metaKeywords": {
+      "en": "Indian Arabica plantation AA, Arabica coffee exporter India, washed Arabica green coffee bulk, Arabica A grade India, green coffee supplier India",
+      "de": "indischer arabica plantation AA, arabica kaffee exporteur indien, gewaschener arabica rohkaffee großhandel, arabica A qualität indien, rohkaffee lieferant indien",
+      "es": "arábica plantation AA india, exportador de café arábica india, café verde arábica lavado a granel, arábica grado A india, proveedor de café verde india",
+      "fr": "arabica plantation AA inde, exportateur de café arabica inde, café vert arabica lavé en vrac, arabica grade A inde, fournisseur de café vert inde",
+      "it": "arabica plantation AA india, esportatore di caffè arabica india, caffè verde arabica lavato all'ingrosso, arabica grado A india, fornitore di caffè verde india",
+      "nl": "indiase arabica plantation AA, arabica koffie exporteur india, gewassen arabica groene koffie in bulk, arabica A grade india, groene koffie leverancier india"
+    },
+    "createdAt": "2026-11-07T00:00:00.000Z",
+    "primaryKeyword": "Arabica coffee exporter India",
+    "h1": {
+      "en": "Arabica Plantation A and AA (Washed) Green Coffee from India",
+      "de": "Arabica Plantation A und AA (Gewaschen) Rohkaffee aus Indien",
+      "es": "Arábica Plantation A y AA (Lavado) Café Verde de India",
+      "fr": "Arabica Plantation A et AA (Lavé) Café Vert d'Inde",
+      "it": "Arabica Plantation A e AA (Lavato) Caffè Verde dall'India",
+      "nl": "Arabica Plantation A en AA (Gewassen) Groene Koffie uit India"
+    },
+    "botanicalName": "Coffea arabica (common Indian varieties include Kent, S.795 and Cauvery; confirm with the estate)",
+    "origin": "Karnataka, Kerala and Tamil Nadu (estate named on the COA)",
+    "grading": {
+      "en": "Plantation A and AA; AA is the largest bean size",
+      "de": "Plantation A und AA; AA ist die größte Bohnengröße",
+      "es": "Plantation A y AA; AA es el tamaño de grano más grande",
+      "fr": "Plantation A et AA ; AA est la plus grande taille de grain",
+      "it": "Plantation A e AA; AA è la dimensione del chicco più grande",
+      "nl": "Plantation A en AA; AA is de grootste boongrootte"
+    },
+    "packaging": {
+      "en": "60 kg jute bags; GrainPro or liner on request",
+      "de": "60-kg-Jutesäcke; GrainPro oder Innenfolie auf Anfrage",
+      "es": "Sacos de yute de 60 kg; GrainPro o revestimiento a solicitud",
+      "fr": "Sacs de jute de 60 kg ; GrainPro ou doublure sur demande",
+      "it": "Sacchi di juta da 60 kg; GrainPro o rivestimento su richiesta",
+      "nl": "60 kg jute zakken; GrainPro of binnenzak op aanvraag"
+    },
+    "shelfLife": {
+      "en": "About 12 months in sealed packs, stored cool and dry (green coffee loses freshness over time)",
+      "de": "Etwa 12 Monate in versiegelten Verpackungen, kühl und trocken gelagert (Rohkaffee verliert mit der Zeit an Frische)",
+      "es": "Aproximadamente 12 meses en envases sellados, almacenado fresco y seco (el café verde pierde frescura con el tiempo)",
+      "fr": "Environ 12 mois en emballage scellé, stocké au frais et au sec (le café vert perd de sa fraîcheur avec le temps)",
+      "it": "Circa 12 mesi in confezioni sigillate, conservato fresco e asciutto (il caffè verde perde freschezza nel tempo)",
+      "nl": "Ongeveer 12 maanden in verzegelde verpakking, koel en droog bewaard (groene koffie verliest na verloop van tijd aan frisheid)"
+    },
+    "sampleTrialOrder": {
+      "en": "250 g to 1 kg sample. Trial order volume to be confirmed per estate.",
+      "de": "250-g- bis 1-kg-Muster. Testbestellmenge je nach Plantage zu bestätigen.",
+      "es": "Muestra de 250 g a 1 kg. Volumen de pedido de prueba a confirmar según finca.",
+      "fr": "Échantillon de 250 g à 1 kg. Volume de commande d'essai à confirmer selon le domaine.",
+      "it": "Campione da 250 g a 1 kg. Volume dell'ordine di prova da confermare per piantagione.",
+      "nl": "Monster van 250 g tot 1 kg. Proefbestellingsvolume per landgoed te bevestigen."
+    },
+    "shipping": {
+      "en": "Sea in containers; air for samples. FOB Mangalore, Kochi, Chennai or Tuticorin, or CIF to your port.",
+      "de": "Seefracht in Containern; Luftfracht für Muster. FOB Mangalore, Kochi, Chennai oder Tuticorin, oder CIF zu Ihrem Hafen.",
+      "es": "Vía marítima en contenedores; vía aérea para muestras. FOB Mangalore, Kochi, Chennai o Tuticorin, o CIF a su puerto.",
+      "fr": "Maritime en conteneurs ; aérien pour les échantillons. FOB Mangalore, Kochi, Chennai ou Tuticorin, ou CIF jusqu'à votre port.",
+      "it": "Via mare in container; via aerea per i campioni. FOB Mangalore, Kochi, Chennai o Tuticorin, o CIF al vostro porto.",
+      "nl": "Zeevracht in containers; luchtvracht voor monsters. FOB Mangalore, Kochi, Chennai of Tuticorin, of CIF naar uw haven."
+    },
+    "additionalSpecs": {
+      "en": [
+        "Moisture: Typically 10% to 12%",
+        "Defects: As per the Coffee Board grade specification; stated on the COA",
+        "Cup profile: Clean and balanced, medium body, mild to bright acidity; typical notes of chocolate, nuts and spice",
+        "Cupping score: On request (SCA protocol)",
+        "Crop: Current crop year; harvest dates on request"
+      ],
+      "de": [
+        "Feuchtigkeit: Typischerweise 10 % bis 12 %",
+        "Defekte: Gemäß der Coffee-Board-Qualitätsspezifikation; im COA angegeben",
+        "Tassenprofil: Sauber und ausgewogen, mittlerer Körper, milde bis helle Säure; typische Noten von Schokolade, Nüssen und Gewürzen",
+        "Cupping-Score: Auf Anfrage (SCA-Protokoll)",
+        "Ernte: Aktuelles Erntejahr; Erntedaten auf Anfrage"
+      ],
+      "es": [
+        "Humedad: Normalmente 10% a 12%",
+        "Defectos: Según la especificación de grado de la Coffee Board; indicado en el COA",
+        "Perfil de taza: Limpio y equilibrado, cuerpo medio, acidez suave a brillante; notas típicas de chocolate, frutos secos y especias",
+        "Puntuación de catación: A solicitud (protocolo SCA)",
+        "Cosecha: Año de cosecha actual; fechas de cosecha a solicitud"
+      ],
+      "fr": [
+        "Humidité : Généralement 10 % à 12 %",
+        "Défauts : Selon la spécification de grade du Coffee Board ; indiqué sur le COA",
+        "Profil en tasse : Propre et équilibré, corps moyen, acidité douce à vive ; notes typiques de chocolat, de noix et d'épices",
+        "Score de dégustation : Sur demande (protocole SCA)",
+        "Récolte : Année de récolte en cours ; dates de récolte sur demande"
+      ],
+      "it": [
+        "Umidità: Tipicamente dal 10% al 12%",
+        "Difetti: Secondo la specifica di grado del Coffee Board; indicato sul COA",
+        "Profilo in tazza: Pulito ed equilibrato, corpo medio, acidità da mite a brillante; note tipiche di cioccolato, frutta secca e spezie",
+        "Punteggio di cupping: Su richiesta (protocollo SCA)",
+        "Raccolto: Anno di raccolto corrente; date del raccolto su richiesta"
+      ],
+      "nl": [
+        "Vocht: Doorgaans 10% tot 12%",
+        "Defecten: Volgens de Coffee Board-gradespecificatie; vermeld op de COA",
+        "Smaakprofiel: Schoon en gebalanceerd, medium body, milde tot heldere zuurgraad; typische tonen van chocolade, noten en specerijen",
+        "Cupping-score: Op aanvraag (SCA-protocol)",
+        "Oogst: Huidig oogstjaar; oogstdata op aanvraag"
+      ]
+    },
+    "applications": {
+      "en": [
+        "Specialty and commercial roasters",
+        "Coffee importers and traders",
+        "Private-label coffee brands",
+        "Blenders"
+      ],
+      "de": [
+        "Specialty- und kommerzielle Röstereien",
+        "Kaffeeimporteure und -händler",
+        "Private-Label-Kaffeemarken",
+        "Blender"
+      ],
+      "es": [
+        "Tostadores especializados y comerciales",
+        "Importadores y comerciantes de café",
+        "Marcas de café de marca privada",
+        "Mezcladores"
+      ],
+      "fr": [
+        "Torréfacteurs spécialisés et commerciaux",
+        "Importateurs et négociants en café",
+        "Marques de café en marque privée",
+        "Assembleurs"
+      ],
+      "it": [
+        "Torrefattori specialty e commerciali",
+        "Importatori e commercianti di caffè",
+        "Marchi di caffè private label",
+        "Miscelatori"
+      ],
+      "nl": [
+        "Specialty- en commerciële branders",
+        "Koffie-importeurs en -handelaren",
+        "Private-label koffiemerken",
+        "Blenders"
+      ]
+    },
+    "buyerNotes": {
+      "en": [
+        "A and AA are bean sizes, so ask for the screen size, the defect count and the cupping score on the COA. Buyers compare them against the Coffee Board grade specification.",
+        "Price follows the New York Arabica futures price plus a differential, so we quote for each order and keep the quote valid for a short time.",
+        "Ask for the crop year and estate or region. Single-estate lots cost more than blended lots.",
+        "Check the destination's rules on pesticide residues and ochratoxin A. We supply test reports on request."
+      ],
+      "de": [
+        "A und AA sind Bohnengrößen, fragen Sie daher nach Siebgröße, Defektanzahl und Cupping-Score auf dem COA. Käufer vergleichen diese mit der Coffee-Board-Qualitätsspezifikation.",
+        "Der Preis folgt dem New Yorker Arabica-Terminpreis zuzüglich eines Aufschlags, daher erstellen wir für jede Bestellung ein kurzzeitig gültiges Angebot.",
+        "Fragen Sie nach Erntejahr und Plantage oder Region. Einzelplantagen-Partien kosten mehr als gemischte Partien.",
+        "Prüfen Sie die Bestimmungen des Ziellands zu Pestizidrückständen und Ochratoxin A. Wir liefern Testberichte auf Anfrage."
+      ],
+      "es": [
+        "A y AA son tamaños de grano, así que pida el tamaño de malla, el recuento de defectos y la puntuación de catación en el COA. Los compradores los comparan con la especificación de grado de la Coffee Board.",
+        "El precio sigue el mercado de futuros de Arábica de Nueva York más un diferencial, por lo que cotizamos cada pedido y mantenemos la cotización válida por poco tiempo.",
+        "Pida el año de cosecha y la finca o región. Los lotes de una sola finca cuestan más que los lotes mezclados.",
+        "Verifique las normas del destino sobre residuos de pesticidas y ocratoxina A. Suministramos informes de prueba a solicitud."
+      ],
+      "fr": [
+        "A et AA sont des tailles de grain, demandez donc la taille de tamis, le nombre de défauts et le score de dégustation sur le COA. Les acheteurs les comparent à la spécification de grade du Coffee Board.",
+        "Le prix suit le cours à terme de l'Arabica de New York plus un différentiel, nous établissons donc un devis pour chaque commande, valable peu de temps.",
+        "Demandez l'année de récolte et le domaine ou la région. Les lots d'un seul domaine coûtent plus cher que les lots assemblés.",
+        "Vérifiez les règles du pays de destination sur les résidus de pesticides et l'ochratoxine A. Nous fournissons des rapports d'essai sur demande."
+      ],
+      "it": [
+        "A e AA sono dimensioni del chicco, quindi chiedete la dimensione del setaccio, il conteggio dei difetti e il punteggio di cupping sul COA. Gli acquirenti li confrontano con la specifica di grado del Coffee Board.",
+        "Il prezzo segue il prezzo dei futures Arabica di New York più un differenziale, quindi forniamo un preventivo per ogni ordine valido per un breve periodo.",
+        "Chiedete l'anno di raccolto e la piantagione o regione. I lotti a piantagione singola costano di più dei lotti miscelati.",
+        "Verificate le norme di destinazione su residui di pesticidi e ocratossina A. Forniamo rapporti di prova su richiesta."
+      ],
+      "nl": [
+        "A en AA zijn boongroottes, vraag dus naar de zeefmaat, het aantal defecten en de cupping-score op de COA. Kopers vergelijken deze met de Coffee Board-gradespecificatie.",
+        "De prijs volgt de New York Arabica-termijnprijs plus een opslag, dus wij geven per bestelling een offerte die kort geldig is.",
+        "Vraag naar het oogstjaar en het landgoed of de regio. Single-estate partijen kosten meer dan gemengde partijen.",
+        "Controleer de regels van de bestemming over pesticideresiduen en ochratoxine A. Wij leveren testrapporten op aanvraag."
+      ]
+    },
+    "faqs": {
+      "en": [
+        {
+          "question": "What is the difference between A and AA?",
+          "answer": "Both are washed Arabica. AA is the largest bean size, and A is slightly smaller. The size is set by the Coffee Board grade specification."
+        },
+        {
+          "question": "Is it shade grown?",
+          "answer": "Indian coffee is grown mostly under a canopy of native trees. We confirm this with the estate for each lot."
+        },
+        {
+          "question": "Can I get a sample?",
+          "answer": "Yes, a green coffee sample with the COA, so you can roast and cup it."
+        }
+      ],
+      "de": [
+        {
+          "question": "Was ist der Unterschied zwischen A und AA?",
+          "answer": "Beide sind gewaschener Arabica. AA ist die größte Bohnengröße, A ist etwas kleiner. Die Größe wird durch die Coffee-Board-Qualitätsspezifikation festgelegt."
+        },
+        {
+          "question": "Wird er im Schatten angebaut?",
+          "answer": "Indischer Kaffee wird meist unter einem Kronendach einheimischer Bäume angebaut. Wir bestätigen dies mit der Plantage für jede Charge."
+        },
+        {
+          "question": "Kann ich ein Muster bekommen?",
+          "answer": "Ja, ein Rohkaffeemuster mit COA, damit Sie es rösten und verkosten können."
+        }
+      ],
+      "es": [
+        {
+          "question": "¿Cuál es la diferencia entre A y AA?",
+          "answer": "Ambos son Arábica lavado. AA es el tamaño de grano más grande, y A es ligeramente más pequeño. El tamaño lo establece la especificación de grado de la Coffee Board."
+        },
+        {
+          "question": "¿Se cultiva a la sombra?",
+          "answer": "El café indio se cultiva principalmente bajo un dosel de árboles autóctonos. Lo confirmamos con la finca para cada lote."
+        },
+        {
+          "question": "¿Puedo obtener una muestra?",
+          "answer": "Sí, una muestra de café verde con el COA, para que pueda tostarlo y catarlo."
+        }
+      ],
+      "fr": [
+        {
+          "question": "Quelle est la différence entre A et AA ?",
+          "answer": "Les deux sont de l'Arabica lavé. AA est la plus grande taille de grain, et A est légèrement plus petit. La taille est définie par la spécification de grade du Coffee Board."
+        },
+        {
+          "question": "Est-il cultivé à l'ombre ?",
+          "answer": "Le café indien est principalement cultivé sous une canopée d'arbres indigènes. Nous le confirmons avec le domaine pour chaque lot."
+        },
+        {
+          "question": "Puis-je avoir un échantillon ?",
+          "answer": "Oui, un échantillon de café vert avec le COA, pour que vous puissiez le torréfier et le déguster."
+        }
+      ],
+      "it": [
+        {
+          "question": "Qual è la differenza tra A e AA?",
+          "answer": "Entrambi sono Arabica lavato. AA è la dimensione del chicco più grande, A è leggermente più piccola. La dimensione è stabilita dalla specifica di grado del Coffee Board."
+        },
+        {
+          "question": "È coltivato all'ombra?",
+          "answer": "Il caffè indiano è coltivato principalmente sotto una copertura di alberi autoctoni. Lo confermiamo con la piantagione per ogni lotto."
+        },
+        {
+          "question": "Posso avere un campione?",
+          "answer": "Sì, un campione di caffè verde con il COA, così potete tostarlo e degustarlo."
+        }
+      ],
+      "nl": [
+        {
+          "question": "Wat is het verschil tussen A en AA?",
+          "answer": "Beide zijn gewassen Arabica. AA is de grootste boongrootte, A is iets kleiner. De grootte wordt bepaald door de Coffee Board-gradespecificatie."
+        },
+        {
+          "question": "Wordt het in de schaduw geteeld?",
+          "answer": "Indiase koffie wordt meestal onder een bladerdak van inheemse bomen geteeld. Wij bevestigen dit met het landgoed voor elke partij."
+        },
+        {
+          "question": "Kan ik een monster krijgen?",
+          "answer": "Ja, een monster groene koffie met de COA, zodat u het kunt branden en proeven."
+        }
+      ]
+    }
+  },
+  {
+    "id": "1788449087268002",
+    "slug": "arabica-cherry",
+    "categorySlug": "indian-coffee",
+    "title": {
+      "en": "Arabica Cherry",
+      "de": "Arabica Cherry",
+      "es": "Arábica Cherry",
+      "fr": "Arabica Cherry",
+      "it": "Arabica Cherry",
+      "nl": "Arabica Cherry"
+    },
+    "description": {
+      "en": "Arabica Cherry is the unwashed, sun-dried Arabica from India. The cherry is dried with the fruit on the bean, then hulled. It gives a heavier body and lower acidity than washed Arabica. Faar Earth Exports supplies it as green coffee from qualified curing works.",
+      "de": "Arabica Cherry ist der ungewaschene, sonnengetrocknete Arabica aus Indien. Die Kirsche wird mit Fruchtfleisch an der Bohne getrocknet und anschließend geschält. Das ergibt mehr Körper und weniger Säure als gewaschener Arabica. Faar Earth Exports liefert ihn als Rohkaffee von qualifizierten Aufbereitungsbetrieben.",
+      "es": "Arábica Cherry es el Arábica sin lavar y secado al sol de India. La cereza se seca con la fruta sobre el grano y luego se descascarilla. Da más cuerpo y menor acidez que el Arábica lavado. Faar Earth Exports lo suministra como café verde de plantas de beneficio cualificadas.",
+      "fr": "Arabica Cherry est l'Arabica non lavé et séché au soleil d'Inde. La cerise est séchée avec le fruit sur le grain, puis décortiquée. Cela donne plus de corps et moins d'acidité que l'Arabica lavé. Faar Earth Exports le fournit en café vert provenant d'usines de traitement qualifiées.",
+      "it": "Arabica Cherry è l'Arabica non lavato ed essiccato al sole dall'India. La ciliegia viene essiccata con il frutto sul chicco, poi decorticata. Dà più corpo e minore acidità rispetto all'Arabica lavato. Faar Earth Exports lo fornisce come caffè verde da stabilimenti di lavorazione qualificati.",
+      "nl": "Arabica Cherry is de ongewassen, in de zon gedroogde Arabica uit India. De kers wordt gedroogd met de vrucht nog om de boon, en daarna gepeld. Dit geeft meer body en minder zuurgraad dan gewassen Arabica. Faar Earth Exports levert het als groene koffie van gekwalificeerde verwerkingsbedrijven."
+    },
+    "image": "/Images/arabica-cherry.jpg",
+    "form": {
+      "en": "Unwashed (natural, sun-dried in the cherry), hulled, cured and graded",
+      "de": "Ungewaschen (natürlich, sonnengetrocknet in der Kirsche), geschält, kuriert und sortiert",
+      "es": "Sin lavar (natural, secado al sol en la cereza), descascarillado, curado y clasificado",
+      "fr": "Non lavé (naturel, séché au soleil dans la cerise), décortiqué, curé et classé",
+      "it": "Non lavato (naturale, essiccato al sole nella ciliegia), decorticato, stagionato e selezionato",
+      "nl": "Ongewassen (natuurlijk, in de zon gedroogd in de kers), gepeld, gecureerd en gesorteerd"
+    },
+    "hsHeading": "0901.11 (coffee, not roasted, not decaffeinated)",
+    "moq": {
+      "en": "250 g to 1 kg sample; trial order volume confirmed per estate",
+      "de": "250-g- bis 1-kg-Muster; Testbestellmenge je nach Plantage bestätigt",
+      "es": "Muestra de 250 g a 1 kg; volumen de pedido de prueba confirmado según finca",
+      "fr": "Échantillon de 250 g à 1 kg ; volume de commande d'essai confirmé selon le domaine",
+      "it": "Campione da 250 g a 1 kg; volume dell'ordine di prova confermato per piantagione",
+      "nl": "Monster van 250 g tot 1 kg; proefbestellingsvolume per landgoed bevestigd"
+    },
+    "metaTitle": {
+      "en": "Indian Arabica Cherry (Natural) Green Coffee | Faar Earth",
+      "de": "Indischer Arabica Cherry (Natural) Rohkaffee | Faar Earth",
+      "es": "Café Verde Arábica Cherry (Natural) de India | Faar Earth",
+      "fr": "Café Vert Arabica Cherry (Nature) d'Inde | Faar Earth",
+      "it": "Caffè Verde Arabica Cherry (Naturale) dall'India | Faar Earth",
+      "nl": "Indiase Arabica Cherry (Natural) Groene Koffie | Faar Earth"
+    },
+    "metaDescription": {
+      "en": "Unwashed (natural) Indian Arabica Cherry green coffee from Karnataka and Kerala. Samples, COA and Coffee Board export papers. FOB or CIF.",
+      "de": "Ungewaschener (natürlicher) indischer Arabica Cherry Rohkaffee aus Karnataka und Kerala. Muster, COA und Coffee-Board-Exportpapiere. FOB oder CIF.",
+      "es": "Café verde Arábica Cherry sin lavar (natural) de Karnataka y Kerala. Muestras, COA y documentos de exportación de la Coffee Board. FOB o CIF.",
+      "fr": "Café vert Arabica Cherry non lavé (nature) du Karnataka et du Kerala. Échantillons, COA et documents d'exportation du Coffee Board. FOB ou CIF.",
+      "it": "Caffè verde Arabica Cherry non lavato (naturale) da Karnataka e Kerala. Campioni, COA e documenti di esportazione del Coffee Board. FOB o CIF.",
+      "nl": "Ongewassen (natural) Indiase Arabica Cherry groene koffie uit Karnataka en Kerala. Monsters, COA en Coffee Board-exportdocumenten. FOB of CIF."
+    },
+    "metaKeywords": {
+      "en": "Arabica cherry coffee India, natural Arabica green coffee, unwashed Arabica exporter, Indian Arabica cherry AB, green coffee supplier India",
+      "de": "arabica cherry kaffee indien, natural arabica rohkaffee, ungewaschener arabica exporteur, indischer arabica cherry AB, rohkaffee lieferant indien",
+      "es": "café arábica cherry india, café verde arábica natural, exportador de arábica sin lavar, arábica cherry AB india, proveedor de café verde india",
+      "fr": "café arabica cherry inde, café vert arabica nature, exportateur d'arabica non lavé, arabica cherry AB inde, fournisseur de café vert inde",
+      "it": "caffè arabica cherry india, caffè verde arabica naturale, esportatore di arabica non lavato, arabica cherry AB india, fornitore di caffè verde india",
+      "nl": "arabica cherry koffie india, natural arabica groene koffie, ongewassen arabica exporteur, indiase arabica cherry AB, groene koffie leverancier india"
+    },
+    "createdAt": "2026-11-07T00:00:00.000Z",
+    "primaryKeyword": "Arabica cherry coffee India",
+    "h1": {
+      "en": "Arabica Cherry (Unwashed) Green Coffee from India",
+      "de": "Arabica Cherry (Ungewaschen) Rohkaffee aus Indien",
+      "es": "Arábica Cherry (Sin Lavar) Café Verde de India",
+      "fr": "Arabica Cherry (Non Lavé) Café Vert d'Inde",
+      "it": "Arabica Cherry (Non Lavato) Caffè Verde dall'India",
+      "nl": "Arabica Cherry (Ongewassen) Groene Koffie uit India"
+    },
+    "botanicalName": "Coffea arabica",
+    "origin": "Karnataka, Kerala and Tamil Nadu (estate named on the COA)",
+    "grading": {
+      "en": "Arabica Cherry grades (for example AB); confirmed with the curing works",
+      "de": "Arabica-Cherry-Qualitäten (zum Beispiel AB); mit dem Aufbereitungsbetrieb bestätigt",
+      "es": "Calidades Arábica Cherry (por ejemplo AB); confirmadas con la planta de beneficio",
+      "fr": "Qualités Arabica Cherry (par exemple AB) ; confirmées avec l'usine de traitement",
+      "it": "Qualità Arabica Cherry (ad esempio AB); confermate con lo stabilimento di lavorazione",
+      "nl": "Arabica Cherry-kwaliteiten (bijvoorbeeld AB); bevestigd met het verwerkingsbedrijf"
+    },
+    "packaging": {
+      "en": "60 kg jute bags; GrainPro or liner on request",
+      "de": "60-kg-Jutesäcke; GrainPro oder Innenfolie auf Anfrage",
+      "es": "Sacos de yute de 60 kg; GrainPro o revestimiento a solicitud",
+      "fr": "Sacs de jute de 60 kg ; GrainPro ou doublure sur demande",
+      "it": "Sacchi di juta da 60 kg; GrainPro o rivestimento su richiesta",
+      "nl": "60 kg jute zakken; GrainPro of binnenzak op aanvraag"
+    },
+    "shelfLife": {
+      "en": "About 12 months in sealed packs, stored cool and dry (green coffee loses freshness over time)",
+      "de": "Etwa 12 Monate in versiegelten Verpackungen, kühl und trocken gelagert (Rohkaffee verliert mit der Zeit an Frische)",
+      "es": "Aproximadamente 12 meses en envases sellados, almacenado fresco y seco (el café verde pierde frescura con el tiempo)",
+      "fr": "Environ 12 mois en emballage scellé, stocké au frais et au sec (le café vert perd de sa fraîcheur avec le temps)",
+      "it": "Circa 12 mesi in confezioni sigillate, conservato fresco e asciutto (il caffè verde perde freschezza nel tempo)",
+      "nl": "Ongeveer 12 maanden in verzegelde verpakking, koel en droog bewaard (groene koffie verliest na verloop van tijd aan frisheid)"
+    },
+    "sampleTrialOrder": {
+      "en": "250 g to 1 kg sample. Trial order volume to be confirmed per estate.",
+      "de": "250-g- bis 1-kg-Muster. Testbestellmenge je nach Plantage zu bestätigen.",
+      "es": "Muestra de 250 g a 1 kg. Volumen de pedido de prueba a confirmar según finca.",
+      "fr": "Échantillon de 250 g à 1 kg. Volume de commande d'essai à confirmer selon le domaine.",
+      "it": "Campione da 250 g a 1 kg. Volume dell'ordine di prova da confermare per piantagione.",
+      "nl": "Monster van 250 g tot 1 kg. Proefbestellingsvolume per landgoed te bevestigen."
+    },
+    "shipping": {
+      "en": "Sea in containers; air for samples. FOB Mangalore, Kochi, Chennai or Tuticorin, or CIF to your port.",
+      "de": "Seefracht in Containern; Luftfracht für Muster. FOB Mangalore, Kochi, Chennai oder Tuticorin, oder CIF zu Ihrem Hafen.",
+      "es": "Vía marítima en contenedores; vía aérea para muestras. FOB Mangalore, Kochi, Chennai o Tuticorin, o CIF a su puerto.",
+      "fr": "Maritime en conteneurs ; aérien pour les échantillons. FOB Mangalore, Kochi, Chennai ou Tuticorin, ou CIF jusqu'à votre port.",
+      "it": "Via mare in container; via aerea per i campioni. FOB Mangalore, Kochi, Chennai o Tuticorin, o CIF al vostro porto.",
+      "nl": "Zeevracht in containers; luchtvracht voor monsters. FOB Mangalore, Kochi, Chennai of Tuticorin, of CIF naar uw haven."
+    },
+    "additionalSpecs": {
+      "en": [
+        "Moisture: Typically 10% to 12%",
+        "Defects: As per the Coffee Board grade specification; stated on the COA",
+        "Cup profile: Heavier body and lower acidity than washed; sweet and fruity notes depending on the lot",
+        "Cupping score: On request (SCA protocol)",
+        "Crop: Current crop year; harvest dates on request"
+      ],
+      "de": [
+        "Feuchtigkeit: Typischerweise 10 % bis 12 %",
+        "Defekte: Gemäß der Coffee-Board-Qualitätsspezifikation; im COA angegeben",
+        "Tassenprofil: Mehr Körper und weniger Säure als gewaschener Arabica; süße und fruchtige Noten je nach Partie",
+        "Cupping-Score: Auf Anfrage (SCA-Protokoll)",
+        "Ernte: Aktuelles Erntejahr; Erntedaten auf Anfrage"
+      ],
+      "es": [
+        "Humedad: Normalmente 10% a 12%",
+        "Defectos: Según la especificación de grado de la Coffee Board; indicado en el COA",
+        "Perfil de taza: Más cuerpo y menor acidez que el lavado; notas dulces y afrutadas según el lote",
+        "Puntuación de catación: A solicitud (protocolo SCA)",
+        "Cosecha: Año de cosecha actual; fechas de cosecha a solicitud"
+      ],
+      "fr": [
+        "Humidité : Généralement 10 % à 12 %",
+        "Défauts : Selon la spécification de grade du Coffee Board ; indiqué sur le COA",
+        "Profil en tasse : Plus de corps et moins d'acidité que le lavé ; notes douces et fruitées selon le lot",
+        "Score de dégustation : Sur demande (protocole SCA)",
+        "Récolte : Année de récolte en cours ; dates de récolte sur demande"
+      ],
+      "it": [
+        "Umidità: Tipicamente dal 10% al 12%",
+        "Difetti: Secondo la specifica di grado del Coffee Board; indicato sul COA",
+        "Profilo in tazza: Più corpo e minore acidità rispetto al lavato; note dolci e fruttate a seconda del lotto",
+        "Punteggio di cupping: Su richiesta (protocollo SCA)",
+        "Raccolto: Anno di raccolto corrente; date del raccolto su richiesta"
+      ],
+      "nl": [
+        "Vocht: Doorgaans 10% tot 12%",
+        "Defecten: Volgens de Coffee Board-gradespecificatie; vermeld op de COA",
+        "Smaakprofiel: Meer body en minder zuurgraad dan gewassen; zoete en fruitige tonen afhankelijk van de partij",
+        "Cupping-score: Op aanvraag (SCA-protocol)",
+        "Oogst: Huidig oogstjaar; oogstdata op aanvraag"
+      ]
+    },
+    "applications": {
+      "en": [
+        "Roasters and blenders who want body and sweetness",
+        "Commercial coffee brands",
+        "Traders"
+      ],
+      "de": [
+        "Röstereien und Blender, die Körper und Süße suchen",
+        "Kommerzielle Kaffeemarken",
+        "Händler"
+      ],
+      "es": [
+        "Tostadores y mezcladores que buscan cuerpo y dulzor",
+        "Marcas comerciales de café",
+        "Comerciantes"
+      ],
+      "fr": [
+        "Torréfacteurs et assembleurs recherchant corps et douceur",
+        "Marques de café commerciales",
+        "Négociants"
+      ],
+      "it": [
+        "Torrefattori e miscelatori che cercano corpo e dolcezza",
+        "Marchi di caffè commerciali",
+        "Commercianti"
+      ],
+      "nl": [
+        "Branders en blenders die body en zoetheid willen",
+        "Commerciële koffiemerken",
+        "Handelaren"
+      ]
+    },
+    "buyerNotes": {
+      "en": [
+        "Natural processing is more varied than washing, so ask for the cup profile and the defect count for each lot.",
+        "Cherry is usually priced below washed Plantation grades. We quote for each order.",
+        "Ask for moisture, and check the packing and storage, because natural coffee absorbs moisture."
+      ],
+      "de": [
+        "Die natürliche Aufbereitung ist uneinheitlicher als das Waschen, fragen Sie daher für jede Partie nach Tassenprofil und Defektanzahl.",
+        "Cherry wird meist günstiger als gewaschene Plantation-Qualitäten angeboten. Wir erstellen für jede Bestellung ein Angebot.",
+        "Fragen Sie nach der Feuchtigkeit und prüfen Sie Verpackung und Lagerung, da natürlicher Kaffee Feuchtigkeit aufnimmt."
+      ],
+      "es": [
+        "El procesamiento natural es más variable que el lavado, así que pida el perfil de taza y el recuento de defectos de cada lote.",
+        "Cherry suele tener un precio inferior a las calidades Plantation lavadas. Cotizamos cada pedido.",
+        "Pida la humedad y verifique el embalaje y almacenamiento, porque el café natural absorbe humedad."
+      ],
+      "fr": [
+        "Le traitement naturel est plus variable que le lavage, demandez donc le profil en tasse et le nombre de défauts pour chaque lot.",
+        "Le Cherry est généralement moins cher que les qualités Plantation lavées. Nous établissons un devis pour chaque commande.",
+        "Demandez l'humidité et vérifiez l'emballage et le stockage, car le café naturel absorbe l'humidité."
+      ],
+      "it": [
+        "La lavorazione naturale è più variabile del lavaggio, quindi chiedete il profilo in tazza e il conteggio dei difetti per ogni lotto.",
+        "Il Cherry è solitamente prezzato al di sotto delle qualità Plantation lavate. Forniamo un preventivo per ogni ordine.",
+        "Chiedete l'umidità e verificate l'imballaggio e lo stoccaggio, perché il caffè naturale assorbe umidità."
+      ],
+      "nl": [
+        "Natuurlijke verwerking is wisselvalliger dan wassen, vraag dus per partij naar het smaakprofiel en het aantal defecten.",
+        "Cherry wordt meestal lager geprijsd dan gewassen Plantation-kwaliteiten. Wij geven per bestelling een offerte.",
+        "Vraag naar het vochtgehalte en controleer verpakking en opslag, omdat natural koffie vocht opneemt."
+      ]
+    },
+    "faqs": {
+      "en": [
+        {
+          "question": "What is the difference between washed and cherry?",
+          "answer": "Washed coffee has the fruit removed before drying. Cherry (natural) is dried with the fruit on and then hulled, which gives more body and less acidity."
+        },
+        {
+          "question": "Is Arabica Cherry lower quality?",
+          "answer": "It is a different style and a lower price point. Quality depends on the lot, so cup a sample."
+        },
+        {
+          "question": "Do you ship samples?",
+          "answer": "Yes, with the COA."
+        }
+      ],
+      "de": [
+        {
+          "question": "Was ist der Unterschied zwischen gewaschen und Cherry?",
+          "answer": "Bei gewaschenem Kaffee wird das Fruchtfleisch vor dem Trocknen entfernt. Cherry (natural) wird mit Fruchtfleisch getrocknet und anschließend geschält, was mehr Körper und weniger Säure ergibt."
+        },
+        {
+          "question": "Ist Arabica Cherry von geringerer Qualität?",
+          "answer": "Es ist ein anderer Stil und ein niedrigerer Preispunkt. Die Qualität hängt von der Partie ab, also verkosten Sie ein Muster."
+        },
+        {
+          "question": "Versenden Sie Muster?",
+          "answer": "Ja, mit COA."
+        }
+      ],
+      "es": [
+        {
+          "question": "¿Cuál es la diferencia entre lavado y cherry?",
+          "answer": "Al café lavado se le quita la fruta antes del secado. El cherry (natural) se seca con la fruta puesta y luego se descascarilla, lo que da más cuerpo y menos acidez."
+        },
+        {
+          "question": "¿Es el Arábica Cherry de menor calidad?",
+          "answer": "Es un estilo diferente y un precio más bajo. La calidad depende del lote, así que cate una muestra."
+        },
+        {
+          "question": "¿Envían muestras?",
+          "answer": "Sí, con el COA."
+        }
+      ],
+      "fr": [
+        {
+          "question": "Quelle est la différence entre lavé et cherry ?",
+          "answer": "Le café lavé a le fruit retiré avant le séchage. Le cherry (nature) est séché avec le fruit puis décortiqué, ce qui donne plus de corps et moins d'acidité."
+        },
+        {
+          "question": "L'Arabica Cherry est-il de qualité inférieure ?",
+          "answer": "C'est un style différent et un prix plus bas. La qualité dépend du lot, dégustez donc un échantillon."
+        },
+        {
+          "question": "Expédiez-vous des échantillons ?",
+          "answer": "Oui, avec le COA."
+        }
+      ],
+      "it": [
+        {
+          "question": "Qual è la differenza tra lavato e cherry?",
+          "answer": "Il caffè lavato ha il frutto rimosso prima dell'essiccazione. Il cherry (naturale) viene essiccato con il frutto e poi decorticato, il che dà più corpo e meno acidità."
+        },
+        {
+          "question": "L'Arabica Cherry è di qualità inferiore?",
+          "answer": "È uno stile diverso e un prezzo più basso. La qualità dipende dal lotto, quindi degustate un campione."
+        },
+        {
+          "question": "Spedite campioni?",
+          "answer": "Sì, con il COA."
+        }
+      ],
+      "nl": [
+        {
+          "question": "Wat is het verschil tussen gewassen en cherry?",
+          "answer": "Bij gewassen koffie wordt de vrucht vóór het drogen verwijderd. Cherry (natural) wordt met de vrucht erom gedroogd en daarna gepeld, wat meer body en minder zuurgraad geeft."
+        },
+        {
+          "question": "Is Arabica Cherry van lagere kwaliteit?",
+          "answer": "Het is een andere stijl en een lagere prijsklasse. De kwaliteit hangt af van de partij, proef dus een monster."
+        },
+        {
+          "question": "Verstuurt u monsters?",
+          "answer": "Ja, met de COA."
+        }
+      ]
+    }
+  },
+  {
+    "id": "1788449087268003",
+    "slug": "robusta-parchment",
+    "categorySlug": "indian-coffee",
+    "title": {
+      "en": "Robusta Parchment",
+      "de": "Robusta Parchment",
+      "es": "Robusta Parchment",
+      "fr": "Robusta Parchment",
+      "it": "Robusta Parchment",
+      "nl": "Robusta Parchment"
+    },
+    "description": {
+      "en": "Robusta Parchment is the washed Robusta from India, with a cleaner cup than natural Robusta. India is a leading Robusta grower, and the coffee is grown mostly in Karnataka, Kerala and Tamil Nadu. Faar Earth Exports supplies it as green coffee from qualified curing works.",
+      "de": "Robusta Parchment ist der gewaschene Robusta aus Indien, mit einer saubereren Tasse als natürlicher Robusta. Indien ist ein führender Robusta-Anbauer, der Kaffee wird hauptsächlich in Karnataka, Kerala und Tamil Nadu angebaut. Faar Earth Exports liefert ihn als Rohkaffee von qualifizierten Aufbereitungsbetrieben.",
+      "es": "Robusta Parchment es el Robusta lavado de India, con una taza más limpia que el Robusta natural. India es un importante cultivador de Robusta, y el café se cultiva principalmente en Karnataka, Kerala y Tamil Nadu. Faar Earth Exports lo suministra como café verde de plantas de beneficio cualificadas.",
+      "fr": "Robusta Parchment est le Robusta lavé d'Inde, avec une tasse plus propre que le Robusta naturel. L'Inde est un important producteur de Robusta, et le café est cultivé principalement au Karnataka, au Kerala et au Tamil Nadu. Faar Earth Exports le fournit en café vert provenant d'usines de traitement qualifiées.",
+      "it": "Robusta Parchment è il Robusta lavato dall'India, con una tazza più pulita rispetto al Robusta naturale. L'India è un importante coltivatore di Robusta, e il caffè è coltivato principalmente in Karnataka, Kerala e Tamil Nadu. Faar Earth Exports lo fornisce come caffè verde da stabilimenti di lavorazione qualificati.",
+      "nl": "Robusta Parchment is de gewassen Robusta uit India, met een schonere kop dan natural Robusta. India is een toonaangevende Robusta-teler, en de koffie wordt vooral geteeld in Karnataka, Kerala en Tamil Nadu. Faar Earth Exports levert het als groene koffie van gekwalificeerde verwerkingsbedrijven."
+    },
+    "image": "/Images/robusta-parchment.jpg",
+    "form": {
+      "en": "Washed (wet processed), cured and graded",
+      "de": "Gewaschen (Nassaufbereitung), kuriert und sortiert",
+      "es": "Lavado (procesado húmedo), curado y clasificado",
+      "fr": "Lavé (traitement humide), curé et classé",
+      "it": "Lavato (lavorazione a umido), stagionato e selezionato",
+      "nl": "Gewassen (natte verwerking), gecureerd en gesorteerd"
+    },
+    "hsHeading": "0901.11 (coffee, not roasted, not decaffeinated)",
+    "moq": {
+      "en": "250 g to 1 kg sample; trial order volume confirmed per estate",
+      "de": "250-g- bis 1-kg-Muster; Testbestellmenge je nach Plantage bestätigt",
+      "es": "Muestra de 250 g a 1 kg; volumen de pedido de prueba confirmado según finca",
+      "fr": "Échantillon de 250 g à 1 kg ; volume de commande d'essai confirmé selon le domaine",
+      "it": "Campione da 250 g a 1 kg; volume dell'ordine di prova confermato per piantagione",
+      "nl": "Monster van 250 g tot 1 kg; proefbestellingsvolume per landgoed bevestigd"
+    },
+    "metaTitle": {
+      "en": "Indian Robusta Parchment Green Coffee Exporter | Faar Earth",
+      "de": "Indischer Robusta Parchment Rohkaffee Exporteur | Faar Earth",
+      "es": "Exportador de Café Verde Robusta Parchment de India | Faar Earth",
+      "fr": "Exportateur de Café Vert Robusta Parchment d'Inde | Faar Earth",
+      "it": "Esportatore di Caffè Verde Robusta Parchment dall'India | Faar Earth",
+      "nl": "Indiase Robusta Parchment Groene Koffie Exporteur | Faar Earth"
+    },
+    "metaDescription": {
+      "en": "Washed Indian Robusta Parchment green coffee from Karnataka and Kerala. Clean cup for espresso blends. Samples, COA, FOB or CIF.",
+      "de": "Gewaschener indischer Robusta Parchment Rohkaffee aus Karnataka und Kerala. Saubere Tasse für Espresso-Blends. Muster, COA, FOB oder CIF.",
+      "es": "Café verde Robusta Parchment lavado de Karnataka y Kerala. Taza limpia para mezclas de espresso. Muestras, COA, FOB o CIF.",
+      "fr": "Café vert Robusta Parchment lavé du Karnataka et du Kerala. Tasse propre pour les assemblages espresso. Échantillons, COA, FOB ou CIF.",
+      "it": "Caffè verde Robusta Parchment lavato da Karnataka e Kerala. Tazza pulita per miscele espresso. Campioni, COA, FOB o CIF.",
+      "nl": "Gewassen Indiase Robusta Parchment groene koffie uit Karnataka en Kerala. Schone kop voor espressoblends. Monsters, COA, FOB of CIF."
+    },
+    "metaKeywords": {
+      "en": "Indian Robusta parchment, Robusta coffee exporter India, washed Robusta green coffee, Robusta AB India, espresso blend Robusta",
+      "de": "indischer robusta parchment, robusta kaffee exporteur indien, gewaschener robusta rohkaffee, robusta AB indien, espresso blend robusta",
+      "es": "robusta parchment india, exportador de café robusta india, café verde robusta lavado, robusta AB india, robusta para mezcla espresso",
+      "fr": "robusta parchment inde, exportateur de café robusta inde, café vert robusta lavé, robusta AB inde, robusta pour assemblage espresso",
+      "it": "robusta parchment india, esportatore di caffè robusta india, caffè verde robusta lavato, robusta AB india, robusta per miscela espresso",
+      "nl": "indiase robusta parchment, robusta koffie exporteur india, gewassen robusta groene koffie, robusta AB india, robusta voor espressoblend"
+    },
+    "createdAt": "2026-11-07T00:00:00.000Z",
+    "primaryKeyword": "Robusta coffee exporter India",
+    "h1": {
+      "en": "Robusta Parchment (Washed) Green Coffee from India",
+      "de": "Robusta Parchment (Gewaschen) Rohkaffee aus Indien",
+      "es": "Robusta Parchment (Lavado) Café Verde de India",
+      "fr": "Robusta Parchment (Lavé) Café Vert d'Inde",
+      "it": "Robusta Parchment (Lavato) Caffè Verde dall'India",
+      "nl": "Robusta Parchment (Gewassen) Groene Koffie uit India"
+    },
+    "botanicalName": "Coffea canephora (Robusta; common Indian varieties include S.274 and CxR; confirm with the estate)",
+    "origin": "Karnataka, Kerala and Tamil Nadu (estate named on the COA)",
+    "grading": {
+      "en": "Robusta Parchment grades (for example AB); confirmed with the curing works",
+      "de": "Robusta-Parchment-Qualitäten (zum Beispiel AB); mit dem Aufbereitungsbetrieb bestätigt",
+      "es": "Calidades Robusta Parchment (por ejemplo AB); confirmadas con la planta de beneficio",
+      "fr": "Qualités Robusta Parchment (par exemple AB) ; confirmées avec l'usine de traitement",
+      "it": "Qualità Robusta Parchment (ad esempio AB); confermate con lo stabilimento di lavorazione",
+      "nl": "Robusta Parchment-kwaliteiten (bijvoorbeeld AB); bevestigd met het verwerkingsbedrijf"
+    },
+    "packaging": {
+      "en": "60 kg jute bags; GrainPro or liner on request",
+      "de": "60-kg-Jutesäcke; GrainPro oder Innenfolie auf Anfrage",
+      "es": "Sacos de yute de 60 kg; GrainPro o revestimiento a solicitud",
+      "fr": "Sacs de jute de 60 kg ; GrainPro ou doublure sur demande",
+      "it": "Sacchi di juta da 60 kg; GrainPro o rivestimento su richiesta",
+      "nl": "60 kg jute zakken; GrainPro of binnenzak op aanvraag"
+    },
+    "shelfLife": {
+      "en": "About 12 months in sealed packs, stored cool and dry (green coffee loses freshness over time)",
+      "de": "Etwa 12 Monate in versiegelten Verpackungen, kühl und trocken gelagert (Rohkaffee verliert mit der Zeit an Frische)",
+      "es": "Aproximadamente 12 meses en envases sellados, almacenado fresco y seco (el café verde pierde frescura con el tiempo)",
+      "fr": "Environ 12 mois en emballage scellé, stocké au frais et au sec (le café vert perd de sa fraîcheur avec le temps)",
+      "it": "Circa 12 mesi in confezioni sigillate, conservato fresco e asciutto (il caffè verde perde freschezza nel tempo)",
+      "nl": "Ongeveer 12 maanden in verzegelde verpakking, koel en droog bewaard (groene koffie verliest na verloop van tijd aan frisheid)"
+    },
+    "sampleTrialOrder": {
+      "en": "250 g to 1 kg sample. Trial order volume to be confirmed per estate.",
+      "de": "250-g- bis 1-kg-Muster. Testbestellmenge je nach Plantage zu bestätigen.",
+      "es": "Muestra de 250 g a 1 kg. Volumen de pedido de prueba a confirmar según finca.",
+      "fr": "Échantillon de 250 g à 1 kg. Volume de commande d'essai à confirmer selon le domaine.",
+      "it": "Campione da 250 g a 1 kg. Volume dell'ordine di prova da confermare per piantagione.",
+      "nl": "Monster van 250 g tot 1 kg. Proefbestellingsvolume per landgoed te bevestigen."
+    },
+    "shipping": {
+      "en": "Sea in containers; air for samples. FOB Mangalore, Kochi, Chennai or Tuticorin, or CIF to your port.",
+      "de": "Seefracht in Containern; Luftfracht für Muster. FOB Mangalore, Kochi, Chennai oder Tuticorin, oder CIF zu Ihrem Hafen.",
+      "es": "Vía marítima en contenedores; vía aérea para muestras. FOB Mangalore, Kochi, Chennai o Tuticorin, o CIF a su puerto.",
+      "fr": "Maritime en conteneurs ; aérien pour les échantillons. FOB Mangalore, Kochi, Chennai ou Tuticorin, ou CIF jusqu'à votre port.",
+      "it": "Via mare in container; via aerea per i campioni. FOB Mangalore, Kochi, Chennai o Tuticorin, o CIF al vostro porto.",
+      "nl": "Zeevracht in containers; luchtvracht voor monsters. FOB Mangalore, Kochi, Chennai of Tuticorin, of CIF naar uw haven."
+    },
+    "additionalSpecs": {
+      "en": [
+        "Moisture: Typically 10% to 12%",
+        "Defects: As per the Coffee Board grade specification; stated on the COA",
+        "Cup profile: Full body, low acidity, cleaner than natural Robusta",
+        "Cupping score: On request (SCA protocol)",
+        "Crop: Current crop year; harvest dates on request"
+      ],
+      "de": [
+        "Feuchtigkeit: Typischerweise 10 % bis 12 %",
+        "Defekte: Gemäß der Coffee-Board-Qualitätsspezifikation; im COA angegeben",
+        "Tassenprofil: Voller Körper, niedrige Säure, sauberer als natürlicher Robusta",
+        "Cupping-Score: Auf Anfrage (SCA-Protokoll)",
+        "Ernte: Aktuelles Erntejahr; Erntedaten auf Anfrage"
+      ],
+      "es": [
+        "Humedad: Normalmente 10% a 12%",
+        "Defectos: Según la especificación de grado de la Coffee Board; indicado en el COA",
+        "Perfil de taza: Cuerpo completo, baja acidez, más limpio que el Robusta natural",
+        "Puntuación de catación: A solicitud (protocolo SCA)",
+        "Cosecha: Año de cosecha actual; fechas de cosecha a solicitud"
+      ],
+      "fr": [
+        "Humidité : Généralement 10 % à 12 %",
+        "Défauts : Selon la spécification de grade du Coffee Board ; indiqué sur le COA",
+        "Profil en tasse : Corps plein, faible acidité, plus propre que le Robusta naturel",
+        "Score de dégustation : Sur demande (protocole SCA)",
+        "Récolte : Année de récolte en cours ; dates de récolte sur demande"
+      ],
+      "it": [
+        "Umidità: Tipicamente dal 10% al 12%",
+        "Difetti: Secondo la specifica di grado del Coffee Board; indicato sul COA",
+        "Profilo in tazza: Corpo pieno, bassa acidità, più pulito del Robusta naturale",
+        "Punteggio di cupping: Su richiesta (protocollo SCA)",
+        "Raccolto: Anno di raccolto corrente; date del raccolto su richiesta"
+      ],
+      "nl": [
+        "Vocht: Doorgaans 10% tot 12%",
+        "Defecten: Volgens de Coffee Board-gradespecificatie; vermeld op de COA",
+        "Smaakprofiel: Volle body, lage zuurgraad, schoner dan natural Robusta",
+        "Cupping-score: Op aanvraag (SCA-protocol)",
+        "Oogst: Huidig oogstjaar; oogstdata op aanvraag"
+      ]
+    },
+    "applications": {
+      "en": [
+        "Espresso blenders",
+        "Roasters",
+        "Instant coffee makers",
+        "Coffee traders"
+      ],
+      "de": [
+        "Espresso-Blender",
+        "Röstereien",
+        "Hersteller von löslichem Kaffee",
+        "Kaffeehändler"
+      ],
+      "es": [
+        "Mezcladores de espresso",
+        "Tostadores",
+        "Fabricantes de café instantáneo",
+        "Comerciantes de café"
+      ],
+      "fr": [
+        "Assembleurs d'espresso",
+        "Torréfacteurs",
+        "Fabricants de café instantané",
+        "Négociants en café"
+      ],
+      "it": [
+        "Miscelatori per espresso",
+        "Torrefattori",
+        "Produttori di caffè solubile",
+        "Commercianti di caffè"
+      ],
+      "nl": [
+        "Espressoblenders",
+        "Branders",
+        "Fabrikanten van oploskoffie",
+        "Koffiehandelaren"
+      ]
+    },
+    "buyerNotes": {
+      "en": [
+        "Robusta has about twice the caffeine of Arabica. Say so if your buyer needs a caffeine figure on the sheet.",
+        "Ask for the screen size, the defect count and the cup profile on the COA.",
+        "Robusta prices follow the London futures price, so we quote for each order."
+      ],
+      "de": [
+        "Robusta hat etwa doppelt so viel Koffein wie Arabica. Sagen Sie dies, wenn Ihr Käufer einen Koffeinwert auf dem Datenblatt benötigt.",
+        "Fragen Sie nach Siebgröße, Defektanzahl und Tassenprofil auf dem COA.",
+        "Robusta-Preise folgen dem Londoner Terminpreis, daher erstellen wir für jede Bestellung ein Angebot."
+      ],
+      "es": [
+        "El Robusta tiene aproximadamente el doble de cafeína que el Arábica. Infórmelo si su comprador necesita una cifra de cafeína en la ficha.",
+        "Pida el tamaño de malla, el recuento de defectos y el perfil de taza en el COA.",
+        "Los precios del Robusta siguen el mercado de futuros de Londres, por lo que cotizamos cada pedido."
+      ],
+      "fr": [
+        "Le Robusta contient environ deux fois plus de caféine que l'Arabica. Précisez-le si votre acheteur a besoin d'un chiffre de caféine sur la fiche.",
+        "Demandez la taille de tamis, le nombre de défauts et le profil en tasse sur le COA.",
+        "Les prix du Robusta suivent le cours à terme de Londres, nous établissons donc un devis pour chaque commande."
+      ],
+      "it": [
+        "Il Robusta ha circa il doppio della caffeina rispetto all'Arabica. Segnalatelo se il vostro acquirente necessita di un dato sulla caffeina nella scheda.",
+        "Chiedete la dimensione del setaccio, il conteggio dei difetti e il profilo in tazza sul COA.",
+        "I prezzi del Robusta seguono i futures di Londra, quindi forniamo un preventivo per ogni ordine."
+      ],
+      "nl": [
+        "Robusta bevat ongeveer twee keer zoveel cafeïne als Arabica. Vermeld dit als uw koper een cafeïnewaarde op het blad nodig heeft.",
+        "Vraag naar de zeefmaat, het aantal defecten en het smaakprofiel op de COA.",
+        "Robusta-prijzen volgen de Londense termijnprijs, dus wij geven per bestelling een offerte."
+      ]
+    },
+    "faqs": {
+      "en": [
+        {
+          "question": "Why choose washed Robusta?",
+          "answer": "It gives a cleaner cup and fewer defects than natural Robusta, so it blends better into espresso."
+        },
+        {
+          "question": "Where is it grown?",
+          "answer": "Mainly Karnataka, Kerala and Tamil Nadu."
+        },
+        {
+          "question": "Can I get a sample?",
+          "answer": "Yes, with the COA."
+        }
+      ],
+      "de": [
+        {
+          "question": "Warum gewaschenen Robusta wählen?",
+          "answer": "Er ergibt eine sauberere Tasse und weniger Defekte als natürlicher Robusta und lässt sich besser in Espresso verblenden."
+        },
+        {
+          "question": "Wo wird er angebaut?",
+          "answer": "Hauptsächlich in Karnataka, Kerala und Tamil Nadu."
+        },
+        {
+          "question": "Kann ich ein Muster bekommen?",
+          "answer": "Ja, mit COA."
+        }
+      ],
+      "es": [
+        {
+          "question": "¿Por qué elegir Robusta lavado?",
+          "answer": "Da una taza más limpia y menos defectos que el Robusta natural, por lo que mezcla mejor en espresso."
+        },
+        {
+          "question": "¿Dónde se cultiva?",
+          "answer": "Principalmente en Karnataka, Kerala y Tamil Nadu."
+        },
+        {
+          "question": "¿Puedo obtener una muestra?",
+          "answer": "Sí, con el COA."
+        }
+      ],
+      "fr": [
+        {
+          "question": "Pourquoi choisir du Robusta lavé ?",
+          "answer": "Il donne une tasse plus propre et moins de défauts que le Robusta naturel, il s'assemble donc mieux dans l'espresso."
+        },
+        {
+          "question": "Où est-il cultivé ?",
+          "answer": "Principalement au Karnataka, au Kerala et au Tamil Nadu."
+        },
+        {
+          "question": "Puis-je avoir un échantillon ?",
+          "answer": "Oui, avec le COA."
+        }
+      ],
+      "it": [
+        {
+          "question": "Perché scegliere Robusta lavato?",
+          "answer": "Dà una tazza più pulita e meno difetti rispetto al Robusta naturale, quindi si miscela meglio nell'espresso."
+        },
+        {
+          "question": "Dove viene coltivato?",
+          "answer": "Principalmente in Karnataka, Kerala e Tamil Nadu."
+        },
+        {
+          "question": "Posso avere un campione?",
+          "answer": "Sì, con il COA."
+        }
+      ],
+      "nl": [
+        {
+          "question": "Waarom kiezen voor gewassen Robusta?",
+          "answer": "Het geeft een schonere kop en minder defecten dan natural Robusta, waardoor het beter blendt in espresso."
+        },
+        {
+          "question": "Waar wordt het geteeld?",
+          "answer": "Voornamelijk in Karnataka, Kerala en Tamil Nadu."
+        },
+        {
+          "question": "Kan ik een monster krijgen?",
+          "answer": "Ja, met de COA."
+        }
+      ]
+    }
+  },
+  {
+    "id": "1788449087268004",
+    "slug": "robusta-cherry",
+    "categorySlug": "indian-coffee",
+    "title": {
+      "en": "Robusta Cherry",
+      "de": "Robusta Cherry",
+      "es": "Robusta Cherry",
+      "fr": "Robusta Cherry",
+      "it": "Robusta Cherry",
+      "nl": "Robusta Cherry"
+    },
+    "description": {
+      "en": "Robusta Cherry is the unwashed, sun-dried Robusta from India. It is the bulk grade for blends and instant coffee. Faar Earth Exports supplies it as green coffee from qualified curing works, with a COA for each lot.",
+      "de": "Robusta Cherry ist der ungewaschene, sonnengetrocknete Robusta aus Indien. Es ist die Massenqualität für Blends und löslichen Kaffee. Faar Earth Exports liefert ihn als Rohkaffee von qualifizierten Aufbereitungsbetrieben, mit einem COA für jede Charge.",
+      "es": "Robusta Cherry es el Robusta sin lavar y secado al sol de India. Es la calidad a granel para mezclas y café instantáneo. Faar Earth Exports lo suministra como café verde de plantas de beneficio cualificadas, con un COA para cada lote.",
+      "fr": "Robusta Cherry est le Robusta non lavé et séché au soleil d'Inde. C'est la qualité en vrac pour les assemblages et le café instantané. Faar Earth Exports le fournit en café vert provenant d'usines de traitement qualifiées, avec un COA pour chaque lot.",
+      "it": "Robusta Cherry è il Robusta non lavato ed essiccato al sole dall'India. È la qualità di massa per miscele e caffè solubile. Faar Earth Exports lo fornisce come caffè verde da stabilimenti di lavorazione qualificati, con un COA per ogni lotto.",
+      "nl": "Robusta Cherry is de ongewassen, in de zon gedroogde Robusta uit India. Het is de bulkkwaliteit voor blends en oploskoffie. Faar Earth Exports levert het als groene koffie van gekwalificeerde verwerkingsbedrijven, met een COA per partij."
+    },
+    "image": "/Images/robusta-cherry.jpg",
+    "form": {
+      "en": "Unwashed (natural, sun-dried in the cherry), hulled, cured and graded",
+      "de": "Ungewaschen (natürlich, sonnengetrocknet in der Kirsche), geschält, kuriert und sortiert",
+      "es": "Sin lavar (natural, secado al sol en la cereza), descascarillado, curado y clasificado",
+      "fr": "Non lavé (naturel, séché au soleil dans la cerise), décortiqué, curé et classé",
+      "it": "Non lavato (naturale, essiccato al sole nella ciliegia), decorticato, stagionato e selezionato",
+      "nl": "Ongewassen (natuurlijk, in de zon gedroogd in de kers), gepeld, gecureerd en gesorteerd"
+    },
+    "hsHeading": "0901.11 (coffee, not roasted, not decaffeinated)",
+    "moq": {
+      "en": "250 g to 1 kg sample; trial order volume confirmed per estate",
+      "de": "250-g- bis 1-kg-Muster; Testbestellmenge je nach Plantage bestätigt",
+      "es": "Muestra de 250 g a 1 kg; volumen de pedido de prueba confirmado según finca",
+      "fr": "Échantillon de 250 g à 1 kg ; volume de commande d'essai confirmé selon le domaine",
+      "it": "Campione da 250 g a 1 kg; volume dell'ordine di prova confermato per piantagione",
+      "nl": "Monster van 250 g tot 1 kg; proefbestellingsvolume per landgoed bevestigd"
+    },
+    "metaTitle": {
+      "en": "Indian Robusta Cherry Green Coffee Exporter | Faar Earth",
+      "de": "Indischer Robusta Cherry Rohkaffee Exporteur | Faar Earth",
+      "es": "Exportador de Café Verde Robusta Cherry de India | Faar Earth",
+      "fr": "Exportateur de Café Vert Robusta Cherry d'Inde | Faar Earth",
+      "it": "Esportatore di Caffè Verde Robusta Cherry dall'India | Faar Earth",
+      "nl": "Indiase Robusta Cherry Groene Koffie Exporteur | Faar Earth"
+    },
+    "metaDescription": {
+      "en": "Unwashed Indian Robusta Cherry green coffee for blends and instant coffee. Samples, COA and Coffee Board export papers. FOB or CIF.",
+      "de": "Ungewaschener indischer Robusta Cherry Rohkaffee für Blends und löslichen Kaffee. Muster, COA und Coffee-Board-Exportpapiere. FOB oder CIF.",
+      "es": "Café verde Robusta Cherry sin lavar de India para mezclas y café instantáneo. Muestras, COA y documentos de exportación de la Coffee Board. FOB o CIF.",
+      "fr": "Café vert Robusta Cherry non lavé d'Inde pour assemblages et café instantané. Échantillons, COA et documents d'exportation du Coffee Board. FOB ou CIF.",
+      "it": "Caffè verde Robusta Cherry non lavato dall'India per miscele e caffè solubile. Campioni, COA e documenti di esportazione del Coffee Board. FOB o CIF.",
+      "nl": "Ongewassen Indiase Robusta Cherry groene koffie voor blends en oploskoffie. Monsters, COA en Coffee Board-exportdocumenten. FOB of CIF."
+    },
+    "metaKeywords": {
+      "en": "Robusta cherry coffee India, natural Robusta green coffee, Robusta exporter India, Robusta for instant coffee, Indian Robusta cherry AB",
+      "de": "robusta cherry kaffee indien, natural robusta rohkaffee, robusta exporteur indien, robusta für löslichen kaffee, indischer robusta cherry AB",
+      "es": "café robusta cherry india, café verde robusta natural, exportador de robusta india, robusta para café instantáneo, robusta cherry AB india",
+      "fr": "café robusta cherry inde, café vert robusta nature, exportateur de robusta inde, robusta pour café instantané, robusta cherry AB inde",
+      "it": "caffè robusta cherry india, caffè verde robusta naturale, esportatore di robusta india, robusta per caffè solubile, robusta cherry AB india",
+      "nl": "robusta cherry koffie india, natural robusta groene koffie, robusta exporteur india, robusta voor oploskoffie, indiase robusta cherry AB"
+    },
+    "createdAt": "2026-11-07T00:00:00.000Z",
+    "primaryKeyword": "Robusta cherry coffee India",
+    "h1": {
+      "en": "Robusta Cherry (Unwashed) Green Coffee from India",
+      "de": "Robusta Cherry (Ungewaschen) Rohkaffee aus Indien",
+      "es": "Robusta Cherry (Sin Lavar) Café Verde de India",
+      "fr": "Robusta Cherry (Non Lavé) Café Vert d'Inde",
+      "it": "Robusta Cherry (Non Lavato) Caffè Verde dall'India",
+      "nl": "Robusta Cherry (Ongewassen) Groene Koffie uit India"
+    },
+    "botanicalName": "Coffea canephora (Robusta)",
+    "origin": "Karnataka, Kerala and Tamil Nadu (estate named on the COA)",
+    "grading": {
+      "en": "Robusta Cherry grades (for example AB); confirmed with the curing works",
+      "de": "Robusta-Cherry-Qualitäten (zum Beispiel AB); mit dem Aufbereitungsbetrieb bestätigt",
+      "es": "Calidades Robusta Cherry (por ejemplo AB); confirmadas con la planta de beneficio",
+      "fr": "Qualités Robusta Cherry (par exemple AB) ; confirmées avec l'usine de traitement",
+      "it": "Qualità Robusta Cherry (ad esempio AB); confermate con lo stabilimento di lavorazione",
+      "nl": "Robusta Cherry-kwaliteiten (bijvoorbeeld AB); bevestigd met het verwerkingsbedrijf"
+    },
+    "packaging": {
+      "en": "60 kg jute bags; GrainPro or liner on request",
+      "de": "60-kg-Jutesäcke; GrainPro oder Innenfolie auf Anfrage",
+      "es": "Sacos de yute de 60 kg; GrainPro o revestimiento a solicitud",
+      "fr": "Sacs de jute de 60 kg ; GrainPro ou doublure sur demande",
+      "it": "Sacchi di juta da 60 kg; GrainPro o rivestimento su richiesta",
+      "nl": "60 kg jute zakken; GrainPro of binnenzak op aanvraag"
+    },
+    "shelfLife": {
+      "en": "About 12 months in sealed packs, stored cool and dry (green coffee loses freshness over time)",
+      "de": "Etwa 12 Monate in versiegelten Verpackungen, kühl und trocken gelagert (Rohkaffee verliert mit der Zeit an Frische)",
+      "es": "Aproximadamente 12 meses en envases sellados, almacenado fresco y seco (el café verde pierde frescura con el tiempo)",
+      "fr": "Environ 12 mois en emballage scellé, stocké au frais et au sec (le café vert perd de sa fraîcheur avec le temps)",
+      "it": "Circa 12 mesi in confezioni sigillate, conservato fresco e asciutto (il caffè verde perde freschezza nel tempo)",
+      "nl": "Ongeveer 12 maanden in verzegelde verpakking, koel en droog bewaard (groene koffie verliest na verloop van tijd aan frisheid)"
+    },
+    "sampleTrialOrder": {
+      "en": "250 g to 1 kg sample. Trial order volume to be confirmed per estate.",
+      "de": "250-g- bis 1-kg-Muster. Testbestellmenge je nach Plantage zu bestätigen.",
+      "es": "Muestra de 250 g a 1 kg. Volumen de pedido de prueba a confirmar según finca.",
+      "fr": "Échantillon de 250 g à 1 kg. Volume de commande d'essai à confirmer selon le domaine.",
+      "it": "Campione da 250 g a 1 kg. Volume dell'ordine di prova da confermare per piantagione.",
+      "nl": "Monster van 250 g tot 1 kg. Proefbestellingsvolume per landgoed te bevestigen."
+    },
+    "shipping": {
+      "en": "Sea in containers; air for samples. FOB Mangalore, Kochi, Chennai or Tuticorin, or CIF to your port.",
+      "de": "Seefracht in Containern; Luftfracht für Muster. FOB Mangalore, Kochi, Chennai oder Tuticorin, oder CIF zu Ihrem Hafen.",
+      "es": "Vía marítima en contenedores; vía aérea para muestras. FOB Mangalore, Kochi, Chennai o Tuticorin, o CIF a su puerto.",
+      "fr": "Maritime en conteneurs ; aérien pour les échantillons. FOB Mangalore, Kochi, Chennai ou Tuticorin, ou CIF jusqu'à votre port.",
+      "it": "Via mare in container; via aerea per i campioni. FOB Mangalore, Kochi, Chennai o Tuticorin, o CIF al vostro porto.",
+      "nl": "Zeevracht in containers; luchtvracht voor monsters. FOB Mangalore, Kochi, Chennai of Tuticorin, of CIF naar uw haven."
+    },
+    "additionalSpecs": {
+      "en": [
+        "Moisture: Typically 10% to 12%",
+        "Defects: As per the Coffee Board grade specification; stated on the COA",
+        "Cup profile: Heavy body, low acidity, earthy notes",
+        "Cupping score: On request (SCA protocol)",
+        "Crop: Current crop year; harvest dates on request"
+      ],
+      "de": [
+        "Feuchtigkeit: Typischerweise 10 % bis 12 %",
+        "Defekte: Gemäß der Coffee-Board-Qualitätsspezifikation; im COA angegeben",
+        "Tassenprofil: Schwerer Körper, niedrige Säure, erdige Noten",
+        "Cupping-Score: Auf Anfrage (SCA-Protokoll)",
+        "Ernte: Aktuelles Erntejahr; Erntedaten auf Anfrage"
+      ],
+      "es": [
+        "Humedad: Normalmente 10% a 12%",
+        "Defectos: Según la especificación de grado de la Coffee Board; indicado en el COA",
+        "Perfil de taza: Cuerpo pesado, baja acidez, notas terrosas",
+        "Puntuación de catación: A solicitud (protocolo SCA)",
+        "Cosecha: Año de cosecha actual; fechas de cosecha a solicitud"
+      ],
+      "fr": [
+        "Humidité : Généralement 10 % à 12 %",
+        "Défauts : Selon la spécification de grade du Coffee Board ; indiqué sur le COA",
+        "Profil en tasse : Corps lourd, faible acidité, notes terreuses",
+        "Score de dégustation : Sur demande (protocole SCA)",
+        "Récolte : Année de récolte en cours ; dates de récolte sur demande"
+      ],
+      "it": [
+        "Umidità: Tipicamente dal 10% al 12%",
+        "Difetti: Secondo la specifica di grado del Coffee Board; indicato sul COA",
+        "Profilo in tazza: Corpo pesante, bassa acidità, note terrose",
+        "Punteggio di cupping: Su richiesta (protocollo SCA)",
+        "Raccolto: Anno di raccolto corrente; date del raccolto su richiesta"
+      ],
+      "nl": [
+        "Vocht: Doorgaans 10% tot 12%",
+        "Defecten: Volgens de Coffee Board-gradespecificatie; vermeld op de COA",
+        "Smaakprofiel: Zware body, lage zuurgraad, aardse tonen",
+        "Cupping-score: Op aanvraag (SCA-protocol)",
+        "Oogst: Huidig oogstjaar; oogstdata op aanvraag"
+      ]
+    },
+    "applications": {
+      "en": [
+        "Instant coffee makers",
+        "Commercial blenders and roasters",
+        "Traders"
+      ],
+      "de": [
+        "Hersteller von löslichem Kaffee",
+        "Kommerzielle Blender und Röstereien",
+        "Händler"
+      ],
+      "es": [
+        "Fabricantes de café instantáneo",
+        "Mezcladores y tostadores comerciales",
+        "Comerciantes"
+      ],
+      "fr": [
+        "Fabricants de café instantané",
+        "Assembleurs et torréfacteurs commerciaux",
+        "Négociants"
+      ],
+      "it": [
+        "Produttori di caffè solubile",
+        "Miscelatori e torrefattori commerciali",
+        "Commercianti"
+      ],
+      "nl": [
+        "Fabrikanten van oploskoffie",
+        "Commerciële blenders en branders",
+        "Handelaren"
+      ]
+    },
+    "buyerNotes": {
+      "en": [
+        "Robusta Cherry is the lowest-priced Indian coffee grade, with the most variation between lots. Ask for the defect count and moisture on the COA.",
+        "Check moisture and storage conditions, because natural coffee absorbs moisture.",
+        "Prices follow the London futures price, so we quote for each order."
+      ],
+      "de": [
+        "Robusta Cherry ist die günstigste indische Kaffeequalität mit der größten Streuung zwischen Partien. Fragen Sie nach Defektanzahl und Feuchtigkeit auf dem COA.",
+        "Prüfen Sie Feuchtigkeit und Lagerbedingungen, da natürlicher Kaffee Feuchtigkeit aufnimmt.",
+        "Die Preise folgen dem Londoner Terminpreis, daher erstellen wir für jede Bestellung ein Angebot."
+      ],
+      "es": [
+        "Robusta Cherry es la calidad de café india más económica, con la mayor variación entre lotes. Pida el recuento de defectos y la humedad en el COA.",
+        "Verifique la humedad y las condiciones de almacenamiento, porque el café natural absorbe humedad.",
+        "Los precios siguen el mercado de futuros de Londres, por lo que cotizamos cada pedido."
+      ],
+      "fr": [
+        "Le Robusta Cherry est la qualité de café indien la moins chère, avec la plus grande variation entre les lots. Demandez le nombre de défauts et l'humidité sur le COA.",
+        "Vérifiez l'humidité et les conditions de stockage, car le café naturel absorbe l'humidité.",
+        "Les prix suivent le cours à terme de Londres, nous établissons donc un devis pour chaque commande."
+      ],
+      "it": [
+        "Il Robusta Cherry è la qualità di caffè indiano a prezzo più basso, con la maggiore variazione tra i lotti. Chiedete il conteggio dei difetti e l'umidità sul COA.",
+        "Verificate l'umidità e le condizioni di stoccaggio, perché il caffè naturale assorbe umidità.",
+        "I prezzi seguono i futures di Londra, quindi forniamo un preventivo per ogni ordine."
+      ],
+      "nl": [
+        "Robusta Cherry is de goedkoopste Indiase koffiekwaliteit, met de meeste variatie tussen partijen. Vraag naar het aantal defecten en vocht op de COA.",
+        "Controleer vocht en opslagomstandigheden, omdat natural koffie vocht opneemt.",
+        "Prijzen volgen de Londense termijnprijs, dus wij geven per bestelling een offerte."
+      ]
+    },
+    "faqs": {
+      "en": [
+        {
+          "question": "What is Robusta Cherry used for?",
+          "answer": "Mostly blends and instant coffee, where body and cost matter more than a clean cup."
+        },
+        {
+          "question": "Is it different from washed Robusta?",
+          "answer": "Yes. It is dried in the cherry, so it has a heavier, earthier cup than washed Robusta."
+        },
+        {
+          "question": "Do you ship samples?",
+          "answer": "Yes, with the COA."
+        }
+      ],
+      "de": [
+        {
+          "question": "Wofür wird Robusta Cherry verwendet?",
+          "answer": "Hauptsächlich für Blends und löslichen Kaffee, wo Körper und Kosten wichtiger sind als eine saubere Tasse."
+        },
+        {
+          "question": "Unterscheidet er sich von gewaschenem Robusta?",
+          "answer": "Ja. Er wird in der Kirsche getrocknet und hat daher eine schwerere, erdigere Tasse als gewaschener Robusta."
+        },
+        {
+          "question": "Versenden Sie Muster?",
+          "answer": "Ja, mit COA."
+        }
+      ],
+      "es": [
+        {
+          "question": "¿Para qué se usa el Robusta Cherry?",
+          "answer": "Principalmente para mezclas y café instantáneo, donde el cuerpo y el costo importan más que una taza limpia."
+        },
+        {
+          "question": "¿Es diferente del Robusta lavado?",
+          "answer": "Sí. Se seca en la cereza, por lo que tiene una taza más pesada y terrosa que el Robusta lavado."
+        },
+        {
+          "question": "¿Envían muestras?",
+          "answer": "Sí, con el COA."
+        }
+      ],
+      "fr": [
+        {
+          "question": "À quoi sert le Robusta Cherry ?",
+          "answer": "Principalement aux assemblages et au café instantané, où le corps et le coût comptent plus qu'une tasse propre."
+        },
+        {
+          "question": "Est-il différent du Robusta lavé ?",
+          "answer": "Oui. Il est séché dans la cerise, ce qui lui donne une tasse plus lourde et plus terreuse que le Robusta lavé."
+        },
+        {
+          "question": "Expédiez-vous des échantillons ?",
+          "answer": "Oui, avec le COA."
+        }
+      ],
+      "it": [
+        {
+          "question": "A cosa serve il Robusta Cherry?",
+          "answer": "Principalmente a miscele e caffè solubile, dove corpo e costo contano più di una tazza pulita."
+        },
+        {
+          "question": "È diverso dal Robusta lavato?",
+          "answer": "Sì. Viene essiccato nella ciliegia, quindi ha una tazza più pesante e terrosa rispetto al Robusta lavato."
+        },
+        {
+          "question": "Spedite campioni?",
+          "answer": "Sì, con il COA."
+        }
+      ],
+      "nl": [
+        {
+          "question": "Waarvoor wordt Robusta Cherry gebruikt?",
+          "answer": "Vooral voor blends en oploskoffie, waar body en kosten belangrijker zijn dan een schone kop."
+        },
+        {
+          "question": "Is het anders dan gewassen Robusta?",
+          "answer": "Ja. Het wordt in de kers gedroogd, waardoor het een zwaardere, aardsere kop heeft dan gewassen Robusta."
+        },
+        {
+          "question": "Verstuurt u monsters?",
+          "answer": "Ja, met de COA."
+        }
+      ]
+    }
+  },
+  {
+    "id": "1788449087268005",
+    "slug": "monsooned-malabar-aa",
+    "categorySlug": "indian-coffee",
+    "title": {
+      "en": "Monsooned Malabar AA",
+      "de": "Monsooned Malabar AA",
+      "es": "Monsooned Malabar AA",
+      "fr": "Monsooned Malabar AA",
+      "it": "Monsooned Malabar AA",
+      "nl": "Monsooned Malabar AA"
+    },
+    "description": {
+      "en": "Monsooned Malabar is a coffee that is unique to India. Whole-crop cherry is spread in open warehouses on the west coast during the monsoon, from June to September, and absorbs the humid winds for 12 to 16 weeks. The beans swell, turn pale yellow and lose acidity. AA is the best grade. Faar Earth Exports supplies it from qualified curing works.",
+      "de": "Monsooned Malabar ist ein Kaffee, den es nur in Indien gibt. Ganze Erntekirschen werden während des Monsuns, von Juni bis September, in offenen Lagerhallen an der Westküste ausgebreitet und nehmen 12 bis 16 Wochen lang die feuchten Winde auf. Die Bohnen schwellen an, werden blassgelb und verlieren an Säure. AA ist die beste Qualität. Faar Earth Exports liefert ihn von qualifizierten Aufbereitungsbetrieben.",
+      "es": "Monsooned Malabar es un café único de India. La cereza de la cosecha completa se extiende en almacenes abiertos en la costa oeste durante el monzón, de junio a septiembre, y absorbe los vientos húmedos durante 12 a 16 semanas. Los granos se hinchan, se vuelven amarillo pálido y pierden acidez. AA es la mejor calidad. Faar Earth Exports lo suministra de plantas de beneficio cualificadas.",
+      "fr": "Monsooned Malabar est un café unique à l'Inde. La cerise de la récolte entière est étalée dans des entrepôts ouverts sur la côte ouest pendant la mousson, de juin à septembre, et absorbe les vents humides pendant 12 à 16 semaines. Les grains gonflent, deviennent jaune pâle et perdent de l'acidité. AA est la meilleure qualité. Faar Earth Exports le fournit depuis des usines de traitement qualifiées.",
+      "it": "Monsooned Malabar è un caffè unico dell'India. La ciliegia dell'intero raccolto viene stesa in magazzini aperti sulla costa occidentale durante il monsone, da giugno a settembre, e assorbe i venti umidi per 12-16 settimane. I chicchi si gonfiano, diventano giallo pallido e perdono acidità. AA è la qualità migliore. Faar Earth Exports lo fornisce da stabilimenti di lavorazione qualificati.",
+      "nl": "Monsooned Malabar is een koffie die uniek is voor India. De hele oogst kers wordt tijdens de moesson, van juni tot september, uitgespreid in open pakhuizen aan de westkust en neemt 12 tot 16 weken lang de vochtige wind op. De bonen zwellen op, worden bleekgeel en verliezen zuurgraad. AA is de beste kwaliteit. Faar Earth Exports levert het van gekwalificeerde verwerkingsbedrijven."
+    },
+    "image": "/Images/monsooned-malabar-aa.jpg",
+    "form": {
+      "en": "Whole-crop cherry monsooned for 12 to 16 weeks, polished, graded by size and fumigated",
+      "de": "Ganze Erntekirschen 12 bis 16 Wochen monsuniert, poliert, nach Größe sortiert und begast",
+      "es": "Cereza de cosecha completa monzónica durante 12 a 16 semanas, pulida, clasificada por tamaño y fumigada",
+      "fr": "Cerise de récolte entière soumise à la mousson pendant 12 à 16 semaines, polie, classée par taille et fumigée",
+      "it": "Ciliegia dell'intero raccolto monsonata per 12-16 settimane, lucidata, selezionata per dimensione e fumigata",
+      "nl": "Hele oogst kers 12 tot 16 weken gemoessond, gepolijst, gesorteerd op grootte en gefumigeerd"
+    },
+    "hsHeading": "0901.11 (coffee, not roasted, not decaffeinated)",
+    "moq": {
+      "en": "250 g to 1 kg sample; trial order volume confirmed per estate",
+      "de": "250-g- bis 1-kg-Muster; Testbestellmenge je nach Plantage bestätigt",
+      "es": "Muestra de 250 g a 1 kg; volumen de pedido de prueba confirmado según finca",
+      "fr": "Échantillon de 250 g à 1 kg ; volume de commande d'essai confirmé selon le domaine",
+      "it": "Campione da 250 g a 1 kg; volume dell'ordine di prova confermato per piantagione",
+      "nl": "Monster van 250 g tot 1 kg; proefbestellingsvolume per landgoed bevestigd"
+    },
+    "metaTitle": {
+      "en": "Monsooned Malabar AA Coffee Exporter from India | Faar Earth",
+      "de": "Monsooned Malabar AA Kaffee Exporteur aus Indien | Faar Earth",
+      "es": "Exportador de Café Monsooned Malabar AA de India | Faar Earth",
+      "fr": "Exportateur de Café Monsooned Malabar AA d'Inde | Faar Earth",
+      "it": "Esportatore di Caffè Monsooned Malabar AA dall'India | Faar Earth",
+      "nl": "Monsooned Malabar AA Koffie Exporteur uit India | Faar Earth"
+    },
+    "metaDescription": {
+      "en": "Monsooned Malabar AA green coffee, aged in the monsoon winds of India's west coast. Mellow, low acidity. Samples, COA, FOB or CIF.",
+      "de": "Monsooned Malabar AA Rohkaffee, gereift in den Monsunwinden der indischen Westküste. Mild, niedrige Säure. Muster, COA, FOB oder CIF.",
+      "es": "Café verde Monsooned Malabar AA, añejado en los vientos monzónicos de la costa oeste de India. Suave, baja acidez. Muestras, COA, FOB o CIF.",
+      "fr": "Café vert Monsooned Malabar AA, vieilli dans les vents de mousson de la côte ouest de l'Inde. Doux, faible acidité. Échantillons, COA, FOB ou CIF.",
+      "it": "Caffè verde Monsooned Malabar AA, invecchiato nei venti monsonici della costa occidentale dell'India. Morbido, bassa acidità. Campioni, COA, FOB o CIF.",
+      "nl": "Monsooned Malabar AA groene koffie, gerijpt in de moessonwinden van India's westkust. Zacht, lage zuurgraad. Monsters, COA, FOB of CIF."
+    },
+    "metaKeywords": {
+      "en": "Monsooned Malabar AA exporter, Monsooned Malabar coffee India, monsooned coffee bulk, low acid green coffee India, Indian speciality coffee",
+      "de": "monsooned malabar AA exporteur, monsooned malabar kaffee indien, monsunierter kaffee großhandel, säurearmer rohkaffee indien, indischer spezialitätenkaffee",
+      "es": "exportador monsooned malabar AA, café monsooned malabar india, café monzónico a granel, café verde baja acidez india, café especial indio",
+      "fr": "exportateur monsooned malabar AA, café monsooned malabar inde, café de mousson en vrac, café vert faible acidité inde, café de spécialité indien",
+      "it": "esportatore monsooned malabar AA, caffè monsooned malabar india, caffè monsonato all'ingrosso, caffè verde bassa acidità india, caffè speciality indiano",
+      "nl": "monsooned malabar AA exporteur, monsooned malabar koffie india, gemoessonde koffie in bulk, lage zuurgraad groene koffie india, indiase specialty koffie"
+    },
+    "createdAt": "2026-11-07T00:00:00.000Z",
+    "primaryKeyword": "Monsooned Malabar coffee India",
+    "h1": {
+      "en": "Monsooned Malabar AA Green Coffee from India",
+      "de": "Monsooned Malabar AA Rohkaffee aus Indien",
+      "es": "Monsooned Malabar AA Café Verde de India",
+      "fr": "Monsooned Malabar AA Café Vert d'Inde",
+      "it": "Monsooned Malabar AA Caffè Verde dall'India",
+      "nl": "Monsooned Malabar AA Groene Koffie uit India"
+    },
+    "botanicalName": "Coffea arabica (Arabica Cherry A) and Coffea canephora (Robusta Cherry); state which on the COA",
+    "origin": "Karnataka, Kerala and Tamil Nadu (estate named on the COA)",
+    "grading": {
+      "en": "Monsooned Malabar AA (best grade, by size)",
+      "de": "Monsooned Malabar AA (beste Qualität, nach Größe)",
+      "es": "Monsooned Malabar AA (mejor calidad, por tamaño)",
+      "fr": "Monsooned Malabar AA (meilleure qualité, par taille)",
+      "it": "Monsooned Malabar AA (qualità migliore, per dimensione)",
+      "nl": "Monsooned Malabar AA (beste kwaliteit, op grootte)"
+    },
+    "packaging": {
+      "en": "60 kg jute bags; GrainPro or liner on request",
+      "de": "60-kg-Jutesäcke; GrainPro oder Innenfolie auf Anfrage",
+      "es": "Sacos de yute de 60 kg; GrainPro o revestimiento a solicitud",
+      "fr": "Sacs de jute de 60 kg ; GrainPro ou doublure sur demande",
+      "it": "Sacchi di juta da 60 kg; GrainPro o rivestimento su richiesta",
+      "nl": "60 kg jute zakken; GrainPro of binnenzak op aanvraag"
+    },
+    "shelfLife": {
+      "en": "About 12 months in sealed packs, stored cool and dry (green coffee loses freshness over time)",
+      "de": "Etwa 12 Monate in versiegelten Verpackungen, kühl und trocken gelagert (Rohkaffee verliert mit der Zeit an Frische)",
+      "es": "Aproximadamente 12 meses en envases sellados, almacenado fresco y seco (el café verde pierde frescura con el tiempo)",
+      "fr": "Environ 12 mois en emballage scellé, stocké au frais et au sec (le café vert perd de sa fraîcheur avec le temps)",
+      "it": "Circa 12 mesi in confezioni sigillate, conservato fresco e asciutto (il caffè verde perde freschezza nel tempo)",
+      "nl": "Ongeveer 12 maanden in verzegelde verpakking, koel en droog bewaard (groene koffie verliest na verloop van tijd aan frisheid)"
+    },
+    "sampleTrialOrder": {
+      "en": "250 g to 1 kg sample. Trial order volume to be confirmed per estate.",
+      "de": "250-g- bis 1-kg-Muster. Testbestellmenge je nach Plantage zu bestätigen.",
+      "es": "Muestra de 250 g a 1 kg. Volumen de pedido de prueba a confirmar según finca.",
+      "fr": "Échantillon de 250 g à 1 kg. Volume de commande d'essai à confirmer selon le domaine.",
+      "it": "Campione da 250 g a 1 kg. Volume dell'ordine di prova da confermare per piantagione.",
+      "nl": "Monster van 250 g tot 1 kg. Proefbestellingsvolume per landgoed te bevestigen."
+    },
+    "shipping": {
+      "en": "Sea in containers; air for samples. FOB Mangalore, Kochi, Chennai or Tuticorin, or CIF to your port.",
+      "de": "Seefracht in Containern; Luftfracht für Muster. FOB Mangalore, Kochi, Chennai oder Tuticorin, oder CIF zu Ihrem Hafen.",
+      "es": "Vía marítima en contenedores; vía aérea para muestras. FOB Mangalore, Kochi, Chennai o Tuticorin, o CIF a su puerto.",
+      "fr": "Maritime en conteneurs ; aérien pour les échantillons. FOB Mangalore, Kochi, Chennai ou Tuticorin, ou CIF jusqu'à votre port.",
+      "it": "Via mare in container; via aerea per i campioni. FOB Mangalore, Kochi, Chennai o Tuticorin, o CIF al vostro porto.",
+      "nl": "Zeevracht in containers; luchtvracht voor monsters. FOB Mangalore, Kochi, Chennai of Tuticorin, of CIF naar uw haven."
+    },
+    "additionalSpecs": {
+      "en": [
+        "Moisture: Typically 10% to 12%",
+        "Defects: As per the Coffee Board grade specification; stated on the COA",
+        "Cup profile: Mellow and musty, low acidity, heavy and syrupy body",
+        "Cupping score: On request (SCA protocol)",
+        "Crop: Current crop year; harvest dates on request"
+      ],
+      "de": [
+        "Feuchtigkeit: Typischerweise 10 % bis 12 %",
+        "Defekte: Gemäß der Coffee-Board-Qualitätsspezifikation; im COA angegeben",
+        "Tassenprofil: Mild und erdig, niedrige Säure, schwerer, sirupartiger Körper",
+        "Cupping-Score: Auf Anfrage (SCA-Protokoll)",
+        "Ernte: Aktuelles Erntejahr; Erntedaten auf Anfrage"
+      ],
+      "es": [
+        "Humedad: Normalmente 10% a 12%",
+        "Defectos: Según la especificación de grado de la Coffee Board; indicado en el COA",
+        "Perfil de taza: Suave y almizclado, baja acidez, cuerpo pesado y almibarado",
+        "Puntuación de catación: A solicitud (protocolo SCA)",
+        "Cosecha: Año de cosecha actual; fechas de cosecha a solicitud"
+      ],
+      "fr": [
+        "Humidité : Généralement 10 % à 12 %",
+        "Défauts : Selon la spécification de grade du Coffee Board ; indiqué sur le COA",
+        "Profil en tasse : Doux et musqué, faible acidité, corps lourd et sirupeux",
+        "Score de dégustation : Sur demande (protocole SCA)",
+        "Récolte : Année de récolte en cours ; dates de récolte sur demande"
+      ],
+      "it": [
+        "Umidità: Tipicamente dal 10% al 12%",
+        "Difetti: Secondo la specifica di grado del Coffee Board; indicato sul COA",
+        "Profilo in tazza: Morbido e muschiato, bassa acidità, corpo pesante e sciropposo",
+        "Punteggio di cupping: Su richiesta (protocollo SCA)",
+        "Raccolto: Anno di raccolto corrente; date del raccolto su richiesta"
+      ],
+      "nl": [
+        "Vocht: Doorgaans 10% tot 12%",
+        "Defecten: Volgens de Coffee Board-gradespecificatie; vermeld op de COA",
+        "Smaakprofiel: Zacht en muf, lage zuurgraad, zware, stroperige body",
+        "Cupping-score: Op aanvraag (SCA-protocol)",
+        "Oogst: Huidig oogstjaar; oogstdata op aanvraag"
+      ]
+    },
+    "applications": {
+      "en": [
+        "Espresso blenders and roasters",
+        "Specialty coffee brands",
+        "Traders wanting a low-acid, heavy-bodied coffee"
+      ],
+      "de": [
+        "Espresso-Blender und Röstereien",
+        "Specialty-Kaffeemarken",
+        "Händler, die einen säurearmen, vollmundigen Kaffee suchen"
+      ],
+      "es": [
+        "Mezcladores y tostadores de espresso",
+        "Marcas de café especial",
+        "Comerciantes que buscan un café de baja acidez y cuerpo pesado"
+      ],
+      "fr": [
+        "Assembleurs et torréfacteurs d'espresso",
+        "Marques de café de spécialité",
+        "Négociants recherchant un café peu acide et corsé"
+      ],
+      "it": [
+        "Miscelatori e torrefattori per espresso",
+        "Marchi di caffè speciality",
+        "Commercianti che cercano un caffè a bassa acidità e corposo"
+      ],
+      "nl": [
+        "Espressoblenders en -branders",
+        "Specialty koffiemerken",
+        "Handelaren die een koffie met lage zuurgraad en veel body willen"
+      ]
+    },
+    "buyerNotes": {
+      "en": [
+        "The cup is mellow and musty with low acidity and a heavy, syrupy body. It suits blends better than light-roast single-origin drinks, and some buyers find the taste unfamiliar. Always send a sample first.",
+        "The Monsooned Malabar name is a registered Geographical Indication of India. Use the name for coffee that was monsooned in India.",
+        "Ask for the monsoon season and the batch, and the screen size, on the COA.",
+        "The beans are fumigated against weevils after monsooning. Check the fumigation record, and the rules in the destination country."
+      ],
+      "de": [
+        "Die Tasse ist mild und erdig mit niedriger Säure und einem schweren, sirupartigen Körper. Sie eignet sich besser für Blends als für hell geröstete Single-Origin-Getränke, und manche Käufer empfinden den Geschmack als ungewohnt. Senden Sie immer zuerst ein Muster.",
+        "Der Name Monsooned Malabar ist eine eingetragene geografische Angabe Indiens. Verwenden Sie den Namen nur für Kaffee, der in Indien monsuniert wurde.",
+        "Fragen Sie nach Monsunsaison und Charge sowie der Siebgröße auf dem COA.",
+        "Die Bohnen werden nach dem Monsunieren gegen Rüsselkäfer begast. Prüfen Sie das Begasungsprotokoll und die Bestimmungen des Ziellands."
+      ],
+      "es": [
+        "La taza es suave y almizclada con baja acidez y un cuerpo pesado y almibarado. Se adapta mejor a mezclas que a bebidas de origen único de tueste claro, y algunos compradores encuentran el sabor poco familiar. Envíe siempre una muestra primero.",
+        "El nombre Monsooned Malabar es una Indicación Geográfica registrada de India. Use el nombre solo para café que fue monzónico en India.",
+        "Pida la temporada del monzón y el lote, así como el tamaño de malla, en el COA.",
+        "Los granos se fumigan contra gorgojos después del monzón. Verifique el registro de fumigación y las normas del país de destino."
+      ],
+      "fr": [
+        "La tasse est douce et musquée avec une faible acidité et un corps lourd et sirupeux. Elle convient mieux aux assemblages qu'aux boissons mono-origine à torréfaction claire, et certains acheteurs trouvent le goût inhabituel. Envoyez toujours un échantillon d'abord.",
+        "Le nom Monsooned Malabar est une Indication Géographique enregistrée de l'Inde. Utilisez ce nom pour le café ayant subi la mousson en Inde.",
+        "Demandez la saison de mousson et le lot, ainsi que la taille de tamis, sur le COA.",
+        "Les grains sont fumigés contre les charançons après la mousson. Vérifiez le registre de fumigation et les règles du pays de destination."
+      ],
+      "it": [
+        "La tazza è morbida e muschiata con bassa acidità e un corpo pesante e sciropposo. Si adatta meglio alle miscele che alle bevande monorigine a tostatura chiara, e alcuni acquirenti trovano il sapore poco familiare. Inviate sempre prima un campione.",
+        "Il nome Monsooned Malabar è un'Indicazione Geografica registrata dell'India. Usate il nome solo per il caffè monsonato in India.",
+        "Chiedete la stagione del monsone e il lotto, oltre alla dimensione del setaccio, sul COA.",
+        "I chicchi vengono fumigati contro i punteruoli dopo il monsone. Verificate il registro di fumigazione e le norme del paese di destinazione."
+      ],
+      "nl": [
+        "De kop is zacht en muf met lage zuurgraad en een zware, stroperige body. Het past beter bij blends dan bij licht gebrande single-origin dranken, en sommige kopers vinden de smaak onbekend. Stuur altijd eerst een monster.",
+        "De naam Monsooned Malabar is een geregistreerde Geografische Aanduiding van India. Gebruik de naam alleen voor koffie die in India is gemoessond.",
+        "Vraag naar het moessonseizoen en de batch, en de zeefmaat, op de COA.",
+        "De bonen worden na het moessonen gefumigeerd tegen kevers. Controleer het fumigatieverslag en de regels van het bestemmingsland."
+      ]
+    },
+    "faqs": {
+      "en": [
+        {
+          "question": "What does monsooning do?",
+          "answer": "The beans absorb moisture from the monsoon winds for 12 to 16 weeks. They swell, turn pale and lose acidity."
+        },
+        {
+          "question": "Why is it popular in Europe?",
+          "answer": "Its mellow, low-acid, heavy-bodied cup is a traditional choice for espresso blends."
+        },
+        {
+          "question": "Is it a Geographical Indication?",
+          "answer": "Yes. Monsooned Malabar is a registered Indian GI."
+        }
+      ],
+      "de": [
+        {
+          "question": "Was bewirkt das Monsunieren?",
+          "answer": "Die Bohnen nehmen 12 bis 16 Wochen lang Feuchtigkeit aus den Monsunwinden auf. Sie schwellen an, werden blasser und verlieren an Säure."
+        },
+        {
+          "question": "Warum ist er in Europa beliebt?",
+          "answer": "Seine milde, säurearme, vollmundige Tasse ist eine traditionelle Wahl für Espresso-Blends."
+        },
+        {
+          "question": "Ist es eine geografische Angabe?",
+          "answer": "Ja. Monsooned Malabar ist eine eingetragene indische geografische Angabe (GI)."
+        }
+      ],
+      "es": [
+        {
+          "question": "¿Qué hace el monzón?",
+          "answer": "Los granos absorben humedad de los vientos monzónicos durante 12 a 16 semanas. Se hinchan, palidecen y pierden acidez."
+        },
+        {
+          "question": "¿Por qué es popular en Europa?",
+          "answer": "Su taza suave, de baja acidez y cuerpo pesado es una elección tradicional para mezclas de espresso."
+        },
+        {
+          "question": "¿Es una Indicación Geográfica?",
+          "answer": "Sí. Monsooned Malabar es una IG india registrada."
+        }
+      ],
+      "fr": [
+        {
+          "question": "Que fait la mousson ?",
+          "answer": "Les grains absorbent l'humidité des vents de mousson pendant 12 à 16 semaines. Ils gonflent, pâlissent et perdent de l'acidité."
+        },
+        {
+          "question": "Pourquoi est-il populaire en Europe ?",
+          "answer": "Sa tasse douce, peu acide et corsée est un choix traditionnel pour les assemblages espresso."
+        },
+        {
+          "question": "Est-ce une Indication Géographique ?",
+          "answer": "Oui. Monsooned Malabar est une IG indienne enregistrée."
+        }
+      ],
+      "it": [
+        {
+          "question": "Cosa fa il monsone?",
+          "answer": "I chicchi assorbono umidità dai venti monsonici per 12-16 settimane. Si gonfiano, impallidiscono e perdono acidità."
+        },
+        {
+          "question": "Perché è popolare in Europa?",
+          "answer": "La sua tazza morbida, a bassa acidità e corposa è una scelta tradizionale per le miscele espresso."
+        },
+        {
+          "question": "È un'Indicazione Geografica?",
+          "answer": "Sì. Monsooned Malabar è un'IG indiana registrata."
+        }
+      ],
+      "nl": [
+        {
+          "question": "Wat doet het moessonen?",
+          "answer": "De bonen nemen 12 tot 16 weken lang vocht op uit de moessonwinden. Ze zwellen op, verbleken en verliezen zuurgraad."
+        },
+        {
+          "question": "Waarom is het populair in Europa?",
+          "answer": "De zachte, zuurarme, volle kop is een traditionele keuze voor espressoblends."
+        },
+        {
+          "question": "Is het een Geografische Aanduiding?",
+          "answer": "Ja. Monsooned Malabar is een geregistreerde Indiase GI."
+        }
+      ]
+    }
   }
 ]

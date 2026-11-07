@@ -33,6 +33,7 @@ export type Product = {
   shipping?: LocalizedText;
   applications?: LocalizedStringList;
   whySourceFromUs?: LocalizedStringList;
+  buyerNotes?: LocalizedStringList;
   faqs?: LocalizedFaqs;
 };
 
